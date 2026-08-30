@@ -136,8 +136,10 @@ Si una marca aparece en un haul del feed, es porque vos elegiste comprar y
 mostrar ese producto — no porque te lo pagaron. Esa distinción es lo que hace
 que los hauls sigan funcionando.
 
-**Sobre SHEIN:** conviene definir si esa colaboración es paga o es producto. Si
-es sólo producto, choca con la regla de "no trabajo por canje". No es un
-problema si decidiste que es una excepción, pero mejor que sea una decisión
-tomada y no una inconsistencia. Ver
-[`../estrategia/09-perfil-y-diferencial.md`](../estrategia/09-perfil-y-diferencial.md).
+**Sobre SHEIN:** confirmado que es canje. Queda como **excepción declarada** —
+abastecimiento de producto para este carril, válida mientras no haya entregables
+comprometidos. El siguiente paso recomendado es pasarlo a **afiliado**: mismo
+contenido, misma ropa, pero con comisión. Ver
+[`../estrategia/09-perfil-y-diferencial.md`](../estrategia/09-perfil-y-diferencial.md)
+(corrección 7) y
+[`../estrategia/06-colabs-y-monetizacion.md`](../estrategia/06-colabs-y-monetizacion.md).

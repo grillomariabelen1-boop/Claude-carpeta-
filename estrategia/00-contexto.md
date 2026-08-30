@@ -54,9 +54,11 @@ posiciona y trae seguidores, no porque tenga que estar en todos los videos.
 
 | | |
 |---|---|
+| Handle | @belengrillo_ (TikTok e Instagram) |
+| Edad | 30 |
 | Ciudad | Buenos Aires |
 | Trabajo | Marketing — publicidad |
-| Audiencia | Mujeres argentinas, 20-35 |
+| Audiencia | Mujeres argentinas, 20-35 (centro de gravedad: 28) |
 | Compra ropa | Poco. Sí gasta en zapatos, botas y experiencias |
 | Fuente de producto | Colaboración con SHEIN |
 | Producción | Lugar fijo con buena luz · Otra persona disponible |
@@ -65,9 +67,15 @@ posiciona y trae seguidores, no porque tenga que estar en todos los videos.
 Detalle y consecuencias en
 [`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md).
 
-## Reglas de negocio (no negociables)
+## Reglas de negocio
 
 1. **No se trabaja por canje.** Ni producto, ni servicios, ni "visibilidad".
+
+   **Excepción vigente: SHEIN**, que funciona como abastecimiento de producto
+   para el carril de hauls. La excepción se sostiene **sólo mientras no haya
+   entregables comprometidos** (cantidad de videos, fechas, aprobación previa).
+   Si los hay, es trabajo impago y hay que convertirlo a afiliado o a pago.
+   Ver [`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md), corrección 7.
 2. **No se entrega contenido en crudo a marcas.** Nunca material sin editar,
    ni proyectos, ni RAW, ni tomas descartadas.
 3. **UGC-only en colabs pagas.** La marca contrata piezas terminadas. No se

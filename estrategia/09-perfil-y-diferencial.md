@@ -10,6 +10,8 @@ Este documento sale de las respuestas del 30/8 y **corrige** supuestos de
 
 | | |
 |---|---|
+| Handle | **@belengrillo_** (TikTok e Instagram) |
+| Edad | **30** |
 | Ciudad | **Buenos Aires** |
 | Trabajo | **Marketing — publicidad** |
 | Audiencia | **Mujeres argentinas, 20-35** |
@@ -195,13 +197,106 @@ El ángulo publicitario usa sólo publicidad pública.
 
 ---
 
-## Lo único que falta
+---
 
-### Tu edad
-Es la pregunta que quedó sin responder y define el tono. Le hablás a mujeres de
-20-35: si estás dentro de ese rango, hablás **de par a par**; si estás por
-encima, hablás desde **un paso adelante** ("yo ya me mandé esa"). Son dos voces
-distintas y conviene elegir una.
+## CORRECCIÓN 6 — Tenés 30 y eso resuelve la voz
+
+Tu audiencia es 20-35 y vos estás adentro, cerca del techo. Eso parece un
+problema (¿le hablo de par a par o desde arriba?) pero en realidad lo resuelve:
+
+- Con las de **30-35** sos **par**.
+- Con las de **20-25** estás **un paso adelante** — ya te mandaste las macanas
+  que ellas se están mandando ahora.
+
+Una sola voz sirve para las dos: **la que ya se equivocó y te avisa**. Es
+exactamente "la amiga que te avisa" — esa voz, por definición, es alguien un
+poco más adelante. No hay que elegir.
+
+**Regla práctica:** escribí siempre pensando en **una de 28**. Es el centro de
+gravedad de tu audiencia. La de 22 te lee como alguien a quien quiere
+parecerse; la de 35 te lee como par. Si escribís para la de 20 perdés a la de
+35, y si escribís para la de 35 sonás a señora.
+
+### El hueco de mercado que te da tener 30 y un trabajo
+
+Casi todo el contenido de moda en TikTok lo hacen creadoras de 20 a 24: sin
+oficina, sin presupuesto fijo, sin casamientos todos los fines de semana. Las
+mujeres de **28 a 35 con un trabajo real están muy mal atendidas**, y son
+justamente las que tienen plata para gastar.
+
+Vos estás parada exactamente ahí. Territorio que las de 22 no pueden tocar:
+
+- Vestirse para la oficina sin caer en uniforme corporativo
+- **Casamientos de amigas** — a los 30 son todos los fines de semana, y es un
+  dolor de cabeza recurrente y caro
+- After office: de la oficina a la salida sin pasar por casa
+- Presupuesto real de sueldo, no de mesada
+- Ropa que aguante un día de doce horas
+- ⭐ **"Dejé de vestirme como a los 20 y no sé cómo vestirme ahora"** — es un
+  problema enorme, universal en tu franja y casi nadie lo resuelve bien. Puede
+  ser una serie entera
+
+Ideas desarrolladas en
+[`../banco-de-ideas/01-vida-con-ropa.md`](../banco-de-ideas/01-vida-con-ropa.md).
+
+---
+
+## CORRECCIÓN 7 — SHEIN es canje, y eso hay que escribirlo bien
+
+Confirmaste que la colaboración con SHEIN es por canje. Tu regla escrita dice
+"no se trabaja por canje, sin excepciones". **Las dos cosas no pueden convivir
+en el mismo documento**, porque un documento que miente se deja de leer.
+
+Antes de decidir nada, hacé esta distinción, que es la que importa:
+
+| ¿Qué pasa? | Qué es | Problema |
+|---|---|---|
+| Te piden **entregables**: cantidad de videos, fechas, aprobación previa | **Trabajo pagado en producto.** Esto sí es canje | Tu tarifa queda fijada en cero |
+| Te mandan producto y **hacés lo que querés**, sin obligación | **Abastecimiento** (seeding) | Ninguno. No es canje |
+
+**Si es lo segundo, no estás rompiendo la regla**: estás consiguiendo materia
+prima para contenido que ibas a hacer igual. Sólo hay que escribir la regla
+bien.
+
+**Si es lo primero**, el costo es concreto y no es moral: SHEIN es una marca
+enorme y la colaboración es pública. Cualquier otra marca que mire tu feed ve
+que una empresa grande consigue tu trabajo a cambio de producto, y va a pedir
+lo mismo. **El canje no baja tu precio: lo publica.**
+
+### Qué hacer
+
+No hay que cortarlo. Es tu única fuente de producto nuevo y el carril de hauls
+depende de eso. Tres caminos, en orden de preferencia:
+
+1. **Convertirlo en afiliado.** SHEIN tiene programa de comisiones. Mismo
+   contenido, mismo producto, pero cobrás por venta. Deja de ser canje porque
+   hay ingreso, y no te obliga a renegociar nada.
+2. **Reclasificarlo.** Si no hay entregables comprometidos, no es canje: es
+   abastecimiento, y la regla no se rompió nunca.
+3. **Declararlo excepción, por escrito.** La regla pasa a ser: *no se trabaja
+   por canje, salvo abastecimiento de producto sin entregables comprometidos.*
+   Es un piso honesto y defendible frente a otra marca que pregunte.
+
+La regla ya quedó actualizada así en
+[`00-contexto.md`](00-contexto.md) y
+[`06-colabs-y-monetizacion.md`](06-colabs-y-monetizacion.md).
+
+---
+
+## Instagram
+
+Tenés **@belengrillo_** también en Instagram, con el mismo handle. Que sea
+idéntico en las dos plataformas es un activo: no lo cambies.
+
+Durante la recuperación **no es prioridad** — el foco es TikTok y dividir la
+atención alarga el proceso. Pero tenelo presente por una razón concreta: cuando
+cotices trabajo UGC, la marca va a mirar tu Instagram antes de responderte.
+Que el perfil esté ordenado y diga qué hacés vale más que postear ahí todos los
+días.
+
+---
+
+## Lo único que falta
 
 ### Tus datos reales — ejercicio de 20 minutos, una sola vez
 Dijiste que no sabés qué te preguntan más ni qué video trajo más comentarios.

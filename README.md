@@ -30,7 +30,7 @@ orgánico y las reglas comerciales de la cuenta.
 | [`06-colabs-y-monetizacion.md`](estrategia/06-colabs-y-monetizacion.md) | Tarifario UGC, derechos de uso, AdSense, ebook |
 | [`07-pilares-y-voz.md`](estrategia/07-pilares-y-voz.md) | Los 3 carriles y cómo enseñar sin sonar a profesora |
 | [`08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md) | Colchón de 5, anclas, días muertos, los 10 disparadores |
-| [`09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md) | Perfil, el diferencial publicitario y 5 correcciones al plan |
+| [`09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md) | Perfil, el diferencial publicitario y 7 correcciones al plan |
 
 ### Banco de ideas
 
@@ -72,3 +72,5 @@ orgánico y las reglas comerciales de la cuenta.
   hace falta: lo que retiene es la revelación item por item, no la compra.
 - Tu diferencial es que **trabajás en publicidad**: sos la única de tu nicho que
   puede contar cómo te venden. 15-20% de la cuenta, desde la semana 3.
+- Tener **30 años y un trabajo** es un hueco de mercado, no un límite: casi todo
+  el nicho lo hacen chicas de 20-24 y las de 28-35 están mal atendidas.

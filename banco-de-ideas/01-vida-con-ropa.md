@@ -47,6 +47,28 @@ real. El dato de estilo entra solo.
 - **El look que uso cuando quiero pasar desapercibida** — y por qué a veces se
   busca eso
 
+## Los 30 con trabajo — tu hueco de mercado
+
+Casi todo el contenido de moda en TikTok lo hacen chicas de 20 a 24: sin
+oficina, sin presupuesto fijo, sin casamientos todos los fines de semana. Las
+mujeres de 28-35 con un trabajo real están mal atendidas y son las que tienen
+plata para gastar. Es territorio que las de 22 no pueden tocar.
+
+- ⭐ **Dejé de vestirme como a los 20 y no sabía cómo vestirme ahora** — el
+  problema más grande y peor resuelto de tu franja. Da para serie entera
+- ⭐ **Casamiento de amiga: el look sin gastar una fortuna** — a los 30 son todos
+  los fines de semana. Dolor recurrente, caro y estacional
+- **Tres casamientos, un vestido, que no se note**
+- ⭐ **Vestirse para la oficina sin parecer disfrazada de oficinista**
+- **De la oficina al after sin pasar por casa**
+- **La ropa que aguanta un día de doce horas**
+- **Qué me pongo para una reunión donde quiero que me tomen en serio**
+- **Lo que dejé de ponerme al cumplir 30 y no extraño**
+- **Lo que sigo usando de cuando tenía 22 y no pienso soltar**
+- **Cómo cambió mi forma de comprar de los 20 a los 30**
+- **El presupuesto de ropa cuando tenés sueldo y cuentas**
+- **Vestirse bien cuando ya no tenés tiempo de pensarlo**
+
 ## El cuerpo real
 
 El carril más honesto y el que más comentarios genera. Cuidado con que no se

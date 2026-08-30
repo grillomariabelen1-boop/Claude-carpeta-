@@ -3,8 +3,15 @@
 ## Las tres reglas duras
 
 ### 1. No se trabaja por canje
-Sin excepciones, sin "esta vez sí", sin marcas grandes que "abren puertas".
-El canje fija el precio en cero y las marcas comparten información entre sí.
+Sin "esta vez sí" y sin marcas grandes que "abren puertas". El canje no baja tu
+precio: **lo publica**. Las marcas miran lo que ya hacés antes de cotizarte.
+
+**Excepción vigente — SHEIN.** Es abastecimiento de producto para el carril de
+hauls, no pago de trabajo. Se sostiene mientras **no haya entregables
+comprometidos**: si piden cantidad de videos, fechas o aprobación previa, es
+trabajo impago y hay que convertirlo (ver "Afiliados" más abajo).
+Análisis completo en
+[`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md), corrección 7.
 
 Respuesta estándar:
 
@@ -104,6 +111,22 @@ compró muy barato. Los derechos se especifican en la propuesta, siempre.
 La exclusividad de categoría se cobra siempre y se limita en el tiempo. Una
 marca que pide exclusividad indefinida está pidiendo que se rechace a todos sus
 competidores gratis, para siempre.
+
+## Afiliados
+
+La tercera vía de ingreso, y la que menos trabajo nuevo requiere: **no cambia
+nada de tu contenido**.
+
+SHEIN tiene programa de comisiones. Entrar convierte los hauls que ya hacés en
+ingreso por venta, y resuelve de paso la excepción de canje de la regla 1:
+dejás de trabajar gratis sin tener que renegociar nada ni cortar la fuente de
+producto.
+
+No es "producto digital" ni curso — no toca la regla de alcance. Es la misma
+lógica que AdSense: ingreso pasivo sobre contenido que existe igual.
+
+**Durante la recuperación**, con las views donde están, el volumen va a ser
+bajo. No importa: se deja armado ahora para que rinda cuando el alcance vuelva.
 
 ## AdSense
 
