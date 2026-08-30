@@ -34,6 +34,22 @@ Detalle de cada uno en [`03-formatos.md`](03-formatos.md).
 > Si fuese otra fecha, el diagnóstico de [`01-diagnostico.md`](01-diagnostico.md)
 > cambia y hay que releerlo.
 
+## Decisiones de contenido
+
+Tomadas el 30/8. Desarrollo completo en
+[`07-pilares-y-voz.md`](07-pilares-y-voz.md).
+
+| Definición | Elección |
+|---|---|
+| Tema madre | **Estilo + vida real** |
+| Voz | **La amiga que te avisa** |
+| Exposición | **Cara y vida** |
+| Producción | **Día a día** |
+
+La asesoría de imagen **no es el techo de la cuenta**: baja a un 20% y pasa a
+funcionar como ancla de autoridad, no como tema principal. Se mantiene porque
+posiciona y trae seguidores, no porque tenga que estar en todos los videos.
+
 ## Reglas de negocio (no negociables)
 
 1. **No se trabaja por canje.** Ni producto, ni servicios, ni "visibilidad".
