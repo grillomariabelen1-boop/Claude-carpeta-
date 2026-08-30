@@ -50,6 +50,21 @@ La asesoría de imagen **no es el techo de la cuenta**: baja a un 20% y pasa a
 funcionar como ancla de autoridad, no como tema principal. Se mantiene porque
 posiciona y trae seguidores, no porque tenga que estar en todos los videos.
 
+## Perfil
+
+| | |
+|---|---|
+| Ciudad | Buenos Aires |
+| Trabajo | Marketing — publicidad |
+| Audiencia | Mujeres argentinas, 20-35 |
+| Compra ropa | Poco. Sí gasta en zapatos, botas y experiencias |
+| Fuente de producto | Colaboración con SHEIN |
+| Producción | Lugar fijo con buena luz · Otra persona disponible |
+| Límite duro | Nada de trends de baile |
+
+Detalle y consecuencias en
+[`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md).
+
 ## Reglas de negocio (no negociables)
 
 1. **No se trabaja por canje.** Ni producto, ni servicios, ni "visibilidad".

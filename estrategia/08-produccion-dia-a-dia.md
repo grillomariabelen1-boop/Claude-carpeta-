@@ -101,17 +101,17 @@ PRIMERA HORA
 
 | Día | Qué |
 |---|---|
-| Lunes | Consumo (haul) — el fin de semana suele dar material |
+| Lunes | Consumo y objetos (haul de SHEIN, de armario o de calzado) |
 | Martes | Vida con ropa |
-| Miércoles | **Ancla:** serie |
-| Jueves | Consumo (haul o combinaciones) |
+| Miércoles | **Ancla:** serie (Colores / Estilos / Bajitas) |
+| Jueves | Consumo y objetos, o **"Le armo el look a ___"** |
 | Viernes | **Ancla:** formato ganador |
 | Sáb/Dom | No se publica. Se repone colchón si hace falta. |
 
 Cinco por semana. El fin de semana libre es a propósito: sostener siete días
 durante meses no es realista, y la irregularidad cuesta más que el volumen bajo.
 
-## Los 8 disparadores
+## Los 10 disparadores
 
 Para convertir cualquier día en un video, sin recurrir al banco. Cuando no
 sepas qué grabar, pasá esta lista:
@@ -126,6 +126,12 @@ sepas qué grabar, pasá esta lista:
 | 6 | **El antes** | ¿Qué foto vieja tengo que hoy resolvería distinto? |
 | 7 | **El contraste** | ¿Qué prenda puedo mostrar de dos formas opuestas? |
 | 8 | **El descubrimiento** | ¿Qué aprendí esta semana que no sabía? |
+| 9 | **La publicidad** | ¿Qué aviso o vidriera vi hoy que puedo desarmar? |
+| 10 | **La consulta** | ¿Qué me preguntó una amiga esta semana? |
 
 Los disparadores 2, 4 y 8 son los que mejor se llevan con la voz de
 "la amiga que te avisa". Cuando dudes, tirá de esos tres.
+
+El 9 y el 10 son tuyos y de nadie más: el 9 sale de que trabajás en publicidad,
+el 10 de que tus amigas ya te consultan en la vida real. Cada consulta de una
+amiga es un video con demanda comprobada.

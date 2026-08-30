@@ -104,6 +104,49 @@ más interesantes:
 Estructura por episodio: número + color → a quién le queda (corto) → dos o tres
 formas de usarlo → adelanto del próximo número.
 
+## Serie "Tips para bajitas" — demanda comprobada
+
+Fue de lo que más seguidores te trajo y quedó como un video suelto. Es un nicho
+con identidad propia, alta intención y poca competencia seria: quien busca esto
+se identifica fuerte y sigue.
+
+**Convertirlo en serie numerada.** Cruza perfecto con proporciones, que es
+terreno de asesora.
+
+- ⭐ **El largo de pantalón que te está cortando las piernas**
+- ⭐ **Por qué el vestido largo te queda mal y no es por el largo**
+- **Tacos: cuándo suman de verdad y cuándo no hacen nada**
+- **El abrigo que te achica y el que no**
+- **Rayas horizontales: la verdad, no el mito**
+- **Cómo elegir un jean siendo baja**
+- **El error del cinturón**
+- **Monocromo y proporción: por qué funciona** — cruza con tu placard
+- **Carteras: el tamaño importa más de lo que creés**
+- **Lo que me dejé de poner cuando entendí proporciones**
+- **Tres prendas que le quedan mejor a las bajitas y nadie dice**
+
+## Maquillaje según colorimetría
+
+Tus amigas te preguntan de maquillaje. Es demanda real de tu público exacto y
+no la estás atendiendo.
+
+No hace falta volverte cuenta de belleza: el puente es **maquillaje según
+color**, que es tuyo y es la mejor puerta de entrada al ebook que existe. Quien
+entiende por qué un labial le apaga la cara, entiende para qué sirve saber su
+estación.
+
+- ⭐ **El labial que te apaga la cara** — split de dos labiales, gancho puro
+- ⭐ **Mi maquillaje de Warm Spring** — el caso propio, siempre gana
+- **Por qué el rubor rosa no te queda a todas**
+- **Dorado o plateado en los ojos: cómo saber cuál**
+- **El error del corrector demasiado claro**
+- **Base: cómo saber si tu subtono es cálido o frío**
+- **Tres labiales para cada temperatura de piel**
+- **Maquillaje que combina con la ropa sin ser obvio**
+- **El maquillaje que uso cuando no tengo tiempo** — cruza con Vida real
+- **Le hago el maquillaje a [persona] según su estación** — cruza con
+  "Le armo el look a"
+
 ## Peinados (con voice over)
 
 El VO tiene que **agregar**, no narrar. Estructura sandwich: resultado →

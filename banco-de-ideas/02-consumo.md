@@ -3,7 +3,49 @@
 Tu formato motor. El giro respecto de antes: no es "miren lo que compré",
 es **"miren lo que aprendí comprando"**.
 
+> **Importante — leer antes de usar este archivo.**
+> Vos no comprás ropa seguido y no te gusta gastar en ropa. Lo que retiene de
+> un haul **no es que hayas comprado**: es la estructura (item, item, item, y
+> el mejor al final). Quien mira no sabe si lo compraste ayer o hace tres años.
+> Por eso la mayoría de las ideas de acá no requieren comprar nada.
+> Ver [`../estrategia/09-perfil-y-diferencial.md`](../estrategia/09-perfil-y-diferencial.md).
+
 ⭐ = apuesta segura durante la recuperación
+🚫💸 = no requiere comprar nada
+
+---
+
+## ZAPATOS Y BOTAS — tu carril propio
+
+Es lo único en lo que gastás con ganas, y eso se nota en cámara. Además está
+mucho menos saturado que la ropa. Debería ser un carril fijo, no una nota al pie.
+
+- ⭐🚫💸 **Todos mis pares y cuáles uso de verdad** — estructura de haul pura,
+  con lo que ya tenés
+- ⭐ **Las botas que valieron cada peso y las que no**
+- 🚫💸 **Un par, cinco looks**
+- **Cómo elijo unas botas: lo que miro antes de pagar**
+- 🚫💸 **Mis pares más viejos y cómo siguen enteros** — cuidado y durabilidad,
+  alto save
+- **Zapatos para caminar Buenos Aires sin morir**
+- 🚫💸 **El par que compré por moda y no me puse nunca**
+- **Barato vs. caro en calzado: dónde sí se nota**
+- 🚫💸 **El error que hacés al guardar los zapatos**
+- **Suelas, hormas y costuras: cómo darte cuenta en el local**
+- 🚫💸 **Mi par favorito y la historia** — vínculo puro
+- **Botas de otoño: qué comprar y qué no** — estacional, marzo
+
+## Hauls de armario 🚫💸
+
+Misma estructura, misma retención, cero pesos. La forma de sostener la cuota
+haul sin comprar.
+
+- ⭐ **Todos mis [pantalones/camisas/abrigos] y cuál uso de verdad**
+- ⭐ **Me pruebo todo lo que no me puse este año**
+- **Lo que compré la temporada pasada: ¿zafó?**
+- **Todo lo negro que tengo y por qué son distintos**
+- **Mi ropa más vieja que sigue en rotación**
+- **Cinco prendas que compré iguales sin darme cuenta**
 
 ---
 
@@ -12,8 +54,9 @@ es **"miren lo que aprendí comprando"**.
 Durante la recuperación son 2-3 por semana. Estructura y checklist en
 [`../plantillas/guion-haul.md`](../plantillas/guion-haul.md).
 
-- ⭐ **Haul de [tienda]: lo que me quedo y lo que devuelvo** — el "devuelvo" es
-  lo que lo separa de un haul común. Genera confianza y comentarios
+- ⭐ **Haul de SHEIN: lo que me quedo y lo que devuelvo** — el "devuelvo" es
+  lo que lo separa de un haul común. Genera confianza y comentarios. SHEIN es
+  tu fuente de producto nuevo sin gasto propio: es lo que sostiene este carril
 - ⭐ **Haul de temporada, probado en cuerpo real**
 - **Haul barato vs. haul caro: adiviná cuál es cuál** — formato de juego, alto
   comentario
@@ -28,7 +71,8 @@ Durante la recuperación son 2-3 por semana. Estructura y checklist en
 - **Haul de lo que me recomendaron en comentarios** — cierra el círculo con la
   audiencia
 - **Haul de una tienda que no conocía**
-- **El haul que no compré** — recorro, muestro, no compro nada y explico por qué
+- 🚫💸 **El haul que no compré** — recorro, muestro, no compro nada y explico
+  por qué. Funciona igual que un haul y encima te posiciona
 
 ## Qué vale la pena
 
@@ -61,8 +105,10 @@ error propio: mismo dato, cero sermón, muchos más comentarios.
 - **Compré esto porque lo vi en TikTok: reseña honesta**
 - **Lo que compro cuando estoy de mal humor** — y por qué está mal
 - **La compra que me dio más vergüenza**
-- **Lo que compré para una vida que no tengo** — la ropa de la persona que
+- 🚫💸 **Lo que compré para una vida que no tengo** — la ropa de la persona que
   creías que ibas a ser
+- 🚫💸 **Por qué casi no compro ropa** — es tu posición real y va contra todo lo
+  que hace el nicho. Ese es justamente el gancho
 
 ## Cómo comprar
 
@@ -89,3 +135,9 @@ lugar en tu feed. Ver
 Si una marca aparece en un haul del feed, es porque vos elegiste comprar y
 mostrar ese producto — no porque te lo pagaron. Esa distinción es lo que hace
 que los hauls sigan funcionando.
+
+**Sobre SHEIN:** conviene definir si esa colaboración es paga o es producto. Si
+es sólo producto, choca con la regla de "no trabajo por canje". No es un
+problema si decidiste que es una excepción, pero mejor que sea una decisión
+tomada y no una inconsistencia. Ver
+[`../estrategia/09-perfil-y-diferencial.md`](../estrategia/09-perfil-y-diferencial.md).

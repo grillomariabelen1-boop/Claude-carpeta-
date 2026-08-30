@@ -9,8 +9,10 @@ orgánico y las reglas comerciales de la cuenta.
    es la cuenta y cómo suena. El filtro para decidir si una idea entra o no.
 2. [`estrategia/08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md)
    — el sistema para sostener la consistencia grabando día a día.
-3. [`banco-de-ideas/`](banco-de-ideas/) — ~125 ideas, cuando no se te ocurre nada.
-4. [`estrategia/01-diagnostico.md`](estrategia/01-diagnostico.md) — por qué las
+3. [`estrategia/09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md)
+   — tu perfil y las 5 correcciones que cambian el plan.
+4. [`banco-de-ideas/`](banco-de-ideas/) — ~215 ideas, cuando no se te ocurre nada.
+5. [`estrategia/01-diagnostico.md`](estrategia/01-diagnostico.md) — por qué las
    views están clavadas en 180-350 y los 4 tests para confirmarlo.
 
 ## Índice
@@ -27,7 +29,8 @@ orgánico y las reglas comerciales de la cuenta.
 | [`05-metricas.md`](estrategia/05-metricas.md) | Qué medir, criterios de salida, árbol de decisión |
 | [`06-colabs-y-monetizacion.md`](estrategia/06-colabs-y-monetizacion.md) | Tarifario UGC, derechos de uso, AdSense, ebook |
 | [`07-pilares-y-voz.md`](estrategia/07-pilares-y-voz.md) | Los 3 carriles y cómo enseñar sin sonar a profesora |
-| [`08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md) | Colchón de 5, anclas, días muertos, los 8 disparadores |
+| [`08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md) | Colchón de 5, anclas, días muertos, los 10 disparadores |
+| [`09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md) | Perfil, el diferencial publicitario y 5 correcciones al plan |
 
 ### Banco de ideas
 
@@ -35,8 +38,9 @@ orgánico y las reglas comerciales de la cuenta.
 |---|---|
 | [`README.md`](banco-de-ideas/README.md) | Cómo se usa el banco y cómo se repone |
 | [`01-vida-con-ropa.md`](banco-de-ideas/01-vida-con-ropa.md) | Placard, vestirse para algo, cuerpo real, rutina, Serie de Estilos |
-| [`02-consumo.md`](banco-de-ideas/02-consumo.md) | Hauls, qué vale la pena, la compra mala, cómo comprar |
-| [`03-autoridad.md`](banco-de-ideas/03-autoridad.md) | Color, combinaciones, colorimetría, criterio, peinados, Serie de Colores |
+| [`02-consumo.md`](banco-de-ideas/02-consumo.md) | Zapatos y botas, hauls de armario y SHEIN, qué vale la pena |
+| [`03-autoridad.md`](banco-de-ideas/03-autoridad.md) | Color, colorimetría, maquillaje, tips para bajitas, peinados |
+| [`04-proceso-y-publicidad.md`](banco-de-ideas/04-proceso-y-publicidad.md) | "Le armo el look a ___", cómo te venden, transformaciones |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas
@@ -64,3 +68,7 @@ orgánico y las reglas comerciales de la cuenta.
   importante del plan.
 - El contenido educativo no suena a clase cuando el dato **entra de contrabando
   adentro de una escena real**: 80% tu vida, 20% el dato.
+- **"Haul-first" es una estructura, no un tema.** Casi no comprás ropa, y no
+  hace falta: lo que retiene es la revelación item por item, no la compra.
+- Tu diferencial es que **trabajás en publicidad**: sos la única de tu nicho que
+  puede contar cómo te venden. 15-20% de la cuenta, desde la semana 3.

@@ -23,12 +23,16 @@ qué hay realmente en tu placard, qué te sale mal.
 **Por qué existe:** es lo que genera vínculo y lo que hace que te sigan a *vos*
 y no a un tema. Sin esto, la cuenta es un catálogo.
 
-### 2. CONSUMO — el motor
-Hauls, qué vale la pena, la compra mala, precio vs calidad, cómo comprar mejor.
+### 2. CONSUMO Y OBJETOS — el motor
+Hauls (de SHEIN y de armario), **zapatos y botas**, qué vale la pena, la compra
+mala, cómo comprar mejor.
 
 **Por qué existe:** es tu formato histórico ganador y el que mejor retiene.
 El giro respecto de antes: no es "miren lo que compré", es **"miren lo que
 aprendí comprando"**. Mismo formato, ahora enseña.
+
+**Zapatos y botas es un sub-carril fijo**, no una nota al pie: es lo único en
+lo que gastás con ganas, y está mucho menos saturado que la ropa.
 
 ### 3. AUTORIDAD — el ancla
 Color, colorimetría, criterio de asesora. Warm Spring como caso propio.
@@ -43,31 +47,48 @@ recomiende algo cualquiera y que te lo recomiende alguien que estudió el tema.
 
 ## Reparto
 
+### 4. PROCESO Y PUBLICIDAD — el diferencial
+"Le armo el look a ___", detrás de escena, y el ángulo publicitario que te da
+tu trabajo. Agregado el 30/8; ver
+[`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md).
+
+**Por qué existe:** es lo único de la cuenta que nadie puede copiar, y es la
+respuesta a que estés aburrida de lo que venías haciendo. Arranca en la
+semana 3, no antes.
+
+## Reparto
+
 | Carril | Durante recuperación | Después |
 |---|---|---|
-| Vida con ropa | 30% | 50% |
-| Consumo | 50% | 30% |
+| Vida con ropa | 30% | 35% |
+| Consumo y objetos | 40% | 25% |
 | Autoridad | 20% | 20% |
+| Proceso y publicidad | 10% (desde semana 3) | 20% |
 
-Durante la recuperación, Consumo pesa más porque absorbe la cuota haul-first
-del plan ([`02-plan-recuperacion.md`](02-plan-recuperacion.md)).
+**No hay contradicción entre el 60% haul y estos porcentajes:** los carriles son
+*tema*, los formatos son *forma*.
 
-**No hay contradicción entre el 60% haul y el 30% de Vida con ropa:** los
-carriles son *tema*, los formatos son *forma*. Un haul grabado en tu pieza,
-volviendo de comprar, probándote todo, es Consumo y Vida real al mismo tiempo.
-La mayoría de tus videos van a ser mezcla. El reparto es una brújula, no una
-grilla.
+> **"Haul-first" es una estructura, no un tema.** El 60% de los videos tiene que
+> tener **forma de haul** —item, item, item, y el mejor al final— sin importar
+> de qué carril salgan. Un recorrido por tus botas, un armario haul, tres looks
+> del placard de otra persona: todos son estructura-haul y ninguno requiere
+> comprar nada.
+
+Esto es lo que hace sostenible el plan sabiendo que casi no comprás ropa.
 
 ### Carril × formato
 
 | Formato | Carril principal |
 |---|---|
-| Haul | Consumo |
+| Haul (SHEIN, armario, calzado) | Consumo y objetos |
 | Combinaciones de color | Autoridad (con cuerpo de Vida real) |
 | Serie de Colores | Autoridad |
 | Serie de Estilos | Vida con ropa |
-| Colorimetría | Autoridad |
+| Colorimetría y maquillaje | Autoridad |
+| Tips para bajitas | Autoridad |
 | Peinados VO | Vida con ropa |
+| Le armo el look a ___ | Proceso y publicidad |
+| Cómo te venden | Proceso y publicidad |
 
 ---
 

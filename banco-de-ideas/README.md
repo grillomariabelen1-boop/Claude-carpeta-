@@ -1,6 +1,6 @@
 # Banco de ideas
 
-Alrededor de **125 ideas** organizadas por carril. No es una lista para tachar
+Alrededor de **215 ideas** organizadas por carril. No es una lista para tachar
 de arriba a abajo: es una reserva para el día que no se te ocurre nada.
 
 ## Los tres archivos
@@ -8,8 +8,9 @@ de arriba a abajo: es una reserva para el día que no se te ocurre nada.
 | Archivo | Carril | Peso en recuperación |
 |---|---|---|
 | [`01-vida-con-ropa.md`](01-vida-con-ropa.md) | Vida con ropa — el vínculo | 30% |
-| [`02-consumo.md`](02-consumo.md) | Consumo — el motor | 50% |
+| [`02-consumo.md`](02-consumo.md) | Consumo y objetos — el motor | 40% |
 | [`03-autoridad.md`](03-autoridad.md) | Autoridad — el ancla | 20% |
+| [`04-proceso-y-publicidad.md`](04-proceso-y-publicidad.md) | Proceso y publicidad — el diferencial | 10% (desde semana 3) |
 
 Definición de los carriles en
 [`../estrategia/07-pilares-y-voz.md`](../estrategia/07-pilares-y-voz.md).
@@ -19,7 +20,7 @@ Definición de los carriles en
 **No empieces por acá.** El orden es al revés:
 
 ```
-1. ¿Pasó algo hoy?  → tirá de los 8 disparadores
+1. ¿Pasó algo hoy?  → tirá de los 10 disparadores
                        (estrategia/08-produccion-dia-a-dia.md)
 2. ¿No pasó nada?   → abrí el banco, elegí del carril que toca
 3. ¿No tenés nada
@@ -34,6 +35,9 @@ escena de verdad.
 
 ⭐ = **apuesta segura durante la recuperación.** Retención alta, producción
 baja, poca cosa que pueda salir mal. Cuando dudes, agarrá una de estas.
+
+🚫💸 = **no requiere comprar nada.** Importante porque casi no comprás ropa: la
+estructura de haul retiene igual con lo que ya tenés.
 
 Durante las 6 semanas del plan, que al menos la mitad de lo que publiques salga
 de las ⭐.
@@ -64,7 +68,8 @@ Cada vez que uses una idea, tachala. Cada vez que un video funcione bien,
 **escribí tres variantes de ese mismo video** y metelas en el archivo del
 carril. El banco se alimenta de lo que funciona, no de lo que se te ocurre.
 
-Las tres fuentes que nunca se agotan:
+Las cuatro fuentes que nunca se agotan:
 - **Comentarios** — cada pregunta es un video
+- **Lo que te preguntan tus amigas** — demanda ya comprobada, gratis
 - **Tus propios errores** — el disparador más rendidor de todos
 - **Videos que ya funcionaron** — tres variantes de cada uno
