@@ -26,17 +26,25 @@ Tres versiones del mismo logo, no tres logos distintos.
 |---|---|---|
 | **Principal** | `CASA BRUMA` en una línea, tracking 0.42em | Web, packaging, firma, pie de placa |
 | **Avatar** | `CASA` / `BRUMA` apilado en dos líneas, tracking 0.20em | Foto de perfil de Instagram y de la tienda |
-| **Sello** | Siete arcos concéntricos dentro de un círculo | Stickers, etiquetas, lacre, cajas |
+| **Monograma** | Las dos iniciales `cb` en color | Stickers, etiquetas, lacre, avatar |
 
 **Por qué el apilado:** una serif finísima con mucho tracking, en una sola línea,
 desaparece adentro del círculo de Instagram. Apilada en dos líneas ocupa el
 doble de altura y sobrevive a los 40 píxeles, que es el tamaño real al que la
 gente te ve en el feed.
 
-**De dónde sale el sello:** de tus propios cuadros. No es un símbolo inventado —
-son los arcos rastrillados del relieve, reducidos a siete líneas. La pieza que
-mejor funcionó de todo el perfil es también lo único que nadie te copia rápido:
-**la firma de Casa Bruma es su textura.**
+**No hay isotipo.** Se probaron y se descartaron: arcos concéntricos, hornacina,
+nicho, díptico, la C rastrillada, la espiral del ovillo, la gota de cera y el
+disco difuso. La marca no lleva símbolo — lleva **las dos iniciales**.
+
+**A definir** (tres ejes, en el tablero): la tipografía entre doce candidatas, el
+color entre siete de la paleta, y la disposición entre minúsculas juntas,
+mayúsculas, superpuestas o apiladas.
+
+**Ámbar `#A9713C` queda descartado** como color del monograma.
+
+Lo que sí queda firme, aunque no sea el logo: **la textura del yeso es la firma
+de la marca.** Va como fondo de etiquetas, cajas e historias, no como símbolo.
 
 ---
 
