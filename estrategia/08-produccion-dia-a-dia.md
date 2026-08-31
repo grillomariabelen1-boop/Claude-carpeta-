@@ -101,14 +101,15 @@ PRIMERA HORA
 
 | Día | Qué |
 |---|---|
-| Lunes | Consumo y objetos (haul de SHEIN, de armario o de calzado) |
-| Martes | Vida con ropa |
-| Miércoles | **Ancla:** serie (Colores / Estilos / Bajitas) |
-| Jueves | Consumo y objetos, o **"Le armo el look a ___"** |
-| Viernes | **Ancla:** formato ganador |
+| Lunes | **Color** — la fórmula, un color nuevo |
+| Martes | Vida con ropa o peinados |
+| Miércoles | **Ancla:** Bajitas (alterna con Serie de Colores) |
+| Jueves | **Guía de compra** — tiendas, reglas antes de comprar |
+| Viernes | Color, o proceso / "Le armo el look a ___" |
 | Sáb/Dom | No se publica. Se repone colchón si hace falta. |
 
-Cinco por semana. El fin de semana libre es a propósito: sostener siete días
+Cinco por semana, **cada uno publicado en TikTok e Instagram**.
+El fin de semana libre es a propósito: sostener siete días
 durante meses no es realista, y la irregularidad cuesta más que el volumen bajo.
 
 ## Los 10 disparadores

@@ -1,17 +1,52 @@
-# Banco — CONSUMO
+# Banco — GUÍA DE COMPRA
 
-Tu formato motor. El giro respecto de antes: no es "miren lo que compré",
-es **"miren lo que aprendí comprando"**.
+**No es "miren lo que compré". Es "dónde y cómo comprar".**
 
-> **Importante — leer antes de usar este archivo.**
-> Vos no comprás ropa seguido y no te gusta gastar en ropa. Lo que retiene de
-> un haul **no es que hayas comprado**: es la estructura (item, item, item, y
-> el mejor al final). Quien mira no sabe si lo compraste ayer o hace tres años.
-> Por eso la mayoría de las ideas de acá no requieren comprar nada.
-> Ver [`../estrategia/09-perfil-y-diferencial.md`](../estrategia/09-perfil-y-diferencial.md).
+> **Cambio importante del 30/8.** Este carril eran hauls. Los datos mostraron
+> que los hauls son tus peores videos (4× menos que los de color), y que en
+> cambio la **guía de compra** es lo más compartible que producís:
+> "Tiendas que sí o sí tenés que conocer" → **515 shares con 648 likes (79%)**;
+> "Las 3 reglas de oro antes de comprar" → 97 shares con 94 likes (103%).
+> Un ratio normal es 5-10%. Es lo que una le manda a una amiga por WhatsApp.
+> Ver [`../estrategia/10-datos-reales.md`](../estrategia/10-datos-reales.md).
+>
+> Vos casi no comprás ropa, y este carril ya no lo necesita.
 
 ⭐ = apuesta segura durante la recuperación
 🚫💸 = no requiere comprar nada
+
+---
+
+## 🔑 DÓNDE COMPRAR — tu formato más compartible 🚫💸
+
+Cero gasto, sólo criterio. Es lo que más se comparte de todo lo que hacés.
+
+- ⭐ **Tiendas que sí o sí tenés que conocer** — ya funcionó, hacelo serie
+- ⭐ **Dónde compro los básicos que uso todos los días**
+- **Tiendas argentinas que nadie conoce y deberían**
+- **Dónde comprar bien [categoría]** — jean, blazer, botas, camisa blanca
+- **Las tiendas donde NO compro y por qué**
+- **Dónde comprar si tenés poco presupuesto**
+- **Dónde comprar si querés que te dure**
+- **Ferias americanas de Buenos Aires: cuáles valen la pena**
+- **Tiendas online que sí mandan lo que muestran**
+- **Dónde comprar según lo que buscás** — una tienda por necesidad
+- **Los locales de [barrio] que valen el viaje**
+
+## 🔑 Reglas antes de comprar 🚫💸
+
+El otro formato con ratio de share fuera de escala (103%).
+
+- ⭐ **Las 3 reglas de oro antes de comprar** — ya funcionó, hacé la secuela
+- ⭐ **Lo que miro antes de pagar, en diez segundos**
+- **Las costuras que te dicen que no lo compres**
+- **Qué miro en la etiqueta**
+- **Mi regla de las 24 horas**
+- **La pregunta que me hago frente al espejo del probador**
+- **Cómo compro online sin equivocarme de talle**
+- **Cómo decido entre dos prendas parecidas**
+- **Por qué dejé de comprar en oferta**
+- **Cómo armo la lista antes de ir a comprar**
 
 ---
 
@@ -49,9 +84,14 @@ haul sin comprar.
 
 ---
 
-## Hauls (el motor del motor)
+## Hauls — bajaron de prioridad
 
-Durante la recuperación son 2-3 por semana. Estructura y checklist en
+> **Los hauls rinden 4× menos que tus videos de color.** Tus dos hauls de SHEIN
+> son los peores videos de tu top 10 (3.998 y 3.708 contra 24.000 del primero).
+> Pasan de 2-3 por semana a **1 cada dos semanas**, y sólo los de armario o
+> calzado, que no cuestan nada.
+
+Estructura y checklist en
 [`../plantillas/guion-haul.md`](../plantillas/guion-haul.md).
 
 - ⭐ **Haul de SHEIN: lo que me quedo y lo que devuelvo** — el "devuelvo" es

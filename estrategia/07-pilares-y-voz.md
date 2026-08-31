@@ -23,23 +23,35 @@ qué hay realmente en tu placard, qué te sale mal.
 **Por qué existe:** es lo que genera vínculo y lo que hace que te sigan a *vos*
 y no a un tema. Sin esto, la cuenta es un catálogo.
 
-### 2. CONSUMO Y OBJETOS — el motor
-Hauls (de SHEIN y de armario), **zapatos y botas**, qué vale la pena, la compra
-mala, cómo comprar mejor.
+### 2. GUÍA DE COMPRA — lo más compartible
+Dónde comprar, qué mirar antes de pagar, reglas de compra, **zapatos y botas**,
+hauls de armario. Casi sin comprar nada.
 
-**Por qué existe:** es tu formato histórico ganador y el que mejor retiene.
-El giro respecto de antes: no es "miren lo que compré", es **"miren lo que
-aprendí comprando"**. Mismo formato, ahora enseña.
+**Por qué existe:** es lo que más se comparte de todo lo que hacés. "Tiendas que
+sí o sí tenés que conocer" tuvo **515 shares con 648 likes** (79%); "Las 3
+reglas de oro antes de comprar", 97 shares con 94 likes (103%). Un ratio normal
+es 5-10%. Es el contenido que una le manda a una amiga por WhatsApp.
 
-**Zapatos y botas es un sub-carril fijo**, no una nota al pie: es lo único en
-lo que gastás con ganas, y está mucho menos saturado que la ropa.
+**Ojo con el cambio:** antes este carril eran hauls. Los hauls rinden 4× menos
+que tus videos de color. El carril deja de ser "comprar y mostrar" y pasa a ser
+**"dónde y cómo comprar"**. Eso además resuelve que casi no comprás ropa.
 
-### 3. AUTORIDAD — el ancla
-Color, colorimetría, criterio de asesora. Warm Spring como caso propio.
+**Zapatos y botas es un sub-carril fijo:** es lo único en lo que gastás con
+ganas, y está menos saturado que la ropa.
 
-**Por qué existe:** vos misma decís que te posiciona y te trae seguidores.
-No se saca — se **baja de volumen**. Pasa de ser el techo de la cuenta a ser
-el ancla que le da peso a los otros dos carriles.
+### 3. AUTORIDAD — el motor real
+Color, colorimetría, **tips para bajitas**, criterio de asesora. Warm Spring
+como caso propio.
+
+**Por qué existe:** los datos lo pusieron primero. Tu video #1 (24K, bajitas) y
+los puestos 2 a 6 (todos de color) son este carril. Rinde 4× lo que un haul.
+
+**La tensión y su resolución:** dijiste que estás aburrida de la asesoría de
+imagen. Pero lo que te funciona no es *ser asesora*: es **el color contado en
+tono de amiga**. Tus propios títulos ganadores —"el color que todo el mundo
+tiene pero nadie sabe combinar"— no son tono de experta, son exactamente la
+voz de este documento. Lo que aburre es la pose, no el tema. La pose se puede
+soltar sin soltar el color.
 
 Sin autoridad, "vida con ropa" es una chica mostrando ropa. Con autoridad, es
 alguien que sabe mostrando ropa. Es la misma diferencia que hay entre que te
@@ -58,12 +70,17 @@ semana 3, no antes.
 
 ## Reparto
 
+> **Reparto actualizado el 30/8 con datos reales** — ver
+> [`10-datos-reales.md`](10-datos-reales.md). El color resultó ser el motor y
+> los hauls el formato más débil, así que Autoridad sube y Consumo se
+> reconvierte en guía de compra.
+
 | Carril | Durante recuperación | Después |
 |---|---|---|
-| Vida con ropa | 30% | 35% |
-| Consumo y objetos | 40% | 25% |
-| Autoridad | 20% | 20% |
-| Proceso y publicidad | 10% (desde semana 3) | 20% |
+| **Autoridad** (color, colorimetría, bajitas) | **40%** | 35% |
+| **Guía de compra** (antes: Consumo) | **20%** | 20% |
+| Vida con ropa (incluye peinados) | 25% | 25% |
+| Proceso y publicidad | 15% (desde semana 2) | 20% |
 
 **No hay contradicción entre el 60% haul y estos porcentajes:** los carriles son
 *tema*, los formatos son *forma*.

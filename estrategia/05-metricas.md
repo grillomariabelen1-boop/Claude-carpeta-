@@ -21,12 +21,36 @@ seguidores por video, y cualquier métrica de la app que no esté acá arriba.
 > likes y baja finalización no pasa el pool. Uno con pocos likes y alta
 > finalización, sí.
 
-## Línea de base (completar en Semana 0)
+## Datos ya relevados (30/8)
+
+Análisis completo en [`10-datos-reales.md`](10-datos-reales.md).
+
+| | TikTok | Instagram |
+|---|---|---|
+| Mejor video | 24.000 (bajitas, abr 2025) | 54.100 (peinado media cola, hace 4 sem) |
+| Formato ganador | Color / colorimetría | Color y peinados |
+| Más compartido | — | Tiendas: 515 shares (79% de los likes) |
+| Más comentado | — | "Porque hay amigas que…": 73 |
+| Peores del top 10 | **Los 2 hauls de SHEIN** (3.998 / 3.708) | — |
+
+**La cuenta no está penalizada:** un video de abril 2025 hizo 24.000 views en
+los últimos 60 días, o sea durante el mismo período en que los videos nuevos
+hacen 180-350. TikTok sigue distribuyendo; el problema está en el contenido
+reciente.
+
+## Línea de base — lo que todavía falta (Semana 0)
+
+Los números de arriba son **top posts**, no promedios. Faltan las dos métricas
+que deciden si un video pasa el pool inicial, y son las únicas que no se pueden
+deducir de lo relevado:
 
 Resultados de los 4 tests de [`01-diagnostico.md`](01-diagnostico.md).
 
 ```
 Fecha de medición:      ____________
+
+RETENCIÓN A 3S — promedio últimos 10 videos:           ______ %
+FINALIZACIÓN — promedio últimos 10 videos:             ______ %
 
 TEST 1 — Retención a 3s, promedio últimos 10 videos:   ______ %
          ¿Mayor a 50% de caída?                        SÍ / NO

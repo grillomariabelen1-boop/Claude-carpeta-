@@ -13,11 +13,13 @@ Documento base. Todo lo demás en esta carpeta asume lo que está acá.
 
 | Formato | Estado |
 |---|---|
-| Haul | Motor histórico. Lo que mejor performa. |
-| Combinaciones de color | Motor histórico. Lo que mejor performa. |
+| Combinaciones de color | **Motor.** Confirmado por datos: 4× un haul. |
+| Colorimetría | **Motor.** Alta autoridad y alcance. |
+| Tips para bajitas | **Video #1 histórico** (24K) y evergreen. |
+| Guía de compra (tiendas) | Lo más compartible: 515 shares. |
+| Haul | Rinde 4× menos de lo que se creía. Baja de prioridad. |
 | Serie de Colores | Funciona bien. |
 | Serie de Estilos | Funciona bien. |
-| Colorimetría | Funciona bien. Alta autoridad. |
 | Peinados con voice over | Funciona bien. |
 
 Detalle de cada uno en [`03-formatos.md`](03-formatos.md).
@@ -27,7 +29,8 @@ Detalle de cada uno en [`03-formatos.md`](03-formatos.md).
 - Se dejó de usar **Promote el 10/7**.
 - Desde entonces: recuperación de alcance orgánico.
 - Views estancadas en **~180-350 por video**.
-- Estrategia elegida: **haul-first** durante la recuperación.
+- Estrategia: **color-first** durante la recuperación (era haul-first; corregido
+  el 30/8 con datos reales — ver [`10-datos-reales.md`](10-datos-reales.md)).
 - Ventana estimada de recuperación: **4-6 semanas**.
 
 > **Supuesto declarado:** interpreto "10/7" como 10 de julio (formato DD/MM).

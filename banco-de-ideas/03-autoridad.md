@@ -5,7 +5,57 @@ Color, colorimetría y criterio. El 20% que le da peso a todo lo demás.
 **La regla de este carril:** el título no se dice, se demuestra. Nunca "como
 asesora de imagen te digo". El conocimiento se nota, no se anuncia.
 
+> **Este es tu motor.** Los datos del 30/8 lo pusieron primero: tu video #1
+> (24K) y los puestos 2 a 6 son todos de acá. Rinde 4× lo que un haul.
+> Ver [`../estrategia/10-datos-reales.md`](../estrategia/10-datos-reales.md).
+
 ⭐ = apuesta segura durante la recuperación
+
+---
+
+## 🔑 LA FÓRMULA — empezá por acá
+
+Tres de tus cinco mejores videos son **la misma fórmula con distinto color**:
+
+```
+"El color que [RECONOCIMIENTO] pero [TENSIÓN SIN RESOLVER]"
+        ↓                              ↓
+   "yo tengo ese"              "y no sé qué hacer con él"
+```
+
+Ejemplos tuyos que ya funcionaron:
+
+- "El color que **más se usa** y el que **peor se combina**" — 19K
+- "El color que **todo el mundo tiene** pero **nadie sabe combinar**" — 11K
+- "Uno de los colores que **más miedo da** y el **más fácil de combinar**" — 16K
+
+**Es repetible al infinito: un color por video.**
+
+### Los próximos 20, en orden
+
+Ordenados por cuánta gente tiene ese color en el placard — cuanta más gente lo
+tiene, más gente se identifica con el gancho:
+
+`negro` · `beige` · `gris` · `azul marino` · `camel` · `blanco roto` ·
+`verde oliva` · `bordó` · `marrón chocolate` · `celeste` · `rosa viejo` ·
+`mostaza` · `terracota` · `lila` · `verde agua` · `naranja` · `amarillo` ·
+`azul petróleo` · `crudo` · `violeta`
+
+### Variantes del título, para no repetir el mismo veinte veces
+
+- "El color que todo el mundo tiene pero nadie sabe combinar"
+- "El color que más se usa y el que peor se combina"
+- "El color que más miedo da y el más fácil de usar"
+- "El color que te queda mal — o lo estás combinando mal"
+- "Tenés este color en el placard y lo usás siempre igual"
+- "El color que compraste y nunca te pusiste"
+- "Si tenés [color], estas son las tres que no fallan"
+
+### La segunda vía: color de tendencia
+
+"Combinaciones con **butter yellow** que no fallan" hizo 17K sin usar la
+fórmula. Ahí el gancho es el **color de moda con nombre propio**: aprovecha la
+búsqueda del momento. Usala cuando haya un color con momento, no siempre.
 
 ---
 

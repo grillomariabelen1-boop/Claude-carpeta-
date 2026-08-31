@@ -1,5 +1,13 @@
 # Diagnóstico del estancamiento
 
+> **Actualizado el 30/8 con datos reales.** Dos cosas cambiaron:
+> **(a)** la cuenta **no está penalizada** — un video de abril 2025 hizo 24.000
+> views en los últimos 60 días, o sea mientras los nuevos hacen 180-350, así que
+> TikTok sigue distribuyendo y el problema está en el contenido reciente;
+> **(b)** la causa 3 (deriva de formato) queda **confirmada**: los hauls, que
+> eran el 50-60% del plan, rinden 4× menos que los videos de color.
+> Ver [`10-datos-reales.md`](10-datos-reales.md).
+
 ## Lo primero: la ventana de 4-6 semanas ya se cumplió
 
 Promote se cortó el **10/7**. Al **30/8** pasaron **~7 semanas**.
@@ -46,9 +54,10 @@ reciente que el modelo usa como referencia todavía está contaminado. La salida
 es acumular videos orgánicos con buena retención hasta que el historial
 reciente esté dominado por señales limpias.
 
-Eso es exactamente lo que hace el plan haul-first: **los hauls son el formato
-con mejor retención comprobada de la cuenta**, así que son la herramienta más
-rápida para limpiar el historial.
+Eso es lo que hace el plan color-first: **el color es el formato con mejor
+rendimiento comprobado de la cuenta** (4× un haul), así que es la herramienta
+más rápida para limpiar el historial. El plan original apostaba a los hauls por
+un supuesto que los datos desmintieron.
 
 ## Las cuatro causas candidatas del techo actual
 
@@ -75,8 +84,12 @@ Si en los últimos meses bajó la proporción de hauls y combinaciones de color
 —los dos formatos que mejor performan— y subió la de formatos más lentos, la
 retención promedio de la cuenta bajó por composición, no por calidad.
 
-**Test:** contar cuántos de los últimos 20 videos son haul o combinación de
-color. Si son menos de 8, hay deriva.
+**Confirmado por los datos:** los hauls rinden 4× menos que los videos de
+color. Si en los últimos meses subió la proporción de hauls, la retención
+promedio de la cuenta bajó por composición.
+
+**Test:** contar cuántos de los últimos 20 videos son de color o colorimetría.
+Si son menos de 8, hay deriva.
 
 ### 4. Inconsistencia de cadencia
 Huecos de varios días seguidos de tandas de tres videos. El modelo penaliza
@@ -90,7 +103,7 @@ la irregularidad más que el volumen bajo.
 |---|---|
 | Retención a 3s | Reglas de gancho y duración corta ([`02`](02-plan-recuperacion.md), [`03`](03-formatos.md)) |
 | Ambigüedad de tema | Identidad única color + estilo en todos los videos ([`02`](02-plan-recuperacion.md)) |
-| Deriva de formato | Ratio 60% haul-first ([`02`](02-plan-recuperacion.md)) |
+| Deriva de formato | Ratio 40% color-first ([`02`](02-plan-recuperacion.md)) |
 | Inconsistencia | Cadencia fija 5-6 por semana ([`04`](04-calendario-6-semanas.md)) |
 
 ## Antes de arrancar: hacer los cuatro tests

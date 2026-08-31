@@ -1,4 +1,9 @@
-# Plan de recuperación haul-first
+# Plan de recuperación color-first
+
+> **Actualizado el 30/8 con datos reales.** Este plan era *haul-first*. Los
+> números mostraron que los hauls son los videos que **peor** rinden (4× menos
+> que los de color), así que el motor pasa a ser el color.
+> Ver [`10-datos-reales.md`](10-datos-reales.md).
 
 Duración: **6 semanas** desde el arranque (no desde el 10/7 — ver
 [`01-diagnostico.md`](01-diagnostico.md)).
@@ -13,9 +18,16 @@ Hasta cumplir los criterios de salida de [`05-metricas.md`](05-metricas.md).
 Cualquier empuje pago vuelve a ensuciar el historial reciente y resetea la
 acumulación de señal limpia. Esto es lo más importante de la lista.
 
-### 2. Ratio 60/40 haul-first
-De cada 10 videos: **6 son haul o combinación de color**, 4 son el resto.
-Los dos motores comprobados hacen el trabajo pesado de retención.
+### 2. Ratio color-first
+De cada 10 videos: **4 son de color o colorimetría**, 2 de guía de compra,
+2-3 de vida con ropa (con bajitas como ancla), 1-2 de proceso.
+
+El color es el motor comprobado: tus cuatro mejores videos después del de
+bajitas son todos de color. Y no requiere comprar nada.
+
+**La estructura de haul sigue valiendo** —revelación item por item con loop
+abierto— pero aplicada al color: cinco combinaciones, cinco tiendas, cinco
+errores. Lo que retiene es la estructura, no la compra.
 
 ### 3. Duración corta: 15-25 segundos
 Durante la recuperación, corto gana. Un video de 18s con 80% de finalización
@@ -23,6 +35,11 @@ manda una señal mucho más fuerte que uno de 60s con 35%. El formato largo
 vuelve después de la salida.
 
 Excepción: el haul aguanta hasta 35s si tiene estructura de loop abierto.
+
+### 3 bis. Publicar siempre en las dos plataformas
+Todo lo que se graba va a TikTok **y** a Instagram. Ahora mismo Instagram te
+rinde el doble y con material reciente. No es dividir la atención: es dejar de
+regalar la mitad del resultado.
 
 ### 4. Regla del primer frame
 **El frame 1 muestra el resultado, no la introducción.** La ropa, el color, el
@@ -75,6 +92,8 @@ pantalla final. Las despedidas matan la finalización y los rewatches.
 
 ## Qué NO hacer durante la recuperación
 
+- Hauls de SHEIN con el código de descuento en el título. Se lee como
+  publicidad y rinde 4× menos. El código va en comentario fijado.
 - Empujar el ebook de forma agresiva. Un CTA de venta baja finalización.
   Durante la recuperación el ebook se menciona sólo en descripción y bio.
 - Aceptar colabs que exijan publicación en el feed propio. Ver
