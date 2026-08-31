@@ -47,7 +47,9 @@ esta última es la mejor para el avatar porque llena la foto de perfil.
 **A definir** (dos ejes, en el tablero): la tipografía entre doce candidatas y
 el color entre siete de la paleta.
 
-**Ámbar `#A9713C` queda descartado** como color del monograma.
+**El ámbar `#A9713C` queda descartado de toda la identidad**, no sólo del
+monograma: no es más el acento, no está en la paleta y no se usa en ningún
+lado. El acento de la marca pasa a ser **terracota `#B07862`**.
 
 Lo que sí queda firme, aunque no sea el logo: **la textura del yeso es la firma
 de la marca.** Va como fondo de etiquetas, cajas e historias, no como símbolo.
@@ -70,7 +72,7 @@ propósito.
 | Arena | `#E3DACE` | Bloques, cajas, separadores |
 | Lino | `#C4B9AC` | Sombras y líneas |
 | Tinta | `#2C2825` | Todo el texto. **Nunca negro puro** |
-| Ámbar | `#A9713C` | Único acento. Sale de tus frascos |
+| Terracota | `#B07862` | Único acento de la marca |
 
 ### Paleta de producto — lo que vendés
 
