@@ -12,10 +12,11 @@ Instagram: [@brumacasaco](https://instagram.com/brumacasaco) (a cambiar, ver
 | Documento | Contenido |
 |---|---|
 | [`01-base.md`](01-base.md) | Qué es, para quién, el criterio, la voz y el precio |
+| [`02-identidad-visual.md`](02-identidad-visual.md) | Logotipo, las dos paletas, tipografía, el feed |
 
 ## En qué orden se arma
 
 1. **La base** — qué es y bajo qué criterio. ✅ listo
-2. **Identidad visual** — paleta, tipografías, logo que se lea chico
+2. **Identidad visual** — paleta, tipografías, logo que se lea chico ✅ listo
 3. **El sistema** — cómo se ve una portada, el feed, la foto de producto
 4. **Plantillas en Canva** — para producir sin rediseñar cada vez
