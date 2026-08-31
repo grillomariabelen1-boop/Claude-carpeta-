@@ -40,8 +40,14 @@ del que mira no sabe ni le importa si lo compraste ayer o hace tres años.
 
 > **"Haul-first" pasa de ser un tema a ser una estructura.**
 >
-> El 60% de tus videos tiene que tener **forma de haul** —revelación item por
-> item con loop abierto— sin importar de qué carril sean.
+> Tus videos tienen que tener **forma de revelación** —item por item con loop
+> abierto— sin importar de qué carril sean.
+>
+> **Nota del 31/8:** este párrafo decía "el 60% de tus videos". Ese número era
+> del plan haul-first y chocaba con el reparto por carril, así que se sacó: la
+> estructura de revelación se aplica a **todos** los formatos motor, y no lleva
+> porcentaje propio. Ver
+> [`07-pilares-y-voz.md`](07-pilares-y-voz.md) → "La estructura de revelación".
 
 Cuatro fuentes de estructura-haul que no requieren comprar nada:
 
@@ -51,8 +57,10 @@ Cuatro fuentes de estructura-haul que no requieren comprar nada:
 2. **Zapatos y botas.** Es lo único en lo que sí gastás con ganas, y se nota
    cuando alguien habla de algo que le importa. Además está mucho menos
    saturado que la ropa. **Debería ser un carril propio, no una nota al pie.**
-3. **SHEIN.** Es tu fuente de producto nuevo sin gasto propio. Sostiene los
-   hauls de ropa sin que tengas que inventar compras.
+3. **SHEIN.** Es tu fuente de producto nuevo sin gasto propio. Desde el 30/8
+   deja de sostener un carril propio: el producto entra sólo cuando da para un
+   video de color o de guía de compra, y **el código nunca va en el título**
+   ([`03-formatos.md`](03-formatos.md), formato 11).
 4. **El haul que no compré.** Recorrés, mostrás, no comprás y explicás por qué.
    Funciona igual y encima te posiciona.
 
@@ -88,9 +96,12 @@ Es tu contenido más defendible: nadie lo puede copiar sin tu trabajo de día.
 
 - **Máximo 15-20%.** Es el condimento, no el plato. Si se vuelve el tema
   principal, dejás de ser una cuenta de estilo.
-- **No arranca hasta la semana 3.** Durante las dos primeras semanas de
-  recuperación conviene no meter terreno nuevo, para no confundir al algoritmo
-  sobre a quién servirte.
+- ~~**No arranca hasta la semana 3.**~~ **Corregido el 30/8: arranca en la
+  semana 2.** Este párrafo asumía que era terreno nuevo. No lo es: tus dos
+  videos de "Aprendé a editar en CapCut" ya están en el top de shares de
+  Instagram (hallazgo 9 de [`10-datos-reales.md`](10-datos-reales.md)), así
+  que el algoritmo ya tiene señal de que a tu audiencia le interesa. Sube
+  también de 10% a **15%**.
 - **Nunca hables de clientes ni de campañas de tu trabajo.** Se analiza
   publicidad pública, de marcas que cualquiera ve en la calle o en el feed.
   Nada de adentro.
@@ -285,14 +296,23 @@ La regla ya quedó actualizada así en
 
 ## Instagram
 
+> **Corregido el 30/8.** Este apartado decía que Instagram *"no es prioridad"*
+> durante la recuperación. Los datos dijeron lo contrario y la versión
+> corregida es la que vale. Ver hallazgo 5 de
+> [`10-datos-reales.md`](10-datos-reales.md).
+
 Tenés **@belengrillo_** también en Instagram, con el mismo handle. Que sea
 idéntico en las dos plataformas es un activo: no lo cambies.
 
-Durante la recuperación **no es prioridad** — el foco es TikTok y dividir la
-atención alarga el proceso. Pero tenelo presente por una razón concreta: cuando
-cotices trabajo UGC, la marca va a mirar tu Instagram antes de responderte.
-Que el perfil esté ordenado y diga qué hacés vale más que postear ahí todos los
-días.
+**Instagram te rinde el doble que TikTok y con material reciente:** tu mejor
+video de IG hizo **54.100** views hace cuatro semanas, mientras TikTok está en
+180-350. Todo lo que se graba va a las dos plataformas, siempre. No es dividir
+la atención ni "repurposing": es la misma grabación, y ahora mismo el alcance
+real está del lado de Instagram.
+
+Segundo motivo, independiente del alcance: cuando cotices trabajo UGC, la marca
+va a mirar tu Instagram antes de responderte. Que el perfil esté ordenado y
+diga qué hacés vale tanto como el volumen de posteo.
 
 ---
 

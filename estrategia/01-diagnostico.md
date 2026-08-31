@@ -72,9 +72,12 @@ antes del segundo 3. Con esa caída ningún video pasa el pool.
 3s es mayor al 50%, el problema es el gancho y nada más.
 
 ### 2. Ambigüedad de tema a nivel cuenta
-Seis formatos distintos rotando sin jerarquía le dificultan al modelo definir
-a qué audiencia servir la cuenta. Una cuenta legible se distribuye mejor que
-una cuenta variada.
+Muchos formatos distintos rotando **sin jerarquía** le dificultan al modelo
+definir a qué audiencia servir la cuenta. Una cuenta legible se distribuye
+mejor que una cuenta variada. El problema nunca fue la cantidad de formatos
+sino que ninguno mandaba: desde el 30/8 hay jerarquía —color, guía de compra y
+bajitas sostienen la semana ([`03-formatos.md`](03-formatos.md))— y el resto
+rota alrededor.
 
 **Test:** mirar los últimos 15 videos en la grilla. ¿Se lee "esto es una
 cuenta de color y estilo" en dos segundos? Si no, hay ambigüedad.

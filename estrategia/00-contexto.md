@@ -13,16 +13,20 @@ Documento base. Todo lo demás en esta carpeta asume lo que está acá.
 
 | Formato | Estado |
 |---|---|
+| La fórmula del color | **Motor #1.** Tres entradas al top 5 con el mismo título. |
 | Combinaciones de color | **Motor.** Confirmado por datos: 4× un haul. |
 | Colorimetría | **Motor.** Alta autoridad y alcance. |
 | Tips para bajitas | **Video #1 histórico** (24K) y evergreen. |
 | Guía de compra (tiendas) | Lo más compartible: 515 shares. |
-| Haul | Rinde 4× menos de lo que se creía. Baja de prioridad. |
+| Haul | Rinde 4× menos de lo que se creía. **Marginal**: máx. 1 cada 2 semanas. |
+| Le armo el look a ___ | Formato nuevo. El diferencial, desde la semana 2. |
+| Cómo te venden | El ángulo publicitario. Sólo publicidad pública. |
 | Serie de Colores | Funciona bien. |
 | Serie de Estilos | Funciona bien. |
 | Peinados con voice over | Funciona bien. |
 
-Detalle de cada uno en [`03-formatos.md`](03-formatos.md).
+Los once formatos, con gancho, estructura y frecuencia, en
+[`03-formatos.md`](03-formatos.md).
 
 ## Situación actual
 
@@ -49,9 +53,12 @@ Tomadas el 30/8. Desarrollo completo en
 | Exposición | **Cara y vida** |
 | Producción | **Día a día** |
 
-La asesoría de imagen **no es el techo de la cuenta**: baja a un 20% y pasa a
-funcionar como ancla de autoridad, no como tema principal. Se mantiene porque
-posiciona y trae seguidores, no porque tenga que estar en todos los videos.
+La asesoría de imagen **no es el techo de la cuenta, pero sí es el piso**: el
+carril de Autoridad (color, colorimetría, bajitas) es el **45%** durante la
+recuperación, porque es lo que los datos del 30/8 pusieron primero. Lo que baja
+no es el tema, es **la pose de experta**: el color se cuenta en tono de amiga,
+no de clase. Reparto completo en
+[`07-pilares-y-voz.md`](07-pilares-y-voz.md).
 
 ## Perfil
 

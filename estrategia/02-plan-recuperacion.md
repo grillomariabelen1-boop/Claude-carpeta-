@@ -34,7 +34,9 @@ Durante la recuperación, corto gana. Un video de 18s con 80% de finalización
 manda una señal mucho más fuerte que uno de 60s con 35%. El formato largo
 vuelve después de la salida.
 
-Excepción: el haul aguanta hasta 35s si tiene estructura de loop abierto.
+Excepción: los formatos con estructura de revelación (guía de compra, "le armo
+el look a ___", haul) aguantan hasta 30-35s **si el loop abierto está dicho en
+el segundo 3**. Sin loop, se cortan a 25.
 
 ### 3 bis. Publicar siempre en las dos plataformas
 Todo lo que se graba va a TikTok **y** a Instagram. Ahora mismo Instagram te
@@ -50,9 +52,11 @@ Si al mutear el video y ver sólo el primer frame no se entiende qué se va a
 ver, el gancho está mal.
 
 ### 5. Una identidad, no seis
-Todos los videos tienen que ser legibles como **color y estilo**. Los seis
-formatos son ángulos del mismo tema, no seis temas. Nada de contenido fuera
-de nicho durante la recuperación, aunque tiente.
+Todos los videos tienen que ser legibles como **color y estilo**. Los formatos
+de [`03-formatos.md`](03-formatos.md) son ángulos del mismo tema, no once temas
+distintos, y tienen jerarquía: tres sostienen la semana y el resto rota
+alrededor. Nada de contenido fuera de nicho durante la recuperación, aunque
+tiente.
 
 ### 6. Cadencia fija: 5-6 por semana
 Mismos días, mismos horarios. La regularidad pesa más que el volumen. Es mejor
@@ -101,4 +105,6 @@ pantalla final. Las despedidas matan la finalización y los rewatches.
   UGC-only justamente permite facturar sin gastar el feed en esta etapa.
 - Optimizar para tráfico a AdSense. Mandar gente afuera baja el tiempo en
   plataforma. Ese carril se abre después de la salida.
-- Probar un formato nuevo. Los seis que hay alcanzan y están probados.
+- Probar un formato nuevo fuera de los de [`03-formatos.md`](03-formatos.md).
+  Los que hay alcanzan y están probados. La única incorporación es "le armo el
+  look a ___", y entra recién en la semana 2, sola, como variable de esa semana.

@@ -3,8 +3,10 @@
 El carril nuevo. Sale de dos cosas: que trabajás en publicidad, y que estás
 aburrida de lo que venías haciendo.
 
-**Es el 15-20% de la cuenta, no más.** El condimento, no el plato.
-**No arranca hasta la semana 3** de la recuperación.
+**Es el 15% de la cuenta, no más.** El condimento, no el plato.
+**Arranca en la semana 2** de la recuperación (corregido el 30/8 por el
+hallazgo 9: los videos de CapCut ya tienen tracción, así que no es terreno
+nuevo). Tiene el viernes fijo en el calendario.
 
 Contexto en
 [`../estrategia/09-perfil-y-diferencial.md`](../estrategia/09-perfil-y-diferencial.md).

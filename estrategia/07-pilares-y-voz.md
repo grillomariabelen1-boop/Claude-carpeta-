@@ -12,9 +12,10 @@ para decidir si una idea entra o no.
 | Exposición | **Cara y vida** (casa, salidas, rutina, entorno) |
 | Producción | **Día a día** |
 
-## Los tres carriles
+## Los cuatro carriles
 
-El tema madre es uno solo. Se ejecuta en tres carriles.
+El tema madre es uno solo. Se ejecuta en cuatro carriles: los tres originales
+más **Proceso y publicidad**, agregado el 30/8.
 
 ### 1. VIDA CON ROPA — el corazón
 Tu día a día resuelto con criterio de estilo. Qué te ponés, cómo lo decidís,
@@ -57,39 +58,62 @@ Sin autoridad, "vida con ropa" es una chica mostrando ropa. Con autoridad, es
 alguien que sabe mostrando ropa. Es la misma diferencia que hay entre que te
 recomiende algo cualquiera y que te lo recomiende alguien que estudió el tema.
 
-## Reparto
-
 ### 4. PROCESO Y PUBLICIDAD — el diferencial
 "Le armo el look a ___", detrás de escena, y el ángulo publicitario que te da
 tu trabajo. Agregado el 30/8; ver
 [`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md).
 
 **Por qué existe:** es lo único de la cuenta que nadie puede copiar, y es la
-respuesta a que estés aburrida de lo que venías haciendo. Arranca en la
-semana 3, no antes.
+respuesta a que estés aburrida de lo que venías haciendo. **Arranca en la
+semana 2**, no en la 3: los dos videos de "Aprendé a editar en CapCut" ya
+tienen tracción propia en Instagram (hallazgo 9 de
+[`10-datos-reales.md`](10-datos-reales.md)), así que no es terreno tan nuevo
+como parecía cuando se escribió la corrección 2 de
+[`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md).
 
 ## Reparto
 
 > **Reparto actualizado el 30/8 con datos reales** — ver
-> [`10-datos-reales.md`](10-datos-reales.md). El color resultó ser el motor y
-> los hauls el formato más débil, así que Autoridad sube y Consumo se
-> reconvierte en guía de compra.
+> [`10-datos-reales.md`](10-datos-reales.md) — y **fijado como canónico el
+> 31/8**: es la única tabla de reparto del repositorio, y el resto de los
+> documentos cierra contra ésta.
+> Ver [`11-auditoria-consistencia.md`](11-auditoria-consistencia.md).
 
 | Carril | Durante recuperación | Después |
 |---|---|---|
-| **Autoridad** (color, colorimetría, bajitas) | **40%** | 35% |
+| **Autoridad** (color, colorimetría, bajitas) | **45%** | 35% |
 | **Guía de compra** (antes: Consumo) | **20%** | 20% |
-| Vida con ropa (incluye peinados) | 25% | 25% |
-| Proceso y publicidad | 15% (desde semana 2) | 20% |
+| Vida con ropa (incluye peinados) | **20%** | 25% |
+| Proceso y publicidad | **15%** (desde semana 2) | 20% |
 
-**No hay contradicción entre el 60% haul y estos porcentajes:** los carriles son
-*tema*, los formatos son *forma*.
+**Dónde se cuenta bajitas.** [`10-datos-reales.md`](10-datos-reales.md) da el
+mismo reparto de otra forma: *color 40% + vida con ropa y bajitas 25%*. Es la
+misma cuenta con bajitas del otro lado de la raya:
 
-> **"Haul-first" es una estructura, no un tema.** El 60% de los videos tiene que
-> tener **forma de haul** —item, item, item, y el mejor al final— sin importar
-> de qué carril salgan. Un recorrido por tus botas, un armario haul, tres looks
-> del placard de otra persona: todos son estructura-haul y ninguno requiere
-> comprar nada.
+```
+color y colorimetría   40%  ┐
+bajitas                 5%  ┴→  AUTORIDAD 45%
+vida con ropa          20%      VIDA CON ROPA 20%
+```
+
+**Bajitas cuenta en Autoridad**, porque es criterio de asesora aplicado a
+proporción, no vida cotidiana. Los dos repartos suman 100% y ordenan la misma
+semana; ésta es la forma en que se cuenta de acá en adelante.
+
+### La estructura de revelación (antes: "estructura de haul")
+
+Lo que retenía del haul **no era la compra**: era la forma —item, item, item, y
+el mejor al final, anunciado en el segundo 3. Eso se conserva y se aplica a los
+carriles que sí rinden:
+
+- **3 lugares donde compro y el último casi no lo cuento** → guía de compra
+- **4 formas de usar este color y la última no la esperás** → fórmula del color
+- **Todos mis pantalones negros y cuál uso de verdad** → vida con ropa
+- **Le armo tres looks y el último la sorprendió** → proceso
+
+Ninguno requiere comprar nada, y todos tienen la curva de retención plana del
+haul. **Es la forma la que se conserva; el haul como tema baja a marginal**
+([`03-formatos.md`](03-formatos.md), formato 11).
 
 Esto es lo que hace sostenible el plan sabiendo que casi no comprás ropa.
 
@@ -97,15 +121,19 @@ Esto es lo que hace sostenible el plan sabiendo que casi no comprás ropa.
 
 | Formato | Carril principal |
 |---|---|
-| Haul (SHEIN, armario, calzado) | Consumo y objetos |
+| **La fórmula del color** | Autoridad |
 | Combinaciones de color | Autoridad (con cuerpo de Vida real) |
+| **Guía de compra** (tiendas, reglas, calzado) | Guía de compra |
+| **Tips para bajitas** | Autoridad |
 | Serie de Colores | Autoridad |
-| Serie de Estilos | Vida con ropa |
 | Colorimetría y maquillaje | Autoridad |
-| Tips para bajitas | Autoridad |
+| Serie de Estilos | Vida con ropa |
 | Peinados VO | Vida con ropa |
-| Le armo el look a ___ | Proceso y publicidad |
+| **Le armo el look a ___** | Proceso y publicidad |
 | Cómo te venden | Proceso y publicidad |
+| Haul (SHEIN, armario, calzado) | Guía de compra — **marginal** |
+
+Fichas completas de cada formato en [`03-formatos.md`](03-formatos.md).
 
 ---
 

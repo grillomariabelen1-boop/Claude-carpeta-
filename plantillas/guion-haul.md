@@ -1,6 +1,21 @@
-# Guion — Haul (formato motor)
+# Guion — Haul (formato MARGINAL)
 
-**Duración objetivo:** 20-35s · **Items:** 5-8 · **Frecuencia:** 2-3 / semana
+**Duración objetivo:** 20-35s · **Items:** 5-8 ·
+**Frecuencia:** máximo 1 cada 2 semanas
+
+> **Bajó de motor a marginal el 30/8.** Tus dos hauls del top 10 son los dos
+> peores videos de la lista (3.998 y 3.708 contra 24.000 del primero) y los dos
+> son de SHEIN. Rinden **4× menos** que un video de color.
+> Ver [`../estrategia/10-datos-reales.md`](../estrategia/10-datos-reales.md).
+>
+> **Antes de usar esta plantilla, preguntate si el producto no da para un video
+> de color** ([`guion-formula-color.md`](guion-formula-color.md)) **o de guía de
+> compra** ([`guion-guia-de-compra.md`](guion-guia-de-compra.md)). Casi siempre
+> da, y rinde cuatro veces más.
+>
+> **Regla dura: el código de descuento NUNCA va en el título.** Va en comentario
+> fijado o en la descripción. En el título se lee como publicidad — y tanto la
+> audiencia como el algoritmo lo tratan como publicidad.
 
 ---
 
@@ -66,3 +81,6 @@
 
 #haul #____ #____
 ```
+
+> El código de descuento va **acá abajo o en comentario fijado**, nunca en el
+> título ni en el gancho.

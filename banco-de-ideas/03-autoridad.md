@@ -1,6 +1,7 @@
 # Banco — AUTORIDAD
 
-Color, colorimetría y criterio. El 20% que le da peso a todo lo demás.
+Color, colorimetría, bajitas y criterio. **El 45% de la cuenta durante la
+recuperación**: es el carril más grande, no un ancla al costado.
 
 **La regla de este carril:** el título no se dice, se demuestra. Nunca "como
 asesora de imagen te digo". El conocimiento se nota, no se anuncia.

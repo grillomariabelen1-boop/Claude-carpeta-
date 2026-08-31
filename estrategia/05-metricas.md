@@ -1,5 +1,11 @@
 # Métricas, criterios de salida y árbol de decisión
 
+> **Corregido el 31/8.** El test 3 de la línea de base contaba "hauls + combis"
+> mientras que el test 3 de [`01-diagnostico.md`](01-diagnostico.md) contaba
+> videos de color: eran dos tests distintos con el mismo número. El escenario C
+> y el "después de la salida" también seguían siendo haul-first.
+> Ver [`11-auditoria-consistencia.md`](11-auditoria-consistencia.md).
+
 ## Qué se mide y qué se ignora
 
 **Se mide:**
@@ -57,8 +63,9 @@ TEST 1 — Retención a 3s, promedio últimos 10 videos:   ______ %
 
 TEST 2 — ¿La grilla se lee como "color y estilo"?      SÍ / NO
 
-TEST 3 — Hauls + combis en los últimos 20 videos:      ______ / 20
+TEST 3 — Videos de color o colorimetría en los últ. 20: ______ / 20
          ¿Menos de 8?                                  SÍ / NO
+         (Hauls en los últimos 20, como control:        ______ / 20)
 
 TEST 4 — Días sin postear en los últimos 30:           ______
          Racha más larga sin postear:                  ______ días
@@ -74,8 +81,14 @@ Sin esto no hay forma de saber si el plan funcionó.
 ## Registro semanal
 
 Usar [`../plantillas/tracking-semanal.csv`](../plantillas/tracking-semanal.csv).
-Una fila por video, cargada **72 horas después** de publicar (antes de las 72h
-los números todavía se mueven mucho).
+**Una fila por video y por plataforma** —el mismo video da dos filas, una de
+TikTok y una de Instagram— cargada **72 horas después** de publicar (antes de
+las 72h los números todavía se mueven mucho).
+
+Que TikTok e Instagram vayan en filas separadas no es burocracia: con IG
+rindiendo el doble, la comparación por plataforma del **mismo** video es el
+dato más limpio que vas a tener sobre si un formato falla o es la plataforma la
+que está fría.
 
 Al cierre de cada semana, calcular:
 
@@ -84,6 +97,8 @@ Al cierre de cada semana, calcular:
 - Views promedio y views del mejor video
 - Cuántos videos superaron 500 views
 - Cuántos superaron 1.000 views
+- **Ratio shares/likes** de los videos de guía de compra (tu señal más fuerte:
+  la referencia son los 79% y 103% del 30/8)
 
 ## Criterios de salida del modo recuperación
 
@@ -141,12 +156,16 @@ los primeros 2 segundos.
 
 Acciones, en este orden:
 
-1. Frenar todo formato que no sea haul o combinación de color durante 2 semanas.
+1. Frenar todo formato que no sea **fórmula del color, combinación de color o
+   guía de compra** durante 2 semanas. Son los tres con evidencia.
 2. Rehacer sólo el gancho: tomar los 3 videos con **mejor** retención histórica
    de la cuenta y copiar su primer frame literalmente, mismo encuadre, misma
    distancia, misma energía.
 3. Bajar todo a **15 segundos máximo**, sin excepción.
-4. Publicar 5 hauls seguidos en 5 días y medir sólo retención a 3s.
+4. Publicar **5 videos de la fórmula del color** seguidos en 5 días —cinco
+   colores de la cola de 20— y medir sólo retención a 3s. Es la prueba más
+   limpia que existe: mismo formato, mismo gancho, cinco veces, y la única
+   variable que cambia es el color.
 
 Si después de esas 2 semanas la retención sigue sin moverse, el problema no es
 de formato sino de producción (luz, encuadre, calidad de imagen) y hay que
@@ -156,7 +175,9 @@ atacar eso antes de volver al calendario.
 
 Cuando se cumplan los cuatro criterios:
 
-1. Aflojar el ratio: bajar hauls a 40%, subir colorimetría y las series.
+1. Aflojar el ratio: bajar color de 45% a 35% y subir proceso, las series y los
+   formatos largos. El color deja de ser el 45% y pasa a ser el piso de la
+   cuenta, no todo el techo.
 2. Recuperar duraciones largas donde el formato lo pida.
 3. Abrir el carril de **AdSense**: repurposing hacia afuera de la plataforma
    (ver [`06-colabs-y-monetizacion.md`](06-colabs-y-monetizacion.md)).

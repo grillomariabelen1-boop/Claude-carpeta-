@@ -20,7 +20,11 @@ Es la única regla que hace sostenible el día a día. Cuando el colchón baja d
 5, el próximo día bueno se graba de más para reponerlo.
 
 No son videos "de relleno": son los mismos videos, grabados con anticipación.
-Un haul grabado el martes y subido el jueves no pierde nada.
+Un video de color grabado el martes y subido el jueves no pierde nada.
+
+**Qué conviene tener en el colchón:** 2 de la fórmula del color y 2 de guía de
+compra. Son los dos formatos que no dependen de que pase nada ese día, así que
+son los que mejor se graban por adelantado.
 
 Estado del colchón: llevar la cuenta en
 [`../banco-de-ideas/estado.csv`](../banco-de-ideas/estado.csv).
@@ -51,12 +55,18 @@ más barato que podés hacer por tu consistencia.
 
 ## Regla 4 — Anclas semanales
 
-Dos videos por semana **ya están decididos** antes de que empiece la semana:
+**Tres** videos por semana ya están decididos antes de que empiece la semana:
 
-- **Miércoles:** Serie de Colores o Serie de Estilos (alternando)
-- **Viernes:** el formato que mejor viene rindiendo
+- **Lunes:** la fórmula del color — el próximo color de la cola de 20
+- **Miércoles:** bajitas, alternando con Serie de Colores
+- **Jueves:** guía de compra
 
-Eso baja la decisión diaria de 5 videos a 3. La fatiga de decisión es lo que
+Los tres son los formatos con evidencia
+([`03-formatos.md`](03-formatos.md)) y ninguno requiere que compres nada. El
+viernes también está fijado desde la semana 2 ("le armo el look a ___"), así que
+en la práctica **el único día que hay que decidir es el martes**.
+
+Eso baja la decisión diaria de 5 videos a 1. La fatiga de decisión es lo que
 mata las rachas, no la falta de ideas.
 
 ## Regla 5 — Los tres días muertos
@@ -105,7 +115,7 @@ PRIMERA HORA
 | Martes | Vida con ropa o peinados |
 | Miércoles | **Ancla:** Bajitas (alterna con Serie de Colores) |
 | Jueves | **Guía de compra** — tiendas, reglas antes de comprar |
-| Viernes | Color, o proceso / "Le armo el look a ___" |
+| Viernes | **Proceso** — "Le armo el look a ___" (desde la semana 2) |
 | Sáb/Dom | No se publica. Se repone colchón si hace falta. |
 
 Cinco por semana, **cada uno publicado en TikTok e Instagram**.

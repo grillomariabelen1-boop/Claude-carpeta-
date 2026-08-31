@@ -3,14 +3,22 @@
 Alrededor de **215 ideas** organizadas por carril. No es una lista para tachar
 de arriba a abajo: es una reserva para el día que no se te ocurre nada.
 
-## Los tres archivos
+## Los cuatro archivos
+
+> **Pesos corregidos el 31/8.** Esta tabla todavía era la del plan haul-first
+> (consumo 40% "el motor", autoridad 20% "el ancla"). Los datos del 30/8 dieron
+> vuelta esos dos lugares. Ahora cierra contra el reparto canónico de
+> [`../estrategia/07-pilares-y-voz.md`](../estrategia/07-pilares-y-voz.md).
 
 | Archivo | Carril | Peso en recuperación |
 |---|---|---|
-| [`01-vida-con-ropa.md`](01-vida-con-ropa.md) | Vida con ropa — el vínculo | 30% |
-| [`02-consumo.md`](02-consumo.md) | Consumo y objetos — el motor | 40% |
-| [`03-autoridad.md`](03-autoridad.md) | Autoridad — el ancla | 20% |
-| [`04-proceso-y-publicidad.md`](04-proceso-y-publicidad.md) | Proceso y publicidad — el diferencial | 10% (desde semana 3) |
+| [`03-autoridad.md`](03-autoridad.md) | Autoridad — **el motor** (color, colorimetría, bajitas) | **45%** |
+| [`02-consumo.md`](02-consumo.md) | **Guía de compra** — lo más compartible | 20% |
+| [`01-vida-con-ropa.md`](01-vida-con-ropa.md) | Vida con ropa — el vínculo | 20% |
+| [`04-proceso-y-publicidad.md`](04-proceso-y-publicidad.md) | Proceso y publicidad — el diferencial | 15% (desde **semana 2**) |
+
+El nombre del archivo `02-consumo.md` quedó del plan viejo; adentro el carril ya
+es guía de compra.
 
 Definición de los carriles en
 [`../estrategia/07-pilares-y-voz.md`](../estrategia/07-pilares-y-voz.md).

@@ -1,6 +1,11 @@
 # Banco — VIDA CON ROPA
 
-Tu día a día resuelto con criterio de estilo. El carril del vínculo.
+Tu día a día resuelto con criterio de estilo. El carril del vínculo. **20% de
+la cuenta durante la recuperación**, en el slot del martes.
+
+**Ojo:** *tips para bajitas* vive en
+[`03-autoridad.md`](03-autoridad.md), aunque suene a vida con ropa. Es criterio
+de asesora aplicado a proporción, es tu video #1 y es ancla semanal.
 
 ⭐ = apuesta segura durante la recuperación (retención alta, producción baja)
 

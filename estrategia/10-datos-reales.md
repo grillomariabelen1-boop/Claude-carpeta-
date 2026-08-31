@@ -298,6 +298,14 @@ que los respaldan: **guía de compra** (hallazgo 6) y **proceso y edición**
 | **Vida con ropa + bajitas** | 25% | Bajitas como ancla, los 30 con trabajo |
 | **Proceso y publicidad** | 15% | Edición, cómo te venden, "le armo el look a" |
 
+> **Nota del 31/8 — dónde se cuenta bajitas.** Esta tabla y la línea
+> "Autoridad 45%" del cuadro de arriba parecen dos repartos distintos y son el
+> mismo: bajitas (5%) está acá adentro de "vida con ropa" y allá adentro de
+> "autoridad". El reparto **canónico** —el que usan el calendario y el banco de
+> ideas— cuenta bajitas en Autoridad y está en
+> [`07-pilares-y-voz.md`](07-pilares-y-voz.md):
+> **Autoridad 45% · Guía de compra 20% · Vida con ropa 20% · Proceso 15%.**
+
 Peinados entran adentro de "vida con ropa" (1 cada 10 días: rinden bien en las
 dos plataformas — 6.580 en TikTok, 54.100 en Instagram).
 
