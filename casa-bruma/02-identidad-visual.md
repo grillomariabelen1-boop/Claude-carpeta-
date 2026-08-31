@@ -39,6 +39,37 @@ en vez de flotar chiquito adentro, que era el problema del que tenía antes.
 píxeles las letras quedan de dos píxeles de ancho y desaparecen. Partido en dos
 renglones ocupa el doble de altura y se lee. Es el mismo logo, no otro.
 
+### El avatar: por qué va oscuro
+
+**El avatar no está en el feed.** Vive arriba de la grilla y nunca es uno de los
+nueve cuadraditos, así que no compite con las fotos.
+
+Probado a los cinco tamaños reales de Instagram —110 en el perfil, 56 en
+historias, 40 en el feed, 32 en comentarios, 24 en listas—:
+
+| Versión | Resultado |
+|---|---|
+| Claro sobre claro (el actual) | Flojo ya a 110; a 40 es una mancha |
+| Oliva lleno, nombre chico | Se sostiene hasta 40 |
+| **Oliva lleno, nombre grande** | **El mejor. Agrandar el nombre para que llene el círculo casi duplica el rango legible** |
+
+**No limita el feed, lo ancla.** El oliva es el único punto oscuro de la
+pantalla, que es exactamente lo que tiene que hacer un avatar: decir dónde
+empieza la cuenta. Y no pelea con el crudo porque este verde casi no es verde:
+`#4E5340` está tan desaturado que el ojo lo lee como un oscuro cálido.
+
+**Tres cosas más:** dentro del anillo de historias un avatar claro se lava y uno
+oscuro se sostiene; en una lista de comentarios es el único disco oscuro entre
+fotos de caras; y en modo oscuro el crudo se ensucia, el oliva no.
+
+**Lo que hay que aceptar:** de 32 px para abajo no se lee ningún avatar, ni el
+tuyo ni el de nadie. Ahí se reconoce por color y forma. No hace falta una versión
+con iniciales.
+
+**Dónde sí hay que medirse con el oliva:** adentro de las publicaciones, que es
+donde sí comparte espacio con las fotos. Como fondo de una placa entera puede
+pesar; como color de texto sobre crudo, funciona siempre.
+
 ### Lo que se probó y se descartó
 
 Antes de llegar acá se descartaron, en este orden: arcos concéntricos, hornacina,
