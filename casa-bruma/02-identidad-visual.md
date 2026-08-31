@@ -26,7 +26,7 @@ Tres versiones del mismo logo, no tres logos distintos.
 |---|---|---|
 | **Principal** | `CASA BRUMA` en una línea, tracking 0.42em | Web, packaging, firma, pie de placa |
 | **Avatar** | `CASA` / `BRUMA` apilado en dos líneas, tracking 0.20em | Foto de perfil de Instagram y de la tienda |
-| **Monograma** | Las dos iniciales `CB` en color | Stickers, etiquetas, lacre, avatar |
+| **Monograma** | `C` + `B` espejada, en color | Stickers, etiquetas, lacre, avatar |
 
 **Por qué el apilado:** una serif finísima con mucho tracking, en una sola línea,
 desaparece adentro del círculo de Instagram. Apilada en dos líneas ocupa el
@@ -43,6 +43,21 @@ segunda lectura fálica. Es un problema clásico de monograma y no se resuelve
 espaciando ni cambiando de tipografía: se resuelve sacando la ascendente. Las
 tres disposiciones válidas son **mayúsculas**, **apiladas** y **en círculo**;
 esta última es la mejor para el avatar porque llena la foto de perfil.
+
+**La B va espejada, mirando a la C.** Es lo que convierte a las dos letras en una
+sola figura simétrica en vez de dos iniciales una al lado de la otra, y de paso
+elimina del todo la ascendente. Espejar una inicial es un recurso clásico de
+monograma —las dos C de Chanel, las dos G de Gucci—, así que se lee como marca y
+no como letra dada vuelta.
+
+Funciona mejor con serifs de remate marcado (Marcellus, EB Garamond, Cormorant):
+los remates de la B enganchan con la curva de la C y cierran la figura.
+
+**Contra conocida:** a tamaño muy chico algunas personas leen «CЯ» antes que
+«CB». Se resuelve con la versión superpuesta, donde ya no se leen letras sueltas.
+
+**Disposiciones válidas:** juntas, superpuestas, con aire, y en círculo — esta
+última es la del avatar, porque llena la foto de perfil.
 
 **A definir** (dos ejes, en el tablero): la tipografía entre doce candidatas y
 el color entre siete de la paleta.
