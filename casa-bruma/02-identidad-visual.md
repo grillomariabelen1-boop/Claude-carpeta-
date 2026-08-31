@@ -26,7 +26,7 @@ Tres versiones del mismo logo, no tres logos distintos.
 |---|---|---|
 | **Principal** | `CASA BRUMA` en una línea, tracking 0.42em | Web, packaging, firma, pie de placa |
 | **Avatar** | `CASA` / `BRUMA` apilado en dos líneas, tracking 0.20em | Foto de perfil de Instagram y de la tienda |
-| **Monograma** | Las dos iniciales `cb` en color | Stickers, etiquetas, lacre, avatar |
+| **Monograma** | Las dos iniciales `CB` en color | Stickers, etiquetas, lacre, avatar |
 
 **Por qué el apilado:** una serif finísima con mucho tracking, en una sola línea,
 desaparece adentro del círculo de Instagram. Apilada en dos líneas ocupa el
@@ -37,9 +37,15 @@ gente te ve en el feed.
 nicho, díptico, la C rastrillada, la espiral del ovillo, la gota de cera y el
 disco difuso. La marca no lleva símbolo — lleva **las dos iniciales**.
 
-**A definir** (tres ejes, en el tablero): la tipografía entre doce candidatas, el
-color entre siete de la paleta, y la disposición entre minúsculas juntas,
-mayúsculas, superpuestas o apiladas.
+**El monograma va en MAYÚSCULAS.** En minúscula, la ascendente de la `b` se
+levanta junto a los dos redondeles de la `c` y la `b`, y el conjunto tiene una
+segunda lectura fálica. Es un problema clásico de monograma y no se resuelve
+espaciando ni cambiando de tipografía: se resuelve sacando la ascendente. Las
+tres disposiciones válidas son **mayúsculas**, **apiladas** y **en círculo**;
+esta última es la mejor para el avatar porque llena la foto de perfil.
+
+**A definir** (dos ejes, en el tablero): la tipografía entre doce candidatas y
+el color entre siete de la paleta.
 
 **Ámbar `#A9713C` queda descartado** como color del monograma.
 
