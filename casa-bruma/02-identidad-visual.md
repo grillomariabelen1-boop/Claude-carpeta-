@@ -26,7 +26,7 @@ Tres versiones del mismo logo, no tres logos distintos.
 |---|---|---|
 | **Principal** | `CASA BRUMA` en una línea, tracking 0.42em | Web, packaging, firma, pie de placa |
 | **Avatar** | `CASA` / `BRUMA` apilado en dos líneas, tracking 0.20em | Foto de perfil de Instagram y de la tienda |
-| **Monograma** | `C` + `B` espejada, en color | Stickers, etiquetas, lacre, avatar |
+| **Monograma** | `C` + `B` espejada y entrelazada, en color | Stickers, etiquetas, lacre, avatar |
 
 **Por qué el apilado:** una serif finísima con mucho tracking, en una sola línea,
 desaparece adentro del círculo de Instagram. Apilada en dos líneas ocupa el
@@ -50,14 +50,25 @@ elimina del todo la ascendente. Espejar una inicial es un recurso clásico de
 monograma —las dos C de Chanel, las dos G de Gucci—, así que se lee como marca y
 no como letra dada vuelta.
 
-Funciona mejor con serifs de remate marcado (Marcellus, EB Garamond, Cormorant):
-los remates de la B enganchan con la curva de la C y cierran la figura.
+### Las dos correcciones que trajeron las referencias
 
-**Contra conocida:** a tamaño muy chico algunas personas leen «CЯ» antes que
-«CB». Se resuelve con la versión superpuesta, donde ya no se leen letras sueltas.
+Chanel y Louis Vuitton —las referencias que eligió ella— tienen dos cosas que a
+las primeras versiones les faltaban:
 
-**Disposiciones válidas:** juntas, superpuestas, con aire, y en círculo — esta
-última es la del avatar, porque llena la foto de perfil.
+1. **Están entrelazadas, no apoyadas.** Las letras se cruzan y una pasa por
+   delante de la otra, con un corte al color del fondo. Eso las convierte en un
+   objeto solo en vez de dos letras que se tocan.
+2. **Son pesadas.** Los dos logos son gruesos y de contraste fuerte. Las serifs
+   finas y elegantes se evaporan a tamaño de avatar.
+
+Con eso, las tipografías candidatas se reducen a las de peso: **Marcellus**,
+**Playfair Display**, **DM Serif Display** y **Bodoni Moda**.
+
+**Cuánto se encima** es la decisión que más cambia el resultado. Muy encimadas
+dejan de leerse como dos letras; la superposición media es el punto.
+
+**El avatar** va en círculo lleno de color con el monograma calado: llena la
+foto de perfil en vez de flotar adentro, que era el problema del logo anterior.
 
 **A definir** (dos ejes, en el tablero): la tipografía entre doce candidatas y
 el color entre siete de la paleta.
