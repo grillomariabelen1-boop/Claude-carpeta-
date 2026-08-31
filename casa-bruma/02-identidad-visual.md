@@ -26,16 +26,17 @@ Tres versiones del mismo logo, no tres logos distintos.
 |---|---|---|
 | **Principal** | `CASA BRUMA` en una línea, tracking 0.42em | Web, packaging, firma, pie de placa |
 | **Avatar** | `CASA` / `BRUMA` apilado en dos líneas, tracking 0.20em | Foto de perfil de Instagram y de la tienda |
-| **Sello** | Las cuatro ondas dentro de un círculo | Stickers, etiquetas, lacre, cajas |
+| **Sello** | Siete arcos concéntricos dentro de un círculo | Stickers, etiquetas, lacre, cajas |
 
 **Por qué el apilado:** una serif finísima con mucho tracking, en una sola línea,
 desaparece adentro del círculo de Instagram. Apilada en dos líneas ocupa el
 doble de altura y sobrevive a los 40 píxeles, que es el tamaño real al que la
 gente te ve en el feed.
 
-**De dónde sale el sello:** de tus propios cuadros. Las ondas en relieve son la
-pieza que mejor funcionó de todo el perfil y son lo único que nadie puede
-copiarte rápido. **La firma de Casa Bruma es su textura.**
+**De dónde sale el sello:** de tus propios cuadros. No es un símbolo inventado —
+son los arcos rastrillados del relieve, reducidos a siete líneas. La pieza que
+mejor funcionó de todo el perfil es también lo único que nadie te copia rápido:
+**la firma de Casa Bruma es su textura.**
 
 ---
 
@@ -75,6 +76,17 @@ El límite no es "sin color", es **la saturación**:
 | Humo | `#8D9AA1` |
 | Bordó | `#7A4A4A` |
 | Chocolate | `#6B5445` |
+
+### Tus colores propios
+
+Medidos sobre las fotos que pasaste y compensados por la subexposición. Son los
+materiales que ya vendés:
+
+| Nombre | Hex | Qué es |
+|---|---|---|
+| Yeso | `#EDE9E2` | Los cuadros texturados |
+| Cera | `#EFE6D2` | La cera de soja sin teñir |
+| Madera | `#A9784E` | Los bowls torneados |
 
 **No entra:** neón, primarios, fucsia, verde eléctrico, nada con brillo. No es
 capricho estético — un color que grita contradice literalmente la promesa de
@@ -119,6 +131,41 @@ EN LA CASA  PRODUCTO    TEXTURA
 > miniatura un objeto blanco sobre fondo blanco **desaparece**. Lo único que lo
 > salva es la sombra de la textura — por eso el cuadro texturado se ve tan bien
 > y una vela lisa se vería mucho menos.
+
+---
+
+## La foto
+
+Medí las cuatro fotos que pasaste. Hay un problema que no se ve mirándolas de a
+una, pero sí cuando quedan juntas en la grilla: **las fotos de las velas son
+cálidas y están bien expuestas; las de los cuadros son frías y oscuras.**
+
+| Foto | Luces | Calidez | Diagnóstico |
+|---|---|---|---|
+| Díptico de frente | 74% | −4 | Oscura y fría |
+| Díptico en ángulo | 76% | +2 | Oscura |
+| Vela en bowl | 87% | +18 | Casi |
+| Vela ovillo | 91% | +9 | **La referencia** |
+| **Objetivo** | **90–94%** | **+8 a +16** | |
+
+**Qué significa cada número.** *Luces* es qué tan claro llega lo más blanco de la
+foto: el yeso de tus cuadros es blanco, así que tiene que llegar a 90 y pico; a
+74 está gris. *Calidez* es cuánto rojo hay de más sobre el azul: en cero la foto
+es neutra, en negativo se va al gris azulado.
+
+**Por qué importa acá:** es tu mejor producto con tus peores fotos. Los cuadros
+son la pieza que más lejos llegó del perfil y la que nadie te copia — y están
+fotografiados un paso y medio abajo y con la luz fría. El objeto es hermoso; la
+foto lo apaga.
+
+**Cómo se arregla, sin equipo:** subir la exposición hasta que el yeso se vea
+blanco y no gris, y llevar la temperatura hacia el amarillo hasta salir del azul.
+Es un ajuste de treinta segundos en el celular, no una sesión de fotos. La vela
+ovillo ya está bien: usala de referencia y llevá todo lo demás a ese punto.
+
+Después de eso, una sola regla: **todas las fotos con la misma luz.** Una grilla
+mitad fría y mitad cálida no se lee como una marca, se lee como fotos sueltas de
+cosas distintas.
 
 ---
 
