@@ -35,6 +35,19 @@ espacio entre las letras, y eso no se pasa de moda ni se lee mal a ningún tama�
 **Por qué el avatar va en círculo lleno:** el logo ocupa toda la foto de perfil
 en vez de flotar chiquito adentro, que era el problema del que tenía antes.
 
+### Las proporciones — esto es lo que importa
+
+| Pieza | Proporción |
+|---|---|
+| CB dentro del círculo | **0,42** del diámetro |
+| Nombre dentro del círculo | **0,145** (o 0,120 en la versión mini) |
+| Logotipo en una línea | tracking **0,30em** |
+
+> **La corrección que destrabó todo la hizo la dueña de la marca.** Se venían
+> probando tipografías una tras otra dando por sentado que el problema era la
+> letra. No lo era: el texto adentro del círculo estaba demasiado grande. Con dos
+> iniciales en vez de diez letras, el CB puede ir al 0,42 y se lee a 32 px.
+
 **Por qué el nombre va apilado ahí:** en una sola línea, con ese tracking, a 40
 píxeles las letras quedan de dos píxeles de ancho y desaparecen. Partido en dos
 renglones ocupa el doble de altura y se lee. Es el mismo logo, no otro.
@@ -105,7 +118,7 @@ propósito.
 | Arena | `#E3DACE` | Bloques, cajas, separadores |
 | Lino | `#C4B9AC` | Sombras y líneas |
 | Tinta | `#2C2825` | Todo el texto. **Nunca negro puro** |
-| Acento · a definir | oliva `#4E5340` o chocolate `#4A382C` | El color del logotipo |
+| Oliva | `#6E7560` | El color de la marca y del logotipo |
 
 ### Paleta de producto — lo que vendés
 
