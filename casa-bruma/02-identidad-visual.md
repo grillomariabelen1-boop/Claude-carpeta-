@@ -105,7 +105,7 @@ propósito.
 | Arena | `#E3DACE` | Bloques, cajas, separadores |
 | Lino | `#C4B9AC` | Sombras y líneas |
 | Tinta | `#2C2825` | Todo el texto. **Nunca negro puro** |
-| Oliva profundo | `#4E5340` | Único acento. Es el color del logotipo |
+| Acento · a definir | oliva `#4E5340` o chocolate `#4A382C` | El color del logotipo |
 
 ### Paleta de producto — lo que vendés
 
