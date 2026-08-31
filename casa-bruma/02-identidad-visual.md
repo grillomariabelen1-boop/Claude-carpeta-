@@ -20,65 +20,41 @@ siempre es porque tiene filo.
 
 ## Logotipo
 
-Tres versiones del mismo logo, no tres logos distintos.
+**El logo de Casa Bruma es su nombre escrito. No hay monograma ni símbolo.**
+
+No es la opción de descarte: es la más difícil de hacer mal y la que más marcas
+de esta categoría eligen. Sin ícono, todo el peso lo llevan la tipografía y el
+espacio entre las letras, y eso no se pasa de moda ni se lee mal a ningún tamaño.
 
 | Versión | Cómo es | Dónde va |
 |---|---|---|
-| **Principal** | `CASA BRUMA` en una línea, tracking 0.42em | Web, packaging, firma, pie de placa |
-| **Avatar** | `CASA` / `BRUMA` apilado en dos líneas, tracking 0.20em | Foto de perfil de Instagram y de la tienda |
-| **Monograma** | `C` + `B` espejada y entrelazada, en color | Stickers, etiquetas, lacre, avatar |
+| **Principal** | `CASA BRUMA` en una línea, tracking amplio | Web, packaging, firma |
+| **Avatar** | Círculo lleno de oliva, nombre calado en dos renglones | Foto de perfil de Instagram y de la tienda |
+| **Apilado** | `CASA` / `BRUMA` en oliva sobre fondo claro | Etiquetas, sellos, cajas |
 
-**Por qué el apilado:** una serif finísima con mucho tracking, en una sola línea,
-desaparece adentro del círculo de Instagram. Apilada en dos líneas ocupa el
-doble de altura y sobrevive a los 40 píxeles, que es el tamaño real al que la
-gente te ve en el feed.
+**Por qué el avatar va en círculo lleno:** el logo ocupa toda la foto de perfil
+en vez de flotar chiquito adentro, que era el problema del que tenía antes.
 
-**No hay isotipo.** Se probaron y se descartaron: arcos concéntricos, hornacina,
-nicho, díptico, la C rastrillada, la espiral del ovillo, la gota de cera y el
-disco difuso. La marca no lleva símbolo — lleva **las dos iniciales**.
+**Por qué el nombre va apilado ahí:** en una sola línea, con ese tracking, a 40
+píxeles las letras quedan de dos píxeles de ancho y desaparecen. Partido en dos
+renglones ocupa el doble de altura y se lee. Es el mismo logo, no otro.
 
-**El monograma va en MAYÚSCULAS.** En minúscula, la ascendente de la `b` se
-levanta junto a los dos redondeles de la `c` y la `b`, y el conjunto tiene una
-segunda lectura fálica. Es un problema clásico de monograma y no se resuelve
-espaciando ni cambiando de tipografía: se resuelve sacando la ascendente. Las
-tres disposiciones válidas son **mayúsculas**, **apiladas** y **en círculo**;
-esta última es la mejor para el avatar porque llena la foto de perfil.
+### Lo que se probó y se descartó
 
-**La B va espejada, mirando a la C.** Es lo que convierte a las dos letras en una
-sola figura simétrica en vez de dos iniciales una al lado de la otra, y de paso
-elimina del todo la ascendente. Espejar una inicial es un recurso clásico de
-monograma —las dos C de Chanel, las dos G de Gucci—, así que se lee como marca y
-no como letra dada vuelta.
+Antes de llegar acá se descartaron, en este orden: arcos concéntricos, hornacina,
+nicho, díptico, la C rastrillada, la espiral del ovillo, la gota de cera, el
+disco difuso, el monograma `cb` en minúsculas (segunda lectura fálica), el
+monograma `CB` en mayúsculas y el `CB` espejado y entrelazado.
 
-### Las dos correcciones que trajeron las referencias
+**La conclusión de todo eso:** esta marca no necesita un símbolo. Necesita un
+nombre bien puesto.
 
-Chanel y Louis Vuitton —las referencias que eligió ella— tienen dos cosas que a
-las primeras versiones les faltaban:
+### A definir
 
-1. **Están entrelazadas, no apoyadas.** Las letras se cruzan y una pasa por
-   delante de la otra, con un corte al color del fondo. Eso las convierte en un
-   objeto solo en vez de dos letras que se tocan.
-2. **Son pesadas.** Los dos logos son gruesos y de contraste fuerte. Las serifs
-   finas y elegantes se evaporan a tamaño de avatar.
-
-Con eso, las tipografías candidatas se reducen a las de peso: **Marcellus**,
-**Playfair Display**, **DM Serif Display** y **Bodoni Moda**.
-
-**Cuánto se encima** es la decisión que más cambia el resultado. Muy encimadas
-dejan de leerse como dos letras; la superposición media es el punto.
-
-**El avatar** va en círculo lleno de color con el monograma calado: llena la
-foto de perfil en vez de flotar adentro, que era el problema del logo anterior.
-
-**A definir** (dos ejes, en el tablero): la tipografía entre doce candidatas y
-el color entre siete de la paleta.
-
-**El ámbar `#A9713C` queda descartado de toda la identidad**, no sólo del
-monograma: no es más el acento, no está en la paleta y no se usa en ningún
-lado. El acento de la marca pasa a ser **terracota `#B07862`**.
-
-Lo que sí queda firme, aunque no sea el logo: **la textura del yeso es la firma
-de la marca.** Va como fondo de etiquetas, cajas e historias, no como símbolo.
+La tipografía, entre ocho candidatas — todas en Canva y en Google Fonts. La
+recomendada es **Marcellus**: romana y cálida, con el grosor justo para no
+evaporarse en chico. **Jost** si se lo quiere más frío y geométrico;
+**Tenor Sans** si se lo quiere sin serif pero cálido.
 
 ---
 
@@ -98,7 +74,7 @@ propósito.
 | Arena | `#E3DACE` | Bloques, cajas, separadores |
 | Lino | `#C4B9AC` | Sombras y líneas |
 | Tinta | `#2C2825` | Todo el texto. **Nunca negro puro** |
-| Terracota | `#B07862` | Único acento de la marca |
+| Oliva profundo | `#4E5340` | Único acento. Es el color del logotipo |
 
 ### Paleta de producto — lo que vendés
 
