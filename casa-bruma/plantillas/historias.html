@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Casa Bruma — Plantillas de historias</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Jost:wght@300;400;500&display=swap');
+
+  /* ══ CASA BRUMA · Historias · 1080 × 1920 ══════════════ */
+  :root{
+    --oliva:#6E7560; --crudo:#F2EEE8; --papel:#FAF8F5; --arena:#E3DACE;
+    --tinta:#2C2825;
+    --serif:'Lora', Georgia, serif;
+    --sans:'Jost', 'Helvetica Neue', Arial, sans-serif;
+  }
+  body{ margin:0; background:#8C8C86; }
+  .page{
+    position:relative; width:1080px; height:1920px; overflow:hidden;
+    background:var(--crudo); margin:0 auto 40px; font-family:var(--sans);
+  }
+  .page.oliva{ background:var(--oliva); }
+  .page.papel{ background:var(--papel); }
+  .foto{ position:absolute; background:var(--arena); }
+  .foto span{
+    position:absolute; left:0; right:0; top:50%; margin-top:-13px; text-align:center;
+    font-size:23px; letter-spacing:6px; text-transform:uppercase; color:#A2988A;
+  }
+  .titulo{ position:absolute; font-family:var(--serif); font-weight:400; line-height:1.16; color:var(--oliva); }
+  .titulo.claro{ color:var(--crudo); }
+  .texto{ position:absolute; font-size:34px; line-height:1.55; color:var(--tinta); font-weight:300; }
+  .texto.claro{ color:#DDE1D4; }
+  .etiqueta{ position:absolute; font-size:23px; letter-spacing:5px; text-transform:uppercase; color:var(--oliva); }
+  .etiqueta.claro{ color:#C6CCB8; }
+  .regla{ position:absolute; height:2px; background:var(--oliva); }
+  .bloque{ position:absolute; background:var(--oliva); }
+  .marca{ position:absolute; font-family:var(--serif); letter-spacing:12px; color:var(--oliva); }
+  .marca.claro{ color:var(--crudo); }
+  .disco{
+    position:absolute; border-radius:50%; background:var(--oliva);
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    font-family:var(--serif); color:var(--crudo); line-height:1.1;
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ 1 · PRODUCTO ══════════════════════════════════════ -->
+<div class="page" data-document-role="page" data-label="1 · Producto">
+  <div class="foto" style="left:0; top:0; width:1080px; height:1240px;"><span>Foto</span></div>
+  <div class="etiqueta" style="left:80px; top:1330px;">Ya disponible</div>
+  <div class="titulo" style="left:80px; top:1400px; width:920px; font-size:76px;">Vela en bowl<br>de madera</div>
+  <div class="texto" style="left:80px; top:1620px; width:900px;">Cera de soja · 40 horas</div>
+  <div class="marca" style="left:80px; top:1780px; font-size:28px;">CASA BRUMA</div>
+</div>
+
+<!-- ══ 2 · FRASE ═════════════════════════════════════════ -->
+<div class="page oliva" data-document-role="page" data-label="2 · Frase">
+  <div class="etiqueta claro" style="left:80px; top:280px;">Para sentirte en casa</div>
+  <div class="titulo claro" style="left:80px; top:620px; width:920px; font-size:92px;">Se enciende<br>y la habitación<br>cambia.</div>
+  <div class="regla" style="left:80px; top:1080px; width:90px; background:#A8B098;"></div>
+  <div class="marca claro" style="left:80px; top:1780px; font-size:28px;">CASA BRUMA</div>
+</div>
+
+<!-- ══ 3 · DESLIZÁ PARA COMPRAR ══════════════════════════ -->
+<div class="page papel" data-document-role="page" data-label="3 · Deslizá para comprar">
+  <div class="foto" style="left:80px; top:220px; width:920px; height:1000px;"><span>Foto</span></div>
+  <div class="titulo" style="left:80px; top:1310px; width:920px; font-size:70px;">Escribinos y<br>te la preparamos.</div>
+  <div class="texto" style="left:80px; top:1560px; width:900px;">Envíos a todo el país</div>
+  <div class="disco" style="left:790px; top:1520px; width:210px; height:210px; font-size:34px; letter-spacing:6px;"><span>CASA</span><span>BRUMA</span></div>
+</div>
+
+<!-- ══ 4 · PROCESO ═══════════════════════════════════════ -->
+<div class="page" data-document-role="page" data-label="4 · Proceso">
+  <div class="bloque" style="left:0; top:0; width:1080px; height:520px;"></div>
+  <div class="etiqueta claro" style="left:80px; top:180px;">Detrás de escena</div>
+  <div class="titulo claro" style="left:80px; top:250px; width:920px; font-size:70px;">Así se prepara<br>tu pedido.</div>
+  <div class="foto" style="left:0; top:520px; width:1080px; height:1120px;"><span>Foto o video</span></div>
+  <div class="texto" style="left:80px; top:1700px; width:900px; font-size:32px;">Hecho en casa, una por una.</div>
+  <div class="marca" style="left:80px; top:1800px; font-size:26px;">CASA BRUMA</div>
+</div>
+
+</body>
+</html>

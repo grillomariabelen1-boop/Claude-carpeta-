@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Casa Bruma — Plantillas de feed</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Jost:wght@300;400;500&display=swap');
+
+  /* ══ SISTEMA CASA BRUMA ══════════════════════════════════
+     Feed de Instagram · 1080 × 1350 (4:5)
+     Oliva #6E7560 · Crudo #F2EEE8 · Lora + Jost
+     Cada .page entra a Canva como una diapositiva editable.
+     ═══════════════════════════════════════════════════════ */
+  :root{
+    --oliva:#6E7560; --oliva-osc:#565C4A;
+    --crudo:#F2EEE8; --papel:#FAF8F5; --arena:#E3DACE; --lino:#C4B9AC;
+    --tinta:#2C2825; --humo:#7B7269;
+    --serif:'Lora', Georgia, serif;
+    --sans:'Jost', 'Helvetica Neue', Arial, sans-serif;
+  }
+  body{ margin:0; background:#8C8C86; }
+  .page{
+    position:relative; width:1080px; height:1350px; overflow:hidden;
+    background:var(--crudo); margin:0 auto 40px; font-family:var(--sans);
+  }
+  .page.oliva{ background:var(--oliva); }
+  .page.papel{ background:var(--papel); }
+
+  .foto{ position:absolute; background:var(--arena); }
+  .foto span{
+    position:absolute; left:0; right:0; top:50%; margin-top:-13px; text-align:center;
+    font-size:23px; letter-spacing:6px; text-transform:uppercase; color:#A2988A; font-weight:400;
+  }
+  .titulo{ position:absolute; font-family:var(--serif); font-weight:400; line-height:1.16; color:var(--oliva); }
+  .titulo.claro{ color:var(--crudo); }
+  .titulo.tinta{ color:var(--tinta); }
+  .texto{ position:absolute; font-size:32px; line-height:1.55; color:var(--tinta); font-weight:300; }
+  .texto.claro{ color:#DDE1D4; }
+  .etiqueta{
+    position:absolute; font-size:22px; letter-spacing:5px; text-transform:uppercase;
+    color:var(--oliva); font-weight:400;
+  }
+  .etiqueta.claro{ color:#C6CCB8; }
+  .regla{ position:absolute; height:2px; background:var(--oliva); }
+  .regla.claro{ background:#A8B098; }
+  .bloque{ position:absolute; background:var(--oliva); }
+  .marca{ position:absolute; font-family:var(--serif); letter-spacing:12px; color:var(--oliva); }
+  .marca.claro{ color:var(--crudo); }
+  .disco{
+    position:absolute; border-radius:50%; background:var(--oliva);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--serif); color:var(--crudo);
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ 1 · PORTADA DE CARRUSEL ═══════════════════════════ -->
+<div class="page" data-document-role="page" data-label="1 · Portada de carrusel">
+  <div class="foto" style="left:0; top:0; width:1080px; height:800px;"><span>Foto</span></div>
+  <div class="etiqueta" style="left:80px; top:872px;">Casa Bruma</div>
+  <div class="titulo" style="left:80px; top:930px; width:920px; font-size:78px;">Tres formas de<br>usar una vela<br>que no conocías.</div>
+  <div class="regla" style="left:80px; top:1230px; width:90px;"></div>
+</div>
+
+<!-- ══ 2 · PLACA DE FRASE ════════════════════════════════ -->
+<div class="page papel" data-document-role="page" data-label="2 · Placa de frase">
+  <div class="etiqueta" style="left:80px; top:150px;">Para sentirte en casa</div>
+  <div class="titulo" style="left:80px; top:400px; width:920px; font-size:88px;">Se enciende<br>y la habitación<br>cambia.</div>
+  <div class="regla" style="left:80px; top:800px; width:90px;"></div>
+  <div class="marca" style="left:80px; top:1210px; font-size:30px;">CASA BRUMA</div>
+</div>
+
+<!-- ══ 3 · FICHA DE PRODUCTO ═════════════════════════════ -->
+<div class="page" data-document-role="page" data-label="3 · Ficha de producto">
+  <div class="foto" style="left:0; top:0; width:1080px; height:860px;"><span>Foto del producto</span></div>
+  <div class="titulo" style="left:80px; top:920px; width:640px; font-size:62px;">Vela en bowl<br>de madera</div>
+  <div class="texto" style="left:80px; top:1090px; width:640px; font-size:29px;">Cera de soja · 40 horas<br>Hecho en casa</div>
+  <div class="titulo" style="left:760px; top:930px; width:240px; font-size:56px;">$00.000</div>
+  <div class="regla" style="left:80px; top:1270px; width:90px;"></div>
+</div>
+
+<!-- ══ 4 · ESPECIFICACIONES ══════════════════════════════ -->
+<div class="page oliva" data-document-role="page" data-label="4 · Especificaciones">
+  <div class="etiqueta claro" style="left:80px; top:150px;">Cómo está hecha</div>
+  <div class="titulo claro" style="left:80px; top:220px; width:920px; font-size:70px;">Vela en bowl<br>de madera</div>
+  <div class="regla claro" style="left:80px; top:450px; width:90px;"></div>
+  <div class="texto claro" style="left:80px; top:530px; width:900px; font-size:34px; line-height:1.9;">Cera de soja, sin parafina<br>Mecha de algodón<br>Bowl de madera torneada<br>Cuarenta horas de encendido<br>Tres días de curado antes de salir</div>
+  <div class="marca claro" style="left:80px; top:1210px; font-size:28px;">CASA BRUMA</div>
+</div>
+
+<!-- ══ 5 · HECHO / ELEGIDO ═══════════════════════════════ -->
+<div class="page papel" data-document-role="page" data-label="5 · Hecho o elegido">
+  <div class="foto" style="left:80px; top:180px; width:920px; height:700px;"><span>Foto</span></div>
+  <div class="disco" style="left:790px; top:790px; width:180px; height:180px; font-size:30px; letter-spacing:3px;">HECHO</div>
+  <div class="titulo tinta" style="left:80px; top:1000px; width:920px; font-size:56px;">Hecho en casa,<br>una por una.</div>
+  <div class="etiqueta" style="left:80px; top:1230px;">Casa Bruma</div>
+</div>
+
+<!-- ══ 6 · ENVÍOS ════════════════════════════════════════ -->
+<div class="page" data-document-role="page" data-label="6 · Envíos">
+  <div class="bloque" style="left:0; top:0; width:1080px; height:620px;"></div>
+  <div class="titulo claro" style="left:80px; top:200px; width:920px; font-size:82px;">Enviamos a todo<br>el país.</div>
+  <div class="etiqueta" style="left:80px; top:720px;">Cómo comprar</div>
+  <div class="texto" style="left:80px; top:790px; width:900px; font-size:34px; line-height:1.8;">Escribinos por mensaje directo<br>Te pasamos el detalle y el envío<br>Preparamos tu pedido a mano</div>
+  <div class="regla" style="left:80px; top:1140px; width:90px;"></div>
+  <div class="marca" style="left:80px; top:1210px; font-size:28px;">CASA BRUMA</div>
+</div>
+
+<!-- ══ 7 · CIERRE DE CARRUSEL ════════════════════════════ -->
+<div class="page papel" data-document-role="page" data-label="7 · Cierre de carrusel">
+  <div class="etiqueta" style="left:80px; top:160px;">Para la próxima</div>
+  <div class="titulo tinta" style="left:80px; top:240px; width:920px; font-size:76px;">Guardalo para<br>cuando quieras<br>cambiar un rincón.</div>
+  <div class="regla" style="left:80px; top:680px; width:90px;"></div>
+  <div class="bloque" style="left:0; top:990px; width:1080px; height:360px;"></div>
+  <div class="marca claro" style="left:80px; top:1090px; font-size:44px;">CASA BRUMA</div>
+  <div class="etiqueta claro" style="left:80px; top:1190px;">Decoración · Buenos Aires</div>
+</div>
+
+<!-- ══ 8 · NOVEDAD ═══════════════════════════════════════ -->
+<div class="page" data-document-role="page" data-label="8 · Novedad">
+  <div class="etiqueta" style="left:80px; top:150px;">Ya disponible</div>
+  <div class="titulo" style="left:80px; top:220px; width:920px; font-size:80px;">Algo nuevo<br>en casa.</div>
+  <div class="foto" style="left:80px; top:470px; width:920px; height:640px;"><span>Foto</span></div>
+  <div class="texto" style="left:80px; top:1160px; width:900px; font-size:30px;">Escribinos por mensaje para pedirla.</div>
+  <div class="marca" style="left:80px; top:1250px; font-size:26px;">CASA BRUMA</div>
+</div>
+
+</body>
+</html>

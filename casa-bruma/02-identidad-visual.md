@@ -163,7 +163,7 @@ sentirte en casa.
 
 | Rol | Familia | Peso | Reemplazo si no está |
 |---|---|---|---|
-| Títulos y logotipo | **Cormorant Garamond** | Light 300 | Marcellus |
+| Títulos y logotipo | **Lora** | Regular 400 / Medium 500 | Newsreader |
 | Textos, precios, fichas | **Jost** | Light 300 / Regular 400 | Montserrat Light |
 
 Las dos están en Canva y en Google Fonts.
