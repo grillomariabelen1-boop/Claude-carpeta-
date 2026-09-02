@@ -34,6 +34,7 @@ orgánico y las reglas comerciales de la cuenta.
 | [`08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md) | Colchón de 5, anclas, días muertos, los 10 disparadores |
 | [`09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md) | Perfil, el diferencial publicitario y 7 correcciones al plan |
 | [`10-datos-reales.md`](estrategia/10-datos-reales.md) | **Analytics reales: 9 hallazgos que corrigen el plan** |
+| [`11-canal-de-difusion.md`](estrategia/11-canal-de-difusion.md) | Sistema mensual para que el sorteo devuelva contenido y datos |
 
 ### Banco de ideas
 
@@ -44,6 +45,7 @@ orgánico y las reglas comerciales de la cuenta.
 | [`02-consumo.md`](banco-de-ideas/02-consumo.md) | Guía de compra: dónde comprar, reglas antes de pagar, calzado |
 | [`03-autoridad.md`](banco-de-ideas/03-autoridad.md) | Color, colorimetría, maquillaje, tips para bajitas, peinados |
 | [`04-proceso-y-publicidad.md`](banco-de-ideas/04-proceso-y-publicidad.md) | "Le armo el look a ___", cómo te venden, transformaciones |
+| [`05-proximos-10-videos.md`](banco-de-ideas/05-proximos-10-videos.md) | **Dos semanas listas para grabar, con guion por segundos** |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas
