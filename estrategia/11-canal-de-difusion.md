@@ -37,6 +37,131 @@ Porque eso es lo que hay ahí adentro: **gente que te eligió dos veces**
 —te siguió y encima entró al canal—. Es tu audiencia más valiosa. No la uses
 para juntar likes; usala para aprender.
 
+---
+
+# MECÁNICA DEL SORTEO
+
+Cómo se hace en la práctica, mensaje por mensaje.
+
+## 1 · Cómo se participa
+
+El canal de difusión es de una sola vía: vos posteás, ellas reaccionan y votan.
+Eso limita las mecánicas posibles a tres. Elegí según cuántas sean.
+
+| Mecánica | Cómo | Cuándo usarla |
+|---|---|---|
+| **Reacción** | "Reaccioná con 🧡 para participar" | La más simple. Tocás la reacción y ves la lista de quién reaccionó. Ideal si son muchas. |
+| **DM** ⭐ | "Mandame por privado [respuesta]" | **La recomendada.** Te deja la lista controlada, te trae el texto que necesitás, y los DM fortalecen la relación a ojos de Instagram. |
+| **Historia** | Anunciás en el canal, participan por sticker de preguntas | Útil si querés que también lo vean las que no están en el canal. |
+
+**Recomendación:** DM. Un poco más de trabajo tuyo, pero es la única que te
+devuelve información además de participación.
+
+Si son tantas que el DM te desborda, pasá a **reacción para participar** +
+**pregunta opcional por DM** ("las que me cuenten, doble chance").
+
+## 2 · Qué pedir
+
+Una sola cosa. Dos requisitos bajan la participación a la mitad.
+
+> **"Contame [pregunta del mes] por privado."**
+
+Nada de seguir, etiquetar ni compartir. Ya están en el canal: te siguen y te
+eligieron. Pedirles que te sigan otra vez es raro y no suma.
+
+## 3 · Los cuatro mensajes
+
+Copiá y pegá. Cuatro mensajes en 7-10 días. Más que eso es spam y se van.
+
+### Mensaje 1 — Apertura (día 1)
+```
+Sorteo de [mes] 🎁
+
+Esto es lo que me quedó de las acciones de este mes
+y lo sorteo entre ustedes:
+
+· [item]
+· [item]
+· [item]
++ una colorimetría conmigo
+
+Para participar: contame por privado [pregunta].
+Cierra el [fecha] a las [hora].
+El sorteo lo grabo, como siempre.
+```
+
+### Mensaje 2 — Recordatorio (día 4)
+```
+Les recuerdo que el sorteo cierra el [fecha].
+Van [N] participando.
+
+[foto del premio en la mano, no la foto de prensa]
+```
+
+**El "van N participando" es lo más importante del mensaje:** es prueba social
+y apura a las que lo dejaron para después.
+
+### Mensaje 3 — Último llamado (unas horas antes)
+```
+Últimas horas. Cierra hoy a las [hora].
+```
+
+Cortito. Este es el que más participaciones trae.
+
+### Mensaje 4 — Ganadora (el mismo día del cierre)
+```
+Ganó @[usuaria] 🎉
+
+[video del sorteo]
+
+Te escribo por privado. Si no me contestás en 48h,
+se vuelve a sortear.
+
+Gracias a las [N] que participaron. Con lo que me
+contaron ya tengo tema para los próximos videos 🧡
+```
+
+Ese último renglón es el que hace que el mes que viene participe el doble.
+
+## 4 · Cómo elegir la ganadora
+
+1. Captura de la lista de participantes, **numeradas**
+2. Generador de números al azar, en pantalla
+3. **Grabalo.** Un video de 15 segundos: se ve la lista, se ve el número, se ve
+   el nombre
+
+Grabarlo no es un trámite: es lo que hace que te crean. Y si te creen,
+participan el mes que viene. Un sorteo sin prueba se lee como arreglado, aunque
+no lo esté.
+
+Ese video va al canal **y a historias**.
+
+## 5 · Las reglas que conviene fijar desde el mes uno
+
+- **Fecha y hora de cierre**, siempre explícitas
+- **Una participación por persona**
+- **Envío:** sólo [dónde llegás], y quién paga el envío
+- **48 horas para responder** o se vuelve a sortear ← esto pasa siempre, tenelo
+  escrito de antes
+- **Transparencia:** "esto me quedó de acciones con marcas". Decirlo te suma,
+  no te resta: te muestra honesta y explica por qué podés regalar cosas
+
+## 6 · Dos formalidades
+
+- Instagram pide aclarar que **la plataforma no patrocina ni avala** el sorteo.
+  Una línea al final alcanza.
+- Que quede claro que **no hay obligación de compra**.
+
+No soy quien para asesorarte en lo legal; si el premio escala mucho, preguntale
+a alguien que sepa.
+
+## 7 · Ritmo
+
+**Una vez por mes y listo.** Más seguido pierde valor y te convierte en cuenta
+de sorteos, que es lo contrario de lo que estás construyendo.
+
+---
+
 ## El sistema mensual
 
 Cuatro semanas, un sorteo, y contenido que sale solo.
