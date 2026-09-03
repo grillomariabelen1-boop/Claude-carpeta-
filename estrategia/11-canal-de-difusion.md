@@ -4,6 +4,135 @@ Tenés canal de difusión y sorteás una vez por mes lo que te queda de acciones
 con marcas. Hoy eso es un gasto sin retorno. Este documento lo convierte en
 sistema.
 
+## PLAN DE FIDELIZACIÓN — versión final
+
+Cerrado. No hay nada más que decidir.
+
+### Regla madre
+
+> **Nada del canal se anuncia afuera. Nunca.**
+
+Si el sorteo sólo existe adentro, nadie puede entrar por el regalo, porque
+nadie sabe que hay regalo. El filtro se aplica solo, sin que vigiles nada.
+
+Afuera invitás al canal **por el acceso**, no por premios:
+*"En el canal subo los videos un día antes y pregunto qué quieren ver."*
+
+---
+
+### 1 · Beneficio permanente — todos los meses, cero trabajo
+
+Esto es la fidelización real. No es el sorteo.
+
+| Beneficio | Qué te cuesta |
+|---|---|
+| **El video 24h antes que nadie** | Nada. Lo subís al canal el día anterior. |
+| **Lo que no subí** | Nada. Tomas descartadas, el video que borraste, el intento fallido. |
+| **Votan el próximo color** | Nada. Y encima te resuelve qué grabar. |
+
+Con esos tres, estar en el canal ya vale la pena todo el mes. **No hay que
+fabricar nada: ni ebooks, ni PDFs, ni asesoría personal.**
+
+---
+
+### 2 · Sorteo mensual
+
+**Premio:** lo que te queda de las acciones con marcas. Nada más.
+Si algún mes conseguís un código de descuento de una marca, ese es el mes
+fuerte — pero no es obligatorio.
+
+**Requisito:** una sola cosa. Contestar la pregunta del mes por privado.
+Nada de seguir, etiquetar ni compartir.
+
+**La regla de fidelización, y es una sola:**
+
+> **"Si participaste el mes pasado, tenés doble chance."**
+
+Premia volver, no entrar. Sin planillas: te alcanza con la lista del mes
+anterior.
+
+---
+
+### 3 · Los cuatro mensajes
+
+**Día 1 — Apertura**
+```
+Sorteo de [mes] 🎁
+Junté lo que me quedó de las marcas este mes:
+· [item]  · [item]  · [item]
+
+Para participar contame por privado:
+[pregunta del mes]
+
+Cierra el [día] a las 21h.
+Si participaste el mes pasado, doble chance.
+Participan las que ya estaban en el canal hoy.
+```
+
+**Día 4 — Recordatorio**
+```
+Cierra el [día] a las 21h. Van [N] participando.
+[foto tuya con el premio, no la de prensa]
+```
+
+**Día 7, 18h — Último llamado**
+```
+Últimas horas. Cierra hoy 21h.
+```
+
+**Día 7, 21h — Ganadora**
+```
+Ganó @[usuaria] 🎉
+[video del sorteo]
+Te escribo por privado. Si no contestás en 48h, se re-sortea.
+Gracias a las [N] que participaron 🧡
+```
+
+**El sorteo:** captura de la lista numerada → generador de números al azar →
+**grabás la pantalla, 15 segundos**. Ese video va al canal y a historias.
+Grabarlo es lo que hace que te crean, y que te crean es lo que hace que
+participen el mes que viene.
+
+---
+
+### 4 · Las preguntas del mes
+
+Rotan. Siempre algo que después te sirve para contenido:
+
+1. ¿Cuál es la prenda que tenés y nunca sabés con qué ponerte?
+2. ¿Qué color te da miedo usar?
+3. ¿Qué te preguntan siempre cuando te ven vestida?
+4. ¿Cuál fue tu peor compra y por qué la hiciste?
+5. ¿Qué parte de vestirte te da más fiaca?
+6. ¿Qué te gustaría saber hacer y no sabés?
+
+Cuando llegan, las agrupás. **Tres o cuatro respuestas repetidas = un video con
+demanda comprobada.** Van a `banco-de-ideas/estado.csv`.
+
+---
+
+### 5 · Reglas fijas
+
+- Una participación por persona
+- Envío solo AMBA, lo pagás vos
+- 48h para responder o se re-sortea
+- Una vez por mes, no más
+- Instagram no patrocina ni avala; no hay obligación de compra
+
+---
+
+### Qué ganás vos
+
+1. Un grupo que vuelve todos los meses → **es tu primera hora de engagement en
+   cada video**, que es lo que más pesa para que arranque
+2. Las preguntas que te faltaban para contenido
+3. Un activo concreto para cotizar frente a marcas
+4. El producto sobrante sale del placard
+
+**Costo total: unos 20 minutos al mes.**
+
+---
+
 ## El reencuadre
 
 > **Lo que pedís para participar es exactamente lo que vas a conseguir.**

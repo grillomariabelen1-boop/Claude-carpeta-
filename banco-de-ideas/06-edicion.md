@@ -2,21 +2,17 @@
 
 Pilar propio desde el 31/8. **15% de la cuenta.**
 
-**Por qué existe:** tus dos videos de CapCut están en el top de shares de
-Instagram (69 y 40) con 33 comentarios. Tu audiencia quiere aprender a hacer
-contenido, y vos trabajás en publicidad: nadie más en tu nicho enseña esto con
-base real.
+**Por qué existe:** es algo que hacés y que te interesa, y además tiene demanda
+comprobada — tus dos videos de CapCut están en el top de shares de Instagram
+(69 y 40) con 33 comentarios. Trabajás en publicidad: enseñás esto con base
+real, no copiando tutoriales.
 
-> ## El límite, y es importante
->
-> **Edición aplicada a lo tuyo. Nunca tutoriales genéricos de CapCut.**
->
-> "10 trucos de CapCut" te trae aspirantes a creadoras y te ensucia el tema
-> justo en recuperación. "Cómo edito mis videos de color" le sirve a la
-> audiencia que ya tenés.
->
-> La prueba: si el video funcionaría igual en una cuenta de cualquier nicho,
-> no va.
+**No tiene que tener que ver con el color.** Es un pilar propio, independiente.
+Podés hacer edición pura y está perfecto: forma parte de lo que sos, igual que
+el color. Lo que une la cuenta no es el tema, es que lo que subas deje algo.
+
+Las ideas de abajo incluyen las que cruzan con color —porque ese cruce es tuyo
+y nadie más lo tiene— y también las que no cruzan con nada.
 
 ⭐ = apuesta segura
 
@@ -71,10 +67,23 @@ Descansa: no hay que producir nada, se muestra lo que ya está pasando.
 
 ---
 
-## Cómo se cruza con lo demás
+## Edición sin moda de por medio
 
-Cada video de color que grabás **es material de edición gratis**. Grabás el de
+Estas no tienen nada que ver con color ni con ropa, y está bien.
+
+- **Cómo edito en el celular y no necesito computadora**
+- **Las apps que probé y cuál me quedé**
+- **Cómo se piensa un video antes de grabarlo** — desde tu trabajo en publicidad
+- **Por qué la mayoría de los videos aburren a los 4 segundos**
+- **Cómo se escribe un gancho** — esto es tu trabajo, literal
+- **Lo que aprendí de hacer publicidad y aplico acá**
+- **Cuánto tarda realmente hacer contenido**
+- **Cómo sostener una cuenta trabajando full time**
+- **Errores que cometí el primer año**
+
+## Un bonus barato
+
+Cada video de color que grabás **es material de edición gratis**: grabás el de
 combinaciones y de paso grabás cómo lo editaste. Dos videos, una sesión.
 
-Ese es el motivo real por el que este pilar es barato: no compite por tiempo
-con los otros, se monta encima.
+No es una obligación de que se crucen — es que cuando se cruzan, sale gratis.

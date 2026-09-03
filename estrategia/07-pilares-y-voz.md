@@ -12,9 +12,18 @@ para decidir si una idea entra o no.
 | Exposición | **Cara y vida** (casa, salidas, rutina, entorno) |
 | Producción | **Día a día** |
 
-## Los tres carriles
+## Lo que une la cuenta
 
-El tema madre es uno solo. Se ejecuta en tres carriles.
+No es el color. Es esto, que lo dijiste vos:
+
+> *"Me gusta el contenido que dé valor. A veces ni me importa de qué trate,
+> sino que le deje algo a la gente que lo ve."*
+
+**Ese es el hilo.** El color es lo que más hacés y lo que mejor te funciona,
+pero no es el techo. Los pilares son cosas que forman parte de vos, no ramas
+de un mismo tema — y por eso ninguno tiene que justificarse frente a otro.
+
+## Los carriles
 
 ### 1. VIDA CON ROPA — el corazón
 Tu día a día resuelto con criterio de estilo. Qué te ponés, cómo lo decidís,
@@ -63,14 +72,11 @@ recomiende algo cualquiera y que te lo recomiende alguien que estudió el tema.
 Cómo hacés tus videos. Corrección de color, transiciones, setup, errores,
 detrás de escena.
 
-**Por qué existe:** tus dos videos de CapCut están en el top de shares de
-Instagram. Tu audiencia quiere aprender a hacer contenido.
+**Por qué existe:** forma parte de lo que sos, y tiene demanda comprobada —
+tus dos videos de CapCut están en el top de shares de Instagram.
 
-**El límite:** edición **aplicada a lo tuyo**, nunca tutoriales genéricos.
-Si el video funcionaría igual en una cuenta de cualquier nicho, no va.
-
-**Y es barato:** cada video de color que grabás es material de edición gratis.
-Se monta encima de lo que ya hacés, no compite por tiempo.
+**No está subordinado al color.** Es un pilar independiente: podés hacer
+edición pura sin conectarla con moda. Lo que une la cuenta no es el tema.
 
 Ideas en [`../banco-de-ideas/06-edicion.md`](../banco-de-ideas/06-edicion.md).
 
