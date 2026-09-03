@@ -46,6 +46,7 @@ orgánico y las reglas comerciales de la cuenta.
 | [`03-autoridad.md`](banco-de-ideas/03-autoridad.md) | Color, colorimetría, maquillaje, tips para bajitas, peinados |
 | [`04-proceso-y-publicidad.md`](banco-de-ideas/04-proceso-y-publicidad.md) | "Le armo el look a ___", cómo te venden, transformaciones |
 | [`05-proximos-10-videos.md`](banco-de-ideas/05-proximos-10-videos.md) | **Dos semanas listas para grabar, con guion por segundos** |
+| [`06-edicion.md`](banco-de-ideas/06-edicion.md) | Corrección de color en cámara, tu forma de editar, errores, backstage |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas

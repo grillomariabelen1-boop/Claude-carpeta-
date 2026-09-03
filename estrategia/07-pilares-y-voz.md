@@ -59,7 +59,22 @@ recomiende algo cualquiera y que te lo recomiende alguien que estudió el tema.
 
 ## Reparto
 
-### 4. PROCESO Y PUBLICIDAD — el diferencial
+### 4. EDICIÓN — el pilar nuevo
+Cómo hacés tus videos. Corrección de color, transiciones, setup, errores,
+detrás de escena.
+
+**Por qué existe:** tus dos videos de CapCut están en el top de shares de
+Instagram. Tu audiencia quiere aprender a hacer contenido.
+
+**El límite:** edición **aplicada a lo tuyo**, nunca tutoriales genéricos.
+Si el video funcionaría igual en una cuenta de cualquier nicho, no va.
+
+**Y es barato:** cada video de color que grabás es material de edición gratis.
+Se monta encima de lo que ya hacés, no compite por tiempo.
+
+Ideas en [`../banco-de-ideas/06-edicion.md`](../banco-de-ideas/06-edicion.md).
+
+### 5. CÓMO TE VENDEN — el diferencial
 "Le armo el look a ___", detrás de escena, y el ángulo publicitario que te da
 tu trabajo. Agregado el 30/8; ver
 [`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md).
@@ -77,10 +92,11 @@ semana 3, no antes.
 
 | Carril | Durante recuperación | Después |
 |---|---|---|
-| **Autoridad** (color, colorimetría, bajitas) | **40%** | 35% |
-| **Guía de compra** (antes: Consumo) | **20%** | 20% |
-| Vida con ropa (incluye peinados) | 25% | 25% |
-| Proceso y publicidad | 15% (desde semana 2) | 20% |
+| **Color y colorimetría** (incluye bajitas) | **40%** | 35% |
+| Vida con ropa (incluye peinados) | 20% | 20% |
+| Guía de compra | 15% | 15% |
+| **Edición** ← pilar propio desde el 31/8 | **15%** | 20% |
+| Cómo te venden (publicidad) | 10% | 10% |
 
 **No hay contradicción entre el 60% haul y estos porcentajes:** los carriles son
 *tema*, los formatos son *forma*.
@@ -104,8 +120,9 @@ Esto es lo que hace sostenible el plan sabiendo que casi no comprás ropa.
 | Colorimetría y maquillaje | Autoridad |
 | Tips para bajitas | Autoridad |
 | Peinados VO | Vida con ropa |
-| Le armo el look a ___ | Proceso y publicidad |
-| Cómo te venden | Proceso y publicidad |
+| Le armo el look a ___ | Vida con ropa |
+| Edición y detrás de escena | Edición |
+| Cómo te venden | Cómo te venden |
 
 ---
 
