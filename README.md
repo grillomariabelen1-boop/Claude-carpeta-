@@ -19,6 +19,12 @@ orgánico y las reglas comerciales de la cuenta.
 
 ## Índice
 
+### Referencia personal
+
+| Documento | Contenido |
+|---|---|
+| [`PALETA-WARM-SPRING.md`](PALETA-WARM-SPRING.md) | Tu paleta: neutros, señales, la tabla de cambios, maquillaje y la prueba del drapeado |
+
 ### Estrategia
 
 | Documento | Contenido |
