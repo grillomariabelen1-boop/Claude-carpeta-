@@ -88,11 +88,13 @@ La segunda vía que también funcionó es distinta:
 Acá el gancho es el **color de tendencia con nombre propio**. Butter yellow
 tenía momento. Sirve cuando hay un color de moda: se aprovecha la búsqueda.
 
-### Los próximos 20 títulos, ya escritos
+### Los próximos títulos, ya escritos
 
-Rellenar la fórmula. Colores en orden de cuánta gente los tiene en el placard:
+Rellenar la fórmula. Colores en orden de cuánta gente los tiene en el placard.
+**Negro y beige quedan afuera de la lista porque ya los cubriste**: vuelven como
+secuela, sólo con un ángulo distinto del que usaste.
 
-`negro` · `beige` · `gris` · `azul marino` · `camel` · `blanco roto` ·
+`gris` · `azul marino` · `camel` · `blanco roto` ·
 `verde oliva` · `bordó` · `marrón chocolate` · `celeste` · `rosa viejo` ·
 `mostaza` · `terracota` · `lila` · `verde agua` · `naranja` · `amarillo` ·
 `azul petróleo` · `crudo` · `violeta`

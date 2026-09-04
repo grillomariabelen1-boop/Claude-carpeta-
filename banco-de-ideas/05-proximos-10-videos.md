@@ -7,34 +7,34 @@ Agarrás uno, lo grabás, lo subís. **A TikTok y a Instagram, siempre.**
 
 # SEMANA 1
 
-## 1 · LUNES — Color: EL NEGRO ⭐
+## 1 · LUNES — Color: EL GRIS ⭐
 
-> **"El color que más tenemos todas y el que peor nos queda"**
+> **"El color que te ponés para no equivocarte, y es el que te apaga"**
 
-El mejor arranque posible: tu fórmula ganadora + colorimetría + tu placard
-monocromo, todo junto. Y el negro es el color que más gente tiene.
+Entra en lugar del negro, que ya cubriste (ver *Negro y beige* más abajo). Es
+el tercero de la lista por cantidad de gente que lo tiene, y el mecanismo es
+otro: acá no es la distancia a la cara, es que el gris **no tiene temperatura**.
 
-**Gancho visual (0-2s):** split. Vos con negro **pegado a la cara** → corte →
-mismo negro pero con algo claro entre el negro y tu cara (camisa cruda abierta,
-pañuelo camel). La diferencia en la cara es el gancho. Sin filtro.
+**Gancho visual (0-2s):** vos de gris sola → corte → el mismo gris con un color
+al lado (camel, bordó, verde oliva). Mismo buzo, dos personas distintas.
 
 ```
-0-2s    Split de las dos caras. Texto: "EL NEGRO"
-2-4s    "Este es el color que más tenemos todas
-         y el que peor nos queda."
-4-7s    "Y no te voy a decir que lo tires, porque
-         yo tengo el placard lleno de negro."     ← honestidad = credibilidad
-7-16s   El porqué, mostrando: no es el negro, es la DISTANCIA.
-         Negro lejos de la cara → impecable.
-         Negro pegado a la cara → te chupa el color.
-         "Yo soy Warm Spring, a mí me mata. Igual lo uso."
-16-20s  La regla: "Si vas de negro, metele algo claro entre
-         el negro y tu cara. Un collar no alcanza: tiene que
-         ser tela."
+0-2s    Los dos planos del mismo gris. Texto: "EL GRIS"
+2-4s    "Este es el color que te ponés cuando no
+         querés equivocarte. Y es el que te apaga."
+4-8s    "No te queda mal. Te queda invisible,
+         que es peor."                            ← la tensión sin resolver
+8-17s   El porqué: el gris es el único neutro SIN temperatura.
+         No es frío ni cálido, no te suma ni te resta.
+         Todo depende de lo que le pongas al lado.
+         Gris + otro neutro → apagado.
+         Gris + un color → otra cosa. Mostrarlo.
+17-22s  La regla: "El gris nunca va solo con otro neutro.
+         Necesita UNA cosa con color. Una."
         Corte seco.
 ```
 
-**Texto en pantalla:** `EL NEGRO` → `no es el negro, es dónde lo ponés`
+**Texto en pantalla:** `EL GRIS` → `no te queda mal, te queda invisible`
 
 ---
 
@@ -133,22 +133,37 @@ te dio 17K. Primavera arranca, es el momento.
 
 # SEMANA 2
 
-## 6 · LUNES — Color: EL BEIGE ⭐
+## 6 · LUNES — Color: EL AZUL MARINO ⭐
 
-> **"El color que compraste para verte elegante y te está apagando"**
+> **"El color que tendrías que estar comprando en vez de negro"**
 
-La fórmula otra vez, con el segundo color más universal. El ángulo: comprás
-beige buscando sofisticación y conseguís lo contrario.
+Entra en lugar del beige, que ya cubriste. Tercer mecanismo distinto: el del
+gris era diagnóstico, este es de **reemplazo** — no te explica un color, te
+cambia una decisión de compra. Por eso es el más compartible de los tres.
+
+**Gancho visual (0-2s):** dos prendas del mismo modelo, una negra y una azul
+marino, contra tu cara. En la percha casi no se distinguen; en la cara sí.
 
 ```
-0-2s    Split: beige que funciona / beige que apaga.
-        (Son dos beiges distintos, ese es el punto)
-2-5s    "No existe 'el beige'. Existen como veinte,
-         y la mitad te apaga."
-5-18s   Frío vs cálido, mostrando contra la cara.
-        El test rápido: al lado de un papel blanco.
-18-22s  Cuál buscar según tu piel. Corte.
+0-2s    Las dos prendas contra la cara, split.
+        Texto: "AZUL MARINO"
+2-5s    "Hace lo mismo que el negro: combina con todo,
+         achica, sirve para cualquier cosa.
+         Pero no te apaga."
+5-10s   El porqué: el negro es ausencia de luz y te la
+        saca de la cara. El azul marino es un color:
+        te la devuelve.
+10-18s  La trampa, que es lo que nadie te dice:
+        hay azul marino que adentro se lee negro y
+        afuera se pone violeta.
+        Cómo verlo ANTES de comprar: al lado de algo
+        negro y con luz de día. Mostrarlo en cámara.
+18-23s  "Si este año comprás una sola prenda seria,
+         que sea de este color y no negra."
+        Corte seco.
 ```
+
+**Texto en pantalla:** `¿negro o azul marino?` → `mirálo con luz de día`
 
 ---
 
@@ -230,6 +245,28 @@ Arranca tu carril diferencial. Nadie más en tu nicho puede hacer este video.
 20-25s  "Ahora que lo sabés no te lo podés
          desver." Corte.
 ```
+
+---
+
+# Negro y beige — ya los hiciste
+
+Los dos estaban en la primera versión de estas dos semanas y salieron porque ya
+los cubriste. **No están descartados**: son las dos secuelas más seguras que
+tenés, porque son los colores que más gente tiene en el placard.
+
+La condición es una sola: **el ángulo tiene que ser otro.** Un color repetido
+con ángulo nuevo es una secuela y es tu apuesta más segura (es lo mismo que
+hacen Bajitas #2 y 3 reglas parte 2). Un color repetido con el mismo ángulo es
+una repetición, y la que ya lo vio scrollea.
+
+| Color | Ángulo guardado para la secuela |
+|---|---|
+| **Negro** | La **distancia a la cara**: no es el negro, es dónde lo ponés. Negro lejos → impecable; negro pegado a la cara → te chupa el color. La regla: algo claro entre el negro y tu cara, y de tela — un collar no alcanza. Cierra con la confesión: "soy Warm Spring, a mí me mata, igual tengo el placard lleno". |
+| **Beige** | **No existe "el beige"**: existen como veinte y la mitad te apaga. Frío vs cálido contra la cara, y el test del papel blanco al lado. |
+
+**El test antes de repetir cualquier color:** si alguien vio el primero, ¿el
+segundo le enseña algo nuevo **en los primeros 5 segundos**? Si la respuesta es
+no, no es una secuela.
 
 ---
 

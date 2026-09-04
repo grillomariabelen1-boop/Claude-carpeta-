@@ -32,15 +32,25 @@ Ejemplos tuyos que ya funcionaron:
 
 **Es repetible al infinito: un color por video.**
 
-### Los próximos 20, en orden
+### Los próximos, en orden
 
 Ordenados por cuánta gente tiene ese color en el placard — cuanta más gente lo
 tiene, más gente se identifica con el gancho:
 
-`negro` · `beige` · `gris` · `azul marino` · `camel` · `blanco roto` ·
+`gris` · `azul marino` · `camel` · `blanco roto` ·
 `verde oliva` · `bordó` · `marrón chocolate` · `celeste` · `rosa viejo` ·
 `mostaza` · `terracota` · `lila` · `verde agua` · `naranja` · `amarillo` ·
 `azul petróleo` · `crudo` · `violeta`
+
+**Negro y beige salieron de la lista: ya los cubriste.** Los dos son los colores
+que más gente tiene, así que no se descartan — vuelven como **secuela**, con una
+sola condición: que el ángulo sea otro. Los ángulos guardados para cada uno
+están en [`05-proximos-10-videos.md`](05-proximos-10-videos.md).
+
+> **Chequear antes de programar la fórmula:** el video de 11K
+> (*"El color que todo el mundo tiene pero nadie sabe combinar 💜"*) parece
+> haber sido de un violeta o lila. Si fue así, `lila` y `violeta` también son
+> secuelas y no colores nuevos.
 
 ### Variantes del título, para no repetir el mismo veinte veces
 
