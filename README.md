@@ -13,7 +13,9 @@ orgánico y las reglas comerciales de la cuenta.
    — el sistema para sostener la consistencia grabando día a día.
 4. [`estrategia/09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md)
    — tu perfil y las 5 correcciones que cambian el plan.
-5. [`banco-de-ideas/`](banco-de-ideas/) — ~215 ideas, cuando no se te ocurre nada.
+5. [`banco-de-ideas/`](banco-de-ideas/) — ~290 ideas, cuando no se te ocurre nada.
+   Si querés empezar hoy, [`05-proximos-10-videos.md`](banco-de-ideas/05-proximos-10-videos.md)
+   son dos semanas ya resueltas con guion por segundos.
 6. [`estrategia/01-diagnostico.md`](estrategia/01-diagnostico.md) — por qué las
    views están clavadas en 180-350 y los 4 tests para confirmarlo.
 
@@ -30,7 +32,7 @@ orgánico y las reglas comerciales de la cuenta.
 | [`04-calendario-6-semanas.md`](estrategia/04-calendario-6-semanas.md) | Calendario día por día, semana 0 a 6 |
 | [`05-metricas.md`](estrategia/05-metricas.md) | Qué medir, criterios de salida, árbol de decisión |
 | [`06-colabs-y-monetizacion.md`](estrategia/06-colabs-y-monetizacion.md) | Tarifario UGC, derechos de uso, AdSense, ebook |
-| [`07-pilares-y-voz.md`](estrategia/07-pilares-y-voz.md) | Los 3 carriles y cómo enseñar sin sonar a profesora |
+| [`07-pilares-y-voz.md`](estrategia/07-pilares-y-voz.md) | Los 5 pilares y cómo enseñar sin sonar a profesora |
 | [`08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md) | Colchón de 5, anclas, días muertos, los 10 disparadores |
 | [`09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md) | Perfil, el diferencial publicitario y 7 correcciones al plan |
 | [`10-datos-reales.md`](estrategia/10-datos-reales.md) | **Analytics reales: 9 hallazgos que corrigen el plan** |
@@ -80,6 +82,6 @@ orgánico y las reglas comerciales de la cuenta.
 - **Instagram te rinde el doble que TikTok y con material reciente.** Todo se
   publica en las dos plataformas, siempre.
 - Tu diferencial es que **trabajás en publicidad**: sos la única de tu nicho que
-  puede contar cómo te venden. 15-20% de la cuenta, desde la semana 3.
+  puede contar cómo te venden. 10% de la cuenta, desde la semana 3.
 - Tener **30 años y un trabajo** es un hueco de mercado, no un límite: casi todo
   el nicho lo hacen chicas de 20-24 y las de 28-35 están mal atendidas.

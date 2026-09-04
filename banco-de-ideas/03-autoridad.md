@@ -1,8 +1,9 @@
-# Banco — AUTORIDAD
+# Banco — COLOR Y COLORIMETRÍA
 
-Color, colorimetría y criterio. El 20% que le da peso a todo lo demás.
+Color, colorimetría y criterio. **El 40% de la cuenta durante la recuperación,
+35% después.** El pilar que sostiene a todos los demás.
 
-**La regla de este carril:** el título no se dice, se demuestra. Nunca "como
+**La regla de este pilar:** el título no se dice, se demuestra. Nunca "como
 asesora de imagen te digo". El conocimiento se nota, no se anuncia.
 
 > **Este es tu motor.** Los datos del 30/8 lo pusieron primero: tu video #1

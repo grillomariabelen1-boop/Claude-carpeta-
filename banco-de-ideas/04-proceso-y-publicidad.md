@@ -3,7 +3,7 @@
 El carril nuevo. Sale de dos cosas: que trabajás en publicidad, y que estás
 aburrida de lo que venías haciendo.
 
-**Es el 15-20% de la cuenta, no más.** El condimento, no el plato.
+**Es el 10% de la cuenta, no más.** El condimento, no el plato.
 **No arranca hasta la semana 3** de la recuperación.
 
 Contexto en
