@@ -7,6 +7,7 @@ Plantillas de Instagram en el sistema de la marca: **Lora + Jost**, oliva
 |---|---|---|
 | `feed.html` | 1080 × 1350 (4:5) | 8 |
 | `historias.html` | 1080 × 1920 | 4 |
+| `packaging.html` | A4 · 1240 × 1754 (150 dpi) | 9 |
 
 ## Las del feed
 
@@ -25,6 +26,32 @@ Plantillas de Instagram en el sistema de la marca: **Lora + Jost**, oliva
 2. **Frase** — sobre oliva, a pantalla completa
 3. **Escribinos** — con el sello, para cerrar la venta
 4. **Proceso** — el detrás de escena, que es lo que mejor te funcionó
+
+## Las de packaging
+
+Para **imprimir y cortar**, no para Instagram. Hoja A4 a 150 dpi: 1 mm = 5,9 px.
+
+| Hoja | Pieza | Medida | Por hoja |
+|---|---|---|---|
+| 1 | Tarjeta de firma · a mano | 90 × 50 mm | 10 |
+| 2 | Tarjeta de firma · impresa | 90 × 50 mm | 10 |
+| 3 | Tag de pieza (con el `__ / __`) | 40 × 70 mm | 12 |
+| 4 | Etiqueta redonda · sello CB | ⌀ 50 mm | 15 |
+| 5 | Tarjeta de cuidado · vela | 70 × 50 mm | 10 |
+| 6 | Tarjeta de cuidado · cuadro | 70 × 50 mm | 10 |
+| 7 | Etiqueta frágil | 90 × 60 mm | 8 |
+| 8 | Etiqueta de remitente | 90 × 45 mm | 12 |
+| 9 | Faja para textil | 190 × 50 mm | 4 |
+
+**Papel:** 250–300 g para tags y tarjetas; adhesivo mate para las etiquetas 4, 7
+y 8. Nunca papel brillante.
+
+**La etiqueta de frágil va oliva llena, no crudo:** es la única pieza del
+sistema que tiene que leerse desde dos metros y por alguien que no es tu
+clienta. Ahí manda la función.
+
+**Las líneas punteadas son las guías de corte** — en Canva se borran antes de
+imprimir, o se dejan si vas a cortar a mano.
 
 ## Cómo se usan
 
