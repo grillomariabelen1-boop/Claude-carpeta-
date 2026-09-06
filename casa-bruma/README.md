@@ -16,6 +16,7 @@ Instagram: [@brumacasaco](https://instagram.com/brumacasaco) (a cambiar, ver
 | [`03-contenido.md`](03-contenido.md) | Qué grabar: carriles, formatos, ganchos y 46 ideas |
 | [`04-identidad-verbal.md`](04-identidad-verbal.md) | **Nombres, bio, ficha de producto, precio, DM y la tarjeta del envío** |
 | [`05-packaging.md`](05-packaging.md) | **Las tres capas, los materiales, cómo se arma cada producto, el envío** |
+| [`06-finanzas.md`](06-finanzas.md) | **Costos reales, margen por producto, punto de equilibrio y la sociedad** |
 | [`logos-final/`](logos-final/) | Los archivos del logo, en PNG |
 | [`plantillas/`](plantillas/) | Plantillas de feed e historias para Canva |
 
@@ -28,4 +29,5 @@ Instagram: [@brumacasaco](https://instagram.com/brumacasaco) (a cambiar, ver
 5. **Contenido** — qué grabar y en qué orden ✅ listo
 6. **Identidad verbal** — cómo se nombra, se describe y se contesta ✅ listo
 7. **Packaging** — cómo llega la caja ✅ listo
-8. **Manual de foto** — hora, fondo, encuadre ⏳ pendiente
+8. **Finanzas** — qué deja cada producto y cuánto hay que vender ✅ listo
+9. **Manual de foto** — hora, fondo, encuadre ⏳ pendiente
