@@ -57,8 +57,10 @@ lugar para crecer.
 Ya está escrita en tu bio y no hay que cambiarla. Pero conviene saber a qué te
 obliga, porque una promesa que no obliga a nada no sirve:
 
-- **Obliga a la calma.** Nada de urgencia, cuenta regresiva ni "últimas
-  unidades". La urgencia es lo contrario de sentirse en casa.
+- **Obliga a la calma en el tono, no en el proceso.** No hay urgencia
+  inventada: ni cuenta regresiva que se reinicia sola, ni "últimas unidades"
+  cuando hay cuarenta. Pero los números reales —quedan tres, cierra el jueves,
+  es la única— se dicen, y se dicen tranquilos. Ver `06-venta.md`.
 - **Obliga a que se toque.** Si un producto no se entiende con la mano, no es de
   esta marca.
 - **Obliga a la casa real.** Las fotos son en una casa habitada, no en un set.
@@ -138,10 +140,14 @@ convence: te muestra y se calla.
 |---|---|
 | "Se enciende y la habitación cambia." | "¡No te la pierdas!! 🔥🔥" |
 | "Tarda tres días en secar." | "Corré que vuela" |
+| "Quedan 3." | "¡Últimas unidades!" |
+| "Comentá VELA y te mando el link." | "Escribinos para más info 💕" |
 | Frases cortas. Punto. | Signos de exclamación |
 | Contar el proceso | Explicar por qué es especial |
 
-**La regla:** si la frase se pondría nerviosa, no es de Casa Bruma.
+**La regla:** si la frase se pondría nerviosa, no es de Casa Bruma. Pero si la
+frase no pide nada, tampoco — cada pieza termina con una instrucción concreta.
+La tabla completa está en `06-venta.md`.
 
 ---
 
