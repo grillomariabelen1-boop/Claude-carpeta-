@@ -36,7 +36,7 @@ es una pieza.
 Una palabra. En castellano. Dos o tres sílabas. Que se pueda decir en voz alta
 sin explicarla.
 
-**Materia y tierra:** Greda · Cal · Barro · Piedra · Sal · Arena · Ceniza · Yeso
+**Materia y tierra:** Greda · Cal · Barro · Piedra · Sal · Arena · Ceniza · Caliza
 **Paisaje:** Duna · Loma · Marea · Vera · Ribera · Cauce · Sierra · Pampa
 **Luz y hora:** Alba · Siesta · Sombra · Rescoldo · Reposo · Tregua · Vigilia
 **Vegetal:** Junco · Espiga · Trigo · Lino · Salvia · Hinojo
@@ -110,7 +110,7 @@ estructura de cuatro partes, siempre en este orden:
 > Duna · pieza 3 de 8
 >
 > Un relieve que cambia con la luz de la tarde.
-> Yeso sobre madera, 40 × 50 cm. Secado de tres días.
+> [material] sobre madera, 40 × 50 cm. Secado de tres días.
 > Hecho en casa. Hay ocho y no se repiten.
 > $54.000
 
@@ -148,7 +148,7 @@ Tres respuestas guardadas resuelven el 80%:
 > llega el aviso.
 
 **Encargo / a pedido**
-> Sí, hago a pedido. Tarda entre 10 y 15 días porque el yeso seca solo.
+> Sí, hago a pedido. Tarda entre 10 y 15 días porque la pasta seca sola.
 > Contame la medida y el ambiente y te paso una propuesta.
 
 **Las tres reglas del DM:**
@@ -202,7 +202,7 @@ pesan más de lo que parece en una marca de deco:
 
 **A · Identidad física — el packaging.**
 Cómo llega la caja. Papel, cinta, etiqueta, cómo va envuelta la vela, cómo viaja
-un cuadro de yeso sin romperse. Es donde se juega el "ni cara ni barata": la
+un cuadro texturado sin romperse. Es donde se juega el "ni cara ni barata": la
 misma vela dentro de una bolsa de nylon o dentro de papel de seda con sello son
 dos precios distintos, y cuesta casi lo mismo hacerlo bien.
 

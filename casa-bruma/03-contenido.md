@@ -82,7 +82,7 @@ que tenés y ahora mismo estás desperdiciando cada una de esas 22 visitas.
 
 ### 1 · LA TEXTURA — el motor
 
-Macro del relieve, luz rasante, el yeso en primerísimo plano, la cera enfriándose,
+Macro del relieve, luz rasante, el relieve en primerísimo plano, la cera enfriándose,
 la mecha encendiéndose. **Sin manos y sin cara.**
 
 Lo que lo hace funcionar es la **sombra**: el relieve necesita luz de costado
@@ -90,7 +90,7 @@ para existir. Con luz de frente, tus cuadros desaparecen.
 
 ### 2 · EL PROCESO — la prueba
 
-El rastrillo entrando en el yeso, la cera cayendo en el molde, el pedido
+La herramienta entrando en la pasta, la cera cayendo en el molde, el pedido
 armándose, el papel que envuelve. Manos sí, cara no.
 
 Esto hace algo que ningún texto logra: **justifica el precio**. Quien ve cuánto
@@ -116,7 +116,7 @@ Una cada diez publicaciones alcanza.
 
 ### A · Macro de textura · 7 a 12 segundos, en loop
 ```
-[0-1s]  Arranca EN MOVIMIENTO: el rastrillo ya entrando en el yeso
+[0-1s]  Arranca EN MOVIMIENTO: la herramienta ya entrando en la pasta
 [1-7s]  Un solo recorrido lento, luz de costado, sin cortes
 [final] El plano vuelve al inicio para que loopee
 ```
@@ -158,7 +158,7 @@ medio de un gesto**.
 
 | En vez de | Empezá con |
 |---|---|
-| El cuadro colgado | El rastrillo ya entrando en el yeso |
+| El cuadro colgado | La herramienta ya entrando en la pasta |
 | La vela apagada | El fósforo tocando la mecha |
 | El bowl sobre la mesa | La cera cayendo dentro |
 | El rincón terminado | La mano corriendo el mueble |
@@ -178,7 +178,7 @@ medio de un gesto**.
 
 ### LA TEXTURA (40%)
 
-1. Macro del rastrillo entrando en el yeso fresco, luz de costado
+1. Macro de la herramienta entrando en la pasta fresca, luz de costado
 2. Un solo surco, de principio a fin, en plano cerradísimo
 3. La superficie seca vs. la superficie húmeda, lado a lado
 4. La sombra del relieve cambiando cuando movés la lámpara
@@ -188,14 +188,14 @@ medio de un gesto**.
 8. La veta de la madera del bowl, en macro
 9. El dedo pasando por el relieve, sin decir nada
 10. Dos cuadros distintos comparados en el mismo plano
-11. El polvo de yeso cayendo mientras lijás
+11. El polvo cayendo mientras lijás
 12. La vela ovillo girando lento sobre fondo crudo
 13. Gotas de cera cayendo sobre mármol
 14. El díptico completo, cámara alejándose despacio
 
 ### EL PROCESO (30%)
 
-15. Cómo se prepara la mezcla de yeso, de principio a fin
+15. Cómo se prepara la mezcla, de principio a fin
 16. El molde llenándose de cera, plano cenital
 17. Poner la mecha y centrarla — el gesto que nadie ve
 18. Cómo se rastrilla un cuadro entero, timelapse de 20 segundos

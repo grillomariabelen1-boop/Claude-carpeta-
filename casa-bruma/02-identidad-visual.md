@@ -146,7 +146,7 @@ materiales que ya vendés:
 
 | Nombre | Hex | Qué es |
 |---|---|---|
-| Yeso | `#EDE9E2` | Los cuadros texturados |
+| Relieve | `#EDE9E2` | Los cuadros texturados |
 | Cera | `#EFE6D2` | La cera de soja sin teñir |
 | Madera | `#A9784E` | Los bowls torneados |
 
@@ -211,7 +211,7 @@ cálidas y están bien expuestas; las de los cuadros son frías y oscuras.**
 | **Objetivo** | **90–94%** | **+8 a +16** | |
 
 **Qué significa cada número.** *Luces* es qué tan claro llega lo más blanco de la
-foto: el yeso de tus cuadros es blanco, así que tiene que llegar a 90 y pico; a
+foto: la textura de tus cuadros es casi blanca, así que tiene que llegar a 90 y pico; a
 74 está gris. *Calidez* es cuánto rojo hay de más sobre el azul: en cero la foto
 es neutra, en negativo se va al gris azulado.
 
@@ -220,7 +220,7 @@ son la pieza que más lejos llegó del perfil y la que nadie te copia — y est�
 fotografiados un paso y medio abajo y con la luz fría. El objeto es hermoso; la
 foto lo apaga.
 
-**Cómo se arregla, sin equipo:** subir la exposición hasta que el yeso se vea
+**Cómo se arregla, sin equipo:** subir la exposición hasta que la textura se vea
 blanco y no gris, y llevar la temperatura hacia el amarillo hasta salir del azul.
 Es un ajuste de treinta segundos en el celular, no una sesión de fotos. La vela
 ovillo ya está bien: usala de referencia y llevá todo lo demás a ese punto.

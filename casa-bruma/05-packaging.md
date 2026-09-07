@@ -148,7 +148,7 @@ casi todo se compra por cantidad una sola vez.
 
 El bowl de madera se envuelve aparte del vidrio si son piezas separables.
 
-### Cuadro de yeso
+### Cuadro texturado
 
 Es lo más frágil que mandás y lo que peor viaja.
 
@@ -207,7 +207,7 @@ alguien que sabe". Un papelito de 7 × 5 cm, sellado, con instrucciones reales:
 > dos horas. Si la apagás antes, la vela se ahueca y ya no vuelve.
 > Después, cortá el pabilo a medio centímetro cada vez.
 
-**Cuadro de yeso**
+**Cuadro texturado**
 > **Para colgarlo.**
 > Pesa unos X kg: un tarugo, no un clavito.
 > El relieve junta polvo. Un pincel seco, una vez por mes. Nunca trapo húmedo.
