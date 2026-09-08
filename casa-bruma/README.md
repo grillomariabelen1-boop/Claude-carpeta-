@@ -17,6 +17,7 @@ Instagram: [@brumacasaco](https://instagram.com/brumacasaco) (a cambiar, ver
 | [`04-identidad-verbal.md`](04-identidad-verbal.md) | **Nombres, bio, ficha de producto, precio, DM y la tarjeta del envío** |
 | [`05-packaging.md`](05-packaging.md) | **Las tres capas, los materiales, cómo se arma cada producto, el envío** |
 | [`06-venta.md`](06-venta.md) | **Los once pasos que hay hoy, los tres que tiene que haber, y cómo se acorta** |
+| [`07-catalogo.md`](07-catalogo.md) | **Los tres niveles por velocidad de despacho, y qué producto sumar** |
 | [`logos-final/`](logos-final/) | Los archivos del logo, en PNG |
 | [`plantillas/`](plantillas/) | Plantillas de feed e historias para Canva |
 
@@ -30,4 +31,5 @@ Instagram: [@brumacasaco](https://instagram.com/brumacasaco) (a cambiar, ver
 6. **Identidad verbal** — cómo se nombra, se describe y se contesta ✅ listo
 7. **Packaging** — cómo llega la caja ✅ listo
 8. **Venta** — acortar el camino entre «me gusta» y «pagué» ✅ listo
-9. **Manual de foto** — hora, fondo, encuadre ⏳ pendiente
+9. **Catálogo** — los tres niveles y la mezcla objetivo ✅ listo
+10. **Manual de foto** — hora, fondo, encuadre ⏳ pendiente
