@@ -15,18 +15,20 @@ las reglas comerciales de la cuenta.
 
 ## Por dónde empezar
 
-1. [`estrategia/14-la-cuenta-nueva.md`](estrategia/14-la-cuenta-nueva.md) —
-   **empezá acá.** Los pilares nuevos, qué muere, qué sobrevive, y las dos
-   primeras semanas día por día.
-2. [`estrategia/07-pilares-y-voz.md`](estrategia/07-pilares-y-voz.md) — **la
+1. [`estrategia/15-la-audiencia-es-una-persona.md`](estrategia/15-la-audiencia-es-una-persona.md)
+   — **empezá acá.** Por qué el eje nunca fue el tema, y el negocio que había
+   escondido en tu propia audiencia.
+2. [`estrategia/14-la-cuenta-nueva.md`](estrategia/14-la-cuenta-nueva.md) — el
+   reposicionamiento: qué muere, qué sobrevive, por dónde arrancar.
+3. [`estrategia/07-pilares-y-voz.md`](estrategia/07-pilares-y-voz.md) — **la
    voz** sigue valiendo entera ("la amiga que te avisa"). Los pilares de ese
    documento son los viejos.
-3. [`estrategia/08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md)
+4. [`estrategia/08-produccion-dia-a-dia.md`](estrategia/08-produccion-dia-a-dia.md)
    — el sistema para sostener la consistencia grabando día a día.
-4. [`estrategia/09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md)
+5. [`estrategia/09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md)
    — tu perfil y las 5 correcciones que cambian el plan.
-5. [`banco-de-ideas/`](banco-de-ideas/) — ~215 ideas, cuando no se te ocurre nada.
-6. [`estrategia/10-datos-reales.md`](estrategia/10-datos-reales.md) — los
+6. [`banco-de-ideas/`](banco-de-ideas/) — ~215 ideas, cuando no se te ocurre nada.
+7. [`estrategia/10-datos-reales.md`](estrategia/10-datos-reales.md) — los
    números reales. Los datos siguen siendo ciertos; las conclusiones sobre qué
    carril priorizar quedaron viejas.
 
@@ -56,7 +58,8 @@ las reglas comerciales de la cuenta.
 | [`11-canal-de-difusion.md`](estrategia/11-canal-de-difusion.md) | Sistema mensual para que el sorteo devuelva contenido y datos |
 | [`12-no-se-de-que-hablar.md`](estrategia/12-no-se-de-que-hablar.md) | **El bloqueo, y qué es realmente "querer ser influyente"** |
 | [`13-youtube.md`](estrategia/13-youtube.md) | YouTube: Shorts ya, largo con condición |
-| [`14-la-cuenta-nueva.md`](estrategia/14-la-cuenta-nueva.md) | ⭐ **El reposicionamiento del 9/9. Manda sobre todo lo demás** |
+| [`14-la-cuenta-nueva.md`](estrategia/14-la-cuenta-nueva.md) | El reposicionamiento del 9/9 |
+| [`15-la-audiencia-es-una-persona.md`](estrategia/15-la-audiencia-es-una-persona.md) | ⭐ **La audiencia es una persona, no un tema. Y el negocio que estaba escondido** |
 
 ### Banco de ideas
 
@@ -71,6 +74,7 @@ las reglas comerciales de la cuenta.
 | [`06-edicion.md`](banco-de-ideas/06-edicion.md) | Corrección de color en cámara, tu forma de editar, errores, backstage |
 | [`07-cinco-videos-que-no-te-aburren.md`](banco-de-ideas/07-cinco-videos-que-no-te-aburren.md) | **Cinco videos con guion de los carriles sin arrancar** |
 | [`08-como-te-venden.md`](banco-de-ideas/08-como-te-venden.md) | **Meta y Google contados desde el lado de la que recibe la publicidad** |
+| [`09-para-las-que-tienen-negocio.md`](banco-de-ideas/09-para-las-que-tienen-negocio.md) | **El carril nuevo: tus seguidoras con marca propia** |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas
