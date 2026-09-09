@@ -1,5 +1,9 @@
 # "No sé de qué hablar" y "quiero ser influyente"
 
+> ⚠️ **Revisar contra el reposicionamiento del 9/9**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)). Lo de acá sigue siendo
+> válido salvo lo que dependa de la asesoría de imagen o del ebook.
+
 Documento del 9/9. Sale de una frase tuya, textual:
 
 > *"No sé cómo seguir como creadora de contenido. Me interesa YouTube también.

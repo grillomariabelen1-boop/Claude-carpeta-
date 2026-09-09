@@ -1,5 +1,10 @@
 # Plan de recuperación color-first
 
+> ⚠️ **Superado el 9/9.** La cuenta se reposicionó: la asesoría de imagen sale
+> entera y el tema madre pasa a ser **cómo se hace el contenido**. Todo lo de
+> este documento que contradiga
+> [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md) ya no vale.
+
 > **Actualizado el 30/8 con datos reales.** Este plan era *haul-first*. Los
 > números mostraron que los hauls son los videos que **peor** rinden (4× menos
 > que los de color), así que el motor pasa a ser el color.

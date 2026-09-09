@@ -1,5 +1,10 @@
 # El canal de difusión y los sorteos
 
+> ⚠️ **Superado el 9/9.** La cuenta se reposicionó: la asesoría de imagen sale
+> entera y el tema madre pasa a ser **cómo se hace el contenido**. Todo lo de
+> este documento que contradiga
+> [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md) ya no vale.
+
 Tenés canal de difusión y sorteás una vez por mes lo que te queda de acciones
 con marcas. Hoy eso es un gasto sin retorno. Este documento lo convierte en
 sistema.

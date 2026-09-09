@@ -2,14 +2,25 @@
 
 Documento base. Todo lo demás en esta carpeta asume lo que está acá.
 
+> **Actualizado el 9/9 con el reposicionamiento**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)).
+
 ## Cuenta
 
-- Plataforma principal: TikTok.
-- Nicho: color, estilo e imagen personal.
-- Colorimetría propia: **Warm Spring** (sistema de 12 estaciones).
-- Activo existente: ebook **"Encontrá tu color"**.
+- Plataformas: TikTok, Instagram y **YouTube Shorts**. Todo va a las tres.
+- Nicho: **cómo se hace el contenido** — edición, proceso y publicidad — con
+  outfits como superficie.
+- Nicho anterior (hasta el 9/9): color, estilo e imagen personal.
+- Colorimetría propia: **Warm Spring**. Deja de ser tema de asesoría y pasa a
+  ser **oficio técnico**: corrección de color en cámara.
+- Activo existente: ebook **"Encontrá tu color"**. **Ya no se empuja.** Sigue
+  disponible, pero la cuenta no trabaja para venderlo.
 
 ## Formatos del canal
+
+> **Los formatos de abajo son los de la cuenta anterior.** Se dejan porque los
+> datos siguen siendo ciertos y porque los videos viejos siguen trayendo gente.
+> Los formatos nuevos están en [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md).
 
 | Formato | Estado |
 |---|---|
@@ -39,19 +50,20 @@ Detalle de cada uno en [`03-formatos.md`](03-formatos.md).
 
 ## Decisiones de contenido
 
-Tomadas el 30/8. Desarrollo completo en
-[`07-pilares-y-voz.md`](07-pilares-y-voz.md).
+Tomadas el 30/8, **reemplazadas el 9/9**. Desarrollo completo en
+[`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md).
 
 | Definición | Elección |
 |---|---|
-| Tema madre | **Estilo + vida real** |
+| Tema madre | **Cómo se hace el contenido** (era "estilo + vida real") |
 | Voz | **La amiga que te avisa** |
 | Exposición | **Cara y vida** |
 | Producción | **Día a día** |
 
-La asesoría de imagen **no es el techo de la cuenta**: baja a un 20% y pasa a
-funcionar como ancla de autoridad, no como tema principal. Se mantiene porque
-posiciona y trae seguidores, no porque tenga que estar en todos los videos.
+**La asesoría de imagen sale entera** (9/9). No es que baje de peso: se va el
+rol. No hay más credencial, ni clientas, ni colorimetría como servicio. El
+motivo está en [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md) y es de ella:
+la asesoría fue una estrategia de crecimiento, no una vocación.
 
 ## Perfil
 
@@ -86,13 +98,16 @@ Detalle y consecuencias en
 
 ## Monetización activa
 
+- **Colabs pagas** (bajo el modelo UGC del punto 3). **Es la principal**, y el
+  reposicionamiento la mejora: la marca que contrata UGC compra que sepas
+  producir, y ahora el feed lo demuestra.
 - **AdSense.**
-- **Colabs pagas** (bajo el modelo UGC del punto 3).
 
-Fuera de alcance por ahora: **cursos y productos digitales nuevos**.
+Fuera de alcance: **cursos y productos digitales nuevos**, y también la
+**asesoría de imagen como servicio** (baja el 9/9).
 
-> **Supuesto declarado:** la regla "no productos digitales por ahora" la leo
-> como *no lanzar productos nuevos*. El ebook "Encontrá tu color" ya existe y
-> lo trato como activo disponible, no como línea de negocio a construir.
-> Si tampoco se quiere empujar el ebook, hay que sacar las menciones en
-> [`03-formatos.md`](03-formatos.md) y [`06-colabs-y-monetizacion.md`](06-colabs-y-monetizacion.md).
+> **Resuelto el 9/9:** el ebook no se empuja más. Queda disponible y si alguien
+> lo compra, bienvenido, pero ningún video trabaja para venderlo. Las menciones
+> con CTA de [`02-plan-recuperacion.md`](02-plan-recuperacion.md),
+> [`03-formatos.md`](03-formatos.md) y [`05-metricas.md`](05-metricas.md)
+> quedan sin efecto.

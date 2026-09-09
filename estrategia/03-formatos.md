@@ -1,5 +1,10 @@
 # Los seis formatos
 
+> ⚠️ **Superado el 9/9.** La cuenta se reposicionó: la asesoría de imagen sale
+> entera y el tema madre pasa a ser **cómo se hace el contenido**. Todo lo de
+> este documento que contradiga
+> [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md) ya no vale.
+
 Para cada uno: por qué funciona, duración, gancho, estructura, CTA y
 frecuencia durante la recuperación.
 

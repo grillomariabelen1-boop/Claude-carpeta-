@@ -1,5 +1,10 @@
 # Calendario de 6 semanas
 
+> ⚠️ **Superado el 9/9.** La cuenta se reposicionó: la asesoría de imagen sale
+> entera y el tema madre pasa a ser **cómo se hace el contenido**. Todo lo de
+> este documento que contradiga
+> [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md) ya no vale.
+
 > **Actualizado el 30/8.** El calendario era haul-first. Pasa a **color-first**
 > y todo se publica en TikTok **y** Instagram.
 > Ver [`10-datos-reales.md`](10-datos-reales.md).

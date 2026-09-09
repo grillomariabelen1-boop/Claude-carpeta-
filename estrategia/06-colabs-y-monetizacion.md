@@ -1,5 +1,9 @@
 # Colabs y monetización
 
+> ⚠️ **Revisar contra el reposicionamiento del 9/9**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)). Lo de acá sigue siendo
+> válido salvo lo que dependa de la asesoría de imagen o del ebook.
+
 ## Las tres reglas duras
 
 ### 1. No se trabaja por canje

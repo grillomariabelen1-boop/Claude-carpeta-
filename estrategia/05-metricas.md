@@ -1,5 +1,9 @@
 # Métricas, criterios de salida y árbol de decisión
 
+> ⚠️ **Revisar contra el reposicionamiento del 9/9**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)). Lo de acá sigue siendo
+> válido salvo lo que dependa de la asesoría de imagen o del ebook.
+
 ## Qué se mide y qué se ignora
 
 **Se mide:**

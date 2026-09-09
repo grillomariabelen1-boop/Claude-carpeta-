@@ -1,5 +1,9 @@
 # Perfil, diferencial y correcciones al plan
 
+> ⚠️ **Revisar contra el reposicionamiento del 9/9**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)). Lo de acá sigue siendo
+> válido salvo lo que dependa de la asesoría de imagen o del ebook.
+
 Este documento sale de las respuestas del 30/8 y **corrige** supuestos de
 [`02-plan-recuperacion.md`](02-plan-recuperacion.md) y
 [`07-pilares-y-voz.md`](07-pilares-y-voz.md).

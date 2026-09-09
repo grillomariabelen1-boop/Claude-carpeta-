@@ -1,5 +1,9 @@
 # Datos reales — análisis del 30/8
 
+> ⚠️ **Revisar contra el reposicionamiento del 9/9**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)). Lo de acá sigue siendo
+> válido salvo lo que dependa de la asesoría de imagen o del ebook.
+
 Primer análisis con números en la mano. **Corrige dos supuestos centrales del
 plan**, los dos tomados de memoria en la conversación inicial.
 

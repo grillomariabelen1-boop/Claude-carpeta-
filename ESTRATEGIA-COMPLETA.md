@@ -2,6 +2,11 @@
 
 *Actualizado el 9/9/2026. Listo para pegar en Notion.*
 
+> ⚠️ **La cuenta se reposicionó el 9/9.** La asesoría de imagen sale entera y
+> el tema madre pasa a ser **cómo se hace el contenido**. **La sección 13 manda
+> sobre todas las anteriores** — las secciones 3, 4 y 5 son de la cuenta
+> anterior y se dejan porque los datos siguen siendo ciertos.
+
 ---
 
 ## El hilo de la cuenta
@@ -622,3 +627,154 @@ por video. Las tres están en Analytics y ninguna depende del pool inicial.
 **Pero tu manera de facturar está desacoplada de tu alcance:** el UGC no
 depende de tus views. Eso te compra el tiempo que la mayoría no tiene, y hace
 que los 200 views sean un problema bastante menor de lo que se siente.
+
+---
+
+## 13 · La cuenta nueva
+
+**Este documento manda sobre todos los demás.** Lo que los otros digan y lo
+contradiga, no vale.
+
+---
+
+### Qué cambió
+
+> *"No quiero ser más la asesora de imagen. Esto lo empecé a hacer porque subía
+> contenido de outfits y después creí que con este contenido podía crecer."*
+
+**La asesoría no fue una vocación: fue una estrategia de crecimiento.** Y
+funcionó —24.000, 19.000, 17.000— que es lo que la hizo difícil de soltar. Las
+estrategias que uno no eligió por gusto duran hasta que se vuelven trabajo.
+
+| | |
+|---|---|
+| **Tema madre** | **Cómo se hace el contenido** — edición, proceso, publicidad |
+| **Outfits** | Quedan, como superficie |
+| **Asesoría de imagen** | **Sale entera:** clientas, credencial y ebook |
+
+---
+
+### Lo que cuesta
+
+1. **Vas a perder parte del público.** Contá con views peores dos o tres
+   semanas antes de que mejoren.
+2. **El plan de 6 semanas queda sin efecto.** Era color-first.
+3. **El algoritmo tiene que reaprender a quién servirte.** Unas semanas de
+   datos sucios.
+
+**Y por qué igual conviene ahora:** el mejor momento para cambiar de tema es
+cuando no tenés alcance que perder. Estás en 180-350; el costo de resetear hoy
+es el más bajo que va a ser nunca. Lo caro es seguir seis meses haciendo algo
+que no querés: eso no termina en una cuenta más chica, termina en ninguna.
+
+---
+
+### Lo que NO cuesta: la plata
+
+Una marca que contrata UGC **no compra tu audiencia: compra que sepas
+producir.** Antes vendías "tengo público de moda". Ahora vendés "sé hacer
+esto", y tu feed deja de ser vidriera para ser **portfolio**.
+
+Es la primera vez que lo que te divierte y lo que factura apuntan al mismo lado.
+
+---
+
+### Por qué no sos una más
+
+"Cómo hacer contenido" también está saturado. Tres cosas te separan:
+
+1. **Trabajás en publicidad de verdad.** No sos autodidacta contando lo que
+   leíste.
+2. **Sabés de color en serio** — y ahí el color no muere, **cambia de
+   función**: de asesoría a **oficio técnico**. Casi todas las cuentas de moda
+   tienen el color mal en cámara y sos la única que puede explicar por qué.
+3. **No vendés un curso.** Todo ese nicho termina en uno. Decilo en voz alta.
+
+---
+
+### Los pilares nuevos
+
+| Carril | Peso |
+|---|---|
+| **Edición y craft visual** | 35% |
+| **Cómo te venden** (publicidad) | 25% |
+| **Proceso y detrás de escena** | 20% |
+| **Outfits** | 20% |
+
+#### La mecánica que lo sostiene
+
+Los outfits no son el resto: son el material sobre el que se demuestra todo.
+
+```
+Grabás un outfit → video 1: el outfit
+                 → video 2: "así edité ese video"
+                 → video 3: "por qué el beige se ve gris ahí"
+```
+
+Una grabación, tres videos, tres carriles. **Y el outfit ya no necesita ropa
+nueva, porque dejó de ser el producto: es el soporte.**
+
+---
+
+### Qué muere
+
+La credencial (nunca más "como asesora de imagen") · el ebook deja de empujarse
+(no hace falta bajarlo) · la colorimetría como asesoría · el plan color-first y
+su calendario · el canal de difusión como estaba.
+
+### Qué sobrevive
+
+**La voz** ("la amiga que te avisa") · la regla 80/20 · **los videos viejos**
+(no se borra nada) · el colchón de 5 · las tres plataformas — y ojo: **este
+contenido es más de YouTube que el anterior**, porque "cómo corregir color en
+CapCut" se busca y "el color que nadie sabe combinar" no · el UGC, mejor parado.
+
+---
+
+### La bio
+
+> **A.** *Trabajo en publicidad y hago contenido. Acá te muestro cómo.*
+> **B.** *Cómo se hace el contenido que mirás. Sin cursos.*
+
+---
+
+### Semana 1
+
+| Día | Video |
+|---|---|
+| Lunes | ⭐⭐ **"Tu ropa no se ve de ese color, y no es tu cámara"** |
+| Martes | **Outfit**, sin explicar nada |
+| Miércoles | **"Así edité el video de ayer"** |
+| Jueves | **"Trabajo en publicidad: así te venden una tendencia"** |
+| Viernes | **"Un video de 15 segundos, 40 minutos de trabajo"** |
+
+### Semana 2
+
+| Día | Video |
+|---|---|
+| Lunes | **"El error de edición que hace que se vayan en el segundo 2"** |
+| Martes | **Outfit** |
+| Miércoles | **"La única transición que uso en todos mis videos"** |
+| Jueves | **"Por qué compraste eso que no necesitabas"** |
+| Viernes | **"Mi setup completo"** — spoiler: es poco |
+
+**No anuncies el cambio.** Un video de "les vengo a contar que la cuenta
+cambia" sólo le da a la gente un momento concreto para dejar de seguirte.
+
+---
+
+### Cómo se mide ahora
+
+**Guardados** (el tutorial se guarda, no se comparte) · **comentarios con
+pregunta técnica** ("¿con qué editás?") · **retención a 3s**, que no cambió.
+Shares baja de importancia. **Views: ignoralas cuatro semanas.**
+
+---
+
+### El chequeo del 7/10
+
+| Si pasa esto | Significa |
+|---|---|
+| Guardados y preguntas suben, views no | **Funcionó.** El alcance viene después |
+| Todo plano pero **tenés ganas de grabar** | Seguí. Era el insumo que faltaba |
+| Todo plano y **tampoco te divierte** | No era el tema. **No busques un cuarto nicho** |

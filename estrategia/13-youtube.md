@@ -1,5 +1,9 @@
 # YouTube
 
+> ⚠️ **Revisar contra el reposicionamiento del 9/9**
+> ([`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md)). Lo de acá sigue siendo
+> válido salvo lo que dependa de la asesoría de imagen o del ebook.
+
 Documento del 9/9. Contesta si YouTube va o no, cuándo, y con qué.
 
 **La respuesta corta:** sí, pero en dos tiempos. **Shorts arranca ya** porque
