@@ -17,6 +17,8 @@ orgánico y las reglas comerciales de la cuenta.
 6. [`estrategia/01-diagnostico.md`](estrategia/01-diagnostico.md) — por qué las
    views están clavadas en 180-350 y los 4 tests para confirmarlo.
 
+> **¿Estás aburrida?** Los cinco videos de
+> [`banco-de-ideas/07-cinco-videos-que-no-te-aburren.md`](banco-de-ideas/07-cinco-videos-que-no-te-aburren.md).
 > **¿Estás trabada y no sabés qué grabar?** Andá directo a
 > [`estrategia/12-no-se-de-que-hablar.md`](estrategia/12-no-se-de-que-hablar.md).
 > **¿Querés arrancar YouTube?** [`estrategia/13-youtube.md`](estrategia/13-youtube.md).
@@ -53,6 +55,7 @@ orgánico y las reglas comerciales de la cuenta.
 | [`04-proceso-y-publicidad.md`](banco-de-ideas/04-proceso-y-publicidad.md) | "Le armo el look a ___", cómo te venden, transformaciones |
 | [`05-proximos-10-videos.md`](banco-de-ideas/05-proximos-10-videos.md) | **Dos semanas listas para grabar, con guion por segundos** |
 | [`06-edicion.md`](banco-de-ideas/06-edicion.md) | Corrección de color en cámara, tu forma de editar, errores, backstage |
+| [`07-cinco-videos-que-no-te-aburren.md`](banco-de-ideas/07-cinco-videos-que-no-te-aburren.md) | **Cinco videos con guion de los carriles sin arrancar** |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas
@@ -91,6 +94,9 @@ orgánico y las reglas comerciales de la cuenta.
   el nicho lo hacen chicas de 20-24 y las de 28-35 están mal atendidas.
 - **El bloqueo no es de ideas.** Hay 215 escritas y 10 videos con guion. Cuando
   no sabés qué grabar, lo que falta es resultado, no tema.
+- **El aburrimiento se atiende ya, no en la semana 3.** El plan lo agendó para
+  más adelante y "más adelante" no llegó. Lo que aburre es la pose de experta,
+  no el color — y la pose se suelta sin soltar el tema.
 - **Ya tenés influencia; lo que falta es escala.** 515 shares con 648 likes es
   gente cambiando una decisión de compra. Eso es más difícil que las views.
 - **YouTube va, en dos tiempos:** Shorts desde ya porque no cuesta nada, y el

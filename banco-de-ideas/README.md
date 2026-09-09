@@ -12,6 +12,14 @@ de arriba a abajo: es una reserva para el día que no se te ocurre nada.
 | [`03-autoridad.md`](03-autoridad.md) | Autoridad — el ancla | 20% |
 | [`04-proceso-y-publicidad.md`](04-proceso-y-publicidad.md) | Proceso y publicidad — el diferencial | 10% (desde semana 3) |
 
+**Y dos archivos que no son banco sino cola de trabajo** — videos con guion,
+listos para grabar:
+
+| Archivo | Qué es |
+|---|---|
+| [`05-proximos-10-videos.md`](05-proximos-10-videos.md) | Dos semanas del plan color-first |
+| [`07-cinco-videos-que-no-te-aburren.md`](07-cinco-videos-que-no-te-aburren.md) | **Los carriles sin arrancar, cuando estás aburrida** |
+
 Definición de los carriles en
 [`../estrategia/07-pilares-y-voz.md`](../estrategia/07-pilares-y-voz.md).
 

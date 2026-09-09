@@ -88,6 +88,60 @@ es "buscar más ideas".
 
 ---
 
+## Actualización del 9/9 — es la B, y el plan tiene la culpa
+
+Preguntado esto, contestaste: *"estoy un poco aburrida"*. Es la segunda vez en
+diez días. **Eso ya no es un estado de ánimo, es un dato**, y hay que tratarlo
+como tal.
+
+Y hay que decir de dónde viene, porque el problema está en el plan y no en vos:
+
+> El 30/8 dijiste que estabas aburrida. La respuesta del plan fue darte dos
+> carriles nuevos —**edición** y **cómo te venden**— y ponerlos en la semana 2
+> y en la semana 3. **Diez días después, los dos siguen sin arrancar.**
+
+Mirá la semana 1 del calendario: color, vida con ropa, bajitas, guía de compra,
+y el viernes "color o proceso". El aburrimiento quedó agendado para más
+adelante, y "más adelante" no llegó.
+
+**Ese orden está mal.** El plan se optimizó para la recuperación del alcance y
+el costo lo pagó tu motivación, cuando la motivación es el único insumo que no
+se puede reponer con un documento. Un plan que no sostenés vale cero, por bien
+diseñado que esté ([`09-perfil-y-diferencial.md`](09-perfil-y-diferencial.md),
+corrección 3, que lo decía y no lo aplicamos).
+
+### La corrección
+
+**El aburrimiento se atiende ya, no en la semana 3.**
+
+Cinco videos de los carriles sin arrancar, con guion, en
+[`../banco-de-ideas/07-cinco-videos-que-no-te-aburren.md`](../banco-de-ideas/07-cinco-videos-que-no-te-aburren.md).
+Ninguno requiere comprar nada y ninguno es color contado como lo venías
+contando.
+
+**No rompe la regla de una variable por semana:** entran de a uno, en el lugar
+del viernes, que el calendario ya tenía reservado para "color o proceso" y
+estaba sin usar.
+
+### Y una cosa más, sobre qué es lo que aburre
+
+Vale la pena separarlo, porque cambia qué hacer:
+
+| Lo que aburre | Se arregla con |
+|---|---|
+| El **tema** (color) | Nada, todavía: es lo que mejor te funciona. Pero no es esto — mirá abajo |
+| La **pose** de experta | La serie de romper tu propia regla (video #2) |
+| **Grabar sola**, hablándole a un trípode | Sacar a otra persona en cámara (video #3) |
+| Que **no pase nada** | Es la traducción A, y se arregla del otro lado |
+
+Los datos ya dijeron cuál no es: lo que te funciona no es *ser asesora*, es el
+color contado en tono de amiga ([`10-datos-reales.md`](10-datos-reales.md), "la
+tensión que hay que nombrar"). **Lo que aburre es la pose, no el tema.** Y hay
+una diferencia enorme entre las dos, porque la pose se puede soltar sin soltar
+el color — que es exactamente lo que hacen los videos #1, #2 y #5.
+
+---
+
 ## Ahora la segunda parte: "solo quiero ser influyente"
 
 Esta frase merece una respuesta franca, porque es la que más te puede costar.
