@@ -193,8 +193,10 @@ Es mucho mejor material, por tres razones:
    Instagram es una experiencia universal. La estrategia de marca de una
    empresa no le pasa a nadie.
 2. **Tiene misterio real.** "¿Me escucha el celular?" es una de las preguntas
-   más repetidas de internet y **vos sabés la respuesta de verdad**, no por
-   intuición.
+   más repetidas de internet, y vos podés contar la mecánica que hay detrás
+   desde adentro del oficio. **No hace falta que afirmes lo que no sabés:** ver
+   la regla 2 de [`08-como-te-venden.md`](../banco-de-ideas/08-como-te-venden.md),
+   que es la que sostiene la credibilidad de todo este carril.
 3. **Es girly-compatible.** Se cuenta desde lo que te pasa a vos comprando, no
    desde un dashboard.
 
@@ -297,7 +299,7 @@ es el piso: **un outfit y un video de oficio por semana.**
 | # | Video | Carril |
 |---|---|---|
 | 1 | ⭐⭐ **"Tu ropa no se ve de ese color, y no es tu cámara"** — corrección de color. El que mejor define la cuenta nueva, y el único que nadie más puede hacer | Edición |
-| 2 | ⭐⭐ **"¿Te escucha el celular? Trabajo en Meta Ads y te digo la verdad"** — la pregunta más repetida de internet, contestada por alguien que sabe | Publicidad |
+| 2 | ⭐⭐ **"No sé si el teléfono te escucha. Sé que no le hace falta"** — la pregunta más repetida de internet, contestada sin afirmar de más | Publicidad |
 | 3 | ⭐ **"Por qué ese vestido te persigue hace tres semanas"** — retargeting contado desde el lado de la que lo sufre | Publicidad |
 | 4 | **Un outfit**, sin explicar nada. Que sea lindo y nada más | Outfits |
 | 5 | **"Así edité el video de ayer"** — el del outfit. La mecánica en vivo | Edición |
