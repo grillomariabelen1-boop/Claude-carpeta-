@@ -1,6 +1,6 @@
 # Estrategia de contenido — @belengrillo_
 
-*Actualizado el 31/8/2026. Listo para pegar en Notion.*
+*Actualizado el 9/9/2026. Listo para pegar en Notion.*
 
 ---
 
@@ -406,3 +406,219 @@ la persona cuya paleta no coincide con su ropa.
 
 Dos huecos más: **colorimetría argentina** (todo el contenido es de España) y
 **colorimetría sin comprar nada** (todo asume que rehacés el placard).
+
+---
+
+## 11 · YouTube
+
+**Sí, pero en dos tiempos.** Shorts arranca ya porque no cuesta nada. El video
+largo espera a una condición concreta.
+
+---
+
+### Por qué YouTube te conviene más de lo que creés
+
+**Tu contenido es evergreen.** Tu video #1 se publicó en abril de 2025 e hizo
+24.000 views en los últimos 60 días. En TikTok eso es un accidente. En YouTube
+es el modelo de negocio.
+
+**Tu contenido es de búsqueda.** `cómo saber mi estación de color` ·
+`cómo vestirse si soy bajita` · `con qué combino el beige`. Te lo buscan sin
+que tengas que interrumpir a nadie.
+
+**Tu hueco necesita duración.** "Ya sé que soy X, ¿y ahora qué hago con mi
+placard?" no entra en 20 segundos. Por eso sigue vacío: en TikTok nadie lo
+puede llenar.
+
+Y las de 28-35 miran YouTube sentadas, de noche, cuando están por gastar plata.
+
+---
+
+### Fase 0 — Shorts, ya
+
+Mismo vertical que ya grabás. Se graba una vez y se sube a las tres.
+
+1. **Sin marca de agua.** Exportá del proyecto original, nunca bajado de TikTok.
+2. **El título lleva palabras de búsqueda, no el gancho.**
+   *TikTok:* "El color que todo el mundo tiene pero nadie sabe combinar 💜"
+   *YouTube:* "Con qué combinar el lila | colorimetría"
+3. Descripción de dos líneas con las palabras del tema.
+4. **Agarrá @belengrillo_ ahora**, aunque no publiques.
+5. No mires views los primeros dos meses. Ahí no hay señal.
+
+---
+
+### Fase 1 — El largo, y cuándo
+
+**No sale el primer largo hasta las dos cosas:**
+
+1. Colchón de 5 sostenido **tres semanas seguidas**.
+2. TikTok o Instagram fuera del pool de recuperación.
+
+Un largo cuesta 4-8 horas. Si salen de las semanas en que ya grabás al día, se
+cae la consistencia de las tres plataformas juntas y el problema pasa de uno a
+cuatro. **YouTube no se te va a ir. La racha sí se puede perder.**
+
+Después: **un largo por semana, 8-12 minutos.**
+
+---
+
+### Los primeros 5 largos
+
+1. **Cómo saber tu estación de color — y qué hacer después.** La segunda mitad
+   es el hueco. Adentro va tu caso: asesora de color con placard monocromo.
+2. **Cómo vestirse si sos bajita — guía completa.** Tu video #1, en la
+   plataforma donde rinde años en vez de semanas.
+3. **Dónde comprar ropa en Buenos Aires.** Tu contenido más compartible, y lo
+   local casi no tiene competencia. Calzado primero.
+4. **Dejé de vestirme como a los 20 y no sabía cómo vestirme ahora.** Tu hueco
+   de mercado. El que más comentarios va a traer.
+5. **Cómo te venden la ropa.** Tu diferencial. Va quinto porque no es de
+   búsqueda: necesita que YouTube ya tenga a quién sugerírselo.
+
+---
+
+### Cómo se hace sin morir
+
+**Un largo no es un video nuevo: es un tema que ya trabajaste, contestado
+entero.** 4 verticales que ya hiciste + lo que no entraba + la carpeta
+`materia prima`.
+
+Y sale al revés: **cada largo se corta en 4 o 5 Shorts.** Una sesión resuelve
+la semana en las cuatro plataformas.
+
+---
+
+### Lo que cambia
+
+| | Vertical | YouTube largo |
+|---|---|---|
+| Título | Gancho | **Lo que escribieron en el buscador** |
+| Miniatura | No existe | **Decide casi todo.** Cara, contraste, 3 palabras |
+| Enganche | 3 segundos | **30 segundos**, sin intro |
+| Si no funciona | Muere en 48hs | **Puede despertar a los 4 meses** |
+
+No cambian: la voz, y el 80/20.
+
+---
+
+### Qué NO hacer
+
+Nada de vlogs · no subas TikToks con marca de agua · no empieces por
+"qué es la colorimetría" (saturado por canales españoles: tu entrada es siempre
+qué pasa **después** del test) · no hagas podcast · no mires suscriptores el
+primer semestre.
+
+Mirá **CTR de miniatura** (4-6% normal) y **duración media** (40-50% está
+bien). Cuando un largo no funciona, casi siempre es la miniatura.
+
+---
+
+### Plata
+
+El programa de socios pide en líneas generales 1.000 suscriptores y 4.000 horas
+de reproducción — **chequeá los requisitos vigentes**, YouTube los cambia. Es
+un objetivo de 12 meses.
+
+El ingreso real de YouTube, mucho antes que eso, son dos: **el ebook** (un
+largo de colorimetría lo vende solo durante años) y **las colabs UGC** (un
+canal con largos bien hechos sube lo que podés cobrar).
+
+---
+
+## 12 · No sé de qué hablar
+
+Dijiste tres cosas: que no sabés cómo seguir, que no sabés de qué hablar, y que
+querés ser influyente. Son problemas distintos.
+
+---
+
+### No es cierto que no sepas de qué hablar
+
+Ya está escrito, hace diez días: **~215 ideas** por carril, **10 videos con
+guion por segundos**, **20 títulos de color** con tu fórmula ganadora, 6
+plantillas y un calendario de 6 semanas.
+
+Si tuvieras un problema de ideas, ese material lo habría resuelto. No lo
+resolvió. **Entonces el problema no son las ideas** — y buscar más ahora es la
+forma más común de perder otro mes.
+
+---
+
+### Qué es lo que pasa realmente
+
+**A — Desmoralización.** Venís de 8.000, 17.000, 24.000 views y estás en
+180-350. El cerebro deja de generar ideas cuando las ideas no producen
+resultado. Se siente igual que un bloqueo creativo y no lo es.
+
+**B — Aburrimiento.** Ya lo dijiste el 30/8. Sí se te ocurren ideas, pero todas
+del mismo tipo, y grabar *eso* otra vez te da fastidio.
+
+**Se decide con una pregunta:** de los 10 videos con guion, ¿grabaste alguno?
+
+| Respuesta | Qué hacer |
+|---|---|
+| Ninguno | Grabá el #1 (el negro) hoy. La decisión ya está tomada |
+| Algunos, y siguen en 200 | Sacá la retención a 3s de los últimos 10 videos. Sin eso corregís a ciegas |
+| Los grabé y me aburrieron | Adelantá el carril de **edición** a esta semana |
+
+Ninguna de las tres respuestas es "buscar más ideas".
+
+---
+
+### "Solo quiero ser influyente"
+
+**Influencia no es un tema: es un resultado.** No hay un video que se llame
+"ser influyente", igual que no hay un ejercicio que se llame "estar en forma".
+Y el contenido hecho para que te vean se nota rápido.
+
+**Vos ya escribiste el objetivo que sí funciona**, y es textual tuyo:
+
+> *"Me gusta el contenido que dé valor. A veces ni me importa de qué trate,
+> sino que le deje algo a la gente que lo ve."*
+
+Esa frase produce la otra. Al revés no pasa. Y además es ejecutable: te dice
+qué grabar mañana. "Ser influyente" no te dice nada.
+
+#### Ya sos influyente, y no lo estás viendo
+
+Estás midiendo influencia en views. Mirá tus datos:
+
+| Video | Shares | Likes | Ratio |
+|---|---|---|---|
+| Tiendas que sí o sí tenés que conocer | **515** | 648 | **79%** |
+| Las 3 reglas de oro antes de comprar | 97 | 94 | **103%** |
+
+Normal es 5-10%. **515 personas le mandaron tu video a alguien que les importa
+para cambiar en qué iba a gastar la plata.** Eso es influencia en la definición
+estricta, y es mucho más difícil de conseguir que views.
+
+> **Lo que te falta no es influencia. Es escala.** Y ya sabés qué contenido
+> produce el efecto: guía de compra y color.
+
+#### Qué medir mientras tanto
+
+Shares sobre likes · comentarios con una pregunta adentro · seguidores ganados
+por video. Las tres están en Analytics y ninguna depende del pool inicial.
+
+---
+
+### Esta semana
+
+1. **No agregues YouTube largo todavía.** Shorts sí, que no cuesta nada.
+2. **Grabá los videos 1 a 5** que ya tienen guion. No elijas: están en orden.
+3. **Sacá los dos números que faltan:** retención a 3s y tasa de finalización.
+   Quince minutos, y siguen sin hacerse hace diez días.
+4. **Arrancá edición** como carril nuevo. Un video por semana.
+
+---
+
+### Los tiempos, sin adornos
+
+- Salir del pool de 180-350: **4 a 6 semanas** de consistencia.
+- Que YouTube largo devuelva algo: **6 a 12 meses**.
+- Que la cuenta sea tu ingreso principal: no este año.
+
+**Pero tu manera de facturar está desacoplada de tu alcance:** el UGC no
+depende de tus views. Eso te compra el tiempo que la mayoría no tiene, y hace
+que los 200 views sean un problema bastante menor de lo que se siente.

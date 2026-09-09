@@ -17,6 +17,10 @@ orgánico y las reglas comerciales de la cuenta.
 6. [`estrategia/01-diagnostico.md`](estrategia/01-diagnostico.md) — por qué las
    views están clavadas en 180-350 y los 4 tests para confirmarlo.
 
+> **¿Estás trabada y no sabés qué grabar?** Andá directo a
+> [`estrategia/12-no-se-de-que-hablar.md`](estrategia/12-no-se-de-que-hablar.md).
+> **¿Querés arrancar YouTube?** [`estrategia/13-youtube.md`](estrategia/13-youtube.md).
+
 ## Índice
 
 ### Estrategia
@@ -35,6 +39,8 @@ orgánico y las reglas comerciales de la cuenta.
 | [`09-perfil-y-diferencial.md`](estrategia/09-perfil-y-diferencial.md) | Perfil, el diferencial publicitario y 7 correcciones al plan |
 | [`10-datos-reales.md`](estrategia/10-datos-reales.md) | **Analytics reales: 9 hallazgos que corrigen el plan** |
 | [`11-canal-de-difusion.md`](estrategia/11-canal-de-difusion.md) | Sistema mensual para que el sorteo devuelva contenido y datos |
+| [`12-no-se-de-que-hablar.md`](estrategia/12-no-se-de-que-hablar.md) | **El bloqueo, y qué es realmente "querer ser influyente"** |
+| [`13-youtube.md`](estrategia/13-youtube.md) | **YouTube: Shorts ya, largo con condición. Los primeros 5 videos** |
 
 ### Banco de ideas
 
@@ -83,3 +89,9 @@ orgánico y las reglas comerciales de la cuenta.
   puede contar cómo te venden. 15-20% de la cuenta, desde la semana 3.
 - Tener **30 años y un trabajo** es un hueco de mercado, no un límite: casi todo
   el nicho lo hacen chicas de 20-24 y las de 28-35 están mal atendidas.
+- **El bloqueo no es de ideas.** Hay 215 escritas y 10 videos con guion. Cuando
+  no sabés qué grabar, lo que falta es resultado, no tema.
+- **Ya tenés influencia; lo que falta es escala.** 515 shares con 648 likes es
+  gente cambiando una decisión de compra. Eso es más difícil que las views.
+- **YouTube va, en dos tiempos:** Shorts desde ya porque no cuesta nada, y el
+  video largo recién cuando el colchón de 5 aguante tres semanas seguidas.
