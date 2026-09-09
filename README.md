@@ -70,6 +70,7 @@ las reglas comerciales de la cuenta.
 | [`05-proximos-10-videos.md`](banco-de-ideas/05-proximos-10-videos.md) | **Dos semanas listas para grabar, con guion por segundos** |
 | [`06-edicion.md`](banco-de-ideas/06-edicion.md) | Corrección de color en cámara, tu forma de editar, errores, backstage |
 | [`07-cinco-videos-que-no-te-aburren.md`](banco-de-ideas/07-cinco-videos-que-no-te-aburren.md) | **Cinco videos con guion de los carriles sin arrancar** |
+| [`08-como-te-venden.md`](banco-de-ideas/08-como-te-venden.md) | **Meta y Google contados desde el lado de la que recibe la publicidad** |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas

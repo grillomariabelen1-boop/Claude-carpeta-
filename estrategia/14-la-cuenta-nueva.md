@@ -86,9 +86,10 @@ Seamos honestos: **"cómo hacer contenido" también está saturado.** Está llen
 de cuentas de crecimiento y tips de algoritmo. Tres cosas te separan, y las
 tres son verificables:
 
-**1. Trabajás en publicidad de verdad.** No sos autodidacta contando lo que
-leíste. Es la diferencia entre alguien que estudió el oficio y alguien que vio
-tutoriales.
+**1. Comprás medios de verdad, en Meta y Google.** No sos autodidacta contando
+lo que leíste, y no es teoría de marca: sos la persona que decide a quién le
+aparece un anuncio. Nadie en tu nicho tiene eso, y muy poca gente que lo tiene
+sabe contarlo sin sonar a LinkedIn.
 
 **2. Sabés de color en serio — y ahí el color no muere, cambia de función.**
 
@@ -111,16 +112,116 @@ rarísima en ese nicho y funciona como gancho.
 
 ---
 
-## Los pilares nuevos
+## Girly es la estética, no el tema — la corrección del 9/9 (2)
 
-| Carril | Peso | Qué es | Banco |
-|---|---|---|---|
-| **Edición y craft visual** | **35%** | Corrección de color, transiciones, luz, setup, errores | [`06-edicion.md`](../banco-de-ideas/06-edicion.md) |
-| **Cómo te venden** | **25%** | Publicidad pública leída por alguien que la hace | [`04-proceso-y-publicidad.md`](../banco-de-ideas/04-proceso-y-publicidad.md) |
-| **Proceso y detrás de escena** | **20%** | Cuántas tomas, qué quedó afuera, cómo elegís | [`04-proceso-y-publicidad.md`](../banco-de-ideas/04-proceso-y-publicidad.md) |
-| **Outfits** | **20%** | Vos vistiéndote. Sin teoría, sin credencial | [`01-vida-con-ropa.md`](../banco-de-ideas/01-vida-con-ropa.md) |
+Dijiste dos cosas que cambian cómo se aplica todo lo de arriba:
 
-### La mecánica que hace que esto se sostenga
+> *"Yo estoy en publicidad, Meta y Google. No quiero que mi cuenta se vaya 100%
+> a eso porque mi contenido es girly, pero tal vez no ser tan cuadrada con lo
+> que subo."*
+
+**La primera es una confusión mía y la segunda es un reclamo justo.**
+
+### La confusión: girly y el tema son ejes distintos
+
+Veníamos discutiendo *de qué* es la cuenta como si eso decidiera cómo se ve. No
+lo decide.
+
+| Eje | Qué es | Cuánto puede variar |
+|---|---|---|
+| **Estética / registro** | Girly. Tu casa, tu luz, tu voz, tus uñas, la música, el ritmo | **Nada. Es fijo. Es lo que hace que la cuenta sea una sola** |
+| **Tema** | Un outfit, cómo editaste algo, por qué te persigue un vestido en Instagram | **Todo lo que quieras** |
+
+Un video sobre retargeting grabado en tu pieza, con tu voz y tu edición, **es un
+video girly sobre publicidad.** No se parece en nada a un tipo con pizarrón
+explicando el funnel. El tema no arrastra la estética: la estética se la impone
+al tema.
+
+Y esto ya lo habías dicho vos, antes que yo:
+
+> *"Me gusta el contenido que dé valor. A veces ni me importa de qué trate,
+> sino que le deje algo a la gente que lo ve."*
+
+**El hilo nunca fue el tema. Sos vos.** Por eso podés subir cosas muy
+distintas sin que la cuenta se rompa — siempre que se vean y suenen tuyas.
+
+### El reclamo: los porcentajes se van
+
+Te di 35/25/20/20 y un calendario día por día. Eso es exactamente lo cuadrado
+que no querés, y encima está mal aplicado: **un sistema de porcentajes sirve
+para alguien que sube demasiado de una sola cosa.** Vos tenés el problema
+contrario.
+
+Se reemplaza por un piso, no por una grilla:
+
+> **Por semana: un outfit y un video de oficio.** Oficio es edición o
+> publicidad, la que te pinte esa semana. **El resto es libre.**
+
+Eso es todo. Dos casilleros por semana de cinco videos. Los otros tres salen de
+lo que te pasó, de la carpeta `materia prima`, o del banco.
+
+**Los carriles quedan como lista de dónde sacar ideas, no como cuota a cumplir:**
+
+| Carril | Dónde están las ideas |
+|---|---|
+| Edición y craft visual | [`06-edicion.md`](../banco-de-ideas/06-edicion.md) |
+| Cómo te venden (Meta y Google) | [`08-como-te-venden.md`](../banco-de-ideas/08-como-te-venden.md) |
+| Proceso y detrás de escena | [`04-proceso-y-publicidad.md`](../banco-de-ideas/04-proceso-y-publicidad.md) |
+| Outfits y vida | [`01-vida-con-ropa.md`](../banco-de-ideas/01-vida-con-ropa.md) |
+
+### El único filtro antes de subir
+
+Dos preguntas. Si las dos dan bien, va, sea del tema que sea:
+
+1. **¿Le deja algo a quien lo ve?** (tu frase, tu criterio)
+2. **¿Se ve y suena a vos?** — luz, voz, edición, ritmo
+
+Nada de "¿corresponde al carril de esta semana?". Esa pregunta es la que te
+aburrió.
+
+---
+
+## Publicidad: sos performance, no marca
+
+Esto lo tenía mal y cambia bastante para mejor. **Meta y Google no es contar
+cómo se piensa una campaña de marca: es ser la persona que decide a quién le
+aparece un anuncio y cuánto se paga por eso.**
+
+Es mucho mejor material, por tres razones:
+
+1. **Le pasa a todo el mundo, todos los días.** El vestido que te persigue por
+   Instagram es una experiencia universal. La estrategia de marca de una
+   empresa no le pasa a nadie.
+2. **Tiene misterio real.** "¿Me escucha el celular?" es una de las preguntas
+   más repetidas de internet y **vos sabés la respuesta de verdad**, no por
+   intuición.
+3. **Es girly-compatible.** Se cuenta desde lo que te pasa a vos comprando, no
+   desde un dashboard.
+
+### La regla que mantiene esto lejos de LinkedIn
+
+> **Contás desde el lado de la que recibe la publicidad, nunca desde el lado de
+> la que la compra.**
+
+Mismo conocimiento, encuadre opuesto:
+
+| Cuenta de marketing (no) | Tu cuenta (sí) |
+|---|---|
+| "Cómo bajar tu CPA en Meta" | "Por qué ese vestido te persigue hace tres semanas" |
+| "Estructura de campañas de retargeting" | "Dejaste algo en el carrito y por eso te están apurando" |
+| "Optimización de públicos similares" | "Le aparece a tu amiga y a vos no, y no es casualidad" |
+
+La primera columna te trae seguidores que quieren aprender marketing. La
+segunda te trae a la misma chica que ya te sigue, sólo que ahora le contás algo
+que le pasa y no entiende. **Nunca uses la primera columna.**
+
+Y el límite de siempre no se toca: **nada de clientes, cuentas ni campañas de
+tu trabajo.** Todo lo de arriba se cuenta con tu propia experiencia como
+usuaria y con publicidad que cualquiera ve.
+
+---
+
+## La mecánica que hace que esto se sostenga
 
 Los outfits no son el resto que quedó. **Son el material sobre el que se
 demuestra todo lo demás:**
@@ -169,45 +270,52 @@ outfit dejó de ser el producto. Es el soporte.**
 
 ## La bio
 
-Si dice asesora de imagen o colorimetría, se cambia hoy. Dos opciones:
+Si dice asesora de imagen o colorimetría, se cambia hoy. Tiene que dejar
+entrar los dos temas sin encasillarte en ninguno:
 
-> **A.** *Trabajo en publicidad y hago contenido. Acá te muestro cómo.*
-> **B.** *Cómo se hace el contenido que mirás. Sin cursos.*
+> **A.** *Compro la publicidad que te persigue. Y también subo outfits.*
+> **B.** *Trabajo en Meta y Google Ads. Acá te cuento cómo te venden — y me
+> visto.*
+> **C.** *Publicidad, edición y outfits. No te vendo nada.*
 
-La B es más filosa y deja fuera a quien venía por outfits, que es en parte lo
-que querés. La A deja la puerta abierta a los dos carriles.
+La **A** es la mejor de las tres: el contraste entre las dos frases es el
+gancho, dice exactamente qué vas a encontrar, y "y también subo outfits" avisa
+que la cuenta no es un curso de marketing. La C es la más segura y la más
+plana.
+
+**Ninguna dice "asesora".** Y ninguna dice "creadora de contenido", que no
+significa nada.
 
 ---
 
-## Las primeras dos semanas
+## Por dónde arrancar
 
-Cinco por semana, a las tres plataformas. **El primero es el más importante y
-ya tiene guion** en
-[`../banco-de-ideas/07-cinco-videos-que-no-te-aburren.md`](../banco-de-ideas/07-cinco-videos-que-no-te-aburren.md).
+**No es un calendario.** Es una pila de ocho, ordenada por cuál plantaría mejor
+la bandera. Agarrás la que te pinte el día que grabás. Lo único que se cumple
+es el piso: **un outfit y un video de oficio por semana.**
 
-### Semana 1 — plantar bandera
+| # | Video | Carril |
+|---|---|---|
+| 1 | ⭐⭐ **"Tu ropa no se ve de ese color, y no es tu cámara"** — corrección de color. El que mejor define la cuenta nueva, y el único que nadie más puede hacer | Edición |
+| 2 | ⭐⭐ **"¿Te escucha el celular? Trabajo en Meta Ads y te digo la verdad"** — la pregunta más repetida de internet, contestada por alguien que sabe | Publicidad |
+| 3 | ⭐ **"Por qué ese vestido te persigue hace tres semanas"** — retargeting contado desde el lado de la que lo sufre | Publicidad |
+| 4 | **Un outfit**, sin explicar nada. Que sea lindo y nada más | Outfits |
+| 5 | **"Así edité el video de ayer"** — el del outfit. La mecánica en vivo | Edición |
+| 6 | **"El error de edición que hace que se vayan en el segundo 2"** — esto es literalmente tu trabajo | Edición |
+| 7 | **"Dejaste algo en el carrito y por eso te están apurando"** | Publicidad |
+| 8 | **"Un video de 15 segundos, 40 minutos de trabajo"** — proceso puro, descansa | Proceso |
 
-| Día | Video |
-|---|---|
-| Lunes | ⭐⭐ **"Tu ropa no se ve de ese color, y no es tu cámara"** — corrección de color. Es el video que define la cuenta nueva |
-| Martes | **Outfit**, normal, sin explicar nada |
-| Miércoles | **"Así edité el video de ayer"** — el del martes. La mecánica de arriba, en vivo |
-| Jueves | **"Trabajo en publicidad: así te venden una tendencia"** |
-| Viernes | **"Un video de 15 segundos, 40 minutos de trabajo"** — proceso puro, descansa |
+El **1** y el **2** son los dos que conviene poner primero, y son muy distintos
+entre sí a propósito: uno planta el oficio visual y el otro planta el ángulo
+publicitario. Entre los dos le avisan a la gente de qué va esto ahora, sin que
+tengas que anunciarlo.
 
-### Semana 2 — probar los bordes
+**No anuncies el cambio.** Un video de "les vengo a contar que la cuenta
+cambia" sólo le da a la gente un momento concreto para dejar de seguirte.
 
-| Día | Video |
-|---|---|
-| Lunes | **"El error de edición que hace que se vayan en el segundo 2"** — esto es tu trabajo, literal |
-| Martes | **Outfit** |
-| Miércoles | **"La única transición que uso en todos mis videos"** |
-| Jueves | **"Por qué compraste eso que no necesitabas"** — la mecánica publicitaria con un caso real |
-| Viernes | **"Mi setup completo"** — spoiler: es poco. Descansa y genera preguntas |
-
-No hace falta anunciar el cambio. **No hagas el video de "les vengo a contar
-que la cuenta cambia".** Se nota solo, y anunciarlo sólo le da a la gente un
-momento concreto para dejar de seguirte.
+Guiones por segundos de varios de estos en
+[`../banco-de-ideas/07-cinco-videos-que-no-te-aburren.md`](../banco-de-ideas/07-cinco-videos-que-no-te-aburren.md)
+y en [`../banco-de-ideas/08-como-te-venden.md`](../banco-de-ideas/08-como-te-venden.md).
 
 ---
 

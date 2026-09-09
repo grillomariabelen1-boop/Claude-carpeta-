@@ -33,6 +33,11 @@ tu criterio en acción sin que expliques teoría, y tiene antes/después.
 
 ## Cómo te venden (el ángulo publicitario)
 
+> ⚠️ **Superado el 9/9 por [`08-como-te-venden.md`](08-como-te-venden.md).**
+> Estas ideas asumían que trabajabas en publicidad de **marca**. Trabajás en
+> **performance** (Meta y Google), que da mejor material. Las de abajo se dejan
+> porque algunas siguen sirviendo, pero el carril está en el archivo nuevo.
+
 Tu terreno exclusivo. Nadie en tu nicho puede hacer esto.
 
 **Regla:** sólo publicidad pública, de marcas que cualquiera ve. Nada de
