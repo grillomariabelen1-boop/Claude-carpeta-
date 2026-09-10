@@ -21,6 +21,7 @@ listos para grabar:
 | [`07-cinco-videos-que-no-te-aburren.md`](07-cinco-videos-que-no-te-aburren.md) | **Los carriles sin arrancar, cuando estás aburrida** |
 | [`08-como-te-venden.md`](08-como-te-venden.md) | **Publicidad: Meta y Google, desde el lado de la usuaria** |
 | [`09-para-las-que-tienen-negocio.md`](09-para-las-que-tienen-negocio.md) | **Para las seguidoras que tienen marca o negocio** |
+| [`10-los-que-solo-podes-hacer-vos.md`](10-los-que-solo-podes-hacer-vos.md) | ⭐ **El filtro: los que nadie más puede copiar** |
 
 Definición de los carriles en
 [`../estrategia/07-pilares-y-voz.md`](../estrategia/07-pilares-y-voz.md).

@@ -75,6 +75,7 @@ las reglas comerciales de la cuenta.
 | [`07-cinco-videos-que-no-te-aburren.md`](banco-de-ideas/07-cinco-videos-que-no-te-aburren.md) | **Cinco videos con guion de los carriles sin arrancar** |
 | [`08-como-te-venden.md`](banco-de-ideas/08-como-te-venden.md) | **Meta y Google contados desde el lado de la que recibe la publicidad** |
 | [`09-para-las-que-tienen-negocio.md`](banco-de-ideas/09-para-las-que-tienen-negocio.md) | **El carril nuevo: tus seguidoras con marca propia** |
+| [`10-los-que-solo-podes-hacer-vos.md`](banco-de-ideas/10-los-que-solo-podes-hacer-vos.md) | ⭐ **Los que ninguna otra cuenta puede copiar, y la fórmula repetible** |
 | [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — control del colchón de 5 |
 
 ### Plantillas
