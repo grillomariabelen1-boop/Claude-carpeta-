@@ -278,15 +278,29 @@ le da a la gente un momento concreto para dejar de seguirte.
 
 ## 10 · Lo que queda por decidir
 
-**1. La bio.** Es lo único que gatilla la vía de los servicios, porque hoy no
-hay ningún lado donde diga a qué te dedicás. Las que te pasé no te convencieron,
-así que van tres direcciones distintas en vez de tres variantes de lo mismo:
+**1. La bio — decidida el 11/9.**
 
-> **Directa:** *Performance marketing. Y outfits.*
-> **Con el contraste adelante:** *Compro la publicidad que te persigue.*
-> **Desde lo que le pasa a ella:** *Te explico por qué te aparece lo que te aparece. Y me visto.*
+> ### Performance marketing · Content creator
 
-Decime cuál se acerca y la afino.
+Decisión tuya y el razonamiento se sostiene: *content creator* es el paraguas
+que te deja subir de todo sin tener que enumerar nada, que es justo lo que
+venías pidiendo.
+
+**La única reserva, dicha una vez:** *content creator* es la etiqueta más
+repetida de la plataforma, así que no te distingue ni le avisa a la dueña de
+marca que la podés ayudar. Ese trabajo lo tiene que hacer **performance
+marketing**, que va primero por algo.
+
+**Si querés que la segunda parte trabaje más, una línea abajo alcanza:**
+
+> Performance marketing · Content creator
+> ↓
+> **Meta & Google Ads · tracking**
+> **Te cuento por qué te aparece lo que te aparece**
+> **Compro la publicidad que te persigue**
+
+La primera es la más clara para conseguir clientas; la tercera es la más tuya.
+Opcional: la bio de arriba funciona sola.
 
 **2. El molde de título** — los tres candidatos están en la sección 5.
 

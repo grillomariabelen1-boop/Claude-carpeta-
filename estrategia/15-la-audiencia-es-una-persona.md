@@ -184,14 +184,22 @@ sirva".
 1. **El piso semanal se amplía a tres carriles:** un outfit, un video de oficio
    (edición o publicidad) y **uno que sirva a la que tiene un negocio**. El
    resto sigue libre.
-2. **La bio tiene que decir a qué te dedicás.** Ver abajo.
+2. **La bio** (decidida el 11/9): *Performance marketing · Content creator.*
 3. **Ideas del carril nuevo** en
    [`../banco-de-ideas/09-para-las-que-tienen-negocio.md`](../banco-de-ideas/09-para-las-que-tienen-negocio.md).
 4. **Métrica nueva, y es la que más importa:** *mensajes privados preguntando
    si hacés esto.* Si en un mes aparecen dos, funcionó — aunque las views no se
    muevan.
 
-### La bio, otra vez
+### La bio — decidida el 11/9
+
+> **Performance marketing · Content creator**
+>
+> Opcional, una línea abajo: *Meta & Google Ads · tracking*.
+
+Lo de abajo son las opciones que se descartaron.
+
+#### Opciones anteriores
 
 Las tres opciones de [`14-la-cuenta-nueva.md`](14-la-cuenta-nueva.md) no decían
 a qué te dedicás. Con esto encima:

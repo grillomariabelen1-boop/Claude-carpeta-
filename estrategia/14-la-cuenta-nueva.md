@@ -272,6 +272,9 @@ outfit dejó de ser el producto. Es el soporte.**
 
 ## La bio
 
+> **Resuelta el 11/9: «Performance marketing · Content creator».** Lo de abajo
+> son las opciones que se descartaron.
+
 Si dice asesora de imagen o colorimetría, se cambia hoy. Tiene que dejar
 entrar los dos temas sin encasillarte en ninguno:
 
