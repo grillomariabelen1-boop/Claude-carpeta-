@@ -1,238 +1,165 @@
-# Plan de contenido — 4 semanas
+# Plan de contenido
 
-*Del 15/9 al 10/10. Cierra justo en el chequeo del 7/10.*
-
-**Cómo está armado:** cada semana tiene **tres videos decididos** —el piso:
-uno de oficio, un outfit, uno para la que tiene negocio— y **dos libres**. Los
-libres no son relleno: son el lugar de lo que te pasó esa semana. Si no pasó
-nada, salen del banco.
-
-**No es una grilla por día.** Los tres decididos se graban cuando te pinte; lo
-único fijo es que la semana no se cierra sin ellos.
-
-Todo va a **TikTok, Instagram y Shorts**. Siempre.
+*Reescrito el 11/9. La versión anterior estaba mal: enseñaba publicidad en vez
+de mostrar tu vida.*
 
 ---
 
-# SEMANA 1 · 15 al 19 de septiembre
-### Plantar bandera
+## La regla
 
-Los dos primeros videos, juntos, dicen qué es la cuenta ahora. **No anuncies el
-cambio.**
+> ## El trabajo se muestra, no se enseña.
 
-## ⭐⭐ 1 · "Tu ropa no se ve de ese color, y no es tu cámara"
-
-El que define la cuenta nueva. Guion completo en
-[`banco-de-ideas/07`](banco-de-ideas/07-cinco-videos-que-no-te-aburren.md).
-
-**Gancho visual:** split de la misma prenda, cruda vs. corregida. Elegí una
-difícil: beige, camel o lila.
-
-```
-0-2s    Split. Texto: "el mismo saco"
-2-5s    "Este es el color real. Este es el que te muestra
-         tu celular. Por eso comprás cosas que después no son."
-5-14s   Los dos o tres ajustes, en pantalla. Balance de
-         blancos primero, con el slider a la vista.
-14-20s  "Si hacés contenido de ropa y no tocás esto, estás
-         mostrando otra prenda."
-```
-
-## 2 · Un outfit. Sin explicar nada.
-
-Literal. Lindo y nada más. **No todo tiene que tener concepto** — y este video
-es el que le avisa a la gente que la cuenta sigue siendo tuya.
-
-Grabalo con buena luz y **guardá el proyecto**: lo vas a usar en el video 3.
-
-## ⭐ 3 · "Estás pagando publicidad y no sabés si te está funcionando"
-
-Abre el carril de negocio. Guion completo en
-[`banco-de-ideas/09`](banco-de-ideas/09-para-las-que-tienen-negocio.md).
-
-```
-0-3s    "Si estás pagando publicidad en Instagram,
-         contestame una: ¿cuánto vendiste por eso?"
-3-6s    "Si la respuesta es 'y… se vio bastante',
-         no estás midiendo."
-6-16s   Qué es medir de verdad, en criollo. Y por qué el
-         número que te muestra la app no es ése.
-16-24s  "Esto se arregla, y no es carísimo. Pero primero
-         hay que saber que está roto."
-```
-
-**No cierres con "escribime".** Que termine en el problema.
-
-## Los dos libres
-Uno casi obligado: **"así edité el outfit de ayer"** — mismo material, cero
-grabación nueva. El otro, lo que te haya pasado.
-
----
-
-# SEMANA 2 · 22 al 26 de septiembre
-### Estrenar el molde
-
-## ⭐⭐ 4 · "Puse plata en dos versiones del mismo video. Ganó el feo."
-
-**El video más importante de las cuatro semanas.** Es lo único que ninguna otra
-cuenta puede hacer, y estrena el molde repetible.
-
-**Preparación:** grabás el mismo contenido dos veces —uno cuidado, uno hecho en
-dos minutos con el celular— y les ponés la misma plata. Producto propio o
-inventado, **nunca de un cliente**.
-
-```
-0-3s    "Grabé el mismo video dos veces. Uno cuidado,
-         uno hecho en dos minutos con el celular."
-3-6s    "Les puse la misma plata a los dos."
-6-9s    "Y no ganó el que pensás."
-9-20s   Los dos a la par, el número de cada uno en pantalla.
-20-26s  Por qué: lo que parece anuncio se saltea.
-         Lo que parece una amiga, no.
-26-30s  "Con esta plata no es ciencia. Pero la diferencia
-         fue mucha."          ← esto suma, no resta
-```
-
-## 5 · Outfit
-
-Igual que la semana 1. Sin concepto, sin teoría.
-
-## 6 · "Qué es el pixel, en criollo y en 30 segundos"
-
-Concepto puro: se regala entero porque **el valor está en la ejecución, no en
-saberlo**. Sin detalle técnico, sin pantallas de configuración.
-
-**Gancho:** *"Todas las marcas te dicen que tienen el pixel puesto. Casi
-ninguna sabe qué hace."*
-
-## Los dos libres
-Candidatos fuertes: **"la única transición que uso en todos mis videos"** ·
-**"por qué ese vestido te persigue hace tres semanas"**.
-
----
-
-# SEMANA 3 · 29 de septiembre al 3 de octubre
-### La serie
-
-Ésta es distinta: cuatro días son **una sola serie con arco**. Es lo que hace
-que la gente vuelva, y es girly y tu trabajo al mismo tiempo.
-
-## ⭐ 7 a 10 · "Una semana vistiéndome con lo que la publicidad quiere que compre"
-
-Cuatro días siguiendo exactamente lo que te targetean.
-
-```
-Lunes      Anuncio + día 1. "Soy la que compra la publicidad
-           que te aparece. Esta semana me visto con lo que
-           la publicidad quiere venderme a mí."
-Mar-Jue    Un video corto por día. Misma luz, misma hora,
-           mismo encuadre — la comparación es el contenido.
-           Qué te apareció, qué te pusiste, qué sentiste.
-```
-
-**El cierre es lo que decide si funciona:** tiene que terminar en algo que
-admitís, no en algo que confirmás. *"Dos de los cuatro me los quedo, y eso es
-lo que me da bronca."* Si terminás demostrando que tenías razón, es una clase.
-
-## 11 · "Por qué tu video no rinde en publicidad"
-
-El de negocio de la semana, y cruza con tu carril de edición: el problema
-suele ser el video, no la campaña. Los primeros 3 segundos.
-
-## Libre
-Uno solo esta semana. La serie ya se comió cuatro.
-
----
-
-# SEMANA 4 · 6 al 10 de octubre
-### Profundidad y conversión
-
-## ⭐ 12 · "No sé si el teléfono te escucha. Sé que no le hace falta"
-
-Guion completo en [`banco-de-ideas/08`](banco-de-ideas/08-como-te-venden.md).
-**Acordate de la regla:** no afirmás ni que escucha ni que no escucha.
-
-```
-0-3s    "Compro publicidad en Meta y Google. Me preguntan
-         esto todo el tiempo."
-3-6s    "Y la verdad es que no sé."
-6-9s    "Lo que sí sé es que no le hace falta."
-9-20s   Qué se ve del otro lado. Dos ejemplos cotidianos.
-20-26s  "Lo que más le importa no es lo que decís.
-         Es cuánto tardaste en pasar de largo."
-```
-
-## 13 · Outfit
-
-## 14 · "Tenés el pixel puesto pero no está midiendo nada"
-
-El que más clientas te puede traer de los catorce. Le pasa a muchísimas y no
-lo saben.
-
-## ⭐ 15 · "Trabajo con datos todo el día y mi cuenta la manejo por intuición"
-
-**La primera reflexión corta.** Sin gancho de tres segundos, sin cierre
-accionable, sin editar de más. Vos hablando.
-
-Va justo acá a propósito: después de tres semanas construyendo autoridad, éste
-te baja del pedestal y es el que más comentarios va a traer. **Se mide por
-comentarios, nunca por views.**
-
-## Libre
-Uno.
-
----
-
-# Cómo se ejecuta
-
-## La mecánica que multiplica
-
-```
-Grabás un outfit  →  el outfit
-                  →  "así lo edité"
-                  →  "por qué el beige se ve gris ahí"
-```
-
-**Una sesión, tres videos.** Por eso el outfit se graba temprano en la semana
-y se guarda el proyecto.
-
-## Qué va a reels de prueba
-
-| A prueba | Al feed directo |
+| Va | No va |
 |---|---|
-| Los de publicidad y negocio (1, 3, 4, 6, 11, 12, 14) | Los outfits (2, 5, 13) |
-| | La serie (7-10) — necesita a los que ya te siguen |
-| | La reflexión (15) — **nunca** a prueba |
+| "Un día conmigo" donde se ve que abrís campañas | "Cómo configurar el pixel" |
+| Contar que se te cayó una campaña un martes | "Los 5 errores de tu campaña" |
+| Que se note que sabés, mientras hacés otra cosa | Dar una clase |
 
-Comparás prueba contra prueba. **Al final de las 4 semanas, lo que funcionó
-sale al feed de verdad.** Ese es el vencimiento.
+Vos dijiste que tenés más conocimiento del que parece. **Eso no se arregla
+enseñando: se arregla estando a la vista.** Si te ven trabajando, se entiende
+sola la parte de que sabés — y no tenés que ponerte en profesora, que es
+justamente de lo que te querías ir.
 
-## Los libres, de dónde salen
+## Y lo otro que dijiste
 
-En este orden:
-1. **¿Pasó algo hoy?** Eso gana siempre.
-2. **La carpeta `materia prima`** del celular.
-3. **El banco:** [`banco-de-ideas/10`](banco-de-ideas/10-los-que-solo-podes-hacer-vos.md)
-   primero, después `08`, `09`, `06`.
+**Girly sí, pero sin ser estricta.** No es una cuenta de moda con reglas. Es tu
+vida, y tu vida se ve girly porque sos vos. No hay cuota de outfits ni carriles
+que cumplir: si esa semana te pusiste algo lindo, aparece; si no, no.
 
-## Antes de subir, las dos preguntas
+**Nada de tips, de asesoría, de "te enseño a".** Eso ya no te identifica y sale
+de la cuenta.
 
-1. **¿Le sirve a ella?** — no a alguien que hace lo mismo que vos
-2. **¿Se ve y suena a vos?**
+---
 
-## Lo que hay que tener listo antes del lunes
+## Los formatos
 
-- [ ] **Bio cambiada:** *Performance marketing · Content creator*
-- [ ] **Sacar retención a 3s y finalización** de los últimos 10 videos — quince
-      minutos, y es lo único que falta hace tres semanas
-- [ ] **Colchón:** grabar los videos 1, 2 y 3 el fin de semana. Arrancás la
-      semana con tres hechos y no dependés del ánimo del lunes
-- [ ] Elegir el **molde de título** (sección 5 de [`ESTRATEGIA.md`](ESTRATEGIA.md))
+Cinco formas que ya tiene tu vida. No son carriles con porcentaje: son moldes
+para cuando no sabés cómo grabar algo.
 
-## Qué mirar el 7/10
+### 1 · Un día conmigo
+El formato madre. Tu día real, con el trabajo adentro.
 
-Nada de views. **Mensajes preguntando si hacés esto** (dos = funcionó),
-guardados, comentarios con pregunta técnica, retención a 3s.
+### 2 · Qué hacemos los de marketing
+Nadie sabe qué hace alguien de marketing todo el día. Es un misterio cotidiano
+y da mucho más juego del que parece.
 
-Y la pregunta que no está en ninguna métrica: **¿tenés ganas de grabar la
-semana 5?**
+### 3 · Experiencias
+Salidas, eventos, cosas que te pasan. **Acá entra el de Mercado Libre.**
+
+### 4 · Outfits, pero adentro de la vida
+No "outfit del día" como catálogo. **Qué te pusiste para ir a algo.** El outfit
+aparece porque el día pasó, no porque toca.
+
+### 5 · Vos hablando
+Lo introspectivo. Sin gancho, sin cierre, sin editar de más.
+
+---
+
+## Los videos
+
+**No es un calendario.** Es una lista. Agarrás el que la semana te dé.
+
+### Un día conmigo
+
+- ⭐⭐ **"Un día conmigo — performance marketing"** — el que abre todo. Te
+  levantás, el mate, abrir la compu, mirar cómo venían las campañas, una
+  reunión, el almuerzo, cerrar. **No expliques nada de lo que ves en pantalla.**
+  Que se vea y ya.
+- ⭐ **"Un día de trabajar desde casa vs. un día en la agencia"** — dos días,
+  mismo encuadre, split. Se cuenta solo.
+- **"La mañana antes de abrir las campañas"** — el ritual, el café, la
+  ansiedad de ver cómo cerró el fin de semana
+- **"Un día que se rompió todo"** — cuando algo se cae. Es el más honesto y
+  el que más engancha
+- **"Un lunes de reportes"** — el día más feo del mes
+- **"Qué hago realmente cuando digo que estoy laburando"**
+
+### Qué hacemos los de marketing
+
+- ⭐⭐ **"Qué hacemos los de marketing todo el día"** — spoiler: no es hacer
+  flyers. Es el que más gente va a compartir con alguien que le pregunta a
+  qué se dedica
+- ⭐ **"Le expliqué mi trabajo a ___"** — tu mamá, una amiga, tu abuela. El
+  intento es el contenido
+- **"Las palabras que digo todo el día y nadie entiende"**
+- **"Lo que la gente cree que hago vs. lo que hago"**
+- **"Cómo llegué a esto"** — spoiler: no era el plan
+- **"Estaba trabajando y me apareció mi propio anuncio"**
+
+### Experiencias
+
+- ⭐⭐ **El de Mercado Libre** — ya lo tenés grabado y con ganas. **Ese es el
+  primero que subiría**, porque sale de algo que te pasó y no de una lista
+- **Un after office**
+- **Un evento, una salida, un lugar nuevo**
+
+### Outfits adentro de la vida
+
+- **"Qué me pongo para ir a la oficina"** — real, no editorial
+- **"Mi uniforme de trabajar desde casa"** — y lo que se ve en cámara vs. lo
+  que tenés puesto de la cintura para abajo
+- **"Me cambié tres veces para una reunión con la cámara apagada"**
+- **Un outfit, sin más.** Cuando pinta
+
+### Vos hablando
+
+- ⭐ **"Trabajo con datos todo el día y mi cuenta la manejo por intuición"**
+- **"Tener un trabajo que nadie de tu entorno entiende"**
+- **"Lo que se ve de mi trabajo vs. lo que es"**
+- **"Me daba miedo mostrar esta parte acá"**
+
+---
+
+## Por dónde arrancar
+
+Tres, en este orden:
+
+1. **El de Mercado Libre.** Ya existe, ya tenías ganas. Que el primero salga de
+   algo real y no de un plan es la mejor señal posible.
+2. **"Un día conmigo — performance marketing."**
+3. **"Qué hacemos los de marketing todo el día."**
+
+Entre los tres queda dicho quién sos ahora. **No anuncies ningún cambio.**
+
+---
+
+## Cómo se graba
+
+**Esto es captura, no producción.** Tu vida ya está pasando: el trabajo es
+acordarte de grabar, no inventar algo.
+
+- **Clips sueltos, todo el día.** Diez segundos del escritorio, del mate, de la
+  calle. La carpeta `materia prima` del celular sirve exactamente para esto.
+- **El video se arma después.** Un "día conmigo" son quince clips de cinco
+  segundos, no una producción.
+- **No expliques lo que se ve.** Narrar es de profesora. Si se ve, no se dice.
+- **Los días feos también sirven** — de hecho son los mejores. Pero si no
+  querés grabar, no grabás: el colchón está para eso.
+
+---
+
+## Lo único que hay que cuidar
+
+En un "día conmigo" es fácil que se cuele algo que no puede salir:
+
+- **Nada de pantallas con cuentas, nombres de clientes, números o campañas.**
+  Ni de la agencia ni de tus clientes propios. Si filmás la compu, que sea de
+  lejos, desenfocado, o con algo tuyo en pantalla.
+- **Lo de Mercado Libre:** si es una salida o una experiencia tuya, va sin
+  problema. Si tiene que ver con trabajo de un cliente, mirá qué parte podés
+  mostrar antes de subirlo.
+- **Gente cercana, sólo con permiso** y sin nombre.
+
+---
+
+## Qué mirar
+
+Nada de views las primeras semanas: cambiaste de tema y el algoritmo tiene que
+reaprender.
+
+- **Comentarios preguntando por tu trabajo** — la señal de que agarró
+- **Guardados**
+- **Retención a 3s** — la única que decide si salís del pool
+
+Y la que no es una métrica: **¿te dan ganas de grabar?** Si la respuesta es sí,
+el plan está bien aunque los números tarden.

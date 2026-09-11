@@ -116,63 +116,34 @@ vuelve confiable.**
 
 ## 5 · Qué se sube
 
-**No hay porcentajes.** Los porcentajes sirven para quien sube demasiado de una
-sola cosa, y vos tenés el problema contrario. Hay un piso:
+> ### El trabajo se muestra, no se enseña.
 
-> ### Por semana: un outfit, un video de oficio, y uno para la que tiene negocio.
-> ### El resto es libre.
+Un día conmigo donde se ve que abrís campañas, sí. Un video explicando cómo se
+configura el pixel, no. Dijiste que tenés más conocimiento del que parece:
+**eso no se arregla enseñando, se arregla estando a la vista.**
 
-Tres casilleros de cinco. Los otros dos salen de lo que te pasó, de la carpeta
-`materia prima`, o del banco.
+**Girly sí, pero sin ser estricta.** No es una cuenta de moda con reglas, es tu
+vida — y se ve girly porque sos vos. Sin cuota de outfits, sin carriles que
+cumplir, **sin tips y sin asesoría**.
 
-### Los cuatro tipos
+### Los cinco formatos
 
-**A · Los que sólo podés hacer vos** — [`banco-de-ideas/10`](banco-de-ideas/10-los-que-solo-podes-hacer-vos.md)
-> "Le puse plata a ___ para ver qué pasaba" · lo que ve la marca del otro lado ·
-> corrección de color en cámara.
+No son carriles con porcentaje: son moldes para cuando no sabés cómo grabar
+algo. Los videos concretos están en [`PLAN.md`](PLAN.md).
 
-Es el corazón. Si una idea la podría hacer otra creadora con dos horas de
-Google, no entra acá.
-
-**B · Outfits** — [`banco-de-ideas/01`](banco-de-ideas/01-vida-con-ropa.md)
-> Un outfit lindo, sin explicar nada. No todo tiene que tener concepto.
-> Y la versión con tu cabeza adentro: *"una semana vistiéndome con lo que la
-> publicidad quiere que compre"*.
-
-**C · Para la que tiene negocio** — [`banco-de-ideas/09`](banco-de-ideas/09-para-las-que-tienen-negocio.md)
-> "Estás pagando publicidad y no sabés si funciona" · el pixel en criollo · por
-> qué su video no rinde.
-
-**D · Reflexión corta** — sin tip, sin gancho, sin cierre
-> Uno cada diez o quince videos. Se mide por comentarios, **nunca** por views.
-> No lo edites de más: es el único formato donde editar prolijo juega en contra.
-
-### La mecánica que hace rendir una sola grabación
-
-```
-Grabás un outfit  →  el outfit
-                  →  "así edité ese video"
-                  →  "por qué el beige se ve gris ahí"
-```
-
-Una sesión, tres videos, tres tipos. **Y el outfit ya no necesita ropa nueva,
-porque dejó de ser el producto: es el soporte.**
-
-### La fórmula repetible — decisión pendiente
-
-Tu mecánica más exitosa nunca fue un tema: fue **un molde de título repetible**.
-*"El color que todo el mundo tiene pero nadie sabe combinar"* entró tres veces
-al top 5 cambiando una palabra. Falta elegir el nuevo:
-
-| Molde | Ejemplo |
+| Formato | Qué es |
 |---|---|
-| ⭐ "Le puse plata a ___ para ver qué pasaba" | "…a dos versiones del mismo video" |
-| "Esto es lo que ve ___ cuando vos ___" | "…una marca cuando entrás a su web" |
-| "Trabajo comprando publicidad y ___" | "…igual caigo" |
+| **Un día conmigo** | El formato madre. Tu día real, con el trabajo adentro |
+| **Qué hacemos los de marketing** | Nadie sabe qué hacés todo el día. Es un misterio cotidiano |
+| **Experiencias** | Salidas, eventos, cosas que te pasan |
+| **Outfits adentro de la vida** | Qué te pusiste para ir a algo. Aparece porque el día pasó |
+| **Vos hablando** | Lo introspectivo. Sin gancho, sin cierre, sin editar de más |
 
-**Elegí uno y repetilo hasta que canse.** Cuando algo funciona, se repite.
+### Es captura, no producción
 
----
+Tu vida ya está pasando. El trabajo es acordarte de grabar, no inventar algo.
+Clips sueltos todo el día a la carpeta `materia prima`; el video se arma
+después. **Y no expliques lo que se ve** — narrar es de profesora.
 
 ## 6 · Dónde se publica
 

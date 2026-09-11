@@ -230,9 +230,12 @@ igual, y en 10 minutos el tono de profesora se nota el triple— y **el 80/20**:
 
 ## Qué NO hacer
 
-- **Nada de vlogs ni "canal de mi vida".** Es lo que hace todo el mundo cuando
-  abre YouTube y es lo que menos rinde para una cuenta chica: no tiene búsqueda
-  ni promesa. Tu contenido personal ya tiene lugar y es el vertical.
+- ~~Nada de vlogs~~ **← corregido el 11/9.** Esto estaba escrito para la cuenta
+  anterior. El día a día **es** el contenido ahora
+  ([`../PLAN.md`](../PLAN.md)). Lo que sigue valiendo es que en **YouTube
+  largo** un vlog suelto no tiene búsqueda: ahí el día a día funciona con
+  promesa en el título ("un día trabajando en performance marketing"), no como
+  diario.
 - **No subas TikToks con marca de agua.** Regla 1 de Shorts.
 - **No empieces por lo saturado.** "Qué es la colorimetría" a secas está
   contestado mil veces por canales españoles con años de ventaja. Tu entrada es
