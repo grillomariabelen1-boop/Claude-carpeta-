@@ -1,4 +1,9 @@
-# Estrategia de contenido — @belengrillo_
+# Historial de la estrategia — @belengrillo_
+
+> **Esto es el registro de cómo se llegó a la estrategia, en orden cronológico.**
+> **La estrategia vigente es [`ESTRATEGIA.md`](ESTRATEGIA.md)** — para ejecutar,
+> leé ésa. Esto se conserva porque los datos son ciertos y explican las
+> decisiones.
 
 *Actualizado el 9/9/2026. Listo para pegar en Notion.*
 

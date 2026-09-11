@@ -1,17 +1,39 @@
 # Estrategia de contenido — @belengrillo_
 
-> ## ⚠️ La cuenta se reposicionó el 9/9
+> # 👉 [`ESTRATEGIA.md`](ESTRATEGIA.md)
 >
-> **La asesoría de imagen sale entera** —credencial, clientas y ebook— y el
-> tema madre pasa a ser **cómo se hace el contenido**: edición, proceso y
-> publicidad, con outfits como superficie.
+> **Ése es el documento vigente.** Una sola lectura, todo adentro: el eje, la
+> voz, qué se sube, dónde, la plata, cómo se mide y por dónde arrancar.
+> Actualizado el 11/9/2026.
 >
-> **Empezá por [`estrategia/14-la-cuenta-nueva.md`](estrategia/14-la-cuenta-nueva.md).**
-> Es el documento que manda. Buena parte de lo de abajo es de la cuenta
-> anterior y está marcado como tal.
+> Todo lo demás de este repo es **detalle o historial**. No hace falta leerlo
+> para ejecutar.
 
-Documentación de la estrategia de contenido, el reposicionamiento del 9/9, y
-las reglas comerciales de la cuenta.
+## Si querés el detalle
+
+| Carpeta | Qué hay |
+|---|---|
+| [`banco-de-ideas/`](banco-de-ideas/) | ~300 ideas por tipo, y los guiones por segundos |
+| [`estrategia/`](estrategia/) | Los documentos de trabajo, incluida la cuenta anterior |
+| [`plantillas/`](plantillas/) | Guiones base y el CSV de seguimiento |
+| [`notion-import/`](notion-import/) | Las mismas páginas, cortadas para pegar en Notion |
+| [`ESTRATEGIA-COMPLETA.md`](ESTRATEGIA-COMPLETA.md) | **Historial:** cómo se llegó hasta acá, en orden |
+
+### Los del banco que más vas a usar
+
+| Archivo | Qué hay |
+|---|---|
+| [`10-los-que-solo-podes-hacer-vos.md`](banco-de-ideas/10-los-que-solo-podes-hacer-vos.md) | ⭐ "Le puse plata", lo que ve la marca, los moldes de título |
+| [`09-para-las-que-tienen-negocio.md`](banco-de-ideas/09-para-las-que-tienen-negocio.md) | Pixel, tracking, "estás pagando y no sabés si funciona" |
+| [`08-como-te-venden.md`](banco-de-ideas/08-como-te-venden.md) | Meta y Google desde el lado de la que recibe la publicidad |
+| [`06-edicion.md`](banco-de-ideas/06-edicion.md) | Corrección de color en cámara, transiciones, setup, errores |
+| [`01-vida-con-ropa.md`](banco-de-ideas/01-vida-con-ropa.md) | Outfits, placard, rutina |
+| [`estado.csv`](banco-de-ideas/estado.csv) | Qué está grabado y qué no — el colchón de 5 |
+
+---
+
+<details>
+<summary><b>Índice viejo</b> — de la cuenta anterior, antes del reposicionamiento de septiembre</summary>
 
 ## Por dónde empezar
 
@@ -131,3 +153,5 @@ las reglas comerciales de la cuenta.
   gente cambiando una decisión de compra. Eso es más difícil que las views.
 - **YouTube va, en dos tiempos:** Shorts desde ya porque no cuesta nada, y el
   video largo recién cuando el colchón de 5 aguante tres semanas seguidas.
+
+</details>
