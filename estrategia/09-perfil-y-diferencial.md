@@ -17,7 +17,8 @@ Este documento sale de las respuestas del 30/8 y **corrige** supuestos de
 | Handle | **@belengrillo_** (TikTok e Instagram) |
 | Edad | **30** |
 | Ciudad | **Buenos Aires** |
-| Trabajo | **Marketing — publicidad** |
+| Trabajo | **Performance marketing: Meta y Google Ads.** Tracking, Google Tag Manager, pixel y campañas |
+| Cómo trabaja | **Freelance para una agencia** + **clientes propios** por su cuenta |
 | Audiencia | **Mujeres argentinas, 20-35** |
 | Placard | Monocromo, con piezas puntuales de colores específicos |
 | Compra ropa | **Poco.** No le gusta gastar en ropa |
@@ -196,7 +197,16 @@ refrescar · el guardarropa de la que no maneja.
 **Duro:** nada de trends de baile. No hace falta discutirlo — tu voz
 ("la amiga que te avisa") no los necesita, y forzarlos se nota.
 
-**Trabajo:** no se habla de clientes, campañas internas ni nada de la agencia.
+**Trabajo:** no se habla de clientes, cuentas, campañas, números ni capturas —
+ni de la agencia ni de los clientes propios sin permiso escrito. Si hace falta
+un ejemplo, se arma uno de cero con una marca inventada.
+
+> **Actualizado el 11/9.** El perfil decía sólo "Marketing — publicidad" y por
+> eso el carril publicitario se armó como si fuera de **marca**. Es de
+> **performance**: Meta y Google, tracking, GTM y pixel, freelance para una
+> agencia más clientes propios. Las consecuencias están en
+> [`15-la-audiencia-es-una-persona.md`](15-la-audiencia-es-una-persona.md) y en
+> [`../banco-de-ideas/08-como-te-venden.md`](../banco-de-ideas/08-como-te-venden.md).
 El ángulo publicitario usa sólo publicidad pública.
 
 ---

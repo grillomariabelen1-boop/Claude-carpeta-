@@ -72,7 +72,8 @@ la asesoría fue una estrategia de crecimiento, no una vocación.
 | Handle | @belengrillo_ (TikTok e Instagram) |
 | Edad | 30 |
 | Ciudad | Buenos Aires |
-| Trabajo | Marketing — publicidad |
+| Trabajo | **Performance marketing: Meta y Google Ads.** Tracking, Google Tag Manager, pixel y campañas |
+| Cómo trabaja | **Freelance para una agencia** + **clientes propios** por su cuenta |
 | Audiencia | Mujeres argentinas, 20-35 (centro de gravedad: 28) |
 | Compra ropa | Poco. Sí gasta en zapatos, botas y experiencias |
 | Fuente de producto | Colaboración con SHEIN |
