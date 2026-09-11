@@ -9,6 +9,11 @@
 > Todo lo demás de este repo es **detalle o historial**. No hace falta leerlo
 > para ejecutar.
 
+> # 📅 [`PLAN.md`](PLAN.md)
+>
+> **Las próximas 4 semanas, video por video.** Del 15/9 al 10/10, con los
+> guiones, qué va a reels de prueba y qué hay que tener listo antes del lunes.
+
 ## Si querés el detalle
 
 | Carpeta | Qué hay |
