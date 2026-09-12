@@ -131,19 +131,36 @@ recomendación breve es exactamente "la amiga que te avisa". Una sola cosa,
 15-20 segundos, de lo que sea. *Si necesita contexto antes del tip, es una
 clase y no va.*
 
-### Los seis formatos
+### La cuenta son tres cosas
 
-No son carriles con porcentaje: son moldes para cuando no sabés cómo grabar
-algo. Los videos concretos están en [`PLAN.md`](PLAN.md).
+Dos carriles girly y uno de trabajo. Los videos concretos están en
+[`PLAN.md`](PLAN.md).
 
-| Formato | Qué es |
-|---|---|
-| **Un día conmigo** | El formato madre. Tu día real, con el trabajo adentro |
-| **Qué hacemos los de marketing** | Nadie sabe qué hacés todo el día. Es un misterio cotidiano |
-| **Experiencias** | Salidas, eventos, cosas que te pasan |
-| **Outfits adentro de la vida** | Qué te pusiste para ir a algo. Aparece porque el día pasó |
-| **Vos hablando** | Lo introspectivo. Sin gancho, sin cierre, sin editar de más |
-| **El tip breve** | Una recomendación corta, de lo que sea. Un formato, no un tema |
+| Carril | Qué es | Por qué |
+|---|---|---|
+| **1. Tiendas y recomendaciones** | Dónde comprar, qué sí y qué no. Incluye SHEIN | **Lo más compartido que hiciste:** 515 shares con 648 likes (79%) |
+| **2. Outfits para ___ y ocasiones** | Casamiento, oficina, primera cita, after office | Es la **fórmula repetible**: un molde que se rellena al infinito |
+| **3. Marketing** | Un día conmigo, qué hacemos los de marketing, cómo te venden, le puse plata | Es quién sos y lo que nadie sabe que hacés |
+
+> ⚠️ **Recomendación sí, haul no.** Lo que rindió fue *"tiendas que sí o sí
+> tenés que conocer"*. Tus dos hauls de SHEIN fueron **los peores videos de tu
+> top 10**, 4× por debajo. La diferencia no es el tema: es recomendar en vez de
+> mostrar lo que compraste.
+
+**Atraviesan los tres:** el **tip breve** (una sola cosa, 15-20 segundos, de lo
+que sea — si necesita contexto antes del tip, es una clase y no va) y **vos
+hablando** (lo introspectivo, sin gancho ni cierre, medido por comentarios).
+
+Y aparte está **Piel**, el carril con Maluhia, que está en Notion y hay que
+decidir si entra.
+
+### La fórmula repetible — resuelta
+
+> ## "Outfit para ___"
+
+Se rellena al infinito, cada una es demanda real, y es el carril 2 entero.
+**Repetilo hasta que canse.** De apoyo, para marketing: *"Le puse plata a ___
+para ver qué pasó"*.
 
 ### Es captura, no producción
 
@@ -279,7 +296,11 @@ marketing**, que va primero por algo.
 La primera es la más clara para conseguir clientas; la tercera es la más tuya.
 Opcional: la bio de arriba funciona sola.
 
-**2. El molde de título** — los tres candidatos están en la sección 5.
+**2. El molde de título — resuelto:** *"Outfit para ___"*, que es el carril 2
+entero. Ver la sección 5.
+
+**3. Piel** — el carril con Maluhia está vivo y no entró en los tres. Hay que
+decidir si queda, y es una decisión que involucra a otra persona.
 
 ---
 
