@@ -26,14 +26,15 @@ justamente de lo que te querías ir.
 vida, y tu vida se ve girly porque sos vos. No hay cuota de outfits ni carriles
 que cumplir: si esa semana te pusiste algo lindo, aparece; si no, no.
 
-**Nada de tips, de asesoría, de "te enseño a".** Eso ya no te identifica y sale
-de la cuenta.
+**Tips sí — cortos.** Lo que sale de la cuenta es **la asesora**, no ser útil.
+Una recomendación breve es exactamente "la amiga que te avisa". Ver el formato
+6 abajo.
 
 ---
 
 ## Los formatos
 
-Cinco formas que ya tiene tu vida. No son carriles con porcentaje: son moldes
+Seis formas que ya tiene tu vida. No son carriles con porcentaje: son moldes
 para cuando no sabés cómo grabar algo.
 
 ### 1 · Un día conmigo
@@ -52,6 +53,24 @@ aparece porque el día pasó, no porque toca.
 
 ### 5 · Vos hablando
 Lo introspectivo. Sin gancho, sin cierre, sin editar de más.
+
+### 6 · El tip breve
+Una recomendación corta, de lo que sea. **Es un formato, no un tema**: adentro
+entra edición, una app, una compra, un truco del celular, lo que se te ocurra.
+
+**Nada complicado, nada extenso, nada intenso.** Es el más barato de producir y
+el que más se guarda.
+
+| Tip breve ✅ | Asesoría ❌ |
+|---|---|
+| **Una sola cosa** | "Las 5 reglas de…" |
+| 15-20 segundos | Un minuto explicando |
+| "Usá esto" · "Ojo con esto" | "Es importante que consideres…" |
+| De lo que sea | Del tema del que sos la experta |
+| Empieza en el tip | "Hoy les traigo…" |
+
+> **El test:** si necesita contexto antes del tip, no es un tip breve. Es una
+> clase y va al tacho.
 
 ---
 
@@ -100,6 +119,33 @@ Lo introspectivo. Sin gancho, sin cierre, sin editar de más.
   que tenés puesto de la cintura para abajo
 - **"Me cambié tres veces para una reunión con la cámara apagada"**
 - **Un outfit, sin más.** Cuando pinta
+
+### Tips breves
+
+De lo que sea. Estos son para que veas el rango, no una lista a cumplir:
+
+**Edición** — lo que ya te funciona
+- ⭐ **El atajo de CapCut que usás siempre**
+- **Cómo le sacás el ruido al audio**
+- **Los tres ajustes que le hacés a todo antes de subir**
+- ⭐ **Cómo corregís el color en treinta segundos** — el tema que era un video
+  entero, ahora en versión corta
+
+**El celular**
+- ⭐ **Bloquear el enfoque y la exposición antes de grabar** — le sirve a
+  cualquiera y casi nadie lo sabe
+- **Por qué tenés que limpiar la lente y no es chiste**
+- **El ajuste de cámara que cambia todo**
+
+**Compras y cosas**
+- **Una prenda que sí y por qué**
+- **La marca de zapatos que te salvó**
+- **Algo que compraste y usás todos los días**
+
+**Trabajo y varios**
+- **Un atajo de Excel o del navegador que usás mil veces por día**
+- **Cómo ordenás el día cuando se te junta todo**
+- **Una app que te cambió algo chico**
 
 ### Vos hablando
 

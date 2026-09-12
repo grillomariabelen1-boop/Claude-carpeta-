@@ -123,10 +123,15 @@ configura el pixel, no. Dijiste que tenés más conocimiento del que parece:
 **eso no se arregla enseñando, se arregla estando a la vista.**
 
 **Girly sí, pero sin ser estricta.** No es una cuenta de moda con reglas, es tu
-vida — y se ve girly porque sos vos. Sin cuota de outfits, sin carriles que
-cumplir, **sin tips y sin asesoría**.
+vida — y se ve girly porque sos vos. Sin cuota de outfits y sin carriles que
+cumplir.
 
-### Los cinco formatos
+**Tips sí, cortos.** Lo que sale es **la asesora**, no ser útil: una
+recomendación breve es exactamente "la amiga que te avisa". Una sola cosa,
+15-20 segundos, de lo que sea. *Si necesita contexto antes del tip, es una
+clase y no va.*
+
+### Los seis formatos
 
 No son carriles con porcentaje: son moldes para cuando no sabés cómo grabar
 algo. Los videos concretos están en [`PLAN.md`](PLAN.md).
@@ -138,6 +143,7 @@ algo. Los videos concretos están en [`PLAN.md`](PLAN.md).
 | **Experiencias** | Salidas, eventos, cosas que te pasan |
 | **Outfits adentro de la vida** | Qué te pusiste para ir a algo. Aparece porque el día pasó |
 | **Vos hablando** | Lo introspectivo. Sin gancho, sin cierre, sin editar de más |
+| **El tip breve** | Una recomendación corta, de lo que sea. Un formato, no un tema |
 
 ### Es captura, no producción
 
