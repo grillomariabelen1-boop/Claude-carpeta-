@@ -1,211 +1,122 @@
 # Plan de contenido
 
-*Reescrito el 11/9. La versión anterior estaba mal: enseñaba publicidad en vez
-de mostrar tu vida.*
+*La cuenta son **tres cosas**. Nada más.*
 
 ---
 
-## La regla
+# 1 · Tiendas y recomendaciones
 
-> ## El trabajo se muestra, no se enseña.
+**Es lo más compartido que hiciste nunca.** *"Tiendas que sí o sí tenés que
+conocer"*: **515 shares con 648 likes (79%)**, cuando lo normal es 5-10%.
+*"Las 3 reglas de oro antes de comprar"*: 97 shares con 94 likes (**103%**).
 
-| Va | No va |
-|---|---|
-| "Un día conmigo" donde se ve que abrís campañas | "Cómo configurar el pixel" |
-| Contar que se te cayó una campaña un martes | "Los 5 errores de tu campaña" |
-| Que se note que sabés, mientras hacés otra cosa | Dar una clase |
+**La distinción que importa:** eso funcionó porque era **recomendación**, no
+haul. Tus dos hauls de SHEIN fueron los peores videos de tu top 10 — rindieron
+**4× menos** que los de color.
 
-Vos dijiste que tenés más conocimiento del que parece. **Eso no se arregla
-enseñando: se arregla estando a la vista.** Si te ven trabajando, se entiende
-sola la parte de que sabés — y no tenés que ponerte en profesora, que es
-justamente de lo que te querías ir.
+> **Recomendás. No mostrás lo que compraste.**
 
-## Y lo otro que dijiste
+- ⭐⭐ **Tiendas que sí o sí tenés que conocer — parte 2, 3, 4…**
+- ⭐⭐ **SHEIN: qué sí y qué no**
+- ⭐ **Cómo comprar en SHEIN sin que te llegue cualquier cosa** — talles, telas,
+  fotos que mienten
+- **Lo que pedí y devolví** — el más honesto
+- **Dónde comprar ___ en Buenos Aires** — calzado, básicos, ropa de trabajo
+- **Las tiendas que todo el mundo recomienda y a mí no me funcionaron**
+- **Mi carrito de SHEIN antes de pagar** — qué saco y por qué
+- **Las 3 reglas antes de pagar — parte 2**
+- **Cuánto salió y cuánto duró** — seguimiento a los 6 meses
 
-**Girly sí, pero sin ser estricta.** No es una cuenta de moda con reglas. Es tu
-vida, y tu vida se ve girly porque sos vos. No hay cuota de outfits ni carriles
-que cumplir: si esa semana te pusiste algo lindo, aparece; si no, no.
-
-**Tips sí — cortos.** Lo que sale de la cuenta es **la asesora**, no ser útil.
-Una recomendación breve es exactamente "la amiga que te avisa". Ver el formato
-6 abajo.
-
----
-
-## Los formatos
-
-Seis formas que ya tiene tu vida. No son carriles con porcentaje: son moldes
-para cuando no sabés cómo grabar algo.
-
-### 1 · Un día conmigo
-El formato madre. Tu día real, con el trabajo adentro.
-
-### 2 · Qué hacemos los de marketing
-Nadie sabe qué hace alguien de marketing todo el día. Es un misterio cotidiano
-y da mucho más juego del que parece.
-
-### 3 · Experiencias
-Salidas, eventos, cosas que te pasan. **Acá entra el de Mercado Libre.**
-
-### 4 · Outfits, pero adentro de la vida
-No "outfit del día" como catálogo. **Qué te pusiste para ir a algo.** El outfit
-aparece porque el día pasó, no porque toca.
-
-### 5 · Vos hablando
-Lo introspectivo. Sin gancho, sin cierre, sin editar de más.
-
-### 6 · El tip breve
-Una recomendación corta, de lo que sea. **Es un formato, no un tema**: adentro
-entra edición, una app, una compra, un truco del celular, lo que se te ocurra.
-
-**Nada complicado, nada extenso, nada intenso.** Es el más barato de producir y
-el que más se guarda.
-
-| Tip breve ✅ | Asesoría ❌ |
-|---|---|
-| **Una sola cosa** | "Las 5 reglas de…" |
-| 15-20 segundos | Un minuto explicando |
-| "Usá esto" · "Ojo con esto" | "Es importante que consideres…" |
-| De lo que sea | Del tema del que sos la experta |
-| Empieza en el tip | "Hoy les traigo…" |
-
-> **El test:** si necesita contexto antes del tip, no es un tip breve. Es una
-> clase y va al tacho.
+> ⚠️ **Sacá el código de descuento del título.** Uno de tus hauls lo tenía
+> (`Busca 👉F2N8L👈`) y eso se lee como publicidad — la audiencia y el algoritmo
+> lo tratan igual. Va en comentario fijado o en la descripción, nunca en el
+> gancho.
 
 ---
 
-## Los videos
+# 2 · Outfits para ___ y ocasiones
 
-**No es un calendario.** Es una lista. Agarrás el que la semana te dé.
+**Acá está la fórmula repetible.** Tu mecánica más exitosa nunca fue un tema:
+fue un molde de título que se rellena. *"El color que todo el mundo tiene…"*
+entró tres veces al top 5 cambiando una palabra.
+
+> ## "Outfit para ___"
+
+### Las ocasiones
+
+`casamiento de día` · `casamiento de noche` · `la oficina` · `una entrevista` ·
+`primera cita` · `after office` · `cumpleaños de la suegra` · `un asado` ·
+`día de lluvia` · `viajar en avión` · `el subte en invierno` · `un evento de
+trabajo` · `salir cuando no sabés si va a refrescar` · `mudanza`
+
+### Las variantes, para no repetir el mismo título
+
+- **"Qué me pongo para ___"**
+- **"___, tres opciones y cuál elegí"**
+- **"El outfit que me salvó para ___"**
+- **"Lo que NO te pongas para ___"** — el negativo siempre rinde más
+- **"Me cambié tres veces para ___"**
+
+> **Casamientos es la mina de oro.** A los 30 son todos los fines de semana, es
+> caro, es recurrente y casi nadie lo resuelve bien. Puede ser una serie entera.
+
+---
+
+# 3 · Marketing
+
+Todo lo demás. **El trabajo se muestra, no se enseña.**
 
 ### Un día conmigo
-
-- ⭐⭐ **"Un día conmigo — performance marketing"** — el que abre todo. Te
-  levantás, el mate, abrir la compu, mirar cómo venían las campañas, una
-  reunión, el almuerzo, cerrar. **No expliques nada de lo que ves en pantalla.**
-  Que se vea y ya.
-- ⭐ **"Un día de trabajar desde casa vs. un día en la agencia"** — dos días,
-  mismo encuadre, split. Se cuenta solo.
-- **"La mañana antes de abrir las campañas"** — el ritual, el café, la
-  ansiedad de ver cómo cerró el fin de semana
-- **"Un día que se rompió todo"** — cuando algo se cae. Es el más honesto y
-  el que más engancha
-- **"Un lunes de reportes"** — el día más feo del mes
-- **"Qué hago realmente cuando digo que estoy laburando"**
+- ⭐⭐ **"Un día conmigo — performance marketing"** — no expliques nada de lo
+  que se ve en pantalla
+- ⭐ **"Un día de trabajar desde casa vs. un día en la agencia"**
+- **"Un día que se rompió todo"** — el más honesto
+- **"La mañana antes de abrir las campañas"** · **"Un lunes de reportes"**
 
 ### Qué hacemos los de marketing
-
 - ⭐⭐ **"Qué hacemos los de marketing todo el día"** — spoiler: no es hacer
-  flyers. Es el que más gente va a compartir con alguien que le pregunta a
-  qué se dedica
-- ⭐ **"Le expliqué mi trabajo a ___"** — tu mamá, una amiga, tu abuela. El
-  intento es el contenido
+  flyers
+- ⭐ **"Le expliqué mi trabajo a ___"** — tu mamá, una amiga
 - **"Las palabras que digo todo el día y nadie entiende"**
-- **"Lo que la gente cree que hago vs. lo que hago"**
-- **"Cómo llegué a esto"** — spoiler: no era el plan
-- **"Estaba trabajando y me apareció mi propio anuncio"**
+- **"Cómo llegué a esto"** · **"Estaba trabajando y me apareció mi propio anuncio"**
 
-### Experiencias
+### Cómo te venden — desde el lado de la que la recibe
+- ⭐⭐ **"No sé si el teléfono te escucha. Sé que no le hace falta"**
+- ⭐⭐ **"Por qué ese vestido te persigue hace tres semanas"**
+- ⭐ **"Dejaste algo en el carrito y por eso te están apurando"**
+- **"Por qué a tu amiga le aparece y a vos no"**
+- **"Compro publicidad todo el día y aún así caigo"**
 
-- ⭐⭐ **El de Mercado Libre** — ya lo tenés grabado y con ganas. **Ese es el
-  primero que subiría**, porque sale de algo que te pasó y no de una lista
-- **Un after office**
-- **Un evento, una salida, un lugar nuevo**
+> **Nunca del lado de la que compra medios.** *"Cómo bajar tu CPA"* te trae
+> gente que quiere aprender marketing. No es tu público.
 
-### Outfits adentro de la vida
+### Le puse plata
+- ⭐⭐ **"Puse plata en dos versiones del mismo video. Ganó el feo."**
+- ⭐ **"Le puse plata a un video con el color corregido y a uno sin corregir"**
 
-- **"Qué me pongo para ir a la oficina"** — real, no editorial
-- **"Mi uniforme de trabajar desde casa"** — y lo que se ve en cámara vs. lo
-  que tenés puesto de la cintura para abajo
-- **"Me cambié tres veces para una reunión con la cámara apagada"**
-- **Un outfit, sin más.** Cuando pinta
+Presupuesto chico alcanza: el dato es **direccional**, y decirlo en el video
+suma. Producto propio o inventado, **nunca de un cliente**.
 
-### Tips breves
-
-De lo que sea. Estos son para que veas el rango, no una lista a cumplir:
-
-**Edición** — lo que ya te funciona
-- ⭐ **El atajo de CapCut que usás siempre**
-- **Cómo le sacás el ruido al audio**
-- **Los tres ajustes que le hacés a todo antes de subir**
-- ⭐ **Cómo corregís el color en treinta segundos** — el tema que era un video
-  entero, ahora en versión corta
-
-**El celular**
-- ⭐ **Bloquear el enfoque y la exposición antes de grabar** — le sirve a
-  cualquiera y casi nadie lo sabe
-- **Por qué tenés que limpiar la lente y no es chiste**
-- **El ajuste de cámara que cambia todo**
-
-**Compras y cosas**
-- **Una prenda que sí y por qué**
-- **La marca de zapatos que te salvó**
-- **Algo que compraste y usás todos los días**
-
-**Trabajo y varios**
-- **Un atajo de Excel o del navegador que usás mil veces por día**
-- **Cómo ordenás el día cuando se te junta todo**
-- **Una app que te cambió algo chico**
-
-### Vos hablando
-
-- ⭐ **"Trabajo con datos todo el día y mi cuenta la manejo por intuición"**
-- **"Tener un trabajo que nadie de tu entorno entiende"**
-- **"Lo que se ve de mi trabajo vs. lo que es"**
-- **"Me daba miedo mostrar esta parte acá"**
+### Experiencias y tips
+- ⭐⭐ **El de Mercado Libre** — ya lo tenés grabado
+- **Tips breves de edición:** el atajo de CapCut · cómo sacás el ruido al audio ·
+  bloquear enfoque y exposición antes de grabar · corregir el color en 30 segundos
 
 ---
 
 ## Por dónde arrancar
 
-Tres, en este orden:
+1. **El de Mercado Libre** — ya existe y ya tenías ganas
+2. **"SHEIN: qué sí y qué no"** — el carril que ya sabés que funciona
+3. **"Un día conmigo — performance marketing"** — planta lo nuevo
 
-1. **El de Mercado Libre.** Ya existe, ya tenías ganas. Que el primero salga de
-   algo real y no de un plan es la mejor señal posible.
-2. **"Un día conmigo — performance marketing."**
-3. **"Qué hacemos los de marketing todo el día."**
-
-Entre los tres queda dicho quién sos ahora. **No anuncies ningún cambio.**
-
----
-
-## Cómo se graba
-
-**Esto es captura, no producción.** Tu vida ya está pasando: el trabajo es
-acordarte de grabar, no inventar algo.
-
-- **Clips sueltos, todo el día.** Diez segundos del escritorio, del mate, de la
-  calle. La carpeta `materia prima` del celular sirve exactamente para esto.
-- **El video se arma después.** Un "día conmigo" son quince clips de cinco
-  segundos, no una producción.
-- **No expliques lo que se ve.** Narrar es de profesora. Si se ve, no se dice.
-- **Los días feos también sirven** — de hecho son los mejores. Pero si no
-  querés grabar, no grabás: el colchón está para eso.
-
----
+**No anuncies ningún cambio.**
 
 ## Lo único que hay que cuidar
 
-En un "día conmigo" es fácil que se cuele algo que no puede salir:
-
-- **Nada de pantallas con cuentas, nombres de clientes, números o campañas.**
-  Ni de la agencia ni de tus clientes propios. Si filmás la compu, que sea de
-  lejos, desenfocado, o con algo tuyo en pantalla.
-- **Lo de Mercado Libre:** si es una salida o una experiencia tuya, va sin
-  problema. Si tiene que ver con trabajo de un cliente, mirá qué parte podés
-  mostrar antes de subirlo.
-- **Gente cercana, sólo con permiso** y sin nombre.
-
----
-
-## Qué mirar
-
-Nada de views las primeras semanas: cambiaste de tema y el algoritmo tiene que
-reaprender.
-
-- **Comentarios preguntando por tu trabajo** — la señal de que agarró
-- **Guardados**
-- **Retención a 3s** — la única que decide si salís del pool
-
-Y la que no es una métrica: **¿te dan ganas de grabar?** Si la respuesta es sí,
-el plan está bien aunque los números tarden.
+- **Nada de pantallas con cuentas, clientes, números o campañas.** Si filmás la
+  compu, de lejos o desenfocado
+- **Lo de Mercado Libre:** si toca trabajo de un cliente, fijate qué parte podés
+  mostrar
+- **Es captura, no producción.** Un "día conmigo" son quince clips de cinco
+  segundos
