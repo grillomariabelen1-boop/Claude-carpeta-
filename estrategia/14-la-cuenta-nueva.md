@@ -1,4 +1,7 @@
 # La cuenta nueva — reposicionamiento del 9/9
+> ⚠️ **Superado el 15/9 por el documento de traspaso.** La cuenta se reposicionó
+> sobre "una chica de marketing". Ver [`../ESTRATEGIA.md`](../ESTRATEGIA.md) y
+> [`../PLAN.md`](../PLAN.md). Lo de acá es historial.
 
 **Este documento cambia la premisa de toda la carpeta.** Lo que esté en los
 otros y lo contradiga, pierde.

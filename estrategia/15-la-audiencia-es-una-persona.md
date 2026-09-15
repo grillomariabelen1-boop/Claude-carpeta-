@@ -1,4 +1,7 @@
 # La audiencia es una persona, no un tema
+> ⚠️ **Superado el 15/9 por el documento de traspaso.** La cuenta se reposicionó
+> sobre "una chica de marketing". Ver [`../ESTRATEGIA.md`](../ESTRATEGIA.md) y
+> [`../PLAN.md`](../PLAN.md). Lo de acá es historial.
 
 Del 9/9, después de que lo encontraras vos:
 

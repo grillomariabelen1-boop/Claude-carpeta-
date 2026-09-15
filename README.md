@@ -2,9 +2,10 @@
 
 > # 👉 [`ESTRATEGIA.md`](ESTRATEGIA.md)
 >
-> **Ése es el documento vigente.** Una sola lectura, todo adentro: el eje, la
-> voz, qué se sube, dónde, la plata, cómo se mide y por dónde arrancar.
-> Actualizado el 11/9/2026.
+> **Ése es el documento vigente**, y está basado en el documento de traspaso
+> "Contexto — Reposicionamiento de marca personal", que es el que manda.
+> El encuadre: **no es una cuenta de marketing, es una chica de marketing.**
+> Actualizado el 15/9/2026.
 >
 > Todo lo demás de este repo es **detalle o historial**. No hace falta leerlo
 > para ejecutar.

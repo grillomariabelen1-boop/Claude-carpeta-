@@ -1,122 +1,120 @@
-# Plan de contenido
+# Plan de producción
 
-*La cuenta son **tres cosas**. Nada más.*
-
----
-
-# 1 · Tiendas y recomendaciones
-
-**Es lo más compartido que hiciste nunca.** *"Tiendas que sí o sí tenés que
-conocer"*: **515 shares con 648 likes (79%)**, cuando lo normal es 5-10%.
-*"Las 3 reglas de oro antes de comprar"*: 97 shares con 94 likes (**103%**).
-
-**La distinción que importa:** eso funcionó porque era **recomendación**, no
-haul. Tus dos hauls de SHEIN fueron los peores videos de tu top 10 — rindieron
-**4× menos** que los de color.
-
-> **Recomendás. No mostrás lo que compraste.**
-
-- ⭐⭐ **Tiendas que sí o sí tenés que conocer — parte 2, 3, 4…**
-- ⭐⭐ **SHEIN: qué sí y qué no**
-- ⭐ **Cómo comprar en SHEIN sin que te llegue cualquier cosa** — talles, telas,
-  fotos que mienten
-- **Lo que pedí y devolví** — el más honesto
-- **Dónde comprar ___ en Buenos Aires** — calzado, básicos, ropa de trabajo
-- **Las tiendas que todo el mundo recomienda y a mí no me funcionaron**
-- **Mi carrito de SHEIN antes de pagar** — qué saco y por qué
-- **Las 3 reglas antes de pagar — parte 2**
-- **Cuánto salió y cuánto duró** — seguimiento a los 6 meses
-
-> ⚠️ **Sacá el código de descuento del título.** Uno de tus hauls lo tenía
-> (`Busca 👉F2N8L👈`) y eso se lee como publicidad — la audiencia y el algoritmo
-> lo tratan igual. Va en comentario fijado o en la descripción, nunca en el
-> gancho.
+*Base: el documento de traspaso. El orden de videos y las reglas de guion salen
+de ahí; el sistema de producción lo agrego yo para que entre en **menos de 3
+horas semanales**.*
 
 ---
 
-# 2 · Outfits para ___ y ocasiones
+## El sistema, calculado sobre 3 horas
 
-**Acá está la fórmula repetible.** Tu mecánica más exitosa nunca fue un tema:
-fue un molde de título que se rellena. *"El color que todo el mundo tiene…"*
-entró tres veces al top 5 cambiando una palabra.
+Cuatro videos por semana no entran. Esto sí:
 
-> ## "Outfit para ___"
+```
+Una sesión de 2 horas cada 15 días
+        ↓
+4 o 5 videos de cámara fija, misma luz, mismo lugar
+        ↓
+Publicás 2 por semana, sostenido
+```
 
-### Las ocasiones
+La media hora que sobra cada semana es editar y subir. **Nada más.**
 
-`casamiento de día` · `casamiento de noche` · `la oficina` · `una entrevista` ·
-`primera cita` · `after office` · `cumpleaños de la suegra` · `un asado` ·
-`día de lluvia` · `viajar en avión` · `el subte en invierno` · `un evento de
-trabajo` · `salir cuando no sabés si va a refrescar` · `mudanza`
+**Por qué 2 por semana y no más:** lo que te hundió no fue el volumen bajo, fue
+la irregularidad — publicaste cuatro videos en 22 días con huecos de nueve y
+once. Dos por semana sin huecos vale más que cinco una semana y cero las tres
+siguientes.
 
-### Las variantes, para no repetir el mismo título
-
-- **"Qué me pongo para ___"**
-- **"___, tres opciones y cuál elegí"**
-- **"El outfit que me salvó para ___"**
-- **"Lo que NO te pongas para ___"** — el negativo siempre rinde más
-- **"Me cambié tres veces para ___"**
-
-> **Casamientos es la mina de oro.** A los 30 son todos los fines de semana, es
-> caro, es recurrente y casi nadie lo resuelve bien. Puede ser una serie entera.
+**Cómo aprovechar la sesión:** grabás todos los ganchos seguidos, después todos
+los desarrollos. Misma ropa en todos no importa: se publican con quince días de
+diferencia.
 
 ---
 
-# 3 · Marketing
+## El orden
 
-Todo lo demás. **El trabajo se muestra, no se enseña.**
+Del documento, y no lo cambies:
 
-### Un día conmigo
-- ⭐⭐ **"Un día conmigo — performance marketing"** — no expliques nada de lo
-  que se ve en pantalla
-- ⭐ **"Un día de trabajar desde casa vs. un día en la agencia"**
-- **"Un día que se rompió todo"** — el más honesto
-- **"La mañana antes de abrir las campañas"** · **"Un lunes de reportes"**
+> ### origen → alcance → reacciones como sostén
 
-### Qué hacemos los de marketing
-- ⭐⭐ **"Qué hacemos los de marketing todo el día"** — spoiler: no es hacer
-  flyers
-- ⭐ **"Le expliqué mi trabajo a ___"** — tu mamá, una amiga
-- **"Las palabras que digo todo el día y nadie entiende"**
-- **"Cómo llegué a esto"** · **"Estaba trabajando y me apareció mi propio anuncio"**
+**1 · El origen.** Instala el personaje y le da permiso a tu audiencia de moda
+para seguirte al tema nuevo. Va primero, sin excepción.
 
-### Cómo te venden — desde el lado de la que la recibe
-- ⭐⭐ **"No sé si el teléfono te escucha. Sé que no le hace falta"**
-- ⭐⭐ **"Por qué ese vestido te persigue hace tres semanas"**
-- ⭐ **"Dejaste algo en el carrito y por eso te están apurando"**
-- **"Por qué a tu amiga le aparece y a vos no"**
-- **"Compro publicidad todo el día y aún así caigo"**
+**2 · El alcance.** El que más engancha.
 
-> **Nunca del lado de la que compra medios.** *"Cómo bajar tu CPA"* te trae
-> gente que quiere aprender marketing. No es tu público.
-
-### Le puse plata
-- ⭐⭐ **"Puse plata en dos versiones del mismo video. Ganó el feo."**
-- ⭐ **"Le puse plata a un video con el color corregido y a uno sin corregir"**
-
-Presupuesto chico alcanza: el dato es **direccional**, y decirlo en el video
-suma. Producto propio o inventado, **nunca de un cliente**.
-
-### Experiencias y tips
-- ⭐⭐ **El de Mercado Libre** — ya lo tenés grabado
-- **Tips breves de edición:** el atajo de CapCut · cómo sacás el ruido al audio ·
-  bloquear enfoque y exposición antes de grabar · corregir el color en 30 segundos
+**3 · Las reacciones.** El formato de sostén, para que no te quedes sin ideas.
 
 ---
 
-## Por dónde arrancar
+## Video 1 — "De un mostrador a manejar la pauta"
 
-1. **El de Mercado Libre** — ya existe y ya tenías ganas
-2. **"SHEIN: qué sí y qué no"** — el carril que ya sabés que funciona
-3. **"Un día conmigo — performance marketing"** — planta lo nuevo
+**Guion cerrado en el documento. Se graba tal cual.**
 
-**No anuncies ningún cambio.**
+**GANCHO** *(sin sonreír)*
+> "Después de que me rechazaran marcas más veces de las que puedo contar,
+> entendí que el marketing hay que estudiarlo y después cagarla igual, porque
+> hay cosas que sólo te las enseña perder plata."
 
-## Lo único que hay que cuidar
+**PRESENTACIÓN**
+> "Soy Belu. Hace tres años que hago contenido y hoy manejo la pauta de marcas.
+> Empecé atrás de un mostrador vendiendo maquillaje."
 
-- **Nada de pantallas con cuentas, clientes, números o campañas.** Si filmás la
-  compu, de lejos o desenfocado
-- **Lo de Mercado Libre:** si toca trabajo de un cliente, fijate qué parte podés
-  mostrar
-- **Es captura, no producción.** Un "día conmigo" son quince clips de cinco
-  segundos
+**DESARROLLO**
+> "Mi primer trabajo fue como Beauty Advisor en el counter de Chanel. Ahí
+> aprendí la parte más difícil de todo esto: vender mirando a alguien a los
+> ojos, entender qué necesita antes de que sepa pedirlo.
+>
+> Después empecé a subir videos. Y me fue mal bastante tiempo. Mandaba mails que
+> no me contestaban, y cuando me contestaban era por canje. Decía que sí porque
+> pensaba que no valía más.
+>
+> Lo que me cambió fue sentarme del otro lado. El día que tuve que elegir yo a
+> una creadora para una campaña de un cliente, entendí todo lo que había hecho
+> mal cuando mandaba mails. No me rechazaban por mala, me rechazaban porque no
+> sabía qué estaban buscando."
+
+**Termina ahí. Sin CTA y sin frase de cierre — corta seco.**
+
+**Producción:** cámara fija, hablado a cámara, luz natural. El gancho, sin
+sonreír. Si conseguís una foto del counter, va justo cuando nombrás Chanel.
+
+---
+
+## Los siguientes, ya validados
+
+**2 · Me arruiné el alcance sola** — *el que más engancha, va segundo*
+> "Después de tres meses pagando para que me vean, entendí por qué mis videos
+> hoy llegan a 180 personas."
+
+**3 · La plata de las colaboraciones**
+> "Después de más de 100 colaboraciones con marcas, te voy a contar lo que
+> ninguna creadora te dice: cuánto se cobra y por qué te rechazan."
+
+**4 · Los briefs**
+> "Después de leer cientos de briefs de marcas, te muestro el que me hizo decir
+> que no."
+
+**5 en adelante · Reacciono a publicidades** — agarrás una campaña o tienda
+cualquiera y decís qué ves. Es el sostén: sale de material que ya existe, no
+requiere que te pase nada.
+
+---
+
+## Lo único que agrego al material del documento
+
+### Las portadas
+
+Tu video anclado tiene portada diseñada y hizo **840 mil**. Los últimos tres son
+vos hablando a cámara, plano medio, casi idénticos entre sí, y hicieron 216.
+
+No digo que sea la única causa. Digo que es la diferencia más visible que hay y
+la más barata de arreglar: **el gancho escrito grande sobre un frame tuyo, que
+se lea en miniatura.** Si no se lee en un cuadradito de 3 cm, no sirve.
+
+Y que no parezcan el mismo video: cambiá encuadre o fondo entre uno y otro.
+
+### Cuándo mirar los números
+
+**Guardados, comentarios y compartidos** desde el principio. **Views recién en
+la semana 4** — y el reloj arranca cuando empieza la publicación sostenida, no
+antes.
