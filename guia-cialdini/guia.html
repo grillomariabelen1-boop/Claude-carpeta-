@@ -1,0 +1,2341 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Influencia — Guía de estudio</title>
+<style>
+@page {
+  size: 148mm 210mm;
+  margin: 16mm 12mm 18mm 20mm;   /* recto: lomo a la izquierda */
+}
+@page :left {
+  margin: 16mm 20mm 18mm 12mm;   /* verso: lomo a la derecha */
+}
+@page :first { margin: 0; }
+
+html { font-size: 10.5pt; }
+body {
+  font-family: "Bitstream Charter", "Charter", "Liberation Serif", serif;
+  line-height: 1.42;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  margin: 0;
+  color: #000;
+}
+
+h1, h2, h3, .etiqueta, .num, .portada *, .tabla * { hyphens: none; -webkit-hyphens: none; }
+
+/* ---------- portada ---------- */
+.portada {
+  page-break-after: always;
+  height: 210mm;
+  box-sizing: border-box;
+  padding: 45mm 20mm 20mm 24mm;
+  text-align: left;
+}
+.portada .sobre { font-family: "Liberation Sans", sans-serif; font-size: 8.5pt;
+  letter-spacing: .14em; text-transform: uppercase; color: #555; margin-bottom: 4mm; }
+.portada h1 { font-size: 30pt; line-height: 1.04; margin: 0 0 5mm 0; font-weight: normal; }
+.portada .sub { font-size: 12pt; font-style: italic; color: #333; margin-bottom: 22mm;
+  line-height: 1.3; }
+.portada .pie { font-family: "Liberation Sans", sans-serif; font-size: 8.5pt;
+  color: #555; line-height: 1.6; border-top: .4pt solid #999; padding-top: 3mm; }
+
+/* ---------- capítulos ---------- */
+.cap { page-break-before: always; }
+.cap-op { margin-bottom: 9mm; }
+.cap-op .num {
+  font-family: "Liberation Sans", sans-serif; font-size: 8pt; letter-spacing: .16em;
+  text-transform: uppercase; color: #666; display: block; margin-bottom: 2.5mm;
+}
+.cap-op h1 {
+  font-size: 19pt; font-weight: normal; line-height: 1.12; margin: 0 0 3mm 0;
+}
+.cap-op .bajada {
+  font-size: 10pt; font-style: italic; color: #333; margin: 0;
+  text-align: left; line-height: 1.35;
+}
+.cap-op::after {
+  content: ""; display: block; width: 22mm; height: .8pt; background: #000; margin-top: 5mm;
+}
+
+h2 {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 9.5pt; font-weight: bold; letter-spacing: .04em;
+  margin: 7mm 0 2.5mm 0; page-break-after: avoid; text-align: left;
+}
+h3 {
+  font-size: 10.5pt; font-weight: bold; font-style: italic;
+  margin: 5mm 0 1.5mm 0; page-break-after: avoid; text-align: left;
+}
+p { margin: 0 0 0 0; text-indent: 4.5mm; orphans: 2; widows: 2; }
+p.primero, h2 + p, h3 + p, .cap-op + p, blockquote + p, .caja + p, ul + p, ol + p,
+table + p, .frase + p { text-indent: 0; }
+
+blockquote {
+  margin: 3.5mm 0 3.5mm 6mm; padding-left: 4mm; border-left: 1.2pt solid #bbb;
+  font-size: 9.5pt; color: #222; text-indent: 0;
+}
+blockquote p { text-indent: 0; }
+
+.frase {
+  margin: 0 0 6mm 0; font-style: italic; color: #333; font-size: 9.5pt;
+  text-align: left; text-indent: 0;
+}
+.frase span { font-style: normal; color: #666; font-size: 8.5pt; display: block; margin-top: 1mm; }
+
+ul, ol { margin: 2.5mm 0 2.5mm 0; padding-left: 6mm; }
+li { margin-bottom: 1.4mm; }
+
+/* ---------- cajas ---------- */
+.caja {
+  border: .5pt solid #888; padding: 3.5mm 4mm; margin: 5mm 0;
+  page-break-inside: avoid; font-size: 9.5pt; line-height: 1.38;
+}
+.caja .etiqueta {
+  font-family: "Liberation Sans", sans-serif; font-size: 7.5pt; font-weight: bold;
+  letter-spacing: .13em; text-transform: uppercase; color: #444;
+  display: block; margin-bottom: 2mm;
+}
+.caja p { text-indent: 0; }
+.caja p + p { margin-top: 2mm; }
+.caja ul { margin: 1.5mm 0 0 0; }
+
+.caja.defensa { background: #f2f2f2; border-color: #666; }
+.caja.trabajo { border-left: 2.2pt solid #000; }
+
+/* ---------- dato / experimento ---------- */
+.dato {
+  margin: 4mm 0; padding-left: 4mm; border-left: 2.2pt solid #ddd;
+  font-size: 9.5pt; page-break-inside: avoid;
+}
+.dato p { text-indent: 0; }
+.dato .tit { font-weight: bold; }
+
+/* ---------- tabla ---------- */
+table {
+  border-collapse: collapse; width: 100%; font-size: 8.5pt; margin: 4mm 0;
+  page-break-inside: avoid;
+}
+th, td { border: .4pt solid #999; padding: 1.8mm 2mm; text-align: left; vertical-align: top;
+  hyphens: none; }
+th { background: #eee; font-family: "Liberation Sans", sans-serif; font-size: 8pt; }
+td.p { font-weight: bold; white-space: nowrap; }
+
+.relleno { page-break-before: always; height: 1mm; }
+.sinquiebre { page-break-inside: avoid; }
+.fin { text-align: center; margin-top: 10mm; font-size: 9pt; color: #666; text-indent: 0; }
+</style>
+</head>
+<body>
+
+<!-- ============ PORTADA ============ -->
+<div class="portada">
+  <div class="sobre">Guía de estudio</div>
+  <h1>Influencia</h1>
+  <div class="sub">Los seis principios de la persuasión<br>de Robert Cialdini, explicados y<br>aplicados a marketing</div>
+  <div class="pie">
+    Material de estudio en español sobre <i>Influence: The Psychology of<br>
+    Persuasion</i>, de Robert B. Cialdini (edición revisada).<br>
+    Resumen, análisis y aplicaciones. No es una traducción del libro.
+  </div>
+</div>
+
+<!-- ============ CÓMO USAR ============ -->
+<div class="relleno"></div>
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Antes de empezar</span>
+    <h1>Cómo usar esta guía</h1>
+    <p class="bajada">Qué es, qué no es, y cómo sacarle provecho.</p>
+  </div>
+
+  <p class="primero">Esto no es el libro de Cialdini traducido. Es una guía de estudio: un
+  recorrido por sus ideas, sus experimentos y sus conclusiones, escrito en español y
+  organizado para que puedas estudiarlo, repasarlo y aplicarlo. Si querés el texto
+  completo del autor, existe una edición oficial en castellano, <i>Influencia: La
+  psicología de la persuasión</i>.</p>
+
+  <p>Cada capítulo sigue la misma estructura:</p>
+
+  <ul>
+    <li><b>La idea en una frase.</b> El principio, comprimido.</li>
+    <li><b>Por qué existe.</b> De dónde viene el atajo mental y por qué, la mayor parte
+    del tiempo, nos conviene tenerlo.</li>
+    <li><b>La evidencia.</b> Los experimentos concretos, con sus números. Son lo que
+    separa este libro de la literatura de autoayuda comercial.</li>
+    <li><b>Las tácticas.</b> Cómo se explota el principio en la vida real: ventas,
+    política, recaudación, estafas.</li>
+    <li><b>Cuándo pega más fuerte.</b> Las condiciones que amplifican el efecto.</li>
+    <li><b>Cómo defenderte.</b> La contramedida que propone Cialdini. Casi nunca es
+    "resistí"; suele ser más sutil.</li>
+    <li><b>Para tu trabajo.</b> Aplicaciones a marketing. Esta sección es aporte propio,
+    no está en el libro.</li>
+  </ul>
+
+  <h2>Una advertencia que el propio libro se hace</h2>
+
+  <p class="primero">Cialdini escribe desde una posición incómoda y la reconoce: el
+  mismo material que te enseña a defenderte te enseña a atacar. Su respuesta es una
+  distinción que conviene tener presente de entrada. Hay una diferencia entre usar un
+  principio de influencia cuando la señal que disparás es <i>verdadera</i> y usarlo
+  cuando la fabricás.</p>
+
+  <p>Si tu producto realmente es el más vendido de su categoría, decirlo es información
+  legítima: le ahorrás trabajo cognitivo a quien decide y probablemente lo orientes bien.
+  Si contratás actores para que simulen ser clientes satisfechos, estás falsificando la
+  señal. El primer caso es cooperación; el segundo, según sus palabras, es aquello contra
+  lo que hay que contraatacar. La diferencia no es de técnica. Es de si la evidencia que
+  invocás es real.</p>
+
+  <p>Vale la pena sostener esa distinción mientras leés, porque las tácticas que vienen
+  funcionan igual de bien en los dos casos. Esa es exactamente la razón por la que hay que
+  elegir.</p>
+</div>
+
+<!-- ============ IDEA CENTRAL ============ -->
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">La idea central</span>
+    <h1>Clic, zumbido</h1>
+    <p class="bajada">Por qué actuamos en automático, y por qué eso nos vuelve
+    explotables.</p>
+  </div>
+
+  <p class="frase">"Todo debería hacerse tan simple como sea posible, pero no más
+  simple."<span>Albert Einstein, epígrafe del capítulo 1</span></p>
+
+  <p class="primero">Todo el libro se apoya en una sola observación, y conviene entenderla
+  bien antes de pasar a los principios, porque los seis son casos particulares de ella.</p>
+
+  <p>Cialdini arranca con etología animal. Las pavas madres cuidan a sus crías disparadas
+  por un único estímulo: el sonido "cheep-cheep" del pichón. No el olor, no el aspecto, no
+  el tacto. El sonido. El etólogo M. W. Fox mostró hasta dónde llega esto: una pava ataca
+  con furia a un turón disecado arrastrado hacia ella —es su enemigo natural—, pero si
+  dentro del muñeco se esconde un grabador reproduciendo el "cheep-cheep", lo acepta y lo
+  cobija bajo sus alas. Apagás el grabador y vuelve el ataque.</p>
+
+  <p>A estas secuencias los etólogos las llaman <b>patrones fijos de acción</b>: conductas
+  complejas que se ejecutan siempre igual, en el mismo orden, disparadas por un único
+  <b>rasgo desencadenante</b>. Un petirrojo macho ataca un simple manojo de plumas rojas
+  colocado en su territorio, e ignora una réplica perfecta de petirrojo sin el pecho rojo.
+  El rasgo, no el conjunto.</p>
+
+  <p>Antes de reírnos de la pava, Cialdini señala dos cosas. Primero: el atajo funciona
+  casi siempre. Solo los pichones sanos hacen ese sonido, así que responder al sonido es
+  una estrategia excelente; hace falta un científico tramposo para que quede ridícula.
+  Segundo, y acá está el golpe: nosotros también tenemos nuestras cintas grabadas.</p>
+
+  <h2>El experimento de la fotocopiadora</h2>
+
+  <div class="dato">
+    <p class="tit">Langer, Universidad de Harvard.</p>
+    <p>Una persona se acerca a una fila frente a una fotocopiadora y pide pasar adelante.
+    Tres formulaciones:</p>
+    <ul>
+      <li>"Perdón, tengo cinco páginas. ¿Puedo usar la máquina?" → <b>60 %</b> accede.</li>
+      <li>"...¿puedo usar la máquina <i>porque estoy apurada</i>?" → <b>94 %</b>.</li>
+      <li>"...¿puedo usar la máquina <i>porque tengo que hacer unas copias</i>?" →
+      <b>93 %</b>.</li>
+    </ul>
+    <p>La tercera razón no es una razón: todos en esa fila tienen que hacer copias. Lo que
+    disparó el cumplimiento no fue el contenido del argumento sino la palabra "porque".</p>
+  </div>
+
+  <p class="primero">Ese es el "cheep-cheep" humano. La palabra "porque" normalmente
+  anuncia una justificación, así que aprendimos a responder a la palabra sin auditar lo que
+  viene detrás. Cialdini bautiza al fenómeno <b>clic, zumbido</b> (<i>click, whirr</i>):
+  clic, se activa la cinta; zumbido, se despliega la conducta.</p>
+
+  <h2>Por qué no podemos simplemente dejar de hacerlo</h2>
+
+  <p class="primero">Acá está la parte que la mayoría de los resúmenes del libro se
+  saltea, y es la más importante. Los atajos no son un defecto que convenga corregir. Son
+  una necesidad.</p>
+
+  <p>Vivimos en el entorno de estímulos más complejo y veloz que existió nunca. No
+  tenemos el tiempo, la energía ni la capacidad para analizar cada persona, cada evento y
+  cada situación que cruzamos en un solo día. Sin los atajos quedaríamos congelados,
+  catalogando y calibrando mientras el momento de actuar se nos escapa. Cialdini cita al
+  filósofo Alfred North Whitehead: <i>"la civilización avanza extendiendo el número de
+  operaciones que podemos realizar sin pensar en ellas"</i>.</p>
+
+  <p>La consecuencia es que la defensa nunca puede ser "dejá de usar atajos". Va a ser
+  siempre algo más fino: detectar cuándo la señal que disparó el atajo es falsa.</p>
+
+  <h2>Los imitadores</h2>
+
+  <p class="primero">En la naturaleza hay organismos que se especializan en falsificar
+  rasgos desencadenantes ajenos. Las hembras de la luciérnaga <i>Photuris</i> descifraron
+  el código de destellos de apareamiento de otro género, <i>Photinus</i>, y lo imitan; los
+  machos vuelan mecánicamente hacia lo que creen que es cortejo y terminan devorados. El
+  pez <i>blenio</i> de dientes de sable imita la danza ondulante del pez limpiador, que
+  hace que el mero grande se quede inmóvil y con la boca abierta; en vez de limpiarlo, le
+  arranca un bocado de carne y escapa.</p>
+
+  <p>El paralelo humano es el tema del libro. Hay gente que sabe exactamente dónde están
+  nuestras cintas y cómo apretar el botón.</p>
+
+  <h2>El jujitsu</h2>
+
+  <p class="primero">Cialdini insiste en una metáfora que conviene retener porque explica
+  por qué estas tácticas son tan difíciles de detectar. Quien las usa no te empuja. Hace
+  jujitsu: aplica fuerza mínima y deja que actúe una energía que ya estaba en la
+  situación —la gravedad, el impulso, la inercia. El resultado es que <b>manipula sin
+  apariencia de manipulación</b>. La víctima suele interpretar su propio consentimiento
+  como producto de fuerzas naturales, no del diseño de quien se beneficia.</p>
+
+  <h2>El principio del contraste</h2>
+
+  <p class="primero">Antes de los seis principios grandes, el capítulo 1 presenta uno
+  menor pero utilísimo, y casi invisible: si dos cosas se presentan una después de la otra
+  y la segunda es distinta de la primera, tendemos a verla <i>más</i> distinta de lo que
+  es.</p>
+
+  <p>La demostración clásica se hace con tres baldes de agua: una mano en agua fría, la
+  otra en caliente, y después las dos juntas en agua tibia. La misma agua se siente
+  caliente para una mano y fría para la otra.</p>
+
+  <div class="dato">
+    <p class="tit">Dónde lo vas a encontrar.</p>
+    <ul>
+      <li><b>Indumentaria.</b> A los vendedores se les enseña a mostrar primero el traje y
+      después el sweater. Un sweater de 95 dólares parece caro solo; después de un traje de
+      495, no. La secuencia inversa hace que el traje parezca todavía más caro.</li>
+      <li><b>Inmobiliarias.</b> Cialdini, infiltrado como vendedor, descubre que su
+      instructor arrancaba siempre mostrando dos propiedades deliberadamente feas y
+      sobrevaloradas. Las llamaba "propiedades de armado": no estaban para venderse, sino
+      para que las verdaderas brillaran por comparación.</li>
+      <li><b>Automotrices.</b> Se negocia primero el precio del auto y recién después se
+      ofrecen los extras, uno por uno. Cien dólares de radio parecen nada al lado de quince
+      mil ya comprometidos. La clave es introducir los adicionales por separado.</li>
+    </ul>
+  </div>
+
+  <p class="primero">La gracia del contraste, y lo que lo vuelve peligroso, es que es
+  prácticamente indetectable. Quien lo usa no parece haber estructurado nada.</p>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p>El orden en que mostrás precios no es neutro: es parte del precio. Si tenés una
+    grilla de planes, cuál va primero cambia cuánto parece costar el resto. El plan
+    premium arriba de todo no está ahí para venderse; está para fijar el ancla.</p>
+    <p>Lo mismo en una propuesta a cliente: el presupuesto del alcance completo antes del
+    alcance recortado hace que el recortado parezca una ganga. Al revés, el recortado
+    primero hace que el completo parezca un abuso.</p>
+  </div>
+</div>
+
+<!-- ============ RECIPROCIDAD ============ -->
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Principio 1</span>
+    <h1>Reciprocidad</h1>
+    <p class="bajada">Dar y recibir... y recibir.</p>
+  </div>
+
+  <p class="frase">"Pagá cada deuda como si Dios hubiera escrito la
+  factura."<span>Ralph Waldo Emerson, epígrafe del capítulo 2</span></p>
+
+  <h2>La idea en una frase</h2>
+  <p class="primero">Estamos obligados a devolver, en especie, lo que otro nos dio.</p>
+
+  <h2>Por qué existe</h2>
+
+  <p class="primero">No hay sociedad humana conocida que no tenga esta regla. El
+  antropólogo Richard Leakey llega a decir que la esencia de lo que nos hace humanos es el
+  sistema de reciprocidad: <i>"somos humanos porque nuestros ancestros aprendieron a
+  compartir su comida y sus habilidades en una red honrada de obligación"</i>.</p>
+
+  <p>La razón es económica antes que moral. La regla permitió que una persona diera algo
+  —comida, energía, cuidado— con la confianza de que no lo estaba perdiendo. Por primera
+  vez en la historia evolutiva se pudo entregar un recurso sin entregarlo realmente. Eso
+  habilitó la división del trabajo, el intercambio de bienes distintos, la especialización
+  y sistemas coordinados de ayuda y comercio. Las culturas que la tuvieron aplastaron a
+  las que no.</p>
+
+  <p>Por eso la regla está tan profundamente instalada, y por eso las etiquetas para quien
+  la viola son tan feas: garronero, desagradecido, ventajero. Ese costo social es
+  exactamente la palanca que se explota.</p>
+
+  <div class="dato">
+    <p class="tit">La deuda que cruzó medio siglo.</p>
+    <p>En 1985 Etiopía era probablemente el país con más hambre y sufrimiento del mundo:
+    economía arrasada, sequía, guerra interna, miles de muertos por inanición. Ese año la
+    Cruz Roja etíope envió cinco mil dólares de ayuda a las víctimas del terremoto de
+    México. Un periodista preguntó por qué. La respuesta: porque México había mandado
+    ayuda a Etiopía en 1935, cuando la invadió Italia. Medio siglo después, contra el
+    hambre, la distancia y el interés propio inmediato, la obligación ganó.</p>
+  </div>
+
+  <h2>La evidencia</h2>
+
+  <div class="dato">
+    <p class="tit">El experimento de Regan (Cornell).</p>
+    <p>Los participantes evaluaban cuadros junto a otro "participante" —en realidad, un
+    asistente llamado Joe—. En una condición, Joe salía dos minutos y volvía con dos
+    Coca-Colas, una para cada uno: "le pregunté si podía traerme una y le compré una a
+    usted también". En la otra, volvía con las manos vacías. En todo lo demás se comportaba
+    igual.</p>
+    <p>Después Joe pedía un favor: comprarle números de rifa a 25 centavos. Los que habían
+    recibido la Coca compraron <b>el doble</b>.</p>
+    <p><b>El hallazgo realmente importante</b> es otro. Regan también midió cuánto les
+    caía bien Joe. En la condición sin regalo, la relación era la esperable: cuanto más
+    simpático les resultaba, más rifas compraban. En la condición con Coca, esa relación
+    <b>desapareció por completo</b>. A los que le debían un favor les daba igual si Joe les
+    caía bien o mal: compraban lo mismo. La reciprocidad pasó por encima de la simpatía.</p>
+  </div>
+
+  <p class="primero">Pensá la implicancia: alguien que te resulta antipático puede
+  aumentar mucho sus chances simplemente dándote algo primero.</p>
+
+  <div class="dato">
+    <p class="tit">El retorno de la inversión.</p>
+    <p>El estudio de Regan se hizo a fines de los sesenta, cuando una Coca costaba diez
+    centavos. El participante promedio compró dos rifas de 25. Joe convirtió diez centavos
+    en cincuenta: <b>500 % de retorno</b>. Algunos compraron siete.</p>
+  </div>
+
+  <h2>Tres propiedades que la vuelven explotable</h2>
+
+  <h3>1. Es abrumadora</h3>
+  <p class="primero">Cialdini cuenta el caso de un soldado alemán de la Primera Guerra
+  cuyo trabajo era cruzar la tierra de nadie y capturar un enemigo para interrogarlo. Ya
+  lo había hecho varias veces. Sorprendió a un soldado solo, comiendo, y lo desarmó sin
+  problema. El prisionero, aterrado, con un pedazo de pan en la mano, le dio un poco de
+  pan. El alemán quedó tan afectado que no pudo completar la misión: volvió con las manos
+  vacías a enfrentar la furia de sus superiores.</p>
+
+  <p>El reverso también existe. Diane Louie sobrevivió a Jonestown porque antes se había
+  negado a aceptar favores especiales de Jim Jones. Rechazó su oferta de comida especial
+  cuando estaba enferma: <i>"sabía que una vez que me diera esos privilegios, me tenía. No
+  quería deberle nada"</i>.</p>
+
+  <h3>2. Impone deudas no pedidas</h3>
+
+  <p class="primero">La regla no dice que tenías que haber pedido el favor. Basta con que
+  lo hayas recibido. El antropólogo Marcel Mauss lo formula como tres obligaciones
+  encadenadas: <i>hay obligación de dar, obligación de recibir y obligación de
+  devolver</i>.</p>
+
+  <p>La del medio es la que abre la puerta al abuso: la obligación de recibir te quita el
+  poder de elegir a quién querés deberle, y se lo entrega al otro.</p>
+
+  <div class="dato">
+    <p class="tit">Los Hare Krishna.</p>
+    <p>En los setenta la secta tenía un problema de imagen: la gente los encontraba raros y
+    no les daba plata. No podían cambiar el aspecto —era religioso—, así que cambiaron la
+    táctica. Empezaron a <i>regalar</i> algo primero: un libro, una revista o, en la versión
+    más rentable, una flor. Al que la recibía no se la aceptaban de vuelta por nada del
+    mundo: "no, es nuestro regalo para usted". Recién después pedían la donación. Financiaron
+    templos, negocios y propiedades en 321 centros.</p>
+    <p>Cialdini siguió una tarde a una integrante que se ausentaba periódicamente del grupo
+    y volvía con más flores. Su recorrido era un recorrido de tachos de basura: juntaba las
+    flores que los donantes habían tirado apenas se alejaban, para reciclarlas. El detalle
+    que lo impresionó: la mayoría de esas flores descartadas <b>habían producido una
+    donación igual</b>. Un regalo tan poco deseado que se tira a la primera oportunidad
+    sigue siendo eficaz.</p>
+    <p>Dato relacionado: la organización Disabled American Veterans obtiene <b>18 %</b> de
+    respuesta con su pedido de donación por correo. Si la carta incluye un regalito no
+    solicitado —etiquetas autoadhesivas con la dirección del destinatario— la tasa casi se
+    duplica: <b>35 %</b>.</p>
+  </div>
+
+  <h3>3. Dispara intercambios desiguales</h3>
+
+  <p class="primero">La regla exige que un favor se devuelva con un favor, pero dentro de
+  ese margen hay muchísima flexibilidad. Y como quien inicia elige <i>las dos</i> cosas
+  —la naturaleza del favor inicial y la del favor que cancela la deuda—, es fácil terminar
+  en un canje muy desparejo.</p>
+
+  <p>Una alumna de Cialdini le contó que un desconocido en un estacionamiento le hizo
+  puente para arrancarle el auto. Ella agradeció y, de pasada, le dijo que si alguna vez
+  necesitaba un favor, pasara. Un mes después el tipo golpeó su puerta y le pidió el auto
+  prestado por dos horas. Se lo prestó. El tipo era menor de edad, no tenía seguro, y
+  destruyó el auto.</p>
+
+  <p>¿Por qué aceptamos devolver de más? Por dos costos que se suman. Uno interno: estar
+  en deuda es genuinamente desagradable, pesa, exige ser removido. Otro externo: quien
+  acepta sin devolver cae mal al grupo. Entre el malestar y la vergüenza, el precio
+  psicológico puede superar la pérdida material. Hay evidencia (Universidad de Pittsburgh)
+  de que la gente evita pedir un favor que necesita si no va a estar en condiciones de
+  devolverlo.</p>
+
+  <h2>La variante más peligrosa: concesiones recíprocas</h2>
+
+  <p class="primero">La regla no solo aplica a favores. Aplica a <b>concesiones</b>. Si
+  alguien retrocede desde una posición, sentís la presión de retroceder desde la tuya.</p>
+
+  <p>Cialdini lo descubre en carne propia: un chico de once o doce años le ofrece entradas
+  a cinco dólares para el circo de los Boy Scouts. Dice que no. El chico contesta: "bueno,
+  ¿y qué tal unas barras de chocolate, a un dólar?". Compra dos. Y enseguida se da cuenta
+  de que algo raro pasó, porque (a) no le gusta el chocolate, (b) sí le gustan los dólares,
+  (c) tenía dos chocolates y (d) el chico se iba con dos de sus dólares.</p>
+
+  <p>La táctica se llama <b>rechazo-y-retirada</b> (también "puerta en la cara"): pedís
+  primero algo grande que sabés que te van a negar, y después pedís lo que realmente
+  querías. El segundo pedido se lee como una concesión tuya, y activa una concesión del
+  otro.</p>
+
+  <div class="dato">
+    <p class="tit">El experimento de los delincuentes juveniles.</p>
+    <p>Cialdini y sus asistentes abordaban estudiantes universitarios haciéndose pasar por
+    un programa de orientación juvenil.</p>
+    <ul>
+      <li>Pedido directo: acompañar como chaperón a un grupo de delincuentes juveniles a
+      una salida al zoológico, sin pago. Aceptó el <b>17 %</b>.</li>
+      <li>Con retirada previa: primero se les pedía ser consejeros de un delincuente
+      juvenil dos horas por semana durante un mínimo de <b>dos años</b>. Todos dijeron que
+      no. Recién ahí se pedía lo del zoológico. Aceptó el <b>50 %</b>.</li>
+    </ul>
+    <p>Triplicó el cumplimiento con un pedido que seguía siendo objetivamente grande. La
+    clave no es que el segundo pedido sea chico: es que sea <i>más chico que el
+    primero</i>.</p>
+  </div>
+
+  <h2>El límite: hasta dónde se puede exagerar</h2>
+
+  <p class="primero">Investigación de la Universidad Bar-Ilan (Israel): si el primer
+  pedido es tan extremo que se lee como <i>no razonable</i>, la táctica se da vuelta. El
+  que pidió deja de parecer alguien negociando de buena fe, y su retirada posterior no se
+  percibe como una concesión genuina, así que no se recíproca.</p>
+
+  <p>El negociador hábil, entonces, arranca desde una posición exagerada lo suficiente
+  como para permitir una serie de concesiones recíprocas, pero no tan disparatada como
+  para parecer ilegítima de entrada.</p>
+
+  <div class="dato">
+    <p class="tit">Watergate.</p>
+    <p>Cialdini usa la decisión de irrumpir en las oficinas del Comité Nacional Demócrata
+    como el mejor ejemplo del poder de la táctica. El plan de G. Gordon Liddy que se
+    aprobó, de 250.000 dólares, era caro, riesgoso, innecesario (Nixon iba a ganar cómodo)
+    y venía de alguien con fama de inestable. Pero no era su primera propuesta.</p>
+    <p>La primera había sido un programa de <b>un millón</b> de dólares que incluía un
+    avión de comunicaciones equipado, escuadrones de secuestro y golpizas, y un yate con
+    prostitutas para chantajear políticos demócratas. La segunda, una semana después, bajaba
+    a <b>500.000</b>. Recién la tercera, de 250.000, fue aprobada.</p>
+    <p>Jeb Magruder lo resumió después con una claridad notable: <i>"si hubiera venido al
+    principio y dicho 'tengo un plan para entrar y poner micrófonos en la oficina de Larry
+    O'Brien', probablemente lo habríamos rechazado de plano. En cambio vino con su
+    elaborado esquema de prostitutas, secuestros, golpizas, sabotaje y escuchas... Pidió el
+    pan entero cuando se conformaba con la mitad o un cuarto"</i>. Mitchell firmó "con la
+    sensación de que había que dejarle algo a Liddy".</p>
+    <p>El detalle que cierra el caso: de los tres presentes, el único que se opuso
+    —Frederick LaRue, "no creo que valga el riesgo"— era el único que no había estado en las
+    dos reuniones anteriores.</p>
+  </div>
+
+  <h2>Por qué rechazo-y-retirada funciona tan bien</h2>
+
+  <p class="primero">Se apoya en tres cosas a la vez, no en una:</p>
+
+  <ol>
+    <li><b>Reciprocidad.</b> La concesión pide una concesión.</li>
+    <li><b>Contraste perceptivo.</b> Pedir diez para después pedir cinco hace que cinco
+    <i>parezca</i> menos que si hubieras pedido cinco de entrada.</li>
+    <li><b>Estructura.</b> No se puede perder. Si acepta el pedido grande, ganaste el
+    doble. Si lo rechaza, retrocedés a lo que querías con las dos fuerzas anteriores a
+    favor.</li>
+  </ol>
+
+  <div class="dato">
+    <p class="tit">Las mesas de billar.</p>
+    <p>Reportado en <i>Sales Management</i>. Un local vendía mesas de billar. La primera
+    semana mostraba primero el modelo barato y trataba de subir al cliente: venta promedio,
+    <b>550 dólares</b>. La segunda semana llevaba a todos directo a la mesa de 3.000,
+    quisieran verla o no, y de ahí bajaba en orden decreciente de precio: venta promedio,
+    <b>más de 1.000 dólares</b>.</p>
+  </div>
+
+  <h2>El efecto secundario contraintuitivo</h2>
+
+  <p class="primero">Uno esperaría que la víctima de esta táctica quedara resentida, no
+  cumpliera lo acordado y no volviera. Pasa exactamente lo contrario.</p>
+
+  <div class="dato">
+    <p class="tit">Dos estudios.</p>
+    <ul>
+      <li><b>Cumplimiento (Canadá).</b> Con rechazo-y-retirada, 76 % aceptó trabajar dos
+      horas en un centro de salud mental, contra 29 % con el pedido directo. Pero lo
+      importante es quiénes efectivamente <i>se presentaron</i>: <b>85 %</b> contra
+      <b>50 %</b>.</li>
+      <li><b>Pedidos futuros (donación de sangre).</b> De los que donaron tras la táctica,
+      <b>84 %</b> dejó su teléfono para donar de nuevo; del grupo con pedido directo, solo
+      <b>43 %</b>.</li>
+    </ul>
+  </div>
+
+  <p class="primero">La explicación viene de un experimento de negociación de UCLA. El
+  oponente que arrancaba extremo y retrocedía gradualmente no solo sacaba más plata:
+  también lograba que el otro se sintiera <b>más responsable</b> del acuerdo (creían haberlo
+  hecho ceder, aunque estaba instruido para ceder pasara lo que pasara) y <b>más
+  satisfecho</b> con él. Quien se siente autor de un acuerdo lo cumple, y quien queda
+  satisfecho vuelve.</p>
+
+  <div class="caja defensa">
+    <span class="etiqueta">Cómo defenderte</span>
+    <p>La defensa obvia —rechazar todo favor inicial— no funciona. Primero porque no
+    podés saber de entrada si una oferta es honesta o es el primer paso de una explotación;
+    segundo porque te aísla socialmente. Cialdini cuenta el caso de una nena de diez años
+    que repartía flores a los abuelos que entraban a la escuela y quedó destrozada porque un
+    hombre le exigió saber qué tenía que dar a cambio y la acusó de estar jugando un juego.
+    El tipo se había vuelto mecánicamente hostil de tanto que lo habían explotado.</p>
+    <p><b>La defensa real es una redefinición mental.</b> Aceptá los favores genuinos como
+    lo que son y devolvelos: eso es participar de la red de obligación, no ser víctima de
+    ella. Pero en el momento en que determinás que el "favor" inicial fue un <i>dispositivo
+    de venta</i> —no un regalo—, redefinilo como tal. La regla dice que los favores se
+    devuelven con favores. No dice que las tácticas se devuelvan con favores.</p>
+    <p>Hecha esa redefinición, la regla deja de tener fuerza sobre vos y podés aceptar o
+    rechazar la oferta con total libertad. Lo mismo vale para la concesión: si reconocés que
+    la retirada fue fabricada, no es una concesión real y no exige nada.</p>
+  </div>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p><b>La muestra gratis sigue siendo la táctica más subestimada.</b> Su belleza, dice
+    Cialdini, es que es a la vez un regalo y una herramienta: podés liberar la fuerza de la
+    obligación mientras parecés tener solo la intención de informar. Un operador de
+    supermercado en Indiana vendió media tonelada de queso en unas horas simplemente
+    poniéndolo a disposición para que la gente se cortara sus propias lascas.</p>
+    <p><b>En digital esto es contenido.</b> Una guía útil, una plantilla, una auditoría
+    gratuita real: son la versión actual del queso. Y funcionan por el mismo mecanismo, no
+    porque "aporten valor" en abstracto.</p>
+    <p><b>Rechazo-y-retirada en presupuestos.</b> Si querés vender un proyecto de X,
+    presentá primero uno de 3X. Pero atención al límite Bar-Ilan: si tu 3X es delirante,
+    perdés credibilidad y la retirada no cuenta como concesión.</p>
+    <p><b>El dato de Canadá importa más que el de conversión.</b> Que la táctica mejore la
+    tasa de <i>cumplimiento</i> y de <i>recompra</i> significa que no estás sacrificando
+    relación a cambio de conversión. Eso es raro y vale oro.</p>
+    <p><b>Cuidado del otro lado.</b> Cuando un proveedor te llena de atenciones antes de
+    la negociación, no está siendo amable. Está fijando el precio.</p>
+  </div>
+</div>
+
+<!-- ============ COMPROMISO Y COHERENCIA ============ -->
+<div class="relleno"></div>
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Principio 2</span>
+    <h1>Compromiso y coherencia</h1>
+    <p class="bajada">Los duendes de la mente.</p>
+  </div>
+
+  <p class="frase">"Es más fácil resistir al principio que al
+  final."<span>Leonardo da Vinci, epígrafe del capítulo 3</span></p>
+
+  <h2>La idea en una frase</h2>
+  <p class="primero">Una vez que tomamos una posición, sentimos una presión casi obsesiva
+  por comportarnos de manera coherente con ella.</p>
+
+  <h2>La evidencia de arranque</h2>
+
+  <div class="dato">
+    <p class="tit">El hipódromo.</p>
+    <p>Dos psicólogos canadienses encontraron algo notable: apenas después de apostar, los
+    apostadores están mucho más seguros de que su caballo va a ganar que treinta segundos
+    antes de apostar. El caballo es el mismo, la pista es la misma, el campo es el mismo.
+    Lo que cambió fue que se tomó una posición.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">El robo en la playa (Moriarty).</p>
+    <p>Un cómplice pone su toalla a metro y medio de un bañista elegido al azar, escucha
+    radio un rato y se va a caminar. Otro investigador, haciéndose el ladrón, agarra la
+    radio y se va apurado.</p>
+    <p>En condiciones normales, de 20 robos escenificados, solo <b>4</b> personas
+    intervinieron.</p>
+    <p>Segunda tanda, con un solo cambio: antes de irse a caminar, el cómplice le pide al
+    vecino "¿me cuidás las cosas?", y el vecino dice que sí. De 20 casos, <b>19</b>
+    persiguieron al ladrón, lo detuvieron, le exigieron explicaciones y en varios casos lo
+    sujetaron físicamente o le arrancaron la radio.</p>
+  </div>
+
+  <h2>Por qué existe</h2>
+
+  <p class="primero">La coherencia se valora muchísimo. Quien no la tiene parece indeciso,
+  confundido, dos caras, incluso enfermo. Quien la tiene parece racional, estable, honesto
+  y confiable. Hay una frase atribuida a Michael Faraday que muestra hasta qué punto se
+  valora por encima incluso de tener razón: le preguntaron si quería decir que un rival
+  académico odiado estaba siempre equivocado, y contestó <i>"no es tan coherente"</i>.</p>
+
+  <p>Pero además, como todos los atajos, la coherencia automática ahorra trabajo. Una vez
+  decidido un tema, ya no hay que volver a pensarlo. No hay que filtrar información, ni
+  sopesar pros y contras, ni tomar decisiones difíciles. Se activa la cinta y listo.</p>
+
+  <p>Y hay un segundo atractivo, más perverso: la coherencia mecánica funciona como
+  <b>refugio contra conclusiones que no queremos sacar</b>. Encerrados detrás de sus muros,
+  quedamos a salvo del asedio de la razón.</p>
+
+  <div class="dato">
+    <p class="tit">La charla de meditación trascendental.</p>
+    <p>Cialdini fue a una charla de reclutamiento con un colega lógico y estadístico. Al
+    final, su amigo desarmó la presentación en menos de dos minutos, mostrando exactamente
+    dónde el argumento era contradictorio e insostenible. Los expositores balbucearon y
+    admitieron que los puntos "requerían más estudio".</p>
+    <p>Y entonces el público se abalanzó a pagar la seña de 75 dólares.</p>
+    <p>Cialdini supuso que no habían entendido la objeción. Afuera habló con tres de los
+    que habían pagado. Habían entendido perfectamente. El vocero se lo explicó: <i>"no
+    pensaba poner plata esta noche porque ando corto; iba a esperar a la próxima reunión.
+    Pero cuando tu amigo empezó a hablar, supe que mejor les daba la plata ya, o me iba a ir
+    a casa a pensar en lo que dijo y no me iba a anotar nunca"</i>.</p>
+    <p>Eran personas con problemas reales y desesperadas por una solución. La lógica
+    amenazaba con dejarlos sin esperanza otra vez. El pago fue el muro.</p>
+  </div>
+
+  <h2>La llave: el compromiso</h2>
+
+  <p class="primero">¿Qué produce el "clic" que activa la cinta de la coherencia? Un
+  compromiso. Si logro que tomes una posición —que te pongas en el registro— dejé armado
+  el escenario para tu coherencia automática con eso.</p>
+
+  <div class="dato">
+    <p class="tit">Predecir compromete (Sherman).</p>
+    <p>Llamó por teléfono a residentes de Bloomington, Indiana, como parte de una
+    "encuesta", y les pidió que predijeran qué contestarían si les pidieran dedicar tres
+    horas a juntar donaciones para la Sociedad Americana del Cáncer. Muchos, para no quedar
+    mal consigo mismos, dijeron que se ofrecerían. Días después llamó un representante real
+    de la organización: <b>700 % más de voluntarios</b>.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">"¿Cómo está usted esta noche?" (Howard).</p>
+    <p>¿Notaste que los que llaman pidiendo donaciones ahora arrancan preguntándote cómo
+    estás? No es simpatía. Es para que digas "bien", y una vez que declaraste públicamente
+    que estás bien, cuesta mucho más aparecer tacaño frente a quien la está pasando mal.</p>
+    <p>Howard lo puso a prueba en Dallas. Pedido estándar (recibir en tu casa a alguien que
+    vende galletitas a beneficio): <b>18 %</b>. Con la pregunta previa —y esperando la
+    respuesta—: <b>32 %</b>. De los 120 llamados, 108 dieron la respuesta amable esperada. Y
+    de los que aceptaron la visita, el <b>89 %</b> efectivamente compró.</p>
+    <p>Para descartar que fuera simple cortesía, Howard probó una variante: en lugar de
+    preguntar, <i>afirmar</i> ("espero que esté bien esta noche"). Preguntar: <b>33 %</b>.
+    Afirmar: <b>15 %</b>. Lo que hace la diferencia no es la calidez. Es que la pregunta
+    extrae un compromiso público y la afirmación no.</p>
+  </div>
+
+  <h2>Pie en la puerta</h2>
+
+  <p class="primero">La táctica de empezar con un pedido chiquito para conseguir después
+  uno grande tiene nombre: <b>pie en la puerta</b>.</p>
+
+  <div class="dato">
+    <p class="tit">Freedman y Fraser, el cartel de "maneje con cuidado".</p>
+    <p>Un supuesto voluntario recorría un barrio residencial de California pidiendo permiso
+    para instalar en el jardín delantero un cartel enorme y mal pintado que decía MANEJE CON
+    CUIDADO. Se les mostraba una foto donde el cartel tapaba casi por completo una casa
+    linda. Lo rechazó el <b>83 %</b>.</p>
+    <p>Pero había un grupo que aceptó en un <b>76 %</b>. ¿Qué tenían de distinto? Dos
+    semanas antes, otro voluntario les había pedido exhibir un cartelito de siete
+    centímetros que decía SEA UN CONDUCTOR SEGURO. Casi todos habían aceptado esa nimiedad.</p>
+    <p><b>Y todavía hay algo más raro.</b> A un tercer grupo, en lugar del cartelito, se le
+    pidió firmar una petición para "mantener California hermosa" —una causa con la que nadie
+    está en desacuerdo, y que no tiene nada que ver con el tránsito—. Dos semanas después,
+    aproximadamente <b>la mitad</b> aceptó el cartelón gigante.</p>
+  </div>
+
+  <p class="primero">La explicación de Freedman y Fraser es la clave de todo el capítulo:
+  firmar la petición <b>cambió la imagen que esas personas tenían de sí mismas</b>. Pasaron
+  a verse como ciudadanos comprometidos que actúan según sus principios cívicos. Dos
+  semanas más tarde, aceptaron el cartel para ser coherentes con esa nueva
+  autopercepción.</p>
+
+  <p>Cialdini extrae de acá una conclusión personal que vale la pena: dice que esto lo
+  asusta lo suficiente como para que ya casi no firme peticiones, ni siquiera de causas que
+  apoya, porque una acción así puede influir no solo en su conducta futura sino en su
+  autoimagen de maneras que quizás no quiera.</p>
+
+  <p>La frase que resume el negocio de todos los que usan esta táctica: <i>podés usar
+  compromisos chicos para manipular la autoimagen de alguien; podés usarlos para convertir
+  ciudadanos en "servidores públicos", prospectos en "clientes", prisioneros en
+  "colaboradores"</i>.</p>
+
+  <h2>El caso extremo: los campos de prisioneros en Corea</h2>
+
+  <p class="primero">Es el ejemplo más importante del capítulo porque muestra las cuatro
+  condiciones que hacen efectivo a un compromiso, y porque los chinos las aplicaban
+  décadas antes de que la investigación las identificara.</p>
+
+  <p>En la guerra de Corea, los chinos trataron a los prisioneros estadounidenses de forma
+  muy distinta a sus aliados norcoreanos, que preferían la brutalidad. Evitando
+  deliberadamente la apariencia de crueldad, aplicaron lo que llamaban su "política
+  indulgente": un asalto psicológico sofisticado. Fueron tan efectivos que los planes de
+  fuga se descubrían casi siempre —bastaba ofrecer una bolsa de arroz a quien delatara— y
+  prácticamente todos los prisioneros colaboraron de alguna forma.</p>
+
+  <p>El método era: <b>empezar chico y construir</b>. Se le pedía al prisionero que dijera
+  algo tan levemente antiamericano que parecía inofensivo: "Estados Unidos no es perfecto".
+  Una vez dicho, se le pedía que explicara en qué sentido. Después, que hiciera una lista y
+  la firmara. Después, que la leyera en un grupo de discusión ("total, es lo que realmente
+  pensás, ¿no?"). Después, que escribiera un ensayo ampliándola. Y después su nombre y su
+  ensayo aparecían en una transmisión de radio que llegaba a todo el campo, a otros campos y
+  a las fuerzas estadounidenses en Corea del Sur. De golpe era un "colaborador". Sabiendo
+  que lo había escrito sin amenazas ni coerción, muchos cambiaban su autoimagen para
+  ajustarse al hecho, y eso habilitaba colaboraciones mayores.</p>
+
+  <h3>Las cuatro condiciones de un compromiso efectivo</h3>
+
+  <p class="primero"><b>1. Activo.</b> No alcanza con escuchar o asentir. Hay que hacer
+  algo. Los chinos insistían obsesivamente en la escritura: si el hombre no quería escribir
+  la respuesta, se le pedía que la <i>copiara</i> del cuaderno, lo que debe haber parecido
+  una concesión inofensiva. Lo escrito tiene dos ventajas: es prueba física de que el acto
+  ocurrió (no se puede olvidar ni negar) y se le puede mostrar a otros.</p>
+
+  <p>Y acá aparece un hallazgo perturbador de Jones y Harris: mostraron a un grupo un
+  ensayo favorable a Fidel Castro y les pidieron adivinar las verdaderas opiniones del
+  autor. A unos les dijeron que el autor había <i>elegido</i> escribirlo; a otros, que
+  había sido <i>obligado</i>. Incluso los que sabían que había sido obligado supusieron que
+  al autor le gustaba Castro. La gente asume que una declaración refleja la actitud real de
+  quien la hizo, aunque sepa que no la eligió libremente.</p>
+
+  <p class="primero"><b>2. Público.</b> Cuando tomás una posición visible, aparece el
+  impulso de sostenerla para parecer coherente.</p>
+
+  <div class="dato">
+    <p class="tit">Deutsch y Gerard.</p>
+    <p>Estudiantes estimaban la longitud de unas líneas. Tres condiciones:
+    comprometerse <b>públicamente</b> (escribir la estimación, firmarla y entregarla);
+    <b>privadamente</b> (escribirla en una pizarra mágica y borrarla antes de que nadie la
+    viera); o <b>no comprometerse</b> (solo pensarla).</p>
+    <p>Después se les daba evidencia de que su estimación era incorrecta y la oportunidad
+    de cambiarla. Los que nunca escribieron nada fueron los más dispuestos a corregir. Los
+    que escribieron y borraron en absoluto anonimato ya fueron significativamente más
+    reacios. Y los que se habían comprometido en público fueron, por lejos, los más
+    obstinados.</p>
+    <p>Aplicación práctica que da el libro: en jurados experimentales de seis o doce
+    personas, los jurados colgados eran significativamente más frecuentes cuando se votaba a
+    mano alzada que con voto secreto.</p>
+  </div>
+
+  <p class="primero"><b>3. Costoso.</b> Cuanto más esfuerzo cuesta un compromiso, más
+  poder tiene para cambiar las actitudes de quien lo hizo.</p>
+
+  <div class="dato">
+    <p class="tit">Aronson y Mills (1959).</p>
+    <p>Mujeres universitarias tenían que pasar por una iniciación para entrar a un grupo de
+    discusión. A unas se les hizo una iniciación severamente vergonzosa; a otras, una suave;
+    a otras, ninguna. El grupo al que entraban estaba ensayado de antemano para ser lo más
+    <i>aburrido e inútil</i> posible.</p>
+    <p>Las que pasaron por la iniciación severa se convencieron de que el grupo y sus
+    discusiones eran extremadamente valiosos. Las otras fueron mucho menos entusiastas.
+    Investigación posterior repitió el resultado con dolor en vez de vergüenza: cuanta más
+    descarga eléctrica había recibido una mujer en la iniciación, más interesante y deseable
+    le parecía después el grupo.</p>
+  </div>
+
+  <p class="primero">Esto explica por qué las novatadas —tribales, universitarias,
+  militares— son tan resistentes a ser eliminadas. No son actos de sadismo: son actos de
+  supervivencia grupal. Un estudio de 54 culturas tribales encontró que las que tenían las
+  ceremonias de iniciación más dramáticas y exigentes eran las que tenían mayor solidaridad
+  grupal.</p>
+
+  <p class="primero"><b>4. Elegido libremente.</b> Esta es más importante que las otras
+  tres juntas.</p>
+
+  <p>Cialdini plantea dos enigmas. Primero: si lo que buscan las fraternidades es esfuerzo,
+  ¿por qué casi nunca aceptan reemplazar las novatadas por trabajo comunitario? Sobra
+  esfuerzo desagradable en arreglar geriátricos o limpiar terrenos de centros de salud
+  mental, y además mejoraría su pésima imagen pública. Segundo: si los chinos querían
+  máxima participación en los concursos de ensayos, ¿por qué los premios eran tan
+  miserables —unos cigarrillos, un poco de fruta— cuando podían haber ofrecido ropa de
+  abrigo o privilegios de correo?</p>
+
+  <p>La respuesta es la misma en los dos casos: <b>querían que el otro fuera dueño de lo
+  que había hecho</b>. Sin excusas, sin salidas. Quien sufrió una novatada no puede
+  decirse que lo hizo por caridad. Quien escribió unas líneas procomunistas no puede
+  encogerse de hombros y decir que lo hizo por el premio.</p>
+
+  <p>Aceptamos responsabilidad interna por una conducta cuando creemos haberla elegido
+  <i>en ausencia de presiones externas fuertes</i>. Una recompensa grande es una presión
+  externa: logra la conducta, pero no el compromiso. Una amenaza fuerte, igual.</p>
+
+  <div class="dato">
+    <p class="tit">Freedman y el robot.</p>
+    <p>A chicos de siete a nueve años se les mostraban cinco juguetes, siendo el robot a
+    pilas el más atractivo por lejos.</p>
+    <p><b>Grupo A, amenaza fuerte:</b> "está mal jugar con el robot; si jugás con el robot
+    me voy a enojar mucho y voy a tener que hacer algo al respecto". Funcionó: 21 de 22 no
+    lo tocaron mientras el investigador no estaba.</p>
+    <p><b>Grupo B, sin amenaza:</b> solo "está mal jugar con el robot". También funcionó:
+    21 de 22 no lo tocaron.</p>
+    <p><b>Seis semanas después</b>, otra persona sin relación aparente los llevó a la misma
+    sala y les dijo que podían jugar con lo que quisieran.</p>
+    <ul>
+      <li>Grupo A (los amenazados): <b>77 %</b> eligió el robot.</li>
+      <li>Grupo B (los que no): <b>33 %</b>.</li>
+    </ul>
+    <p>La amenaza no les enseñó que estaba mal. Les enseñó que era imprudente mientras
+    hubiera castigo posible. Los otros concluyeron que no habían jugado porque no querían
+    —no había otra explicación disponible— y ese cambio fue interno y duradero.</p>
+  </div>
+
+  <h2>La bola baja</h2>
+
+  <p class="primero">Los compromisos que producen cambio interno tienen una propiedad que
+  los vuelve un negocio extraordinario: <b>se generan sus propias patas</b>. Una vez tomada
+  la decisión, la persona empieza a descubrir razones nuevas que la justifican, razones que
+  no existían antes. Lo que permite una jugada perversa: dar un incentivo para que alguien
+  decida, y después <i>retirarlo</i>, sabiendo que la decisión ya se sostiene sola.</p>
+
+  <p>Eso es la <b>bola baja</b> (<i>lowball</i>). Cialdini la vio trabajando encubierto en
+  una concesionaria Chevrolet. Se ofrece un precio excelente, digamos cuatrocientos dólares
+  por debajo de la competencia. La oferta no es real; nunca se pensó cumplirla. Su único
+  propósito es que el cliente <i>decida</i>. Después vienen los formularios, la
+  financiación, a veces hasta se lo invita a llevarse el auto un día "para probarlo y
+  mostrarlo en el trabajo". Durante ese tiempo el cliente fabrica razones nuevas.</p>
+
+  <p>Y entonces aparece el "error": faltó sumar el aire acondicionado; el banco detecta la
+  falla; el jefe no aprueba la operación. Cuatrocientos dólares más. En el contexto de una
+  operación de miles, y con todas las patas nuevas sosteniendo la decisión, mucha gente
+  acepta.</p>
+
+  <p>La variante más insidiosa: se ofrece una tasación exageradamente generosa por el auto
+  usado. El cliente salta. Después el gerente de usados "corrige" la tasación a su valor
+  real. El cliente reconoce que ahora la oferta es la justa, la acepta, y a veces se siente
+  culpable por haber intentado aprovecharse. Cialdini vio a una mujer disculpándose,
+  avergonzada, con el vendedor, mientras firmaba un contrato que le daba a él una comisión
+  enorme.</p>
+
+  <div class="dato">
+    <p class="tit">Bola baja para el bien común (Pallak, Iowa).</p>
+    <p>Un primer grupo de familias que calefaccionaban con gas natural recibió consejos de
+    ahorro energético y aceptó intentar ahorrar. Al mes y al final del invierno, no habían
+    ahorrado <b>nada</b>: consumían lo mismo que sus vecinos no contactados. Buenas
+    intenciones más información no cambian hábitos.</p>
+    <p>A un segundo grupo se le ofreció además algo: quienes aceptaran ahorrar verían sus
+    nombres publicados en el diario como ciudadanos comprometidos. Al mes habían ahorrado un
+    promedio de casi <b>12 metros cúbicos</b> de gas cada una (12,2 % de ahorro).</p>
+    <p>Entonces les tiraron la alfombra: una carta avisando que finalmente no iba a ser
+    posible publicar los nombres.</p>
+    <p>¿Volvieron a derrochar? No. Durante el resto del invierno ahorraron <b>más</b> que
+    cuando esperaban el reconocimiento: pasaron a <b>15,5 %</b>. Un estudio gemelo con aire
+    acondicionado en verano dio lo mismo: 27,8 % de ahorro en julio con la promesa,
+    <b>41,6 %</b> en agosto después de cancelarla.</p>
+    <p>La lectura de Cialdini: la publicidad prometida era la <i>única</i> razón externa, y
+    por eso la única que les impedía verse a sí mismos como personas genuinamente
+    comprometidas con el ahorro. Sacarla removió el último obstáculo para esa autoimagen.</p>
+  </div>
+
+  <div class="caja defensa">
+    <span class="etiqueta">Cómo defenderte</span>
+    <p>La cita famosa de Emerson es "la coherencia es el duende de las mentes pequeñas".
+    Cialdini fue al ensayo original, <i>Self-Reliance</i>, y encontró que la frase real es
+    <b>"una coherencia <i>tonta</i> es el duende de las mentes pequeñas"</b>. La palabra
+    perdida es toda la defensa: no hay que eliminar la coherencia —sería desastroso— sino
+    detectar cuándo es la variedad rígida y tonta.</p>
+    <p>Cialdini propone dos señales corporales.</p>
+    <p><b>1. El estómago.</b> Esa tensión que aparece cuando te das cuenta de que estás
+    atrapado cumpliendo algo que no querés hacer. Es fácil de reconocer, pero solo aparece
+    cuando la trampa es evidente. Su método: decirle al otro exactamente lo que está
+    haciendo. Casi siempre el otro no entiende y se va incómodo; a veces se da cuenta de que
+    lo descubriste y se va rápido. En cualquiera de los dos casos, ganaste.</p>
+    <p><b>2. El corazón.</b> Para los casos en que el compromiso ya generó sus propias
+    patas y el estómago no avisa, porque creés que elegiste bien. La pregunta a hacerse es:
+    <i>"sabiendo lo que sé ahora, si pudiera volver atrás, ¿tomaría la misma
+    decisión?"</i>. Y la clave está en el método: la evidencia indica que sentimos algo una
+    fracción de segundo antes de poder racionalizarlo. Así que hay que buscar y confiar en
+    <b>el primer destello de sensación</b>, el que llega justo antes de que entre en acción
+    todo el aparato con el que sabemos engañarnos.</p>
+  </div>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p><b>El micro-compromiso antes del pedido grande.</b> Es la base de todo el embudo
+    moderno, aunque casi nadie sepa por qué funciona. El lead magnet no sirve solo para
+    capturar el mail: sirve para que la persona ya haya hecho algo. Un quiz interactivo
+    convierte mejor que un formulario por la misma razón que el cartelito de siete
+    centímetros: obliga a un acto.</p>
+    <p><b>Diseñá para las cuatro condiciones.</b> Un compromiso que sea activo (que haga
+    algo, no que lea), público (que lo comparta o lo declare), costoso (que invierta
+    tiempo o esfuerzo) y libre (sin descuento gigante que explique la conducta). Si le
+    regalás un 70 % para que se suscriba, la razón de su conducta es el descuento, no el
+    producto, y no vas a tener retención.</p>
+    <p><b>Los concursos de testimonios.</b> Cialdini señala que las marcas grandes hacen
+    concursos de "por qué me gusta X" en 25 palabras, sin obligación de compra, y con
+    premios enormes. ¿Qué ganan? Exactamente lo mismo que los concursos de ensayos chinos:
+    cientos de miles de personas escribiendo, voluntariamente, por qué les gusta el
+    producto —y quedando bajo la presión de creer lo que escribieron. El UGC no es
+    "contenido gratis". Es una máquina de compromisos.</p>
+    <p><b>La contracara ética.</b> La bola baja funciona. También es la razón por la que la
+    gente odia a las telefónicas y a las aerolíneas de bajo costo. El precio que anunciás y
+    el que cobrás deberían ser el mismo, no porque sea menos rentable, sino porque el costo
+    de reputación se acumula y no se ve en el dashboard del mes.</p>
+  </div>
+</div>
+
+<!-- ============ PRUEBA SOCIAL ============ -->
+<div class="relleno"></div>
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Principio 3</span>
+    <h1>Prueba social</h1>
+    <p class="bajada">La verdad somos nosotros.</p>
+  </div>
+
+  <p class="frase">"Donde todos piensan igual, nadie piensa
+  mucho."<span>Walter Lippmann, epígrafe del capítulo 4</span></p>
+
+  <h2>La idea en una frase</h2>
+  <p class="primero">Decidimos qué es correcto averiguando qué piensan los demás que es
+  correcto. Y una conducta nos parece más correcta en la medida en que vemos a otros
+  haciéndola.</p>
+
+  <h2>El caso de las risas grabadas</h2>
+
+  <p class="primero">Cialdini abre con una paradoja. Encuestó a todos los que pasaron por
+  su oficina un día —estudiantes, dos técnicos telefónicos, varios profesores, el
+  portero— y la reacción fue unánimemente negativa: las risas enlatadas les parecían
+  estúpidas, falsas y obvias. Nadie las quiere.</p>
+
+  <p>¿Por qué, entonces, los ejecutivos de televisión —gente que llegó a esos puestos y esos
+  sueldos justamente por saber darle al público lo que quiere— las usan religiosamente,
+  incluso contra las objeciones de sus directores, guionistas y actores más talentosos?</p>
+
+  <p>Porque conocen la investigación. Los experimentos muestran que la risa enlatada hace
+  que el público <b>se ría más tiempo y más seguido</b>, y que califique el material como
+  <b>más gracioso</b>. Y hay evidencia de que es <b>más efectiva cuanto peor es el
+  chiste</b>.</p>
+
+  <p>Lo interesante no son los ejecutivos, que actúan de manera perfectamente lógica. Somos
+  nosotros. La falsificación es transparente —cualquiera reconoce una risa doblada— y sin
+  embargo funciona.</p>
+
+  <h2>Por qué existe</h2>
+
+  <p class="primero">Como regla, vamos a cometer menos errores actuando de acuerdo con la
+  evidencia social que en contra. Normalmente, cuando mucha gente hace algo, es lo
+  correcto. Esa es su mayor fortaleza y su mayor debilidad al mismo tiempo.</p>
+
+  <p>El consultor de ventas Cavett Robert lo formula sin vueltas para sus aprendices:
+  <i>"como el 95 % de la gente son imitadores y solo el 5 % iniciadores, a la gente la
+  persuaden más las acciones de otros que cualquier prueba que podamos ofrecer"</i>.</p>
+
+  <div class="dato">
+    <p class="tit">Dónde se falsifica.</p>
+    <ul>
+      <li>Los barmans "siembran" el frasco de propinas con unos billetes propios al empezar
+      el turno. Los acomodadores de iglesia hacen lo mismo con la canasta de la colecta.</li>
+      <li>Predicadores evangélicos siembran el público con cómplices ensayados. Un equipo
+      de la Universidad Estatal de Arizona que se infiltró en la organización de Billy
+      Graham reportó que, antes de su llegada a una ciudad, <i>"un ejército de seis mil
+      personas espera con instrucciones sobre cuándo pasar al frente, a intervalos
+      variados, para crear la impresión de una efusión masiva y espontánea"</i>.</li>
+      <li>En el auge de la disco, los dueños fabricaban colas largas afuera teniendo el
+      local medio vacío adentro.</li>
+    </ul>
+  </div>
+
+  <h2>El uso terapéutico</h2>
+
+  <div class="dato">
+    <p class="tit">Bandura: fobias.</p>
+    <p>Chicos de jardín elegidos por su terror a los perros miraban veinte minutos por día
+    a un nene jugando alegremente con un perro. Después de <b>cuatro días</b>, el <b>67 %</b>
+    estaba dispuesto a meterse en un corralito con un perro y quedarse ahí, acariciándolo,
+    mientras todos los demás se iban de la sala. Al mes, la mejora no solo se mantenía: era
+    mayor.</p>
+    <p>Un segundo estudio mostró que no hacía falta la demostración en vivo: bastaba con
+    clips filmados. Y el tipo de clip más efectivo no era el de un solo chico sino el que
+    mostraba a <b>varios</b> chicos distintos interactuando con sus perros. La prueba social
+    funciona mejor cuanto más gente la provee.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">O'Connor: chicos socialmente retraídos.</p>
+    <p>Hizo una película de 23 minutos con once escenas, cada una mostrando a un chico
+    solitario que mira una actividad social y después se suma, para disfrute de todos.
+    Seleccionó a los chicos más severamente retraídos de cuatro jardines y les mostró la
+    película <b>una sola vez</b>.</p>
+    <p>El impacto fue inmediato: pasaron a interactuar al nivel de los chicos normales.
+    Seis semanas después, los que no habían visto la película seguían tan aislados como
+    siempre, y los que sí <b>lideraban sus jardines en cantidad de actividad social</b>.</p>
+  </div>
+
+  <h2>Cuándo pega más fuerte: la incertidumbre</h2>
+
+  <p class="primero">Cuando no estamos seguros, cuando la situación es ambigua, cuando
+  reina la incertidumbre, es cuando más miramos a los demás para decidir. Y eso lleva al
+  fenómeno más importante del capítulo.</p>
+
+  <h3>Ignorancia pluralista</h3>
+
+  <p class="primero">Al mirar a los demás para resolver nuestra incertidumbre, olvidamos
+  algo: <b>ellos probablemente también estén mirando</b>. Y como todos preferimos parecer
+  serenos y controlados, buscamos esa evidencia con miradas breves y disimuladas. El
+  resultado es que todos vemos a todos los demás sin inmutarse y sin actuar, y concluimos
+  que no pasa nada.</p>
+
+  <div class="dato">
+    <p class="tit">El caso Genovese.</p>
+    <p>En marzo de 1964, Catherine Genovese fue asesinada al volver del trabajo en Queens.
+    No fue una muerte rápida ni silenciosa: su atacante la persiguió y atacó tres veces a lo
+    largo de <b>treinta y cinco minutos</b>. Treinta y ocho vecinos miraron desde sus
+    ventanas sin siquiera llamar a la policía.</p>
+    <p>La prensa explicó el caso con la palabra "apatía": nos estábamos convirtiendo en una
+    sociedad fría, insensible, deshumanizada por la vida urbana. Los propios testigos no
+    sabían explicarse: "no sé, simplemente no sé".</p>
+    <p>Dos psicólogos, Bibb Latané y John Darley, propusieron la explicación menos
+    intuitiva de todas: <b>no ayudaron precisamente porque eran treinta y ocho</b>. Dos
+    razones: la responsabilidad de cada uno se diluye ("alguien más habrá llamado"), y la
+    ignorancia pluralista convierte una posible emergencia en una no-emergencia.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">Los experimentos que lo confirmaron.</p>
+    <ul>
+      <li>Un estudiante simulando un ataque de epilepsia recibió ayuda el <b>85 %</b> de
+      las veces cuando había un solo testigo, y solo el <b>31 %</b> con cinco testigos.</li>
+      <li>Humo saliendo por debajo de una puerta: reportado por el <b>75 %</b> de los
+      individuos solos, el <b>38 %</b> de los grupos de tres, y apenas el <b>10 %</b> cuando
+      dos de los tres eran cómplices entrenados para ignorarlo.</li>
+      <li>En Toronto: <b>90 %</b> de ayuda con un testigo solo, <b>16 %</b> con dos testigos
+      pasivos al lado.</li>
+    </ul>
+    <p><b>Pero</b>: cuando la emergencia es <i>inequívoca</i>, la ayuda es masiva. En cuatro
+    experimentos en Florida con accidentes escenificados donde quedaba claro que el hombre
+    estaba herido, fue ayudado el <b>100 %</b> de las veces en dos de ellos y el <b>90 %</b>
+    en los otros dos —que implicaban cables eléctricos peligrosos—, sin importar si los
+    testigos estaban solos o en grupo. No somos una sociedad fría. Somos una sociedad
+    insegura.</p>
+  </div>
+
+  <div class="caja defensa">
+    <span class="etiqueta">Cómo defenderte (si sos la víctima)</span>
+    <p>Cialdini dice que de todas las técnicas del libro, esta puede ser la más importante
+    de recordar. La clave es que los testigos no ayudan porque están <b>inseguros</b>, no
+    porque sean crueles. Así que tu trabajo es eliminar su incertidumbre.</p>
+    <p>Gritar o quejarse no alcanza: llama la atención pero no informa. Usá la palabra
+    <b>"¡Ayuda!"</b> explícitamente, y no te preocupes por equivocarte: la diferencia de
+    costo es entre un momento de vergüenza y la muerte o la parálisis.</p>
+    <p>Pero lo decisivo es lo siguiente: <b>aislá a una persona de la multitud</b>. Miralo,
+    señalalo y hablale directamente a él y a nadie más. <i>"Usted, señor, el del saco azul,
+    necesito ayuda. Llame a una ambulancia."</i> Con esa sola frase resolvés las tres
+    incertidumbres: que hay una emergencia, que él es el responsable, y qué tiene que
+    hacer exactamente.</p>
+    <p>Cialdini lo usó en un choque serio donde quedó sangrando en el asfalto mientras los
+    autos pasaban mirando. Se incorporó para que lo vieran y señaló: "llame a la policía"; a
+    otro, "estacione, necesitamos ayuda". Las respuestas fueron instantáneas. Y contagiosas:
+    los autos que venían del otro lado vieron a los primeros detenerse y empezaron a asistir
+    a la otra víctima. La prueba social ahora jugaba a favor. El truco era hacer rodar la
+    pelota.</p>
+  </div>
+
+  <h2>La condición que multiplica todo: la similitud</h2>
+
+  <p class="primero">La prueba social opera con muchísima más fuerza cuando observamos la
+  conducta de gente <b>igual a nosotros</b>.</p>
+
+  <div class="dato">
+    <p class="tit">Las billeteras de Manhattan.</p>
+    <p>Psicólogos de Columbia dejaron billeteras tiradas por el centro de Manhattan. Cada
+    una tenía dos dólares, un cheque de 26,30 y datos del dueño. Además, una carta que
+    dejaba claro que la billetera se había perdido <i>dos</i> veces: era de un primer
+    hallador que había intentado devolverla y la perdió camino al buzón.</p>
+    <p>La única variable manipulada era esa carta. En una versión estaba escrita en inglés
+    estándar por alguien que parecía un estadounidense común. En la otra, en inglés
+    quebrado, por alguien que se identificaba como un extranjero recién llegado.</p>
+    <p>Billeteras devueltas cuando el primer hallador parecía distinto: <b>33 %</b>. Cuando
+    parecía similar: <b>70 %</b>.</p>
+  </div>
+
+  <p class="primero">Cialdini cuenta el caso personal: no lograba que su hijo Chris, de
+  tres años, entrara a la pileta sin flotador. Fracasó él, y fracasó un asistente suyo
+  —ex guardavidas y ex instructor de natación, uno noventa de altura—. Un día lo pasó a
+  buscar por la colonia y lo vio tirarse del trampolín a lo más hondo. Explicación de Chris:
+  <i>"tengo tres años y Tommy tiene tres años, y Tommy puede nadar sin flotador, así que yo
+  también"</i>. La información relevante no venía del instructor de uno noventa. Venía de
+  Tommy.</p>
+
+  <h3>El efecto Werther</h3>
+
+  <p class="primero">La demostración más escalofriante del principio. Cuando un suicidio
+  aparece en la tapa de los diarios, los aviones empiezan a caerse del cielo.</p>
+
+  <p>Suena absurdo, pero los datos del sociólogo David Phillips (Universidad de California
+  en San Diego) son muy difíciles de explicar de otra manera. Tras ciertas noticias de
+  suicidio muy publicitadas, las muertes en accidentes de aviación comercial aumentan un
+  <b>1.000 %</b>. También suben los muertos en accidentes de auto.</p>
+
+  <p>El nombre viene de <i>Las penas del joven Werther</i>, la novela de Goethe de 1774
+  cuyo protagonista se suicida y que desató una ola de suicidios imitativos en toda Europa,
+  al punto de ser prohibida en varios países.</p>
+
+  <p>Phillips descartó las explicaciones alternativas una por una:</p>
+
+  <ul>
+    <li><b>¿Condiciones sociales comunes?</b> No: los accidentes fatales suben
+    dramáticamente <i>solo</i> en las zonas donde el suicidio fue muy publicitado, y cuanta
+    más cobertura hubo, mayor es el salto.</li>
+    <li><b>¿Duelo y distracción?</b> Tampoco: las noticias sobre suicidios donde murió una
+    sola persona producen aumentos de accidentes de <i>una sola</i> víctima, y las noticias
+    de suicidio-más-homicidio producen aumentos de accidentes con <i>múltiples</i>
+    víctimas. El duelo no explica esa correspondencia.</li>
+  </ul>
+
+  <p>La tesis de Phillips es que muchos de esos "accidentes" son suicidios encubiertos
+  —para proteger la reputación, evitarle la vergüenza a la familia, o que los deudos
+  cobren el seguro—. Entre 1947 y 1968 encontró que, en los dos meses posteriores a cada
+  suicidio de tapa, se mataban en promedio <b>58 personas más</b> de lo habitual.</p>
+
+  <p>Y de la tesis se desprenden predicciones que después verificó:</p>
+
+  <ul>
+    <li>Si son intencionales, deberían ser <i>más letales</i>. Lo son: el número promedio de
+    muertos en un accidente de avión comercial es <b>más de tres veces mayor</b> si ocurre
+    una semana después de un suicidio de tapa que una semana antes. Las víctimas de choques
+    de auto posteriores mueren <b>cuatro veces más rápido</b> de lo normal.</li>
+    <li>Si es prueba social, los imitadores deberían parecerse a la víctima. Phillips
+    comparó la edad del suicida publicado con la de los conductores solos muertos en choques
+    de un solo auto: cuando el diario detallaba el suicidio de un joven, eran conductores
+    <b>jóvenes</b> los que se estrellaban; cuando era una persona mayor, eran conductores
+    <b>mayores</b>.</li>
+  </ul>
+
+  <p>Investigación posterior de Phillips encontró el mismo patrón en homicidios: las peleas
+  de box por el campeonato de peso pesado transmitidas en los noticieros producían aumentos
+  medibles de homicidios, y con una especificidad brutal: cuando perdía un boxeador negro,
+  subían los homicidios de jóvenes negros pero no de blancos; cuando perdía un blanco,
+  subían los de jóvenes blancos.</p>
+
+  <h3>Jonestown</h3>
+
+  <p class="primero">En noviembre de 1978, 910 personas murieron en la Guyana en un
+  suicidio masivo ordenado por Jim Jones. Las explicaciones habituales apuntan a su
+  carisma, al perfil de sus seguidores, o al carácter cuasi-religioso del grupo. Cialdini
+  las considera insuficientes: el mundo está lleno de sectas con líderes carismáticos y
+  seguidores dependientes, y sin embargo esto no pasó en ningún otro lado.</p>
+
+  <p>La pregunta que da la pista: <i>si la comunidad hubiera seguido en San Francisco,
+  ¿le habrían obedecido?</i> El experto que más los había observado, Louis Jolyon West
+  (UCLA), fue tajante: <i>"esto no habría pasado en California. Pero vivían en alienación
+  total del resto del mundo, en una situación de jungla, en un país hostil"</i>.</p>
+
+  <p>Para Cialdini, el acto que más contribuyó al cumplimiento masivo ocurrió <b>un año
+  antes</b>: la mudanza a Guyana. De golpe estaban en un lugar del que no sabían nada, con
+  costumbres y gente desconocidas. Incertidumbre absoluta —el brazo derecho de la prueba
+  social—. Y en un país así, <b>los únicos "otros similares" que le quedaban a un habitante
+  de Jonestown eran los demás habitantes de Jonestown</b>.</p>
+
+  <p>La orden se ejecutó con dos capas de evidencia social apuntando en la misma dirección:
+  el primer grupo de fanáticos que tomó el veneno sin dudar, y después la calma aparente de
+  la multitud —que era, muy probablemente, ignorancia pluralista a escala masiva: cada uno
+  mirando a los demás, viéndolos tranquilos porque también estaban evaluando en vez de
+  reaccionar, y "aprendiendo" que esperar el turno ordenadamente era lo correcto—.</p>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p><b>Especificidad de la similitud &gt; volumen.</b> "Más de 10.000 clientes" es más
+    débil que "23 agencias de diseño en Buenos Aires usan esto". El testimonio que mueve la
+    aguja es el de alguien que tu prospecto reconoce como igual a él: mismo rubro, mismo
+    tamaño, mismo problema. Es la diferencia entre el guardavidas de uno noventa y Tommy.</p>
+    <p><b>Varias fuentes &gt; una fuente.</b> Bandura encontró que los clips con varios
+    chicos distintos funcionaban mejor que con uno solo. Seis testimonios de seis perfiles
+    distintos pegan más que un caso de éxito espectacular.</p>
+    <p><b>La prueba social se activa con la incertidumbre.</b> Es más poderosa en el
+    momento de duda: categorías nuevas, compras caras, decisiones sin criterio propio. Poné
+    la prueba social justo donde el usuario duda, no en la home.</p>
+    <p><b>Cuidado con la prueba social negativa.</b> Si comunicás "el 70 % de la gente no
+    recicla" o "la mayoría abandona el carrito", estás informando que lo normal es la
+    conducta que querés evitar. Es un error frecuente en campañas de bien público.</p>
+    <p><b>El límite ético.</b> La cola falsa en la puerta de la disco, los seguidores
+    comprados, las reseñas fabricadas: funcionan por el mismo mecanismo, y son exactamente
+    lo que Cialdini define como el enemigo. No porque busquen ganancia, sino porque la
+    buscan degradando un atajo que todos necesitamos que funcione.</p>
+  </div>
+</div>
+
+<!-- ============ SIMPATÍA ============ -->
+<div class="relleno"></div>
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Principio 4</span>
+    <h1>Simpatía</h1>
+    <p class="bajada">El ladrón amistoso.</p>
+  </div>
+
+  <p class="frase">"El trabajo principal de un abogado litigante es lograr que al jurado
+  le caiga bien su cliente."<span>Clarence Darrow, epígrafe del capítulo 5</span></p>
+
+  <h2>La idea en una frase</h2>
+  <p class="primero">Preferimos decir que sí a los pedidos de gente que conocemos y que
+  nos cae bien. Lo sorprendente no es eso: es la cantidad de maneras en que absolutos
+  desconocidos usan esa regla.</p>
+
+  <h2>El caso testigo: Tupperware</h2>
+
+  <p class="primero">Cialdini lo considera el escenario de persuasión por excelencia,
+  porque tiene todos los principios operando a la vez: reciprocidad (se juegan juegos y se
+  reparten premios antes de vender, y quien no gana mete la mano en una bolsa para que
+  todas hayan recibido algo), compromiso (a cada participante se la invita a describir en
+  público los usos y beneficios del Tupperware que ya tiene) y prueba social (cada compra
+  refuerza que otras personas similares lo quieren).</p>
+
+  <p>Pero la fuerza real está en otro lado. El pedido de compra no viene de la vendedora
+  desconocida: viene de <b>una amiga</b> de cada mujer en la sala. La anfitriona, que
+  sonríe, charla y sirve el café, convocó a sus amigas a su casa, y todas saben que ella
+  gana un porcentaje de cada pieza vendida.</p>
+
+  <p>Investigadores de consumo (Frenzer y Davis) midieron el efecto: <b>la fuerza del
+  vínculo social con la anfitriona tiene el doble de peso en la decisión de compra que la
+  preferencia por el producto</b>. Se estimó que las ventas de Tupperware superaban los 2,5
+  millones de dólares por día, y que una reunión arranca en algún lugar del mundo cada 2,7
+  segundos.</p>
+
+  <p>Una mujer se lo describió a Cialdini con frustración: <i>"llegué al punto de que odio
+  que me inviten. Tengo todos los tuppers que necesito, y si quisiera más los compraría más
+  baratos de otra marca en el supermercado. Pero cuando me llama una amiga, siento que
+  tengo que ir. Y cuando llego, siento que tengo que comprar algo. ¿Qué puedo hacer? Es por
+  una amiga"</i>.</p>
+
+  <h2>Los cinco factores que producen simpatía</h2>
+
+  <h3>1. Atractivo físico</h3>
+
+  <p class="primero">Es un <b>efecto halo</b>: una característica positiva domina la
+  percepción de todo lo demás. Asignamos automáticamente a la gente linda rasgos como
+  talento, bondad, honestidad e inteligencia. Y lo hacemos <i>sin darnos cuenta</i> de que
+  el atractivo influyó.</p>
+
+  <div class="dato">
+    <p class="tit">Los números.</p>
+    <ul>
+      <li><b>Elecciones federales canadienses:</b> los candidatos atractivos recibieron más
+      de <b>dos veces y media</b> los votos de los no atractivos. Consultados después, el
+      <b>73 %</b> de los votantes negó en los términos más enfáticos que su voto hubiera
+      sido influido por la apariencia; solo el <b>14 %</b> admitió siquiera la
+      posibilidad.</li>
+      <li><b>Entrevistas laborales simuladas:</b> la buena presencia pesó más en las
+      decisiones de contratación que las calificaciones para el puesto —mientras los
+      entrevistadores afirmaban que la apariencia había jugado un papel menor—.</li>
+      <li><b>Justicia penal (Pensilvania):</b> se calificó el atractivo de 74 acusados al
+      inicio de sus juicios. Los buenos mozos recibieron sentencias significativamente más
+      leves y tuvieron <b>el doble</b> de probabilidad de evitar la cárcel.</li>
+      <li><b>Juicio civil simulado por negligencia:</b> cuando el demandado era más lindo
+      que la víctima, la indemnización promedio fue de <b>5.623 dólares</b>; cuando la más
+      linda era la víctima, <b>10.051</b>. Jurados de ambos sexos mostraron el mismo
+      sesgo.</li>
+      <li><b>Escuela primaria:</b> los adultos consideran los actos agresivos menos
+      traviesos cuando los comete un chico lindo, y los maestros presumen que los chicos
+      lindos son más inteligentes.</li>
+    </ul>
+  </div>
+
+  <h3>2. Similitud</h3>
+
+  <p class="primero">Nos gusta la gente parecida a nosotros, ya sea en opiniones,
+  personalidad, origen o estilo de vida.</p>
+
+  <p>Estudios de principios de los setenta, cuando los jóvenes se vestían de "hippies" o de
+  "formales": un experimentador pedía una moneda para llamar por teléfono. Vestido igual
+  que el estudiante, se la daban en más de dos tercios de los casos; vestido distinto,
+  menos de la mitad. En una marcha contra la guerra, los manifestantes no solo firmaban más
+  la petición de alguien vestido como ellos: <b>la firmaban sin molestarse en leerla</b>.</p>
+
+  <p>A los vendedores de autos se les entrena para buscar evidencia de intereses comunes
+  mientras revisan el auto usado del cliente: si hay equipo de camping en el baúl, comenta
+  cuánto le gusta escaparse de la ciudad; si hay pelotas de golf en el asiento trasero,
+  espera que no llueva antes de sus dieciocho hoyos; si el auto viene de otra provincia,
+  descubre con sorpresa que él (o su mujer) nació ahí.</p>
+
+  <p>Parecen trivialidades, pero funcionan: un estudio de registros de compañías de seguros
+  encontró que los clientes compraban más cuando el vendedor se les parecía en edad,
+  religión, política y hábitos de fumar. Muchos programas de entrenamiento hoy enseñan a
+  "espejar y acompasar" la postura corporal, el humor y el estilo verbal del cliente.</p>
+
+  <p>Cialdini aconseja cautela especial ante quien dice ser "igual a vos" —y ante quien
+  simplemente <i>parece</i> serlo—, porque una capa superficial de similitud se fabrica con
+  facilidad.</p>
+
+  <h3>3. Elogios</h3>
+
+  <p class="primero">Somos, en palabras de Cialdini, fenomenalmente crédulos ante la
+  adulación.</p>
+
+  <div class="dato">
+    <p class="tit">Joe Girard.</p>
+    <p>Vendedor de Chevrolet en Detroit, en el <i>Guinness</i> como el mejor vendedor de
+    autos del mundo: doce años seguidos como número uno, más de cinco autos y camionetas
+    vendidos por día de trabajo. Su fórmula, según él: un precio justo y alguien que te caiga
+    bien a quien comprarle.</p>
+    <p>Su táctica concreta parecía una insensatez costosa. Todos los meses le mandaba a cada
+    uno de sus más de <b>trece mil</b> ex clientes una tarjeta de saludo. El motivo cambiaba
+    (feliz año nuevo, feliz día de acción de gracias), pero el mensaje impreso adentro era
+    siempre el mismo: <b>"Usted me cae bien"</b>. Nada más, salvo su nombre. Más de 150.000
+    tarjetas por año.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">El experimento de Carolina del Norte.</p>
+    <p>Un grupo de hombres recibía comentarios sobre sí mismos de parte de alguien que
+    necesitaba un favor de ellos. Unos recibían solo elogios, otros solo críticas, otros una
+    mezcla. Tres hallazgos:</p>
+    <ul>
+      <li>El que solo elogiaba fue el más querido.</li>
+      <li>Lo fue <b>aunque los hombres sabían perfectamente que el adulador se beneficiaba
+      de caerles bien</b>.</li>
+      <li>A diferencia de los otros tipos de comentario, el elogio puro <b>no necesitaba ser
+      verdadero</b> para funcionar: producía tanta simpatía siendo falso como siendo
+      cierto.</li>
+    </ul>
+  </div>
+
+  <h3>4. Contacto y familiaridad</h3>
+
+  <p class="primero">Nos gusta lo que nos resulta familiar, y muchas veces sin saber que
+  nuestra actitud fue moldeada por la cantidad de veces que estuvimos expuestos a algo.</p>
+
+  <p>Un experimento para probarlo en casa: revelá una foto tuya de frente en dos versiones,
+  la real y la espejada. Vos vas a preferir la espejada; un amigo tuyo va a preferir la
+  real. Los dos están respondiendo a la cara que les resulta más familiar: él a la que ve
+  el mundo, vos a la que ves en el espejo todos los días.</p>
+
+  <p>En otro estudio, se proyectaban caras en una pantalla tan rápido que los sujetos
+  después no recordaban haber visto ninguna. Sin embargo, cuanto más veces se había
+  proyectado una cara, más les caía bien esa persona al conocerla después, y más los
+  persuadían sus opiniones.</p>
+
+  <p>Esto afecta hasta a quién votamos: en una elección de Ohio, un candidato al que nadie
+  daba chances arrasó tras cambiarse el apellido a <b>Brown</b> poco antes de la votación
+  —un apellido con mucha tradición política en ese estado—.</p>
+
+  <h3>5. Cooperación</h3>
+
+  <p class="primero">Acá el libro hace su desvío más ambicioso, y vale la pena seguirlo
+  porque desmonta una idea muy instalada.</p>
+
+  <p>Si la familiaridad genera simpatía, parecería que basta con poner en contacto a
+  personas de distintos orígenes étnicos para que se lleven mejor. Cuando los científicos
+  examinaron la integración escolar —el mejor test disponible de esa hipótesis—
+  encontraron lo contrario: <b>la desegregación escolar tiende a aumentar el prejuicio,
+  no a reducirlo</b>.</p>
+
+  <p>¿Por qué? Porque el contacto repetido en condiciones de frustración, conflicto o
+  <b>competencia</b> genera <i>menos</i> simpatía, no más. Y el aula tradicional es
+  exactamente eso. Elliot Aronson lo describe así: el maestro pregunta, seis o diez chicos
+  agitan la mano desesperados por ser elegidos, varios otros bajan la vista tratando de
+  volverse invisibles. Cuando el maestro elige a uno, hay caras de decepción en los que
+  perdieron la oportunidad de ganarse su aprobación, y de alivio en los que no sabían. Es
+  un juego ferozmente competitivo, con apuestas altas: compiten por el cariño de una de las
+  dos o tres personas más importantes de su mundo. Los que fracasan envidian y resienten a
+  los exitosos; los exitosos desprecian a los otros llamándolos tontos.</p>
+
+  <div class="dato">
+    <p class="tit">Sherif: el campamento.</p>
+    <p>El científico turco Muzafer Sherif manipuló el ambiente social de campamentos de
+    varones sin que ellos supieran que eran parte de un experimento.</p>
+    <p><b>Crear el odio fue facilísimo.</b> Bastó separarlos en dos cabañas para generar un
+    "nosotros contra ellos"; ponerles nombres (Águilas y Víboras) aceleró la rivalidad.
+    Pero lo que realmente encendió la hostilidad fue introducir <b>actividades
+    competitivas</b>: búsquedas del tesoro cabaña contra cabaña, cinchadas, torneos. Vinieron
+    los insultos —"tramposos", "ratas"—, las incursiones nocturnas, las banderas robadas y
+    quemadas, los carteles amenazantes y las peleas en el comedor.</p>
+    <p><b>Deshacerlo fue mucho más difícil.</b> Primero probaron el enfoque de contacto:
+    juntarlos más seguido en actividades agradables, cine, eventos sociales. Fue un
+    desastre. Los picnics terminaban en batallas de comida, los espectáculos en gritos, las
+    filas del comedor en empujones.</p>
+    <p><b>La solución.</b> Construyeron situaciones donde competir perjudicaba a todos y
+    cooperar era necesario. El único camión disponible para ir al pueblo a buscar comida
+    "se atascó", y hubo que empujarlo entre todos. Se interrumpió el suministro de agua, que
+    venía por caños desde un tanque lejano, y tuvieron que organizarse para encontrar y
+    arreglar la falla. Había una película para alquilar que el campamento no podía pagar, y
+    juntaron el dinero entre los dos grupos.</p>
+    <p>Los resultados no fueron instantáneos, pero fueron contundentes: se acabaron los
+    insultos y los empujones, empezaron a mezclarse en las mesas, y al pedirles que
+    listaran sus mejores amigos muchos incluyeron chicos del otro grupo. Al final, volviendo
+    de una fogata en un solo micro —algo que antes habría sido un caos y que ahora pidieron
+    ellos—, pararon en un kiosco y uno de los grupos, con cinco dólares que le quedaban en
+    la caja, <b>invitó milkshakes a sus ex enemigos</b>.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">El aula rompecabezas.</p>
+    <p>Aronson llevó la lógica de Sherif al aula. El método: los alumnos se agrupan en
+    equipos y a cada uno se le da <b>una sola parte</b> de la información necesaria para
+    aprobar el examen. Nadie puede aprobar solo. Todos tienen que enseñarse entre sí.</p>
+    <p>Resultados comparados con aulas competitivas de la misma escuela: significativamente
+    más amistad y menos prejuicio entre grupos étnicos. Además subieron la autoestima, el
+    gusto por la escuela y las notas de los alumnos de minorías, y los alumnos blancos
+    también mejoraron autoestima y gusto por la escuela, con rendimiento al menos igual.</p>
+    <p>El caso de Carlos, un chico mexicano-estadounidense, lo ilustra. Hablaba poco inglés
+    y se había acostumbrado al silencio; él y la maestra habían entrado en una "conspiración
+    de silencio" —ella no lo llamaba, probablemente para no humillarlo, pero con eso lo
+    daba por perdido y el mensaje que recibían los demás era que no valía la pena—. En el
+    nuevo sistema tuvo que hablar, y tartamudeó. Sus compañeros reaccionaron con el hábito
+    aprendido: "no sabés nada, sos tonto". Una observadora intervino: <i>"pueden burlarse si
+    quieren, y capaz que es divertido, pero no les va a servir para aprender sobre Joseph
+    Pulitzer. El examen es en una hora"</i>. Cambiadas las consecuencias, a los pocos días
+    los chicos entendieron que su única chance de aprender la parte de Carlos era prestarle
+    atención. Se volvieron buenos entrevistadores, aprendieron a sacarle las palabras;
+    Carlos se relajó y empezó a comunicarse mejor. En un par de semanas concluyeron que no
+    era ni cerca tan tonto como pensaban.</p>
+  </div>
+
+  <p class="primero">Cialdini pone la cooperación a prueba con lo que llama el test ácido:
+  <i>¿los profesionales de la persuasión la usan sistemáticamente?</i> La respuesta es que
+  sí, y con banderas desplegadas. Siempre están estableciendo que ellos y nosotros vamos
+  por el mismo objetivo, que hay que "tirar juntos", que son nuestros compañeros de equipo.
+  El vendedor de autos que se pone de nuestro lado y "pelea" con su jefe para conseguirnos
+  un buen precio es el caso familiar.</p>
+
+  <p>El caso espectacular es el <b>policía bueno / policía malo</b>. Funciona por varias
+  razones combinadas: el miedo que instala el malo, el contraste perceptivo que hace que el
+  bueno parezca excepcionalmente razonable, y la reciprocidad —el bueno intercedió varias
+  veces, incluso gastó su propia plata en un café—. Pero la razón grande es que le da al
+  sospechoso la idea de que hay <b>alguien de su lado</b>, alguien trabajando junto a él,
+  por él. En el lío en que está, esa persona toma el carácter de salvador. Y de salvador a
+  confesor hay un solo paso.</p>
+
+  <div class="caja defensa">
+    <span class="etiqueta">Cómo defenderte</span>
+    <p>La estrategia de Cialdini acá es distinta a la de los otros capítulos, y elegante:
+    no intentes detectar las tácticas de simpatía —son demasiadas y demasiado sutiles—.
+    <b>Prestá atención al resultado, no al método.</b></p>
+    <p>La señal de alarma es darte cuenta de que alguien te está cayendo <i>más simpático
+    de lo que corresponde</i> a las circunstancias. Alguien que conociste hace veinte
+    minutos no debería caerte tan bien. Cuando registres esa sensación, es momento de actuar:
+    separá mentalmente a la persona del trato. Tomá la decisión sobre los méritos del
+    producto o la propuesta exclusivamente, dejando afuera cualquier sentimiento que tengas
+    sobre quien te la ofrece.</p>
+  </div>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p><b>El dato de Frenzer y Davis es el más accionable del capítulo.</b> Que el vínculo
+    social pese el doble que la preferencia de producto explica por qué funcionan los
+    programas de referidos, el marketing de afiliados y los micro-influencers con
+    comunidades chicas y reales. No estás comprando alcance: estás comprando el vínculo.</p>
+    <p><b>Micro &gt; macro, por similitud.</b> Un influencer de 8.000 seguidores que se
+    parece a tu audiencia convierte mejor que uno de 800.000 que no. Es el efecto billetera
+    de Manhattan: 70 % contra 33 %.</p>
+    <p><b>La similitud tiene que ser real o se nota.</b> Una marca que impostó el código de
+    una comunidad queda peor que si no hubiera intentado nada. Y hoy se detecta rápido.</p>
+    <p><b>Cooperación, no competencia, para construir comunidad.</b> Sherif es la evidencia
+    de que juntar gente no alcanza: si el contexto es competitivo, el contacto empeora las
+    cosas. Un grupo de clientes donde todos compiten por visibilidad genera rencor. Uno con
+    un objetivo común genera vínculo. Diseñá metas compartidas, no rankings.</p>
+    <p><b>El elogio funciona incluso sabiendo que es interesado.</b> Es un hallazgo
+    incómodo pero robusto. Lo cual no es licencia para adular: es una razón para entender
+    por qué el "gracias por ser parte" genuino y personalizado rinde tanto más que el
+    genérico.</p>
+  </div>
+</div>
+
+<!-- ============ AUTORIDAD ============ -->
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Principio 5</span>
+    <h1>Autoridad</h1>
+    <p class="bajada">Deferencia dirigida.</p>
+  </div>
+
+  <p class="frase">"Seguí a un experto."<span>Virgilio, epígrafe del capítulo 6</span></p>
+
+  <h2>La idea en una frase</h2>
+  <p class="primero">Obedecemos a la autoridad legítima de manera automática, y lo hacemos
+  incluso cuando no tiene ningún sentido.</p>
+
+  <h2>Milgram</h2>
+
+  <p class="primero">El experimento más conocido de la psicología social del siglo XX.
+  Voluntarios reclutados por aviso de diario para un "estudio sobre memoria" en la
+  Universidad de Yale. Al llegar hay dos personas: el investigador, evidenciado por su
+  guardapolvo gris y su portapapeles, y otro voluntario aparentemente común.</p>
+
+  <p>Se explica que el estudio investiga cómo el castigo afecta el aprendizaje. Uno será
+  Alumno y memorizará pares de palabras; el otro será Maestro, tomará la prueba y
+  administrará descargas eléctricas crecientes por cada error. Se sortea. El voluntario real
+  siempre queda como Maestro; el Alumno es un actor.</p>
+
+  <p>Cada error suma 15 voltios. El Alumno gruñe a los 75, 90 y 105 voltios. A los 120 dice
+  que las descargas empiezan a doler en serio. A los 150 grita que quiere salir. Después
+  grita, patea la pared, suplica. A partir de los 300 deja de responder, y el investigador
+  instruye que la falta de respuesta cuenta como error.</p>
+
+  <div class="dato">
+    <p class="tit">Los resultados.</p>
+    <p>Alrededor de <b>dos tercios</b> de los sujetos accionaron los treinta interruptores
+    hasta el último, de <b>450 voltios</b>, y siguieron presionándolo hasta que el
+    investigador dio por terminado el experimento.</p>
+    <p>Ninguno de los cuarenta sujetos abandonó cuando la víctima empezó a exigir salir. Ni
+    después, cuando empezó a rogar. Ni siquiera cuando su reacción a cada descarga se
+    convirtió, en palabras de Milgram, en "definitivamente un grito de agonía".</p>
+    <p><b>Nadie lo predijo.</b> Milgram le dio el procedimiento a colegas, estudiantes de
+    posgrado y estudiantes de psicología de Yale para que estimaran cuántos llegarían al
+    final: las respuestas cayeron invariablemente en el rango del <b>1 al 2 %</b>. Un grupo
+    aparte de treinta y nueve psiquiatras predijo que llegaría <b>una persona de cada
+    mil</b>.</p>
+  </div>
+
+  <p class="primero">Cialdini repasa las explicaciones alternativas y las descarta con
+  variantes del propio Milgram:</p>
+
+  <ul>
+    <li><b>¿Eran hombres, más agresivos?</b> No: un experimento posterior mostró que las
+    mujeres obedecían igual.</li>
+    <li><b>¿No entendían el peligro?</b> Tampoco: en una versión donde la víctima anunciaba
+    tener un problema cardíaco y decía que el corazón le estaba empezando a molestar, el
+    <b>65 %</b> llegó igual hasta el máximo.</li>
+    <li><b>¿Eran sádicos?</b> No: eran una muestra transversal normal de edades, oficios y
+    niveles educativos, y una batería de escalas de personalidad los mostró psicológicamente
+    normales. En palabras de Milgram, <i>son</i> usted y yo.</li>
+  </ul>
+
+  <p>La evidencia a favor de la obediencia es contundente. Los sujetos odiaban lo que
+  hacían: temblaban, transpiraban, tartamudeaban protestas, se clavaban las uñas en la
+  carne, se mordían los labios hasta sangrar, algunos caían en ataques de risa nerviosa
+  incontrolable. Un observador externo describió a un empresario maduro que entró al
+  laboratorio sonriente y seguro y a los veinte minutos estaba reducido a un despojo
+  tembloroso al borde del colapso, murmurando "Dios, paremos esto" —y que sin embargo siguió
+  obedeciendo hasta el final—.</p>
+
+  <p>Las variantes lo confirman de manera limpia:</p>
+
+  <ul>
+    <li>Si el investigador ordenaba <b>detener</b> las descargas mientras la víctima insistía
+    valientemente en continuar: el <b>100 %</b> de los sujetos se negó a dar una descarga
+    más.</li>
+    <li>Si era el investigador el que estaba atado a la silla y el otro voluntario el que
+    ordenaba continuar: ningún sujeto tocó otra palanca.</li>
+    <li>Con <b>dos investigadores dando órdenes contradictorias</b>, los sujetos miraban
+    desesperados de uno a otro pidiéndoles que se pusieran de acuerdo —"uno dice pare, el
+    otro dice siga, ¿cuál es?"— y, al no poder determinar quién era el jefe mayor,
+    <b>todos</b> terminaron siguiendo su propio criterio y cortando.</li>
+  </ul>
+
+  <h2>Por qué existe</h2>
+
+  <p class="primero">Un sistema de autoridad aceptado y multinivel le da a una sociedad una
+  ventaja enorme: permite desarrollar estructuras sofisticadas de producción, comercio,
+  defensa y control social que de otro modo serían imposibles. La alternativa, la anarquía,
+  no es célebre por sus efectos benéficos.</p>
+
+  <p>Nos entrenan desde el nacimiento en que obedecer a la autoridad legítima está bien.
+  Está en las lecciones de los padres, en las rimas escolares, en los cuentos, en los
+  sistemas legales, militares y políticos. También en lo religioso: el primer libro de la
+  Biblia cuenta cómo desobedecer a la autoridad última costó el paraíso, y poco después
+  aparece el relato respetuoso de la disposición de Abraham a clavarle un puñal en el
+  corazón a su hijo porque Dios, sin explicación alguna, lo ordenó. La corrección de la
+  acción no se juzgaba por su sensatez, su daño o su justicia, sino por el mero mandato de
+  una autoridad superior.</p>
+
+  <p>Pero Cialdini aclara algo importante: los casos de Abraham y de Milgram pueden
+  engañarnos sobre <i>cómo</i> ocurre habitualmente la obediencia. Rara vez agonizamos
+  sopesando pros y contras. Normalmente obedecemos en modo clic-zumbido, con poca o ninguna
+  deliberación consciente.</p>
+
+  <h2>Medicina: donde el atajo mata</h2>
+
+  <div class="dato">
+    <p class="tit">La "otitis rectal".</p>
+    <p>Un médico recetó gotas para el oído derecho de un paciente con dolor e infección. En
+    vez de escribir "oído derecho" completo, abrevió: <i>"place in R ear"</i>. La enfermera
+    de turno le puso las gotas en el ano al paciente.</p>
+    <p>El tratamiento rectal de un dolor de oído no tiene ningún sentido. Ni el paciente ni
+    la enfermera lo cuestionaron. Cuando una autoridad legítima habló, lo que de otro modo
+    tendría sentido se vuelve irrelevante.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">El experimento del Medio Oeste: el estudio más aterrador del libro.</p>
+    <p>Un grupo de médicos y enfermeras llamó a <b>veintidós</b> puestos de enfermería de
+    distintas salas —quirúrgicas, clínicas, pediátricas, psiquiátricas—. En cada llamada el
+    investigador se identificaba como médico del hospital y ordenaba administrar veinte
+    miligramos de una droga (Astrogen) a un paciente determinado.</p>
+    <p>Había cuatro razones excelentes para que la enfermera se negara:</p>
+    <ul>
+      <li>La receta se transmitía por teléfono, en violación directa de la política del
+      hospital.</li>
+      <li>La medicación no estaba autorizada ni figuraba en el stock de la sala.</li>
+      <li>La dosis era obvia y peligrosamente excesiva: el envase decía claramente que la
+      "dosis diaria máxima" era de diez miligramos, la mitad de lo ordenado.</li>
+      <li>La orden venía de un hombre al que la enfermera nunca había visto ni oído.</li>
+    </ul>
+    <p>En el <b>95 %</b> de los casos, las enfermeras fueron directo al armario, sacaron la
+    dosis y salieron hacia la habitación del paciente. Las frenó un observador secreto.</p>
+    <p>La conclusión de los investigadores: en una situación real habría en teoría dos
+    inteligencias profesionales trabajando para que el procedimiento beneficie al paciente,
+    o al menos no lo perjudique. <i>"El experimento sugiere fuertemente que una de esas
+    inteligencias es, a todos los efectos prácticos, no funcional."</i></p>
+    <p>Lo más instructivo: el error no vino ante una autoridad genuina, sino ante su símbolo
+    más fácilmente falsificable —un título pelado dicho por teléfono—.</p>
+  </div>
+
+  <h2>Connotación, no contenido: los tres símbolos</h2>
+
+  <p class="primero">El hallazgo central del capítulo es que en modo automático somos tan
+  vulnerables a <b>los símbolos</b> de autoridad como a su sustancia.</p>
+
+  <h3>Títulos</h3>
+
+  <p class="primero">Son a la vez los símbolos más difíciles y los más fáciles de
+  conseguir: ganarlos lleva años, adoptarlos no lleva nada.</p>
+
+  <p>El caso emblemático es el comercial de café descafeinado Sanka protagonizado por el
+  actor Robert Young, que aconsejaba al público sobre los peligros de la cafeína. Vendió
+  tantísimo café que se emitió durante años en varias versiones. ¿Por qué le creeríamos a
+  Robert Young sobre las consecuencias del descafeinado? Porque el público estadounidense lo
+  asociaba con <i>Marcus Welby, M.D.</i>, el médico que había interpretado en una serie
+  larga. Objetivamente no tiene sentido dejarse influir por un hombre que sabemos que es un
+  actor que hacía de médico. En la práctica, ese hombre movió el Sanka.</p>
+
+  <p>El título también distorsiona la percepción física. En un experimento con cinco cursos
+  universitarios australianos se presentó al mismo hombre como visitante de Cambridge, pero
+  con un cargo distinto en cada aula: estudiante, demostrador, docente, docente senior y
+  profesor. Después de que se fuera, se le pidió a cada curso que estimara su altura. Con
+  cada escalón de estatus, el mismo hombre <b>crecía un centímetro y pico</b>: como
+  "profesor" se lo vio unos <b>seis centímetros</b> más alto que como "estudiante". (Por eso,
+  observa Cialdini, los estafadores de estatura normal usan alzas en los zapatos.)</p>
+
+  <h3>Ropa</h3>
+
+  <div class="dato">
+    <p class="tit">Bickman: el uniforme.</p>
+    <p>Se les pedía a peatones que cumplieran pedidos raros —levantar una bolsa de papel
+    tirada, pararse del otro lado de un cartel de parada de colectivo—. La mitad de las
+    veces el que pedía vestía ropa de calle; la otra mitad, uniforme de guardia de
+    seguridad. Con uniforme, obedecía muchísima más gente, sin importar el pedido.</p>
+    <p>La versión más reveladora: el que pedía señalaba a un hombre parado junto a un
+    parquímetro a quince metros y decía "¿ve a ese tipo? Se le venció el parquímetro y no
+    tiene monedas. Déle una moneda". Después doblaba la esquina y se iba, de modo que cuando
+    el peatón llegaba al parquímetro ya no estaba a la vista. El poder del uniforme
+    sobrevivía a su ausencia: casi todos obedecieron con uniforme, menos de la mitad con
+    ropa de calle.</p>
+    <p>Detalle importante: cuando después se les pidió a estudiantes que estimaran los
+    porcentajes, acertaron bastante bien con la ropa de calle (predijeron 50 %, real 42 %)
+    pero <b>subestimaron gravemente</b> el efecto del uniforme (predijeron 63 %, real
+    <b>92 %</b>).</p>
+  </div>
+
+  <p class="primero">El traje de vestir funciona parecido. En Texas, un hombre de treinta y
+  un años cruzaba la calle con el semáforo en rojo, a veces con traje planchado y corbata y
+  a veces con camisa de trabajo y pantalón. Con traje, lo siguieron a la calle <b>tres veces
+  y media</b> más peatones.</p>
+
+  <h3>Otros atributos</h3>
+
+  <p class="primero">La ropa cara, las joyas y los autos también señalan estatus. En un
+  estudio del área de la Bahía de San Francisco, los autos que no arrancaban con la luz
+  verde recibían un trato muy distinto según su modelo: al auto económico viejo casi todos
+  le tocaron bocina, la mayoría más de una vez, y dos directamente lo chocaron por atrás. Al
+  auto de lujo nuevo, el <b>50 %</b> de los conductores lo esperó respetuosamente sin tocar
+  la bocina hasta que arrancó.</p>
+
+  <p>Otra vez, al preguntarles después a estudiantes qué habrían hecho, subestimaron su
+  propia reacción —los varones incluso creyeron que le tocarían bocina <i>más rápido</i> al
+  auto de lujo, cuando el estudio mostró exactamente lo contrario—.</p>
+
+  <p>Este patrón se repite en toda la investigación sobre autoridad: Milgram, las
+  enfermeras, el uniforme, los autos. La gente es incapaz de predecir correctamente cómo va
+  a reaccionar, y subestima groseramente el efecto. Eso probablemente explique buena parte
+  de su éxito: no solo funciona con fuerza, sino que funciona por sorpresa.</p>
+
+  <div class="caja defensa">
+    <span class="etiqueta">Cómo defenderte</span>
+    <p>Como no queremos resistir la autoridad la mayor parte del tiempo —los médicos, los
+    jueces y los expertos suelen saber de lo que hablan—, la defensa consiste en dos
+    preguntas.</p>
+    <p><b>1. "¿Esta autoridad es verdaderamente experta?"</b> Sirve porque enfoca la
+    atención en dos datos cruciales: las credenciales reales y su <i>relevancia para el tema
+    en cuestión</i>. Los peatones de Texas que se metieron en el tránsito detrás de un tipo
+    de traje: aun si hubiera sido la autoridad empresarial que sugería su ropa, difícilmente
+    fuera más experto que ellos en cruzar la calle. Con Robert Young: sus habilidades son
+    reales, pero son de actor, no de médico.</p>
+    <p><b>2. "¿Cuán sincero cabe esperar que sea este experto acá?"</b> Incluso los mejor
+    informados pueden no presentarnos la información honestamente. Nos dejamos influir mucho
+    más por expertos que parecen imparciales que por los que tienen algo que ganar.</p>
+    <p><b>La contratáctica a vigilar:</b> los profesionales de la persuasión saben esto y
+    aparentan argumentar <i>en contra</i> de su propio interés. Mencionan una desventaja
+    menor —"Listerine, el sabor que odiás tres veces por día"; "Avis: somos el número dos,
+    por eso nos esforzamos más"—. Estableciendo su veracidad en algo chico, se vuelven más
+    creíbles en lo importante.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">Vincent, el mozo.</p>
+    <p>Cialdini se metió a trabajar de ayudante en restaurantes caros para estudiar el
+    tema. El mozo más exitoso del lugar, Vincent, ganaba muchísimo más que el resto. Su
+    estilo era no tener un solo estilo: efervescente y payasesco con familias, formal y algo
+    imperioso con parejas jóvenes (hablándole solo al varón, para intimidarlo a pedir y
+    dejar propina generosa), respetuoso con matrimonios mayores, cálido y conversador con
+    quien comía solo.</p>
+    <p>Pero su jugada maestra la reservaba para mesas grandes de ocho a doce personas.
+    Cuando la primera persona pedía, Vincent fruncía el ceño, dudaba con la mano sobre la
+    comanda, miraba por encima del hombro buscando al encargado y se inclinaba
+    conspirativamente para decir, lo bastante fuerte como para que todos oyeran: <i>"me temo
+    que eso hoy no está tan bueno como de costumbre. ¿Me permite recomendarle en cambio el
+    ___ o el ___? Los dos están excelentes esta noche"</i>. Los platos que sugería costaban
+    cincuenta centavos menos que el elegido.</p>
+    <p>Con un solo movimiento activaba varios principios. <b>Reciprocidad:</b> incluso los
+    que no le hacían caso sentían que les había hecho un favor. <b>Autoridad:</b> quedaba
+    establecido como quien sabe qué está bueno esa noche. <b>Sinceridad demostrada:</b> al
+    recomendar algo más barato, parecía tener los intereses del cliente en el corazón en vez
+    de los propios.</p>
+    <p>Con esa credibilidad instalada, cuando la mesa terminaba de pedir comida decía:
+    <i>"muy bien, ¿quieren que les sugiera o elija un vino para acompañar?"</i>. Sonrisas,
+    asentimientos, aceptación general. Vincent, que sí sabía de vinos, respondía con
+    elecciones excelentes y caras. Lo mismo con los postres.</p>
+    <p>Buena parte de su ganancia venía de una aparente falta de interés en la ganancia.</p>
+  </div>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p><b>La maniobra de Vincent es la táctica más transferible del libro.</b> Recomendar
+    activamente la opción más barata cuando realmente es la que le conviene al cliente
+    compra una credibilidad que después se aplica a todo lo demás. Funciona en consultoría,
+    en venta de servicios y en e-commerce. Y tiene la ventaja de que no requiere mentir: si
+    el plan chico le sirve, decilo.</p>
+    <p><b>Admitir una debilidad real fortalece el resto del mensaje.</b> Es el mecanismo de
+    Avis y de Listerine. La condición es que la debilidad sea secundaria y verdadera; si es
+    decorativa, se nota.</p>
+    <p><b>Credenciales relevantes, no credenciales a secas.</b> El bombardeo de "experto en"
+    sin especificar en qué es exactamente el modo automático que hay que evitar disparar en
+    los demás, si querés construir confianza que dure.</p>
+    <p><b>Y del lado del comprador:</b> cuando evalúes un proveedor, separá credenciales de
+    señales. El traje, la oficina y el título son baratos de falsificar. El track record
+    verificable en tu problema específico, no.</p>
+  </div>
+</div>
+
+<!-- ============ ESCASEZ ============ -->
+<div class="relleno"></div>
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Principio 6</span>
+    <h1>Escasez</h1>
+    <p class="bajada">La regla de los pocos.</p>
+  </div>
+
+  <p class="frase">"La manera de amar algo es darse cuenta de que se puede
+  perder."<span>G. K. Chesterton, epígrafe del capítulo 7</span></p>
+
+  <h2>La idea en una frase</h2>
+  <p class="primero">Las oportunidades nos parecen más valiosas cuando su disponibilidad
+  es limitada.</p>
+
+  <p class="primero">Cialdini lo descubre en sí mismo. Lee que el templo mormón de Mesa,
+  Arizona, refaccionado, va a abrir por unos pocos días su sector interno —al que
+  normalmente no accede nadie que no sea miembro fiel— y decide inmediatamente ir. Llama a
+  un amigo para invitarlo, el amigo pregunta por qué le interesa tanto, y ahí se da cuenta:
+  nunca le había interesado, no tenía preguntas sobre la religión mormona, no le interesaba
+  particularmente la arquitectura religiosa y no esperaba ver nada más impresionante que en
+  cualquier otra iglesia de la zona. Lo único que hacía atractivo al templo era que si no
+  iba ya, no iba a poder ir nunca más.</p>
+
+  <h2>Pérdida pesa más que ganancia</h2>
+
+  <p class="primero">La idea de la pérdida potencial juega un papel enorme en la toma de
+  decisiones. La gente se motiva más con la idea de perder algo que con la de ganar algo de
+  valor equivalente.</p>
+
+  <ul>
+    <li>A los propietarios que se les dice cuánta plata pueden <b>perder</b> por mala
+    aislación aíslan más sus casas que a los que se les dice cuánta pueden ahorrar.</li>
+    <li>Los folletos que urgen a las mujeres jóvenes a hacerse el autoexamen mamario son
+    significativamente más efectivos si están formulados en términos de lo que se pierde
+    ("puede perder varios beneficios de salud si no dedica cinco minutos al mes...") que de
+    lo que se gana.</li>
+  </ul>
+
+  <p>Los coleccionistas conocen bien el principio. El fenómeno del "error precioso" lo
+  ilustra: una estampilla borrosa o una moneda con doble acuñación pueden ser las piezas
+  más valoradas. Una estampilla con un Washington de tres ojos es anatómicamente incorrecta
+  y estéticamente fea, y aun así muy buscada. La ironía es instructiva: imperfecciones que
+  de otro modo la convertirían en basura la vuelven un tesoro porque traen escasez
+  incorporada.</p>
+
+  <h2>Las tácticas</h2>
+
+  <h3>Cantidad limitada</h3>
+
+  <p class="primero">"No quedan más de cinco convertibles con este motor en la provincia."
+  "Este es uno de los dos únicos lotes de esquina sin vender del barrio." La información
+  puede ser verdadera o completamente falsa; la intención es siempre la misma.</p>
+
+  <p>La versión más refinada que Cialdini encontró llevaba la táctica al extremo lógico:
+  vender el producto en el punto de máxima escasez, cuando aparentemente ya no se puede
+  tener. En una casa de electrodomésticos, cuando una pareja mostraba interés moderado en
+  un artículo en oferta, el vendedor se acercaba: "veo que le interesa este modelo, y
+  entiendo por qué; es una gran máquina a un gran precio. Pero lamentablemente se lo vendí
+  a otra pareja hace no más de veinte minutos. Y si no me equivoco, era el último que
+  teníamos".</p>
+
+  <p>La decepción es visible. Por su indisponibilidad, el aparato salta de golpe en
+  atractivo. Alguno de los dos pregunta si no habrá alguno en el depósito. "Bueno, es
+  posible, y puedo fijarme. Pero, ¿entiendo bien que este es el modelo que quieren, y que si
+  se los consigo a este precio se lo llevan?"</p>
+
+  <p>Ahí está la belleza de la técnica: se le pide al cliente que se comprometa a comprar
+  justo en el momento en que el producto parece <i>menos</i> disponible y por lo tanto
+  más deseable. Cuando el vendedor vuelve —invariablemente— con la noticia de que
+  encontraron más stock, vuelve también con la lapicera y el contrato en la mano. Saber que
+  hay stock de sobra puede incluso hacer que el producto vuelva a resultarles menos
+  atractivo, pero para entonces la operación avanzó demasiado.</p>
+
+  <h3>Fecha límite</h3>
+
+  <p class="primero">Un límite temporal oficial sobre la oportunidad. Cialdini menciona un
+  dueño de cine que logró invocar el principio de escasez tres veces en cinco palabras:
+  "¡Exclusiva, temporada limitada, termina pronto!".</p>
+
+  <p>La variante más agresiva es el plazo más puro posible: <b>ahora</b>. Si no decidís en
+  este momento, vas a tener que pagar más caro o no vas a poder comprarlo. Una empresa de
+  retratos infantiles urgía a los padres a comprar todas las poses y copias que pudieran
+  porque "limitaciones de stock nos obligan a quemar las fotos no vendidas de sus hijos
+  dentro de las veinticuatro horas". En una operación de aspiradoras puerta a puerta que
+  Cialdini infiltró se entrenaba a los vendedores a decir: "tengo tanta gente que visitar
+  que solo tengo tiempo de visitar a una familia una vez. Es política de la empresa que,
+  aunque más adelante decidan que quieren esta máquina, yo no pueda volver a vendérsela".
+  Es mentira, obviamente. El gerente de ventas se lo explicaba a los aprendices: el
+  propósito real de la frase no tiene nada que ver con agendas sobrecargadas, es <i>"impedir
+  que el prospecto se tome tiempo para pensar el trato, asustándolo con que después no va a
+  poder tenerlo, lo que hace que lo quiera ahora"</i>.</p>
+
+  <h2>Por qué funciona: reactancia psicológica</h2>
+
+  <p class="primero">La escasez tiene dos motores. El primero es familiar: es un atajo
+  razonable, porque las cosas difíciles de conseguir suelen ser mejores que las fáciles, así
+  que la disponibilidad nos ayuda a estimar calidad rápido.</p>
+
+  <p>El segundo es específico y más potente: <b>a medida que las oportunidades se vuelven
+  menos disponibles, perdemos libertades. Y odiamos perder las libertades que ya
+  teníamos.</b> Esta es la teoría de la reactancia psicológica de Jack Brehm: cuando la
+  libre elección se limita o se amenaza, la necesidad de retener esa libertad nos hace desear
+  lo asociado a ella significativamente más que antes.</p>
+
+  <h3>Los dos años y la adolescencia</h3>
+
+  <p class="primero">Los psicólogos infantiles rastrean la reactancia hasta el comienzo del
+  tercer año de vida —los "terribles dos"—. Decile una cosa y hace la contraria; dale un
+  juguete y quiere otro; alzalo contra su voluntad y se retuerce para bajar; bajalo contra
+  su voluntad y se prende para que lo alces.</p>
+
+  <div class="dato">
+    <p class="tit">El experimento del acrílico.</p>
+    <p>Varones de unos veinticuatro meses entraban con su madre a una sala con dos juguetes
+    igual de atractivos. Uno estaba al lado de una lámina de acrílico transparente; el otro,
+    detrás. Para algunos chicos la lámina medía treinta centímetros —ningún obstáculo real,
+    se pasaba la mano por arriba—. Para otros medía sesenta, bloqueando el acceso salvo
+    rodeándola.</p>
+    <p>Con la lámina chica, los chicos no mostraron preferencia: tocaban cualquiera de los
+    dos por igual. Con la lámina grande, fueron directo al juguete obstruido, haciendo
+    contacto con él <b>tres veces más rápido</b> que con el libre.</p>
+  </div>
+
+  <h3>El efecto Romeo y Julieta</h3>
+
+  <p class="primero">Un estudio con 140 parejas de Colorado encontró que la interferencia
+  de los padres estaba asociada a más problemas en la relación —los miembros de la pareja se
+  veían más críticamente y reportaban más conductas negativas del otro— y <b>al mismo
+  tiempo</b> a más amor y más deseo de casarse. A lo largo del estudio, cuando la
+  interferencia se intensificaba, la experiencia amorosa se intensificaba; cuando la
+  interferencia aflojaba, los sentimientos románticos se enfriaban.</p>
+
+  <h3>Prohibir es promocionar</h3>
+
+  <div class="dato">
+    <p class="tit">Los fosfatos de Miami.</p>
+    <p>El condado de Dade (Miami) prohibió el uso —¡y la posesión!— de detergentes con
+    fosfatos. Hubo dos reacciones.</p>
+    <p>La primera, contrabando: los vecinos armaban "caravanas de jabón" a condados
+    vecinos, y aparecieron acaparadores que se jactaban de tener stock para <b>veinte
+    años</b>.</p>
+    <p>La segunda es la interesante. Comparados con los habitantes de Tampa, no afectados
+    por la ordenanza, los de Miami pasaron a calificar a los detergentes con fosfatos como
+    más suaves, más efectivos en agua fría, mejores blanqueadores, más potentes contra las
+    manchas. Incluso llegaron a creer que <b>se vertían más fácilmente</b>.</p>
+    <p>Los detergentes no limpiaban ni se vertían mejor después de la prohibición.
+    Simplemente, como nos descubrimos deseándolos más, les asignamos cualidades positivas
+    que justifiquen el deseo.</p>
+  </div>
+
+  <p class="primero">Lo mismo pasa con la información. Nuestra respuesta a que se prohíba
+  una información es, casi invariablemente, desearla más y <b>tenerla en mejor
+  consideración</b> que antes. Y lo notable es que llegamos a creerle más <i>sin haberla
+  recibido</i>: cuando estudiantes de la Universidad de Carolina del Norte se enteraron de
+  que se iba a prohibir un discurso en contra de los dormitorios mixtos, se volvieron más
+  opuestos a los dormitorios mixtos. Sin haber escuchado el discurso, se volvieron más
+  simpáticos a su argumento.</p>
+
+  <p>Cialdini extrae una conclusión inquietante: individuos hábiles con una posición débil
+  o impopular podrían lograr que estemos de acuerdo con ella arreglando que su mensaje sea
+  restringido. Para un grupo político marginal, la estrategia más efectiva puede no ser
+  difundir sus ideas impopulares, sino lograr que las censuren oficialmente y después
+  publicitar la censura. Y especula que los redactores de la Primera Enmienda
+  estadounidense pueden haber estado actuando tanto de psicólogos sociales sofisticados
+  como de libertarios civiles: al negarse a restringir la libertad de expresión, quizás
+  buscaban minimizar la chance de que ideas políticas nuevas ganaran apoyo por la vía
+  irracional de la reactancia.</p>
+
+  <div class="dato">
+    <p class="tit">El jurado de Chicago.</p>
+    <p>En el proyecto de investigación de jurados de la Escuela de Derecho de la
+    Universidad de Chicago, treinta jurados experimentales —compuestos por personas que
+    estaban efectivamente cumpliendo funciones de jurado— escucharon el caso de una mujer
+    lesionada por un conductor imprudente.</p>
+    <ul>
+      <li>Cuando el conductor decía que <b>no</b> tenía seguro: indemnización promedio de
+      <b>33.000</b> dólares.</li>
+      <li>Cuando decía que <b>sí</b> tenía seguro: <b>37.000</b>. Es decir, las aseguradoras
+      tenían razón en sospechar que los jurados otorgan más si paga una compañía.</li>
+      <li>Cuando decía que tenía seguro <b>y el juez declaraba esa prueba inadmisible,
+      instruyendo al jurado a ignorarla</b>: <b>46.000</b>.</li>
+    </ul>
+    <p>Enterarse del seguro subió la indemnización 4.000 dólares. Que les prohibieran
+    oficialmente usar esa información la subió <b>13.000</b>.</p>
+  </div>
+
+  <h2>Las condiciones óptimas</h2>
+
+  <div class="dato">
+    <p class="tit">Worchel: las galletitas.</p>
+    <p>Los participantes de un supuesto estudio de preferencias del consumidor recibían una
+    galletita de chocolate de un frasco y la puntuaban. A la mitad, el frasco tenía
+    <b>diez</b> galletitas; a la otra mitad, <b>dos</b>. Como era de esperar, la galletita
+    escasa se calificó como más deseable de comer en el futuro, más atractiva como producto y
+    más cara. Hasta acá, nada nuevo.</p>
+    <p><b>Hallazgo 1: la escasez nueva pega más que la escasez constante.</b> A algunos
+    participantes se les dio primero un frasco de diez y después se lo reemplazó por uno de
+    dos. Esa caída de abundancia a escasez produjo una reacción decididamente más positiva
+    que la escasez constante.</p>
+    <p><b>Hallazgo 2: la escasez por demanda social pega más que la escasez por
+    accidente.</b> El reemplazo se explicaba de dos formas. A unos: hubo que dar galletitas a
+    otros evaluadores para cubrir la demanda. A otros: el investigador se equivocó de frasco.
+    Las que se volvieron escasas por demanda social fueron calificadas como <b>las más
+    deseables de todo el estudio</b>.</p>
+    <p><b>Y el hallazgo decisivo, para la defensa:</b> aunque las galletitas escasas se
+    calificaron como significativamente más deseables, <b>no se calificaron como más
+    ricas</b>.</p>
+  </div>
+
+  <h3>La escasez nueva y la revolución</h3>
+
+  <p class="primero">La idea de que la escasez recién experimentada es la más potente se
+  aplica mucho más allá de las galletitas. El politólogo James C. Davies sostiene que las
+  revoluciones aparecen donde un período de mejora económica y social es seguido por una
+  reversión corta y brusca. No son los históricamente más oprimidos —que ya asimilaron su
+  privación como parte del orden natural— los más propensos a rebelarse, sino los que
+  probaron algo de una vida mejor y de golpe la ven alejarse.</p>
+
+  <p>Davies reunió evidencia de las revoluciones francesa, rusa y egipcia, de la Rebelión de
+  Dorr, de la Guerra Civil estadounidense y de los disturbios urbanos de los sesenta. Sobre
+  este último caso, la pregunta de la época era "¿por qué ahora?": no parecía tener sentido
+  que, tras tres siglos mayormente de servidumbre y privación, los afroamericanos eligieran
+  justo los progresistas años sesenta para rebelarse. Pero las dos décadas posteriores a la
+  Segunda Guerra habían traído avances políticos y económicos enormes —el ingreso de una
+  familia negra pasó del 56 % al 80 % del de una familia blanca de educación comparable—, y
+  después vino el freno: la violencia contra la integración escolar, los avances legales que
+  no se traducían en cambios sociales, y un retroceso del ingreso relativo al <b>74 %</b>
+  en 1962. Lo iluminador de ese 74 %, señala Davies, no es que represente un aumento de
+  largo plazo respecto de los años cuarenta, sino que represente <b>una caída de corto plazo
+  respecto de los cincuenta</b>.</p>
+
+  <p>De acá sale una lección para cualquiera que gobierne: <i>en materia de libertades, es
+  más peligroso haber dado por un tiempo que no haber dado nunca</i>. Cialdini lo ilustra
+  con el golpe soviético de agosto de 1991: el mundo esperaba que la población, célebre por
+  su resignación, cediera como siempre. Pero Gorbachov les había concedido derechos, y
+  cuando esas libertades ya establecidas fueron amenazadas, la gente reaccionó como un perro
+  al que le quieren sacar un hueso fresco de la boca. En horas había miles en la calle
+  levantando barricadas, enfrentando tropas y rodeando tanques. Tres días después los
+  golpistas se rendían pidiendo clemencia.</p>
+
+  <p>La misma lógica aplica a la crianza: el padre que concede privilegios o aplica reglas
+  de manera errática crea sin querer libertades en el chico. El que solo a veces prohíbe los
+  dulces entre comidas puede haber creado el derecho a tenerlos; a partir de ahí, hacer
+  cumplir la regla es mucho más difícil y explosivo, porque el chico ya no carece de algo
+  que nunca tuvo: está <i>perdiendo</i> algo establecido. La investigación muestra que los
+  padres que disciplinan de manera inconsistente producen chicos más rebeldes.</p>
+
+  <h3>La competencia</h3>
+
+  <p class="primero">No solo queremos más lo escaso: lo queremos <b>más aún cuando estamos
+  compitiendo por ello</b>.</p>
+
+  <p>Cialdini compara a los compradores de liquidación con los cardúmenes: los pescadores
+  comerciales tiran carnada suelta a un banco de peces, el agua se convierte en un hervidero
+  de aletas y bocas, y llegado ese punto pueden bajar anzuelos <i>sin carnada</i> porque los
+  peces enloquecidos muerden cualquier cosa, incluido el metal pelado. Las tiendas hacen lo
+  mismo con los productos gancho muy publicitados. En la corrida por conseguir, el grupo se
+  agita y se ciega por el carácter adversarial de la situación, y humanos y peces por igual
+  pierden de vista qué querían y empiezan a atacar cualquier cosa que esté en disputa.</p>
+
+  <div class="dato">
+    <p class="tit">La Gran Subasta de Poseidón.</p>
+    <p>En 1973, Barry Diller, entonces vicepresidente de programación de ABC, pagó
+    <b>3,3 millones de dólares</b> por una única emisión televisiva de <i>La aventura del
+    Poseidón</i>. El récord anterior por una sola emisión era de 2 millones, por
+    <i>Patton</i>. El pago era tan excesivo que ABC calculaba perder un millón. El
+    vicepresidente de programas especiales de NBC, Bill Storke, lo dijo así: "no hay manera
+    de que recuperen la plata, ninguna".</p>
+    <p>¿Cómo puede un ejecutivo astuto y experimentado entrar en un negocio con pérdida
+    esperada de un millón? La respuesta está en el segundo dato notable: fue la primera vez
+    que una película se ofreció a las cadenas en <b>subasta abierta</b>. Nunca antes las tres
+    grandes habían tenido que pelearse por un recurso escaso de esa manera.</p>
+    <p>Las declaraciones posteriores lo confirman. Diller, en un lenguaje que suena a dientes
+    apretados, fijó política a futuro: <i>"ABC ha decidido que nunca más volverá a entrar en
+    una situación de subasta"</i>. Y Robert Wood, entonces presidente de CBS Television, que
+    casi pierde la cabeza y los supera:</p>
+    <blockquote>
+      <p>Éramos muy racionales al principio. Le pusimos precio a la película en términos de
+      lo que podía traernos, y le permitimos un cierto valor por encima de eso para
+      explotación.</p>
+      <p>Pero entonces empezó la puja. ABC abrió con dos millones. Yo volví con dos cuatro.
+      ABC fue a dos ocho. Y nos agarró la fiebre. Como un tipo que perdió la cabeza, seguí
+      pujando. Finalmente fui a tres dos; y llegó un momento en que me dije: "Dios mío, si me
+      la gano, ¿qué diablos voy a hacer con ella?". Cuando ABC finalmente me superó, mi
+      sentimiento principal fue de alivio.</p>
+      <p>Ha sido muy educativo.</p>
+    </blockquote>
+    <p>El detalle que Cialdini subraya: el que sonreía al hablar era <b>el que había
+    perdido</b> el premio tan disputado. Como regla general, cuando baja la polvareda y
+    encontramos a los perdedores comportándose como ganadores (y viceversa), conviene
+    desconfiar mucho de las condiciones que levantaron esa polvareda.</p>
+  </div>
+
+  <div class="dato">
+    <p class="tit">El hermano de Cialdini.</p>
+    <p>Richard se pagó la universidad comprando autos usados por aviso los fines de semana,
+    lavándolos, y revendiéndolos el fin de semana siguiente con ganancia. Su truco: a cada
+    interesado que llamaba le daba una cita <b>a la misma hora</b>. Si eran seis, los seis
+    para las dos de la tarde.</p>
+    <p>El primero en llegar empezaba con la conducta normal de comprador: señalar defectos,
+    preguntar si el precio era negociable. Cuando aparecía el segundo, la psicología cambiaba
+    radicalmente. Si el primero no reclamaba su prioridad, Richard lo hacía por él: "disculpe,
+    este señor llegó antes. ¿Le molesta esperar del otro lado del camino unos minutos hasta
+    que termine de ver el auto? Después, si decide que no lo quiere o no se decide, se lo
+    muestro a usted".</p>
+    <p>Richard cuenta que se podía ver crecer la agitación en la cara del primero. Su
+    evaluación tranquila de pros y contras se había convertido en una decisión de ahora o
+    nunca sobre un recurso en disputa. Con el tercer interesado a las dos de la tarde, la
+    trampa se cerraba: o aceptaba el precio o se iba abruptamente, y en ese caso el segundo
+    saltaba a comprar por una mezcla de alivio y rivalidad con el recién llegado.</p>
+  </div>
+
+  <div class="caja defensa">
+    <span class="etiqueta">Cómo defenderte</span>
+    <p>Acá la defensa es distinta a la de todos los otros capítulos, y Cialdini explica por
+    qué: <b>saber cómo funciona la escasez no alcanza para protegerte</b>. Saber es un
+    proceso cognitivo, y los procesos cognitivos quedan suprimidos por la reacción emocional
+    a la escasez. Cuando vemos que algo que queremos se vuelve menos disponible, se instala
+    una agitación física: sube la sangre, se angosta el foco, suben las emociones. Como dijo
+    Robert Wood después del Poseidón: "te agarra la manía de la cosa, la aceleración. La
+    lógica se va por la ventana". Probablemente esa sea justamente la razón de la eficacia de
+    estas tácticas: anulan nuestra primera línea de defensa.</p>
+    <p>Por eso la defensa es en dos etapas, y usa jujitsu:</p>
+    <p><b>Etapa 1: usá la agitación como señal.</b> Si no podés confiar en tu conocimiento,
+    entrenate para detectar la marea emocional en sí. Esa oleada de urgencia es el aviso de
+    que hay tácticas de escasez operando y de que hace falta cautela. Paráte en seco. Las
+    reacciones de pánico no tienen lugar en una buena decisión.</p>
+    <p><b>Etapa 2: preguntate para qué lo querés.</b> Una vez calmado, la pregunta clave es
+    por qué querés la cosa.</p>
+    <ul>
+      <li>Si la querés <b>para poseerla</b> —por los beneficios sociales, económicos o
+      psicológicos de tener algo raro—, entonces la disponibilidad es una guía legítima de
+      cuánto pagar: cuanto menos haya, más vale.</li>
+      <li>Si la querés <b>para usarla</b> —comerla, manejarla, escucharla, que funcione—
+      acordate del hallazgo central de Worchel: <b>las galletitas escasas no estaban más
+      ricas</b>. Lo escaso no sabe, ni anda, ni suena mejor por ser escaso. La alegría no
+      está en experimentar una cosa escasa, sino en poseerla. No hay que confundir las dos
+      cosas.</li>
+    </ul>
+  </div>
+
+  <div class="caja trabajo">
+    <span class="etiqueta">Para tu trabajo</span>
+    <p><b>Escasez nueva &gt; escasez permanente.</b> "Últimas 3 unidades" funciona mejor
+    que "edición limitada" a secas, porque comunica una caída reciente. Un contador que baja
+    en vivo usa el mismo mecanismo.</p>
+    <p><b>Escasez por demanda &gt; escasez por diseño.</b> Este es el hallazgo más útil de
+    Worchel y el más subutilizado. "Quedan 2 porque se agotó" pega más fuerte que "hay 2
+    porque hicimos 2". Por eso funciona "otras 14 personas están viendo esto" y por eso las
+    listas de espera reales son mejor marketing que las fabricadas.</p>
+    <p><b>Encuadrá en pérdida, no en ganancia.</b> "Estás perdiendo X" pesa más que "podés
+    ganar X". Aplicable a onboarding, a carritos abandonados y a retención.</p>
+    <p><b>Información exclusiva es doblemente persuasiva.</b> Un alumno de Cialdini,
+    importador de carne, hizo la prueba con su fuerza de ventas: pitch estándar; pitch más
+    aviso de que habría escasez de carne importada; y pitch más aviso de escasez <i>más</i>
+    la aclaración de que esa noticia no era pública y venía de contactos exclusivos de la
+    empresa. Contra el pitch estándar, el segundo grupo compró <b>más del doble</b>. El
+    tercero compró <b>seis veces más</b>. Que la noticia sobre la escasez fuera a su vez
+    escasa la volvió mucho más persuasiva.</p>
+    <p><b>El costo de mentir es alto y diferido.</b> El "últimas horas" que se renueva todos
+    los días entrena a tu audiencia a ignorar tus plazos. La escasez falsa no solo es
+    deshonesta: se autodestruye.</p>
+  </div>
+</div>
+
+<!-- ============ EPÍLOGO ============ -->
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Cierre</span>
+    <h1>Influencia instantánea</h1>
+    <p class="bajada">Consentimiento primitivo para una era automática.</p>
+  </div>
+
+  <p class="primero">El libro cierra con una anécdota que resume su tesis. En un programa
+  de entrevistas de los años sesenta, el conductor Joe Pine —conocido por su estilo
+  agresivo, y que tenía una pierna amputada— recibió al músico Frank Zappa, en una época en
+  que el pelo largo en los hombres todavía era escandaloso. Apenas se sentó:</p>
+
+  <blockquote>
+    <p><b>PINE:</b> Supongo que tu pelo largo te convierte en una chica.<br>
+    <b>ZAPPA:</b> Supongo que tu pierna de madera te convierte en una mesa.</p>
+  </blockquote>
+
+  <p class="primero">Muy a menudo, al decidir sobre algo o alguien, no usamos toda la
+  información disponible: usamos un solo dato altamente representativo. Y un dato aislado,
+  aunque normalmente nos oriente bien, puede llevarnos a errores estúpidos —errores que,
+  explotados por otros, nos dejan haciendo papelones o cosas peores—.</p>
+
+  <p>El tema acompañante, que complica todo, es que no hay alternativa: el ritmo de la vida
+  moderna exige que usemos el atajo. Y la tendencia se agrava. Somos más propensos a usar
+  estas señales únicas cuando no tenemos la inclinación, el tiempo, la energía o los
+  recursos cognitivos para un análisis completo: cuando estamos <b>apurados, estresados,
+  inseguros, indiferentes, distraídos o cansados</b>.</p>
+
+  <p>De ahí la conclusión que Cialdini llama chocante: con el aparato mental sofisticado
+  con el que construimos nuestra preeminencia como especie, creamos un entorno tan complejo,
+  veloz y cargado de información que tenemos que lidiar con él cada vez más a la manera de
+  los animales que hace mucho dejamos atrás.</p>
+
+  <h2>La postura que propone</h2>
+
+  <p class="primero">Y acá está la parte que más me interesa de todo el libro, porque es
+  donde deja de describir y toma posición.</p>
+
+  <p>Cialdini no propone evasión: propone contraataque. Pero con una distinción tajante.
+  <b>Los profesionales que juegan limpio con las reglas del atajo no son el enemigo</b>; al
+  contrario, son aliados en un proceso de intercambio eficiente y adaptativo. El anunciante
+  que, sin estadísticas engañosas, informa que su dentífrico es el más vendido nos está
+  dando evidencia genuina sobre la calidad del producto y la probabilidad de que nos guste.
+  Nos permite usar un atajo eficiente. Es un socio cooperante.</p>
+
+  <p>El enemigo es el que <b>falsifica, fabrica o tergiversa la evidencia</b> que dispara
+  naturalmente nuestras respuestas. El anunciante que arma comerciales de "entrevistas
+  espontáneas" con actores haciendo de ciudadanos comunes. El barman que siembra el frasco
+  de propinas. La disco que arma una cola con el local vacío.</p>
+
+  <p>Contra esos, Cialdini recomienda una beligerancia que sorprende en un libro académico:
+  boicot, amenaza, confrontación, censura, diatriba, casi cualquier cosa. Y aclara por qué,
+  en un párrafo que conviene leer despacio:</p>
+
+  <blockquote>
+    <p>El motivo de lucro no es la causa de las hostilidades; ese motivo, después de todo,
+    lo compartimos todos en alguna medida. La verdadera traición, y lo que no podemos
+    tolerar, es cualquier intento de obtener esa ganancia <b>de un modo que amenace la
+    confiabilidad de nuestros atajos</b>.</p>
+  </blockquote>
+
+  <p class="primero">El argumento es casi ecológico. Los atajos ya no son un lujo: son una
+  necesidad que se vuelve más vital a medida que se acelera el pulso de la vida diaria. Cada
+  vez que alguien traiciona una regla del pulgar para sacar provecho, esa regla se vuelve
+  menos confiable, la usamos menos, y todos quedamos peor equipados para lidiar con la carga
+  de decisiones del día.</p>
+
+  <p>Es, me parece, el mejor argumento disponible contra el marketing tramposo, y no es un
+  argumento moral sino de sistema: las reseñas falsas no arruinan solo tu marca. Arruinan
+  <i>las reseñas</i>. Los seguidores comprados arruinan la prueba social para todos. El
+  "últimas horas" perpetuo arruina la capacidad de cualquiera de comunicar una urgencia
+  real. Estás quemando un recurso común del que también dependés.</p>
+</div>
+
+<!-- ============ RESUMEN ============ -->
+<div class="relleno"></div>
+<div class="cap">
+  <div class="cap-op">
+    <span class="num">Referencia rápida</span>
+    <h1>Los seis en una página</h1>
+    <p class="bajada">Para repasar antes de una reunión, una negociación o un examen.</p>
+  </div>
+
+  <table>
+    <tr>
+      <th style="width:19%">Principio</th>
+      <th style="width:27%">Qué dice</th>
+      <th style="width:27%">Táctica típica</th>
+      <th style="width:27%">Defensa</th>
+    </tr>
+    <tr>
+      <td class="p">Reciprocidad</td>
+      <td>Hay que devolver lo que nos dieron.</td>
+      <td>Muestra gratis, regalo no pedido, rechazo-y-retirada.</td>
+      <td>Redefinir el "regalo" como dispositivo de venta. Los favores piden favores; las
+      tácticas, no.</td>
+    </tr>
+    <tr>
+      <td class="p">Compromiso<br>y coherencia</td>
+      <td>Una vez tomada una posición, la sostenemos.</td>
+      <td>Pie en la puerta, bola baja, poner por escrito, hacerlo público.</td>
+      <td>Señales del estómago (trampa evidente) y del corazón (primer destello de
+      sensación).</td>
+    </tr>
+    <tr>
+      <td class="p">Prueba<br>social</td>
+      <td>Lo correcto es lo que hacen los demás.</td>
+      <td>Risas grabadas, testimonios, "el más vendido", colas fabricadas.</td>
+      <td>Chequear si la evidencia social es auténtica. Si sos víctima: señalar a una
+      persona concreta.</td>
+    </tr>
+    <tr>
+      <td class="p">Simpatía</td>
+      <td>Decimos que sí a quien nos cae bien.</td>
+      <td>Atractivo, similitud fabricada, elogios, "estamos del mismo lado".</td>
+      <td>Notar que alguien cae <i>demasiado</i> bien para las circunstancias. Separar
+      persona de trato.</td>
+    </tr>
+    <tr>
+      <td class="p">Autoridad</td>
+      <td>Obedecemos a la autoridad legítima.</td>
+      <td>Títulos, uniformes, atributos de estatus, expertos de alquiler.</td>
+      <td>¿Es experto de verdad? ¿Es relevante? ¿Cuánto cabe esperar que sea sincero
+      acá?</td>
+    </tr>
+    <tr>
+      <td class="p">Escasez</td>
+      <td>Lo limitado vale más; perder libertades duele.</td>
+      <td>Cantidad limitada, fecha límite, competencia fabricada, exclusividad.</td>
+      <td>Usar la agitación como alarma, frenar, y preguntarse si se lo quiere para
+      poseerlo o para usarlo.</td>
+    </tr>
+  </table>
+
+  <h2>Los multiplicadores</h2>
+
+  <p class="primero">Cada principio tiene condiciones que lo amplifican. Conviene saberlas
+  de memoria porque son donde se juega la mitad del efecto:</p>
+
+  <ul>
+    <li><b>Prueba social</b> → <b>incertidumbre</b> y <b>similitud</b>. Máximo efecto
+    cuando no sabemos qué hacer y vemos a alguien igual a nosotros haciéndolo.</li>
+    <li><b>Compromiso</b> → <b>activo, público, costoso y libremente elegido</b>. La
+    cuarta pesa más que las otras tres juntas.</li>
+    <li><b>Escasez</b> → <b>nueva</b> (no constante) y <b>por demanda social</b> (no por
+    accidente), más <b>competencia</b> visible.</li>
+    <li><b>Reciprocidad</b> → el favor inicial puede ser <b>no pedido</b>, e igual
+    obliga.</li>
+    <li><b>Autoridad</b> → alcanza el <b>símbolo</b>; no hace falta la sustancia.</li>
+    <li><b>Simpatía</b> → <b>cooperación</b> hacia un objetivo común, no simple
+    contacto.</li>
+  </ul>
+
+  <h2>La prueba de una sola pregunta</h2>
+
+  <p class="primero">Si te quedás con una sola cosa de toda la guía, que sea esta. Antes de
+  usar cualquiera de los seis principios en tu trabajo, preguntate:</p>
+
+  <div class="caja">
+    <p style="text-align:center; font-size:11pt; font-style:italic;">¿La señal que estoy
+    disparando es verdadera?</p>
+  </div>
+
+  <p class="primero">Si el producto realmente es el más vendido, si el stock realmente se
+  está por agotar, si el experto realmente es experto en eso, si la muestra realmente es un
+  regalo: estás usando los principios como se usan bien, ayudando a alguien a decidir rápido
+  y probablemente bien.</p>
+
+  <p>Si la respuesta es no, no estás siendo astuto. Estás gastando un recurso compartido
+  que también necesitás.</p>
+
+  <p class="fin">— Fin de la guía —</p>
+</div>
+
+</body>
+</html>
