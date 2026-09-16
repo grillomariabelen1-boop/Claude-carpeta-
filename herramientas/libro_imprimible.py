@@ -66,7 +66,7 @@ def bbox_contenido(page, margen_seguridad=2.0):
     return r if not r.is_empty else None
 
 
-def plan_paginas(doc, capitulos_impar):
+def plan_paginas(doc, capitulos_impar, blanca_inicial=False):
     """Lista de entradas: indice de pagina origen, o None para hoja en blanco."""
     inicios = set()
     if capitulos_impar:
@@ -74,7 +74,7 @@ def plan_paginas(doc, capitulos_impar):
             if nivel == 1 and pag >= 1:
                 inicios.add(pag - 1)
 
-    plan = []
+    plan = [None] if blanca_inicial else []
     for i in range(doc.page_count):
         # len(plan) es la cantidad ya colocada -> la proxima seria la impar
         # numero len(plan)+1. Si el capitulo caeria en par, metemos una blanca.
@@ -88,7 +88,7 @@ def construir_interior(doc, cfg):
     ancho_mm, alto_mm = TAMANOS[cfg.tamano]
     W, H = ancho_mm * MM, alto_mm * MM
 
-    plan = plan_paginas(doc, cfg.capitulos_impar)
+    plan = plan_paginas(doc, cfg.capitulos_impar, cfg.blanca_inicial)
     if cfg.prueba:
         plan = plan[: cfg.prueba]
 
@@ -169,6 +169,11 @@ def main():
     p.add_argument(
         "--dorso", default="espejado", choices=["espejado", "directo"],
         help="solo en 2up-a4: como ordena el dorso segun como da vuelta la hoja tu impresora",
+    )
+    p.add_argument(
+        "--blanca-inicial", action="store_true",
+        help="anteponer una hoja de guarda en blanco; usala cuando el tomo arranca en "
+             "una pagina par del original, para que el lomo caiga del lado correcto",
     )
     p.add_argument("--prueba", type=int, default=0, help="procesar solo las primeras N paginas")
     p.add_argument(
