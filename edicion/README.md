@@ -66,6 +66,8 @@ ffmpeg -i plano.mp4 -framerate 30 -i "seq/f%04d.png" \
 
 ## `analizar_referencia.py` — leerle la edición a un video
 
+El resultado de correrlo sobre dos videos propios está en [`estilo.md`](estilo.md).
+
 ```bash
 python3 edicion/analizar_referencia.py referencia.mp4 analisis/
 ```
