@@ -118,3 +118,19 @@ Y que no parezcan el mismo video: cambiá encuadre o fondo entre uno y otro.
 **Guardados, comentarios y compartidos** desde el principio. **Views recién en
 la semana 4** — y el reloj arranca cuando empieza la publicación sostenida, no
 antes.
+
+---
+
+## Ideas guardadas — hablado a cámara, fuera de marketing
+
+*20/9. Su preferencia: cuando pide ideas, **hablado a cámara**.*
+
+- **"Tres cosas que hago cuando siento que no tengo nada que ponerme"** ← elegida, en producción
+- "Dejé de vestirme como a los 20 y todavía no sé cómo vestirme ahora"
+- "Cosas que me vendieron como inversión y no lo eran"
+- "Las tres compras que más usé este año"
+- "Cómo elijo un perfume ahora vs. cómo lo elegía antes"
+- "Cosas que hacía a los 25 y ya no"
+- "Cosas que dejé de comprar a los 30"
+
+Todas: plano fijo, cero producción, evergreen, no caducan.
