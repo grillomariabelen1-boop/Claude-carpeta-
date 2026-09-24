@@ -196,3 +196,19 @@ Así se puede comparar por ángulo aunque estén todos en el mismo conjunto.
 - [ ] Armar el conjunto de productos del catálogo sin las prendas sin talles
 - [ ] Definir si primavera-verano sale en octubre y con qué productos
 - [ ] Sumar las composturas gratis a las fichas de los ambos antes de prender C1
+
+---
+
+## Ronda 2 de aprobación (24/9)
+
+**Devolución recibida:**
+- T2 (Hechter como anuncio): ❌. Ir con contenido útil que despierte interés y curiosidad
+- P1: el video del fundador existe pero puede no servir como pieza. Se puede grabar más
+- **No se usan carruseles en Meta.** Solo video o placa estática
+- P3 combo: ✅ en principio
+- Catálogo dinámico: ❌ (ya se probó y no dio resultado)
+- R1 talle: buscar otra opción
+- R2 envío y cuotas: ✅
+
+**Propuestas nuevas (a aprobar):** ver el chat del 24/9. T2 pasa a serie de contenido útil de sastrería; P1 pasa a guía de
+grabación para el fundador; P2 y T4 pasan de carrusel a video o placa; R1 y catálogo se reemplazan.
