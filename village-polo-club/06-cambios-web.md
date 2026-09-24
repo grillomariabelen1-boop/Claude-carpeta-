@@ -33,19 +33,24 @@
   europea de Hechter", que está bien.
 - [ ] **Punto de retiro cobrado en compras con envío gratis.** Con un ambo, el punto de retiro sale $11.261 a $46.541 mientras
   el domicilio es gratis. En la promoción de envío gratis, incluir también los puntos de retiro.
-- [ ] **Campera Puffer Negra:** el stock de S y M dice 89.899. Parece el precio cargado en el campo de stock.
-- [ ] **Buzo con Cierre Corderoy Negro:** no tiene la variante L. Si hay stock, agregarla.
+- [x] **Campera Puffer Negra:** el stock de S y M dice 89.899. Parece el precio cargado en el campo de stock.
+- [x] **Buzo con Cierre Corderoy Negro:** no tiene la variante L. Si hay stock, agregarla.
 
 ## Fichas de producto
 
-- [ ] **Buzo Remera Darlon Wafle Ocre:** la descripción dice "sweater" y "El negro potencia aún más la textura del waffle"
+- [x] **Buzo Remera Darlon Wafle Ocre:** la descripción dice "sweater" y "El negro potencia aún más la textura del waffle"
   (es ocre). También dice "El modelo mide 1,85 y usa talle S", que confunde. Si calza grande, aclararlo: "Calce amplio: si
   dudás entre dos talles, elegí el más chico."
-- [ ] **Chomba Piqué** (los 6 colores): no tiene descripción.
-- [ ] **Saco Sport Visón y Saco Triota Navy:** no tienen descripción.
+- [x] **Chomba Piqué** (los 6 colores): no tiene descripción.
+- [x] **Saco Sport Visón y Saco Triota Navy:** no tienen descripción.
 - [ ] **Altura y talle del modelo** en los ambos Hechter Leeds, Preston, Arlington y Liverpool clásicos (hoy no lo dicen).
 - [ ] **Camisa Saint German Hechter Blanca:** tiene una sola foto.
 - [ ] **Ambo Lavable Marino:** tiene 2 fotos (el negro tiene 5).
+
+## Talles
+
+- [ ] En todas las fichas, debajo del selector de talle: "¿Dudás con el talle? Pasanos tu altura, tu peso y qué talle
+  usás en otra marca, y te decimos cuál te queda." con el enlace a WhatsApp (ver `07-talles.md`)
 
 ## Navegación
 
