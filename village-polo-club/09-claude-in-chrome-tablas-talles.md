@@ -42,31 +42,28 @@ Si un producto ya tiene una tabla de talles, no pegar otra: anotarlo y seguir.
 ## Tabla A · Ambos
 
 ```html
-<p><strong>Tabla de talles Hechter</strong></p>
-<p><strong>Saco</strong></p>
+<p><strong>Tabla de talles Hechter · Ambo (saco y pantalón)</strong></p>
+<p>El ambo viene con el pantalón 6 números menos que el saco: por ejemplo, saco 50 con pantalón 44.</p>
 <div style="overflow-x:auto;">
 <table border="1" cellpadding="6" style="border-collapse:collapse;font-size:13px;">
-<tr><th>Talle</th><th>46</th><th>48</th><th>50</th><th>52</th><th>54</th><th>56</th><th>58</th><th>60</th></tr>
+<tr><th>Talle del ambo</th><th>46</th><th>48</th><th>50</th><th>52</th><th>54</th><th>56</th><th>58</th><th>60</th></tr>
+<tr><td colspan="9"><strong>SACO</strong></td></tr>
 <tr><td>Equivalencia aproximada</td><td>S</td><td>M</td><td>L</td><td>XL</td><td>XXL</td><td>3XL</td><td>4XL</td><td>5XL</td></tr>
 <tr><td>1/2 pecho (a 1 cm de la sisa)</td><td>49</td><td>51</td><td>53</td><td>55</td><td>57</td><td>60</td><td>62</td><td>63</td></tr>
 <tr><td>Ancho de hombros</td><td>43.6</td><td>44.8</td><td>46</td><td>47.2</td><td>48.4</td><td>49.6</td><td>50.8</td><td>52</td></tr>
 <tr><td>Ancho de espalda</td><td>42.6</td><td>43.8</td><td>45</td><td>46.2</td><td>47.4</td><td>48.6</td><td>49.8</td><td>51</td></tr>
 <tr><td>Largo de manga</td><td>64</td><td>64.5</td><td>65</td><td>65.5</td><td>66</td><td>66.5</td><td>67</td><td>67.5</td></tr>
 <tr><td>Largo de espalda</td><td>71</td><td>72</td><td>73</td><td>74</td><td>75</td><td>76.5</td><td>77</td><td>78</td></tr>
+<tr><td colspan="9"><strong>PANTALÓN</strong></td></tr>
+<tr><td>Talle de pantalón que incluye</td><td>40</td><td>42</td><td>44</td><td>46</td><td>48</td><td>50</td><td>52</td><td>54</td></tr>
+<tr><td>1/2 cintura</td><td>41</td><td>43</td><td>45</td><td>47</td><td>49</td><td>51</td><td>53</td><td>55</td></tr>
+<tr><td>1/2 cadera</td><td>49</td><td>51</td><td>53</td><td>55</td><td>57</td><td>59</td><td>61</td><td>63</td></tr>
+<tr><td>1/2 rodilla (a 35 cm de la entrepierna)</td><td>21.3</td><td>21.7</td><td>22.1</td><td>22.5</td><td>23.7</td><td>24.1</td><td>24.5</td><td>24.9</td></tr>
+<tr><td>Tiro delantero (con cintura)</td><td>24.5</td><td>25</td><td>25.5</td><td>26</td><td>26.5</td><td>27</td><td>27.5</td><td>28</td></tr>
+<tr><td>Tiro trasero (con cintura)</td><td>40.5</td><td>41</td><td>41.5</td><td>42</td><td>42.5</td><td>43</td><td>43.5</td><td>44</td></tr>
 </table>
 </div>
 <p><em>La equivalencia con S-XL es orientativa.</em></p>
-<p><strong>Pantalón</strong></p>
-<div style="overflow-x:auto;">
-<table border="1" cellpadding="6" style="border-collapse:collapse;font-size:13px;">
-<tr><th>Talle</th><th>40</th><th>42</th><th>44</th><th>46</th><th>48</th><th>52</th><th>54</th><th>56</th></tr>
-<tr><td>1/2 cintura</td><td>41</td><td>43</td><td>45</td><td>47</td><td>49</td><td>53</td><td>55</td><td>57</td></tr>
-<tr><td>1/2 cadera</td><td>49</td><td>51</td><td>53</td><td>55</td><td>57</td><td>61</td><td>63</td><td>65</td></tr>
-<tr><td>1/2 rodilla (a 35 cm de la entrepierna)</td><td>21.3</td><td>21.7</td><td>22.1</td><td>22.5</td><td>23.7</td><td>24.5</td><td>24.9</td><td>25.3</td></tr>
-<tr><td>Tiro delantero (con cintura)</td><td>24.5</td><td>25</td><td>25.5</td><td>26</td><td>26.5</td><td>27.5</td><td>28</td><td>28.5</td></tr>
-<tr><td>Tiro trasero (con cintura)</td><td>40.5</td><td>41</td><td>41.5</td><td>42</td><td>42.5</td><td>43.5</td><td>44</td><td>44.5</td></tr>
-</table>
-</div>
 <p><em>Las medidas son estimativas y aproximadas: pueden variar levemente según el modelo y la tela.</em></p>
 <p><strong>Cómo usar la tabla:</strong> son medidas de la prenda en centímetros, tomadas con la prenda estirada sobre una mesa. Buscá una prenda tuya que te quede bien, apoyala igual y compará. ¿Dudás entre dos talles? Escribinos por WhatsApp y te asesoramos.</p>
 ```
