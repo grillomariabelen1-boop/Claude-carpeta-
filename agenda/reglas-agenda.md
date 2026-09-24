@@ -19,7 +19,8 @@ hacerlo. Actualizado: 24/09/2026.
 | 🧘‍♀️ Pilates | Lun, mié y vie, 18 a 19 | A veces va a las 20: mover esa instancia cuando avise |
 | Psicóloga | Vie, 15:15 a 16:15 | |
 | 🏺 Cerámica | Sáb, 11:30 a 13:30 | Siempre, no se mueve |
-| 🎥 Grabar y editar — mi contenido | Mar, 18 a 19:30 | Se saltea los martes con envío de marca (29/09 y 06/10) |
+| 📊 Revisar campañas Meta — clientes | Mar, 18 a 19 | 2 clientes: medir y bajar cambios de creativos. El 29/09 y el 06/10 pasa a 19 a 20 (envíos de marca) |
+| 🎥 Grabar y editar — mi contenido | Mar, 19 a 20:30 | Se saltea el 29/09 y el 06/10 (envíos de marca) |
 | 📝 Armar y adelantar contenido | Jue, 18 a 19:30 | |
 | 💄 GRWM (prueba) | Vie, 7 a 7:45 | Home office. Solo aviso de 20 min (el de 1 h la despertaría) |
 | 🛋️ Domingo de descanso | Dom, todo el día | |
@@ -33,12 +34,11 @@ hacerlo. Actualizado: 24/09/2026.
 - Los videos UGC se editan rápido: **grabar y editar en el mismo bloque**.
 - Cada entrega lleva un bloque "✅ Revisar y enviar" con margen, días
   antes de la fecha máxima.
-- Huecos entre semana: martes y jueves desde las 17 (no hay pilates).
 - **Contenido propio:** la estructura de formatos se define en otros chats;
   acá solo se agenda ejecución y preparación (ver tabla de la semana).
 - **El descanso es prioridad** (le cuesta respetarlo): lunes, miércoles y
-  viernes a la noche, y el domingo entero, quedan libres. Los bloques de
-  contenido cortan a las 19:30.
+  viernes a la noche, y el domingo entero, quedan libres. El martes es el día
+  de trabajo extra (termina 20:30); el jueves corta a las 19:30.
 - Grabar a la mañana de lunes a jueves no va: se levanta 6:30 y sale 7-7:10.
 
 ## Deadlines UGC
