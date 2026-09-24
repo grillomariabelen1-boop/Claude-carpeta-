@@ -2,6 +2,10 @@
 
 *Actualizado el 24/9/2026.*
 
+> ⚠️ **Borrador previo al análisis de datos.** Los ángulos y la estructura de esta página se escribieron antes de ver los
+> anuncios reales. Revisar contra [`02-analisis-anuncios-sep-2026.md`](02-analisis-anuncios-sep-2026.md): el ROAS actual es
+> 2,86 y el ángulo que mejor rinde es el de ambos, que no estaba contemplado acá.
+
 ---
 
 ## 1 · Brief de la marca
