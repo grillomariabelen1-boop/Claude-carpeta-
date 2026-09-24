@@ -109,6 +109,11 @@ directa descuento y ARRANCO winter sale.
 
 ### Lo que se puede afirmar
 
+> ⚠️ **Corrección (24/9):** sumando gasto, compras y valor, los anuncios encajan exactos en los conjuntos:
+> **Retargeting = "enfoque ambos" + PLACA 2** y **Prospecting = TOP 3 + 3 prendas invierno**. La comparación entre anuncios de
+> abajo mezcla públicos distintos: "enfoque ambos" rinde más porque le habla a gente que ya visitó el sitio, no necesariamente
+> por el creativo. Los puntos 2 y 3 hay que leerlos con eso en cuenta.
+
 1. **El ROAS real es 2,86, no 6.** Para llegar a 6 hay que duplicar el rendimiento. Antes de fijarlo como objetivo conviene saber
    cuál es el ROAS de equilibrio según el margen.
 2. **Un anuncio trae la mitad de la venta.** "Winter sale | enfoque ambos" tiene el 45% de las compras y el 51% del valor, con el

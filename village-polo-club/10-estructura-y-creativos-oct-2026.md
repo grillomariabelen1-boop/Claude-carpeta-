@@ -4,23 +4,27 @@
 
 Presupuesto: **$1.000.000 por mes** (~$33.000 por día). Meta Ads, objetivo ventas.
 
-### Qué se apaga
+### Qué se apaga (revisado tras la auditoría)
 
-- [ ] **Conjunto "Tráfico a la web | apoyo conversiones":** $110.000 en septiembre y 0 compras
-- [ ] **TOP 3 - WINTER SALE:** ROAS 1,65, gasta lo mismo que el mejor anuncio
-- [ ] **PLACA 2 WINTER SALE IA:** saturado (frecuencia 3,1, calidad por debajo del promedio)
-- [ ] **3 prendas invierno:** ROAS 1,73 y el ticket más bajo
-- [ ] Los 6 anuncios que nunca recibieron entrega (se reemplazan por los nuevos)
+> Los anuncios de septiembre se reparten así (se deduce sumando gasto, compras y valor): **Retargeting = "enfoque ambos" + PLACA 2**,
+> **Prospecting = TOP 3 + 3 prendas invierno**. El ROAS de cada anuncio refleja el público, no la calidad del creativo.
 
-**Se deja prendido** "Winter sale | enfoque ambos" (ROAS 4,38) hasta que termine la sale, dentro de la campaña de prospección. Después se apaga.
+- [ ] **Conjunto de tráfico:** no se apaga de golpe. Se reemplaza por una campaña de reproducciones de video (ThruPlay) con el
+      video del fundador, ~$50.000 por mes, para alimentar el retargeting con gente que miró el video. Se controla que el público
+      de retargeting no se achique
+- [ ] **TOP 3 y 3 prendas invierno** (prospección, ROAS 1,65 y 1,73, sin diferencia real entre ellos): siguen corriendo junto a
+      los creativos nuevos de C2 y se apagan a los 7-10 días, cuando los nuevos tengan datos
+- [ ] **"Enfoque ambos" y PLACA 2** (retargeting): siguen en C3 hasta que termine la sale. PLACA 2 se reemplaza por R1-R3 cuando
+      su CTR caiga, no antes
+- [ ] Los 6 anuncios que nunca recibieron entrega se reemplazan por los nuevos
 
 ### Estructura nueva
 
 | Campaña | Presupuesto mes | Por día | Público | Qué lleva |
 |---|---|---|---|---|
 | **C1 · Trajes** | $350.000 | ~$11.500 | Hombres 28-55, todo el país, amplio | T1, T2, T4, T6 |
-| **C2 · Prospección prendas** | $350.000 | ~$11.500 | Hombres 28-55, todo el país, amplio | P1, P2, P3 + "enfoque ambos" hasta fin de la sale |
-| **C3 · Retargeting** | $300.000 | ~$10.000 | Visitas, carritos e interacciones de IG, últimos 30 días. Excluir compradores de los últimos 30 días | Catálogo + R1, R2, R3 |
+| **C2 · Prospección prendas** | $350.000 | ~$11.500 | Hombres 28-55, todo el país, amplio | P1, P2, P3 + TOP 3 y 3 prendas invierno hasta que los nuevos tengan datos |
+| **C3 · Retargeting** | $300.000 | ~$10.000 | Visitas, carritos e interacciones de IG, últimos 30 días. Excluir compradores de los últimos 30 días | Catálogo + R1, R2, R3 + "enfoque ambos" y PLACA 2 hasta fin de la sale |
 
 - **Un solo conjunto por campaña.** Con este presupuesto, abrir más conjuntos divide el aprendizaje.
 - **C1 Trajes optimiza por "Iniciar pago" las primeras 2 semanas.** Hay pocas compras de trajes y Meta necesita más señales para aprender. Si en la semana 3 hay 5 compras o más, se pasa a "Compra".
