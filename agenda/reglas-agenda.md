@@ -20,7 +20,17 @@ hacerlo. Actualizado: 24/09/2026.
 | Psicóloga | Vie, 15:15 a 16:15 | |
 | 🏺 Cerámica | Sáb, 11:30 a 13:30 | Siempre, no se mueve |
 
-Falta reservar tiempo para: contenido propio, clientes UGC y descanso.
+## Cómo le gusta organizarse
+
+- **Domingos: descanso total.** No agendar nada de trabajo, salvo que un
+  deadline no deje otra opción (y avisarle).
+- Sábados: preferentemente descanso. Si hace falta producir, a la tarde,
+  después de cerámica (15 a 18).
+- Los videos UGC se editan rápido: **grabar y editar en el mismo bloque**.
+- Cada entrega lleva un bloque "✅ Revisar y enviar" con margen, días
+  antes de la fecha máxima.
+- Huecos entre semana: martes y jueves desde las 17 (no hay pilates).
+- Falta definir: tiempo para contenido propio.
 
 ## Deadlines UGC
 
@@ -30,10 +40,19 @@ la marca, a las 9, con avisos 3 días antes, 1 día antes, 1 hora antes y
 
 | Marca | Qué | Deadline |
 |---|---|---|
-| Jane (SHEIN) | Video | Mié 30/09/2026 (fecha máxima) |
+| SHEIN | Video | Mié 30/09/2026 (fecha máxima) |
 | Biodance | Videos | Lun 12/10/2026 |
 
 ## Borrado a pedido (23/09/2026)
 
 - 🎬 Grabar en tanda (sábados) y ✂️ Editar y programar (miércoles).
 - Yoga en Ekos (martes): ya no va.
+
+## Producción agendada
+
+| Qué | Cuándo |
+|---|---|
+| 🎥 Grabar y editar — SHEIN | Sáb 26/09, 15 a 18 |
+| ✅ Revisar y enviar — SHEIN | Mar 29/09, 18 a 19 |
+| 🎥 Grabar y editar — Biodance | Sáb 03/10, 15 a 18 |
+| ✅ Revisar y enviar — Biodance | Mar 06/10, 18 a 19 |
