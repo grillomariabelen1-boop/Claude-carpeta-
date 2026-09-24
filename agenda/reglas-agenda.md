@@ -40,7 +40,8 @@ hacerlo. Actualizado: 24/09/2026.
   viernes a la noche, y el domingo entero, quedan libres. El martes es el día
   de trabajo extra (termina 20:30); el jueves corta a las 20.
 - **De lunes a jueves no agendar nada en casa antes de las 18:30**: sale a
-  las 17 y tarda 1 hora en llegar.
+  las 17 y tarda 1 hora en llegar. Pilates y turnos fuera de casa a las
+  18 o 18:30 sí van: va directo desde el trabajo.
 - Grabar a la mañana de lunes a jueves no va: se levanta 6:30 y sale 7-7:10.
 
 ## Deadlines UGC
