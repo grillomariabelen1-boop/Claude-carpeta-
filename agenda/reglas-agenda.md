@@ -30,7 +30,13 @@ hacerlo. Actualizado: 24/09/2026.
 - Cada entrega lleva un bloque "✅ Revisar y enviar" con margen, días
   antes de la fecha máxima.
 - Huecos entre semana: martes y jueves desde las 17 (no hay pilates).
-- Falta definir: tiempo para contenido propio.
+- **Contenido propio:** va a tener una estructura semanal fija (cada día un
+  formato que se repite con distinto contenido). Eso se define en otros
+  chats; acá no se desarrolla. En la agenda solo van:
+  - bloques de **ejecución** (grabar y editar), por ejemplo un GRWM o un
+    video de maquillaje a la mañana, antes de entrar a trabajar a las 8;
+  - un bloque fijo para **sentarse a armar y adelantar** guiones y material.
+  - Horarios exactos: a definir.
 
 ## Deadlines UGC
 
