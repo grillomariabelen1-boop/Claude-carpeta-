@@ -11,6 +11,49 @@ y en un espacio chico.
 
 ---
 
+## 0 · Cómo está la cuenta hoy
+
+> **Una sola campaña, con todos los anuncios juntos. Sin públicos
+> personalizados, sin retargeting, sin segmentación.**
+
+Parece desprolijo, pero **no está mal armado para este presupuesto**. Es casi la
+estructura que conviene: una campaña sola junta todas las ventas y Meta aprende
+rápido. No hay que "profesionalizarla" agregando campañas.
+
+Tiene tres puntos ciegos, y ninguno se arregla tocando la campaña:
+
+| Qué pasa | Por qué importa | Qué hacer |
+|---|---|---|
+| **No hay públicos creados** | No se puede saber si le vende a clientas nuevas o a las 120.000 seguidoras que ya iban a comprar. Es la pregunta clave del ROAS de 20 | Crear los públicos y cargarlos en la configuración de la cuenta, como "clientas existentes" y "audiencia interactuada". **No toca la campaña**: solo habilita el reporte. Ver abajo |
+| **Todos los anuncios están juntos** | Meta pone casi toda la plata en 2 o 3 anuncios y el resto no recibe nada. El ROAS de 20 probablemente sale de esos pocos | Mirar cómo se reparte la inversión por anuncio. **No apagar ni borrar nada** |
+| **Los anuncios nuevos se suben a la misma campaña** | Cada anuncio nuevo compite con los ganadores y puede reiniciar el aprendizaje. Así no se sabe si un video nuevo es bueno o si no lo dejaron salir | Probar los videos nuevos en una campaña de testeo aparte. Ver sección 3 |
+
+### Los públicos a crear (semana 1, riesgo cero)
+
+No son para segmentar: la campaña sigue en público amplio. Sirven para
+**medir** y, más adelante, para **excluir**.
+
+| Público | Fuente |
+|---|---|
+| Compradoras de la web, 180 días | Píxel: Purchase |
+| Visitantes de la web, 30 y 180 días | Píxel: todo el tráfico |
+| Interactuaron con @saquiama, 365 días | Instagram: cuenta profesional |
+| Lista de clientas | Un CSV de mails y teléfonos, si la marca lo tiene (web y showroom) |
+
+Después, en la **configuración de la cuenta publicitaria**, se cargan como
+"clientas existentes" (compradoras y lista) y "audiencia interactuada"
+(visitantes e interacciones). Desde ahí el reporte muestra qué parte de las
+ventas viene de cada grupo.
+
+### Retargeting: todavía no
+
+Con USD 10 por día, no se abre una campaña de retargeting. La campaña amplia ya
+les muestra los anuncios a las seguidoras, y probablemente de ahí sale buena
+parte del ROAS. Se reconsidera solo si el reporte muestra que la pauta casi no
+llega a la gente caliente.
+
+---
+
 ## 1 · Primero entender el ROAS de 20 (semana 1)
 
 Un ROAS de 20 es muy alto para moda. Puede ser real, pero antes de prometer que
@@ -83,8 +126,9 @@ presupuesto en cinco campañas, cada una junta 4 ventas y ninguna aprende.
   20–30%. Si el reporte de la semana 1 muestra que casi todo es gente que ya
   compraba, esto obliga a buscar clientas nuevas.
 
-**Si la cuenta hoy ya tiene otra estructura y vende, se queda así.** Esta es la
-estructura hacia la que ir de a poco, no algo para implementar el día 1.
+**En la práctica:** la campaña que ya existe *es* la principal y no se toca. Lo
+único que se agrega es la de testeo. El 20% sale de subirle presupuesto a la
+cuenta o de bajarle a la principal de a poco, nunca de golpe.
 
 ---
 
@@ -166,7 +210,7 @@ Todavía no está definido. Propuesta para llevarle a la marca:
 
 | Semana | Qué hacer |
 |---|---|
-| **1** | Pedir accesos. Exportar datos. Chequear la deduplicación del píxel y de la API de conversiones. Calcular el MER. Pedir la URL y auditar la web. **No tocar campañas** |
+| **1** | Pedir accesos. Exportar datos. **Crear los públicos y cargarlos en la configuración de la cuenta.** Chequear la deduplicación del píxel y de la API de conversiones. Calcular el MER. Pedir la URL y auditar la web. **No tocar campañas** |
 | **2** | Diagnóstico con los datos: qué anuncios venden, cuánto es de clientas nuevas. Pedir los primeros 3 videos. Presentar la propuesta de medición |
 | **3** | Armar la campaña de testeo (20%) con los 3 videos nuevos. La principal queda igual |
 | **4** | Primer informe: MER, ganadores del testeo, propuesta de mejoras web. Pasar el mejor creativo nuevo a la principal |

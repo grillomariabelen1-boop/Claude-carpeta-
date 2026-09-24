@@ -23,6 +23,7 @@ Todo lo de la marca vive en esta carpeta. No se mezcla con la estrategia de
 | Plataforma | Solo Meta (Instagram y Facebook) |
 | Presupuesto | USD 300 por mes, unos USD 10 por día |
 | Historial | Ya pautaron. ROAS cercano a 20 |
+| Estructura actual | Una sola campaña con todos los anuncios juntos. Sin públicos personalizados, sin retargeting, sin segmentación |
 | Tracking | Píxel y API de conversiones instalados |
 | Creativos | Los produce y edita la marca, a pedido. Los videos orgánicos de la dueña son los que funcionan |
 | Mi rol | **Pendiente:** hay que definir el alcance y cómo me van a medir |
