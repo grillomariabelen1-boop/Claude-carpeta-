@@ -3,8 +3,32 @@
 Todo lo de la marca vive en esta carpeta. No se mezcla con la estrategia de
 @belengrillo_.
 
+## Cómo trabajar con este cliente
+
+> **Leer antes de armar cualquier cosa para Saquiama.**
+
+- **Su preocupación central:** con la gestión anterior sentían que **el panel
+  mostraba más ventas de las que ellos veían entrar**. Todo lo que presentemos
+  tiene que poder cruzarse con sus ventas reales. Nunca un número de Meta solo.
+- **Le gusta entender.** Cada propuesta explica el *por qué*, en palabras
+  simples y sin jerga. Si hay un término técnico, se explica.
+- **Le gusta que le estén encima:** reportes regulares, preguntas y
+  novedades antes de que las pida. Mejor contar de más que de menos.
+- **Nivel de terminación:** es un trabajo para presentar. Todo tiene que estar
+  ordenado, prolijo, con fuentes y separando lo que es dato de lo que es
+  estimación.
+
+### Entregable en curso
+
+Una presentación con el diagnóstico de la pauta, la respuesta a la diferencia
+entre el panel y las ventas reales, los cambios propuestos en la pauta y las
+mejoras de la web. Se arma cuando lleguen los datos del
+[`00-checklist-envio.md`](00-checklist-envio.md).
+
 ## Por dónde empezar
 
+0. [`00-checklist-envio.md`](00-checklist-envio.md): todo lo que hay que
+   juntar y mandar.
 1. [`01-plan-de-pauta.md`](01-plan-de-pauta.md): cómo tomar la cuenta sin
    romperla, la estructura de campañas, los creativos y qué medir.
 2. [`02-web-mejoras.md`](02-web-mejoras.md): la checklist para la propuesta de
