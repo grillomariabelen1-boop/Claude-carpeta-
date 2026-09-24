@@ -26,7 +26,7 @@
 - "Winter sale | enfoque ambos" (ROAS 4,38) es un **video con tomas del local que habla de la promo y pone el foco en los
   ambos** (confirmado 24/9). Corrió en **retargeting**. Ticket promedio $147.493, el más alto de todos los anuncios (+10% sobre
   el promedio de la tienda). **No se sabe si vendió trajes:** un promedio de $147.493 en 9 compras es compatible con 0 trajes o
-  con 1 Hechter y 8 prendas. Hay que mirarlo en los pedidos de Tiendanube.
+  con 1 Hechter y 8 prendas. **Dato de Tiendanube: del 1 al 23/9 se vendió 1 ambo online** (1 de 30 pedidos).
 
 ## La temporada de trajes arranca ahora
 
@@ -103,3 +103,15 @@ Se prueba como variante de T1.
 - [ ] Cómo se venden hoy: ¿online, en el local o por WhatsApp?
 - [x] Costo del envío por debajo de $150.000: depende del peso del bulto y de la distancia. Ver `02-analisis-anuncios-sep-2026.md`
 - [ ] Qué anuncio corre en qué conjunto
+
+## Test de videos de ambos (24/9)
+
+Hay varios videos de ambos grabados. Se testean en una campaña propia:
+- **Campaña "C1 · Trajes · test videos"**, presupuesto por conjunto (ABO): **un conjunto por video, mismo presupuesto fijo**, 7 días.
+  Así cada video recibe entrega y no pasa lo de septiembre (anuncios sin gasto dentro de un conjunto compartido).
+- Con 3 videos: ~$4.000 por día cada uno (~$12.000 por día en total, dentro de los $350.000 de trajes).
+- Optimización: "Iniciar pago" (con 1 venta de traje por mes, "Compra" no da señal).
+- Se mira: retención del video (porcentaje que llega al 50%), CTR, visitas a fichas de ambo, agregados al carrito, inicios de pago
+  y consultas de WhatsApp.
+- El ganador pasa a la campaña de trajes con presupuesto por campaña; los que vieron el 50% de cualquier video entran al retargeting
+  de composturas (R3).
