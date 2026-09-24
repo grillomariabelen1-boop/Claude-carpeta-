@@ -29,8 +29,9 @@ hacerlo. Actualizado: 24/09/2026.
 
 - **Domingos: descanso total.** No agendar nada de trabajo, salvo que un
   deadline no deje otra opción (y avisarle).
-- Sábados: preferentemente descanso. Si hace falta producir, a la tarde,
-  después de cerámica (15 a 18).
+- Sábados: preferentemente descanso. Si hace falta producir: de 9 a 11
+  (antes de cerámica) o a la tarde, desde las 15.
+- Viernes de 17 a 17:45: hueco en casa (home office) antes de pilates.
 - Los videos UGC se editan rápido: **grabar y editar en el mismo bloque**.
 - Cada entrega lleva un bloque "✅ Revisar y enviar" con margen, días
   antes de la fecha máxima.
@@ -58,13 +59,21 @@ la marca, a las 9, con avisos 3 días antes, 1 día antes, 1 hora antes y
 ## Borrado a pedido (23/09/2026)
 
 - 🎬 Grabar en tanda (sábados) y ✂️ Editar y programar (miércoles).
-- Yoga en Ekos (martes): ya no va.
+- Yoga en Ekos (martes): ya no va como clase. Ekos Yoga sigue como cliente
+  de contenido.
 
 ## Producción agendada
 
 | Qué | Cuándo |
 |---|---|
-| 🎥 Grabar y editar — SHEIN | Sáb 26/09, 15 a 18 |
+| 📝 Armar lo de Ekos Yoga (clases + gift card Día de la Madre) | Vie 25/09, 17 a 17:45 |
+| 🎥 Grabar y editar — SHEIN | Sáb 26/09, 9 a 11 |
+| 🧘 Crear contenido con Ekos Yoga | Sáb 26/09, 15 a 17 (hora a confirmar) |
 | ✅ Revisar y enviar — SHEIN | Mar 29/09, 18:30 a 19:30 |
 | 🎥 Grabar y editar — Biodance | Sáb 03/10, 15 a 18 |
 | ✅ Revisar y enviar — Biodance | Mar 06/10, 18:30 a 19:30 |
+
+## Pendientes sin fecha
+
+- **Village:** presentar la propuesta de octubre con todos los focos.
+- **Sakiyama:** presentar todo lo que se habló en otro chat.
