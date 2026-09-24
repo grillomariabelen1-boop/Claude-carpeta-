@@ -1,5 +1,7 @@
 ## Estructura y creativos de pauta — octubre 2026
 
+> 🟡 **Borrador para aprobar.** No pasar a Notion hasta que se aprueben las ideas y los guiones.
+
 Presupuesto: **$1.000.000 por mes** (~$33.000 por día). Meta Ads, objetivo ventas.
 
 ### Qué se apaga
