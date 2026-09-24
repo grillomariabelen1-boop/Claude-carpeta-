@@ -44,15 +44,23 @@ Se vende el evento, no la prenda. Una pieza por ocasión, la misma prenda en dis
   > Envío gratis · 3 cuotas sin interés · Cambio hasta 30 días
 - **Pieza:** traje puesto en cada contexto (civil, fiesta, oficina). Video corto armándose para el evento.
 
-### T2 — 40 años de sastrería de fábrica *(en espera: solo si Village fabrica los Hechter)*
+### T2 — Distribuidor oficial Hechter *(reemplaza a "40 años de sastrería de fábrica")*
+Confirmado el 24/9: Village **revende Hechter como distribuidor oficial**, no lo fabrica. El ángulo de fábrica no aplica a los
+ambos Hechter. Se reemplaza por: marca de sastrería europea, comprada al distribuidor oficial, con composturas gratis, envío
+gratis y 3 cuotas.
+- **Gancho:** "Trajes Hechter, del distribuidor oficial. Con las composturas incluidas."
+- El Ambo Lavable (no Hechter) sí puede ir con el ángulo de fábrica, si lo fabrica Village.
+
+~~T2 original — 40 años de sastrería de fábrica~~
 Credibilidad y precio: el mismo traje que venden los locales, directo de quien lo fabrica.
 - **Gancho:** el fundador a cámara, con el taller: "Hace 40 años que cortamos y cosemos trajes."
 - **Pieza:** proceso (corte, costura, terminaciones) y el traje terminado.
 
 ### T3 — Sin miedo al talle
-Un traje online asusta más que una chomba. Se desactiva el miedo con tabla de medidas de saco y pantalón, cambio en 30 días
-y **asesoramiento por WhatsApp**.
-- **Gancho:** "¿No sabés tu talle de saco? Te asesoramos por WhatsApp."
+Un traje online asusta más que una chomba. Se desactiva el miedo con **composturas gratis** (confirmado 24/9), tabla de
+medidas de saco y pantalón, cambio en 30 días y **asesoramiento por WhatsApp**.
+- **Ganchos:** "¿Y si no me queda perfecto? Las composturas van por nuestra cuenta." · "¿No sabés tu talle de saco? Te
+  asesoramos por WhatsApp."
 - **Uso:** retargeting de quienes vieron trajes y no compraron.
 
 ### T4 — El traje lavable *(confirmado: sube a principal junto a T1)*
@@ -85,7 +93,9 @@ Se prueba como variante de T1.
 ## Pendientes
 
 - [x] Precio de los trajes: $199.000 (lavable) y $499.900 a $589.000 (Hechter), traje solo (saco + pantalón)
-- [ ] ¿Los Hechter los fabrica Village bajo licencia o los revende?
+- [x] Hechter: Village lo revende como distribuidor oficial
+- [x] Los ambos son saco y pantalón, vienen por talles y tienen composturas gratis
+- [ ] Cómo funcionan las composturas para el cliente del interior
 - [x] "Ambo lavable 200mil": el Ambo Lavable a $199.000
 - [ ] Stock de trajes: los talles son 46 a 60, pero ningún ambo controla stock. Confirmar si se entregan todos
 - [ ] Cómo se venden hoy: ¿online, en el local o por WhatsApp?

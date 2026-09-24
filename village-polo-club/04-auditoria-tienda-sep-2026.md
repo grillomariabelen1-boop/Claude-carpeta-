@@ -209,10 +209,10 @@ hoy consigue compras a $35.442: está al borde. Con los Hechter ($499.900 a $589
 
 ## 8 · Pendientes para el cliente
 
-- [ ] **¿Los productos Hechter los fabrica Village bajo licencia, o los revende?** Define si los trajes pueden llevar el ángulo de
-      fábrica y si "confección europea" es correcto
+- [x] Hechter: Village lo revende como distribuidor oficial. Ver T2 en `03-trajes.md`
+- [x] Ambos: saco y pantalón, vienen por talles, composturas gratis
 - [ ] ¿Los ambos se entregan en todos los talles del 46 al 60? ¿Se hacen a pedido? ¿Cuánto tardan?
-- [ ] ¿Se puede bajar el umbral de envío gratis a $149.000?
+- [ ] Umbral de envío gratis: se propone $120.000 a los dueños (ver `05-propuestas-a-los-duenos.md`, P1)
 - [ ] ¿Hay reposición de S y M para los buzos de la sale, o se liquida lo que queda?
 - [ ] Medidas de las prendas por talle, para la guía
 - [ ] ¿El pantalón de los ambos viene con ruedo sin hacer? ¿Lo hacen ellos?
