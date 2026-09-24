@@ -8,7 +8,7 @@ se actualiza cuando responden.*
 | P1 | Bajar el envío gratis a $120.000 | 🟡 Propuesta |
 | P2 | Comunicar las composturas gratis de los ambos | 🟡 Propuesta |
 | P3 | Cargar stock por talle en los ambos | 🟡 Propuesta |
-| P4 | Guía de talles con medidas | 🟡 Propuesta |
+| P4 | Guía de talles: medir 5 modelos en el local | 🟡 Propuesta |
 | P5 | Sacar de la pauta las prendas sin S, M ni L | 🟡 Propuesta |
 
 ---
@@ -68,12 +68,10 @@ trajes hay que tenerlo resuelto.
 
 ---
 
-## P4 · Guía de talles con medidas
+## P4 · Guía de talles
 
-**Qué pedimos:** las medidas de cada talle para armar tres tablas.
-- Prendas de arriba (S a 3XL): pecho, largo, hombros
-- Pantalones y jeans (42 a 54): cintura, cadera, largo
-- Ambos (46 a 60): equivalencia con S a XL, pecho y largo de saco, cintura y largo de pantalón
+**Qué pedimos:** muy poco. **Una prenda de cada talle de 5 modelos durante 2 horas**, para medirlas nosotros, y 15 minutos con
+un vendedor del local. No hace falta que los dueños pasen medidas. El plan completo está en `07-talles.md`.
 
 **Por qué:** el talle es la duda número uno del cliente y hoy no hay guía en ningún lado del sitio. Sin ella no se puede
 correr el anuncio de "comprá sin riesgo".

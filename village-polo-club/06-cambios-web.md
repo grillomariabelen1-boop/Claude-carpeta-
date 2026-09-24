@@ -4,22 +4,24 @@
 
 ## Ya mismo
 
-- [ ] **Preguntas frecuentes → "¿Cuánto tarda en llegar el pedido?"**
+> ✅ Preguntas frecuentes: corregidas el 24/9.
+
+- [x] **Preguntas frecuentes → "¿Cuánto tarda en llegar el pedido?"**
   - Hoy: "En general, la demora es de entre 3 y 7 días hábiles luego de acreditado el pago."
   - Cambiar a: "Enviamos a todo el país. Con Andreani llega en 2 días hábiles y con Correo Argentino en 2 a 4, desde que se
     acredita el pago. También podés retirar gratis en nuestro local de Av. Cabildo 1709, Belgrano."
-- [ ] **Preguntas frecuentes → "¿Cómo se realizan los envíos?"**
+- [x] **Preguntas frecuentes → "¿Cómo se realizan los envíos?"**
   - Hoy: "Trabajamos con Andreani"
   - Cambiar a: "Trabajamos con Andreani y Correo Argentino, a domicilio o a punto de retiro. En el checkout elegís la opción."
-- [ ] **Preguntas frecuentes → "¿Cuáles son las formas de pago?"**
+- [x] **Preguntas frecuentes → "¿Cuáles son las formas de pago?"**
   - Hoy: "Disponemos de los siguientes medios de pago:" y la lista está vacía.
   - Cambiar a: "Tarjeta de crédito y débito con Mercado Pago, MODO y Pago Nube. 3 cuotas sin interés con todos los bancos.
     Mercado Pago también ofrece 6, 9 y 12 cuotas."
-- [ ] **Preguntas frecuentes → "¿Cuál es el costo de envío?"**
+- [x] **Preguntas frecuentes → "¿Cuál es el costo de envío?"**
   - Hoy: "El costo de envío será mostrado en base al total de la compra y ubicación, en el checkout, en el momento previo a la compra."
   - Cambiar a: "Gratis en compras superiores a $150.000. Por debajo depende del destino: lo podés calcular en cada producto
     con tu código postal."
-- [ ] **Preguntas frecuentes → sumar dos preguntas:**
+- [x] **Preguntas frecuentes → sumar dos preguntas:**
   - "¿Cómo elijo mi talle?" → "Cada producto tiene la altura y el talle del modelo. Si tenés dudas, escribinos por WhatsApp y
     te asesoramos. Y si no te queda, lo cambiás dentro de los 30 días."
   - "¿Los ambos tienen composturas?" → "Sí, las composturas son gratis." (completar cómo funciona para el interior)
