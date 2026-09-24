@@ -62,7 +62,7 @@ Si un producto ya tiene una tabla de talles, no pegar otra: anotarlo y seguir.
 <tr><th>Talle</th><th>40</th><th>42</th><th>44</th><th>46</th><th>48</th><th>52</th><th>54</th><th>56</th></tr>
 <tr><td>1/2 cintura</td><td>41</td><td>43</td><td>45</td><td>47</td><td>49</td><td>53</td><td>55</td><td>57</td></tr>
 <tr><td>1/2 cadera</td><td>49</td><td>51</td><td>53</td><td>55</td><td>57</td><td>61</td><td>63</td><td>65</td></tr>
-<tr><td>1/2 rodilla</td><td>21.3</td><td>21.7</td><td>22.1</td><td>22.5</td><td>23.7</td><td>24.5</td><td>24.9</td><td>25.3</td></tr>
+<tr><td>1/2 rodilla (a 35 cm de la entrepierna)</td><td>21.3</td><td>21.7</td><td>22.1</td><td>22.5</td><td>23.7</td><td>24.5</td><td>24.9</td><td>25.3</td></tr>
 <tr><td>Tiro delantero (con cintura)</td><td>24.5</td><td>25</td><td>25.5</td><td>26</td><td>26.5</td><td>27.5</td><td>28</td><td>28.5</td></tr>
 <tr><td>Tiro trasero (con cintura)</td><td>40.5</td><td>41</td><td>41.5</td><td>42</td><td>42.5</td><td>43.5</td><td>44</td><td>44.5</td></tr>
 </table>
@@ -102,7 +102,7 @@ Si un producto ya tiene una tabla de talles, no pegar otra: anotarlo y seguir.
 <tr><th>Talle</th><th>S</th><th>M</th><th>L</th><th>XL</th><th>XXL</th></tr>
 <tr><td>1/2 pecho</td><td>54</td><td>56</td><td>58</td><td>60</td><td>62</td></tr>
 <tr><td>1/2 cintura</td><td>51</td><td>53</td><td>55</td><td>57</td><td>59</td></tr>
-<tr><td>1/2 bajo</td><td>54</td><td>56</td><td>58</td><td>60</td><td>62</td></tr>
+<tr><td>Bajo</td><td>54</td><td>56</td><td>58</td><td>60</td><td>62</td></tr>
 <tr><td>Sisa</td><td>23.5</td><td>24.5</td><td>25.5</td><td>26.5</td><td>27.5</td></tr>
 <tr><td>Largo de manga</td><td>64.5</td><td>65.5</td><td>66.5</td><td>67.5</td><td>68.5</td></tr>
 <tr><td>Hombro</td><td>45</td><td>46.5</td><td>48</td><td>49.5</td><td>51</td></tr>
