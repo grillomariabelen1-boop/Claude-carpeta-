@@ -67,6 +67,7 @@ Si un producto ya tiene una tabla de talles, no pegar otra: anotarlo y seguir.
 <tr><td>Tiro trasero (con cintura)</td><td>40.5</td><td>41</td><td>41.5</td><td>42</td><td>42.5</td><td>43.5</td><td>44</td><td>44.5</td></tr>
 </table>
 </div>
+<p><em>Las medidas son estimativas y aproximadas: pueden variar levemente según el modelo y la tela.</em></p>
 <p><strong>Cómo usar la tabla:</strong> son medidas de la prenda en centímetros, tomadas con la prenda estirada sobre una mesa. Buscá una prenda tuya que te quede bien, apoyala igual y compará. ¿Dudás entre dos talles? Escribinos por WhatsApp y te asesoramos.</p>
 ```
 
@@ -89,6 +90,7 @@ Si un producto ya tiene una tabla de talles, no pegar otra: anotarlo y seguir.
 </table>
 </div>
 <p><em>La equivalencia con S-XL es orientativa.</em></p>
+<p><em>Las medidas son estimativas y aproximadas: pueden variar levemente según el modelo y la tela.</em></p>
 <p><strong>Cómo usar la tabla:</strong> son medidas de la prenda en centímetros, tomadas con la prenda estirada sobre una mesa. Buscá una prenda tuya que te quede bien, apoyala igual y compará. ¿Dudás entre dos talles? Escribinos por WhatsApp y te asesoramos.</p>
 ```
 
@@ -108,6 +110,7 @@ Si un producto ya tiene una tabla de talles, no pegar otra: anotarlo y seguir.
 <tr><td>Hombro</td><td>45</td><td>46.5</td><td>48</td><td>49.5</td><td>51</td></tr>
 </table>
 </div>
+<p><em>Las medidas son estimativas y aproximadas: pueden variar levemente según el modelo y la tela.</em></p>
 <p><strong>Cómo usar la tabla:</strong> son medidas de la prenda en centímetros, tomadas con la prenda estirada sobre una mesa. Buscá una prenda tuya que te quede bien, apoyala igual y compará. ¿Dudás entre dos talles? Escribinos por WhatsApp y te asesoramos.</p>
 ```
 

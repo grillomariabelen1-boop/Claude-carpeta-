@@ -29,6 +29,8 @@ con la prenda estirada ("1/2" = de lado a lado, sin duplicar).*
 
 ## Para la tarjeta de Notion
 
+*Las medidas son estimativas y aproximadas: pueden variar levemente según el modelo y la tela.*
+
 **Ambos Hechter · Saco**
 
 | Talle | 46 | 48 | 50 | 52 | 54 | 56 | 58 | 60 |
