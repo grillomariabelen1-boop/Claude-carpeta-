@@ -63,7 +63,7 @@ se excluyen:
 | Hipótesis | Cómo se chequea |
 |---|---|
 | **Le vende a gente que ya iba a comprar.** 120.000 seguidoras más retargeting: Meta se atribuye ventas que igual hubieran pasado | Mirá qué porcentaje de las ventas viene de clientas existentes o de seguidoras. En Advantage+ está el reporte por tipo de audiencia (nueva, interactuó, clienta existente) |
-| **La ventana de atribución es generosa.** Con "1 día de visualización" se cuenta como venta a quien vio el anuncio y después compró por otro camino | Compará el ROAS con "7 días de clic" solo contra "7 días de clic y 1 de visualización" |
+| **La ventana de atribución es generosa.** Desde marzo de 2026, la ventana por defecto es **7 días de clic + 1 día de interacción + 1 día de visualización**. La "interacción" (*engage-through*) cuenta una venta si la persona le dio like, guardó o miró el video y compró dentro del día, sin hacer clic. Con 120.000 seguidoras que interactúan con todo, esto puede inflar mucho | En el administrador de anuncios, usá "Comparar ventanas de atribución" y mirá las compras solo con **7 días de clic**. La diferencia con el total es la parte menos confiable del 20 |
 | **Las compras se cuentan doble.** El píxel y la API de conversiones mandan el mismo evento sin deduplicar | En el Administrador de eventos: el evento Purchase tiene que tener `event_id` y la cobertura tiene que decir que deduplica. Además, las compras que reporta Meta tienen que ser **iguales o menos** que las reales de la web |
 
 **El número que importa es el MER:** las ventas totales de la web dividido la
@@ -87,8 +87,10 @@ el MER da 6, tu base real es 6, y conviene saberlo antes de que te midan.
    ni anuncios. Solo mirar.
 2. **Nunca apagues un anuncio que vende para "ordenar".** Si está viejo pero
    rinde, queda.
-3. **Los cambios de presupuesto, de a 20% como máximo** y no más de una vez
-   cada 3 o 4 días. Los saltos grandes reinician el aprendizaje.
+3. **Los cambios de presupuesto, de a poco:** alrededor de 20% y no más de una
+   vez cada 3 o 4 días. Meta confirma que un cambio de presupuesto *puede*
+   reiniciar el aprendizaje "según la magnitud", pero no publica un porcentaje.
+   El 20% es una regla práctica de la industria, no un número oficial.
 4. **Un cambio por vez**, así sabés qué movió el número.
 5. **Lo nuevo se prueba aparte**, en una campaña de testeo con presupuesto
    propio y nunca adentro de la que vende.
@@ -120,11 +122,16 @@ presupuesto en cinco campañas, cada una junta 4 ventas y ninguna aprende.
   mujer de 40, Meta encuentra mujeres de 40.
 - **Edad:** si usás Advantage+, ponela como sugerencia, no como límite duro.
   Dejá que Meta encuentre compradoras de 55 si las hay.
-- **Ubicaciones automáticas.** Para 40 a 50 años, **Facebook no es relleno**:
-  es donde está buena parte de ese público. No lo saques.
-- **Límite para clientas existentes** (una opción de Advantage+): empezá en
-  20–30%. Si el reporte de la semana 1 muestra que casi todo es gente que ya
-  compraba, esto obliga a buscar clientas nuevas.
+- **Ubicaciones automáticas.** Para 40 a 50 años, **Facebook probablemente no
+  es relleno**. Es una hipótesis: se confirma con el desglose por ubicación de
+  la exportación. Hasta verlo, no lo saques.
+- **Clientas existentes:** el viejo "límite de presupuesto para clientas
+  existentes" de Advantage+ **Meta lo retiró en 2025**. Hoy se hace así:
+  1. Se definen los segmentos de público (ver sección 0), que solo sirven para
+     el reporte.
+  2. Si el reporte muestra que casi todo va a gente que ya compraba, se
+     **excluye** el público de compradoras. La exclusión de públicos
+     personalizados sigue siendo un control duro.
 
 **En la práctica:** la campaña que ya existe *es* la principal y no se toca. Lo
 único que se agrega es la de testeo. El 20% sale de subirle presupuesto a la
@@ -174,6 +181,8 @@ Reglas para todos:
 
 Por **fatiga**, no por antigüedad: frecuencia mayor a 3 en 7 días **y** el CTR
 o el ROAS bajando dos semanas seguidas. Si no pasan las dos cosas, se queda.
+El 3 es una referencia de la industria, no de Meta. Se ajusta con los datos de
+la cuenta.
 
 ---
 
@@ -269,6 +278,11 @@ ganancia**. Hay que avisarlo antes de subir, no después.
 | Tasa de conversión web (compras / visitas) | Si la web frena la venta | Menos de 1%. Ver [`02-web-mejoras.md`](02-web-mejoras.md) |
 | Frecuencia (7 días) | Fatiga | Más de 3 |
 
+**Ojo con las señales de alarma:** los números (40%, 1%, 3, 30%) son
+referencias generales de la industria, no datos de Meta ni de Saquiama. Sirven
+para arrancar. Después de 4 semanas se reemplazan por el promedio propio de la
+cuenta, y la alarma pasa a ser alejarse de ese promedio.
+
 ---
 
 ## 6 · Cómo te conviene que te midan
@@ -294,3 +308,27 @@ Todavía no está definido. Propuesta para llevarle a la marca:
 | **2** | Diagnóstico con los datos: qué anuncios venden, cuánto es de clientas nuevas. Pedir los primeros 3 videos. Presentar la propuesta de medición |
 | **3** | Armar la campaña de testeo (20%) con los 3 videos nuevos. La principal queda igual |
 | **4** | Primer informe: MER, ganadores del testeo, propuesta de mejoras web. Pasar el mejor creativo nuevo a la principal |
+
+---
+
+## Qué está verificado y qué no
+
+*Revisado el 24/9/2026. Meta cambia seguido: conviene volver a chequear antes
+de presentarle algo a la marca.*
+
+| Afirmación | Estado | Fuente |
+|---|---|---|
+| Unos 50 eventos de optimización en 7 días para salir del aprendizaje | ✅ Oficial | [Meta: fase de aprendizaje](https://www.facebook.com/business/help/112167992830700/) · [Meta: aprendizaje limitado](https://en-gb.facebook.com/business/help/269269737396981) |
+| Cambiar el público, el creativo, el evento de optimización o pausar reinicia el aprendizaje. El presupuesto "depende de la magnitud" | ✅ Oficial | [Meta: ediciones significativas](https://www.facebook.com/business/help/316478108955072) |
+| Agregar un anuncio *puede* reiniciar el aprendizaje, pero no siempre pasa | ✅ Oficial, con matiz | Meta lo lista como edición significativa. [Una prueba de Jon Loomer (2025)](https://www.jonloomer.com/qvt/new-ads-learning-phase/) muestra que no siempre ocurre |
+| Subir el presupuesto de a 20% | ⚠️ Regla de la industria | Meta no publica un porcentaje |
+| El píxel y la API de conversiones se deduplican con `event_id` + `event_name` | ✅ Oficial | [Meta for Developers: deduplicación](https://developers.facebook.com/documentation/ads-commerce/conversions-api/deduplicate-pixel-and-server-events) · [Meta: deduplicación](https://www.facebook.com/business/help/823677331451951) |
+| Ventana por defecto: 7 días de clic + 1 de interacción + 1 de visualización (marzo 2026). Las ventanas de 7 y 28 días de visualización se eliminaron en enero 2026 | ✅ Verificado en varias fuentes | [Jon Loomer: atribución 2026](https://www.jonloomer.com/meta-ads-attribution-2026/) · [Dataslayer](https://www.dataslayer.ai/blog/meta-attribution-change-2026-what-engage-through-attribution-is-and-why-your-numbers-look-different) |
+| Se retiró el límite de presupuesto para clientas existentes. Hoy: segmentos de público para reportar y exclusiones como control duro | ✅ Verificado en varias fuentes | [Enalitica](https://enalitica.com/blog/meta-advantage-plus-sales-campaigns) · [AdAdvisor](https://adadvisor.ai/blog/meta-advantage-plus) |
+| Los segmentos de público (nueva, interactuada, existente) se definen en la configuración de la cuenta y habilitan el desglose. No cambian la entrega | ✅ Verificado | [Jon Loomer: segmentos de público](https://www.jonloomer.com/audience-segments/) · [Foxwell](https://www.foxwelldigital.com/blog/everything-you-need-to-know-about-audience-segments) |
+| En Advantage+, la edad máxima es una sugerencia. La edad mínima (hasta 25), la ubicación y las exclusiones son controles duros | ✅ Verificado | [Jon Loomer: segmentación 2026](https://www.jonloomer.com/meta-ads-targeting-2026/) |
+| Usar el ID de la publicación mantiene los likes y comentarios | ✅ Verificado (funcionamiento conocido) | [Blip](https://withblip.com/blog/post-id-scaling-meta-ads/) |
+| Costo por venta de unos $4.000 ARS | 🧮 Cuenta propia | $80.000 / ROAS 20. Cambia si el ROAS real es otro |
+| Facebook pesa para el público de 40 a 50 | ❓ Hipótesis | Se confirma con el desglose por ubicación |
+| Frecuencia > 3, CTR < 1%, conversión < 1%, clientas nuevas < 40% | ⚠️ Referencias de la industria | Se reemplazan por los promedios propios después de 4 semanas |
+| Las recomendaciones de la web (talles, cuotas, envío gratis, checkout) | ⚠️ Buenas prácticas generales de e-commerce | Se validan con la auditoría de la web real |
