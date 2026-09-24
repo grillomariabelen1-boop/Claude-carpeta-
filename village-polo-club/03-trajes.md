@@ -23,8 +23,10 @@
 - El ticket promedio de Tiendanube ($134.074) muestra que en el período casi no se vendieron trajes online.
 - **Los 4 anuncios de ambos que ya existían no se probaron nunca**: gastaron menos de $4.000 cada uno. Meta los dejó sin
   entrega porque competían en el mismo conjunto con los de Winter Sale.
-- "Winter sale | enfoque ambos" (ROAS 4,38) tuvo un ticket de $147.493. Sus compras no fueron trajes; el anuncio atrajo gente
-  que terminó comprando otras prendas.
+- "Winter sale | enfoque ambos" (ROAS 4,38) es un **video con tomas del local que habla de la promo y pone el foco en los
+  ambos** (confirmado 24/9). Corrió en **retargeting**. Ticket promedio $147.493, el más alto de todos los anuncios (+10% sobre
+  el promedio de la tienda). **No se sabe si vendió trajes:** un promedio de $147.493 en 9 compras es compatible con 0 trajes o
+  con 1 Hechter y 8 prendas. Hay que mirarlo en los pedidos de Tiendanube.
 
 ## La temporada de trajes arranca ahora
 
