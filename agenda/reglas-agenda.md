@@ -18,6 +18,7 @@ hacerlo. Actualizado: 24/09/2026.
 | 🏠 Trabajo (home office) | Vie, 8 a 17 | |
 | 🧘‍♀️ Pilates | Lun, mié y vie, 18 a 19 | A veces va a las 20: mover esa instancia cuando avise |
 | Psicóloga | Vie, 15:15 a 16:15 | |
+| 🏺 Cerámica | Sáb, 11:30 a 13:30 | Siempre, no se mueve |
 
 Falta reservar tiempo para: contenido propio, clientes UGC y descanso.
 
