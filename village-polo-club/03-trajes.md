@@ -79,5 +79,5 @@ Traje + camisa + corbata o zapatos, para subir el ticket y resolver todo en una 
 - [ ] Qué era "Ambo lavable 200mil": ¿un traje de $200.000, o $200.000 de descuento?
 - [ ] Talles y stock de trajes
 - [ ] Cómo se venden hoy: ¿online, en el local o por WhatsApp?
-- [ ] Costo del envío por debajo de $150.000 (para las prendas sueltas)
+- [x] Costo del envío por debajo de $150.000: depende del peso del bulto y de la distancia. Ver `02-analisis-anuncios-sep-2026.md`
 - [ ] Qué anuncio corre en qué conjunto

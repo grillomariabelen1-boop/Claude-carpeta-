@@ -54,6 +54,22 @@
    ($134.074) está por debajo del envío gratis ($150.000), así que la mayoría ve un costo de envío en ese paso. Es la palanca
    más barata para subir la conversión.
 
+### El costo de envío (dato confirmado el 24/9)
+
+El envío por debajo de $150.000 **depende del peso del bulto y de la distancia**. Como la mayoría de los compradores son del
+interior, **el público principal es justamente el que ve los envíos más caros**, y los ve recién en la etapa de entrega. Eso
+explica bien la caída del 39% en ese paso.
+
+Opciones, de más barata a más cara:
+
+1. **Mostrar el costo antes.** Activar el calculador de envío en la página de producto de Tiendanube, para que no haya sorpresa
+   en el checkout.
+2. **Comunicar el umbral en todos lados:** "Envío gratis desde $150.000", en anuncios, barra superior del sitio y carrito
+   ("te faltan $X para el envío gratis").
+3. **Combos que superen los $150.000**, así el envío gratis sale solo.
+4. **Tarifa plana nacional** (por ejemplo, un monto fijo a cualquier punto del país), con la diferencia absorbida por la marca.
+   Se puede probar un mes y medir el cambio en esa etapa del checkout.
+
 ---
 
 ## Análisis inicial (solo exportación por anuncio)
