@@ -177,6 +177,86 @@ o el ROAS bajando dos semanas seguidas. Si no pasan las dos cosas, se queda.
 
 ---
 
+## 4b · Cómo escalar los ganadores
+
+> **Con USD 300 fijos, escalar no es gastar más. Es sacar más ventas del mismo
+> presupuesto y conseguir los argumentos para que la marca lo suba.**
+
+Hay tres palancas, en este orden.
+
+### Palanca 1 · Escalar el creativo (la principal)
+
+**Lo que gana no es el archivo, es la idea**: el primer segundo, el ángulo, quién
+habla, cómo muestra la prenda. De un ganador salen 4 o 5 versiones cambiando
+**una sola cosa por vez**:
+
+| Qué se cambia | Ejemplo |
+|---|---|
+| **El gancho** (los primeros 3 segundos) | El mismo video con otro arranque: la prenda puesta, una pregunta o el precio en pantalla |
+| **La prenda** | El mismo guion, la misma forma de filmar, otro producto |
+| **Quién la usa** | La dueña, una clienta del showroom, otro cuerpo, otra edad |
+| **El largo** | Una versión de 15 segundos y otra de 30 |
+| **El formato** | Un fotograma del video como imagen fija, o un carrusel con las prendas que aparecen |
+| **El texto del anuncio** | Otro enfoque: talle, ocasión, precio y cuotas, calidad |
+
+Esto es lo que se le pide a la marca cada semana: **no videos nuevos al azar,
+sino variaciones del que ganó.** Los ganadores se gastan con el tiempo (sube la
+frecuencia y baja el rendimiento). Las variaciones los reemplazan antes de que
+eso pase.
+
+### Palanca 2 · Pasar el ganador a la campaña principal
+
+**Qué cuenta como ganador** en la campaña de testeo:
+
+- Gastó al menos lo que cuestan 2 o 3 ventas. Menos que eso es suerte.
+- ROAS igual o mayor al promedio de la principal, **en 7 días**, no en un día bueno.
+- El CTR y el costo por compra acompañan. Una sola venta grande no alcanza.
+
+**Cómo pasarlo:**
+
+- Se sube **con el mismo ID de publicación**, así se lleva los likes y
+  comentarios que juntó.
+- **Una vez por semana, todos juntos.** Cada cambio en la principal la mueve un
+  poco, así que conviene cambiar una vez y no cinco.
+- **No se apaga ningún anuncio de la principal para hacerle lugar.** Si el nuevo
+  es mejor, Meta solo le va a pasar la plata.
+
+### Palanca 3 · Subir el presupuesto (necesita el OK de la marca)
+
+**El argumento:** si un peso invertido devuelve 20 (o 6, o lo que dé el MER
+real), el límite de ventas hoy es el presupuesto, no los anuncios.
+
+**Cómo proponerlo sin riesgo:**
+
+1. Primero calcular el MER real (sección 1). Con eso se sabe cuánto margen hay.
+2. Proponer una prueba acotada: **+20% por 2 semanas**. Si el MER se sostiene,
+   otro +20%. Si cae, se vuelve atrás.
+3. **Nunca subir de golpe.** Los saltos grandes reinician el aprendizaje y el
+   ROAS se desploma unos días, que es justo cuando la marca se asusta.
+
+**Qué esperar:** el ROAS **va a bajar** al subir el presupuesto, y es normal. Los
+primeros pesos llegan a las compradoras más fáciles y los siguientes a gente
+más fría. La pregunta no es si el ROAS baja. Es si **cada peso extra sigue dando
+ganancia**. Hay que avisarlo antes de subir, no después.
+
+### Lo que no se hace
+
+- **Duplicar la campaña o el conjunto ganador** para "escalar
+  horizontalmente". Con este presupuesto parte los datos y las dos copias
+  compiten por la misma gente.
+- **Segmentar por intereses** para "encontrar público nuevo". El público lo
+  encuentra el creativo, no la segmentación.
+- **Tocar el anuncio ganador** para "mejorarlo" (texto, botón). Se reinicia y
+  pierde lo aprendido. Las mejoras van en una variación aparte.
+
+### Cuándo frenar
+
+- La frecuencia pasa de 3 y el CPM sube: la gente ya lo vio.
+- El % de clientas nuevas cae: la pauta está reciclando seguidoras.
+- El MER baja dos semanas seguidas aunque el ROAS de Meta se vea bien.
+
+---
+
 ## 5 · El tablero semanal
 
 | Métrica | Para qué | Señal de alarma |
