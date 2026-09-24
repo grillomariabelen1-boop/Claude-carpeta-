@@ -24,12 +24,13 @@ Falta reservar tiempo para: contenido propio, clientes UGC y descanso.
 ## Deadlines UGC
 
 Los deadlines se cargan como eventos que empiezan con `📦 Entrega —` seguido de
-la marca, con avisos extra unos días antes.
+la marca, a las 9, con avisos 3 días antes, 1 día antes, 1 hora antes y
+20 minutos antes. Si la fecha está a más de una semana, también 7 días antes.
 
 | Marca | Qué | Deadline |
 |---|---|---|
-| Biodance | Videos | A confirmar |
-| Jane | Video | A confirmar |
+| Jane (SHEIN) | Video | Mié 30/09/2026 (fecha máxima) |
+| Biodance | Videos | Lun 12/10/2026 |
 
 ## Borrado a pedido (23/09/2026)
 
