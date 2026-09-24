@@ -26,7 +26,7 @@
 - "Winter sale | enfoque ambos" (ROAS 4,38) es un **video con tomas del local que habla de la promo y pone el foco en los
   ambos** (confirmado 24/9). Corrió en **retargeting**. Ticket promedio $147.493, el más alto de todos los anuncios (+10% sobre
   el promedio de la tienda). **No se sabe si vendió trajes:** un promedio de $147.493 en 9 compras es compatible con 0 trajes o
-  con 1 Hechter y 8 prendas. **Dato de Tiendanube: del 1 al 23/9 se vendió 1 ambo online** (1 de 30 pedidos).
+  con 1 Hechter y 8 prendas. **Dato de Tiendanube: del 1 al 23/9 se vendió 1 ambo online** (1 de 30 pedidos): el **Ambo Liverpool Visón Hechter, $589.000**, el más caro. Solo ese pedido es el 15% de la facturación online del período.
 
 ## La temporada de trajes arranca ahora
 
@@ -105,6 +105,9 @@ Se prueba como variante de T1.
 - [ ] Qué anuncio corre en qué conjunto
 
 ## Test de videos de ambos (24/9)
+
+> La campaña de trajes arranca con **Hechter (Liverpool) + Ambo Lavable en paralelo**, no solo con el Lavable: la única venta fue un
+> Liverpool Visón y el Lavable nunca se testeó (su anuncio gastó menos de $4.000). Prioridad: cargar el stock por talle de los Liverpool.
 
 Hay varios videos de ambos grabados. Se testean en una campaña propia:
 - **Campaña "C1 · Trajes · test videos"**, presupuesto por conjunto (ABO): **un conjunto por video, mismo presupuesto fijo**, 7 días.
