@@ -1,10 +1,64 @@
 # Village Polo Club — Análisis de anuncios Meta, 1 al 23/9/2026
 
-*Fuente: exportación de anuncios del Administrador de Meta (nivel anuncio). Atribución de Meta, sin cruzar con Tiendanube.*
+*Fuentes: exportaciones de Meta a nivel anuncio y a nivel conjunto de anuncios + panel de Tiendanube del mismo período.*
 
 ---
 
-## Totales del período
+## Actualización: conjuntos de anuncios + Tiendanube
+
+### Conjuntos de anuncios
+
+| Conjunto | Gasto | % | Compras | Valor | ROAS | Costo/compra | CPM | Frec. |
+|---|---|---|---|---|---|---|---|---|
+| **Retargueting - Beneficios** | $460.752 | 45,5% | **13** | $1.845.913 | **4,01** | $35.442 | $2.390 | 2,68 |
+| Prospecting | $441.676 | 43,6% | 7 | $734.945 | **1,66** | $63.097 | $2.918 | 2,08 |
+| Tráfico a la web \| apoyo conversiones | $109.917 | 10,9% | 0 | — | — | — | $839 | 1,93 |
+| **Total** | **$1.012.345** | | **20** | **$2.580.858** | **2,55** | $50.617 | | |
+
+> El gasto real es **$1.012.345**, no los $901.908 de la exportación por anuncio. La diferencia ($110.437) coincide con el
+> conjunto de tráfico, cuyos anuncios no estaban en esa exportación. **El ROAS de Meta corregido es 2,55.**
+
+### Tiendanube, 1 al 23/9
+
+| Métrica | Valor |
+|---|---|
+| Visitas | 17.454 |
+| Ventas | 30 |
+| Facturación | $4.022.211 |
+| Ticket promedio | $134.074 |
+| Conversión visitas → ventas | **0,17%** |
+
+**Checkout:**
+
+| Paso | Cantidad | Pasa al siguiente |
+|---|---|---|
+| Checkout iniciado | 67 | 84% |
+| Etapa de entrega | 56 | **61% ← la mayor caída** |
+| Etapa de pago | 34 | 91% |
+| Pedidos creados | 31 | 97% |
+| Pedidos pagos | 30 | — |
+
+### Lo que cambia con estos datos
+
+1. **El pixel mide razonablemente.** Meta se atribuye 20 de las 30 ventas (67%) y el 64% de la facturación. Mi sospecha de un
+   pixel roto queda descartada.
+2. **Aunque toda la venta online viniera de Meta, el ROAS sería 3,97** ($4,02M / $1,01M). **ROAS 6 no es alcanzable con la
+   conversión actual del sitio.** Con un ticket de $134.074, ROAS 6 exige un costo por compra de $22.346 como máximo. Hoy el
+   mejor conjunto está en $35.442.
+3. **El retargeting sostiene la cuenta; la prospección pierde plata.** Retargeting tiene ROAS 4,01 y hace el 65% de las compras.
+   Prospecting tiene ROAS 1,66. Como el retargeting vive de la gente que trae la prospección, no se puede apagar esta última,
+   pero sí hay que cambiarle los creativos.
+4. **El conjunto de tráfico compra visitas de baja calidad.** Trae 8.205 clics a $13 cada uno, casi la mitad de las visitas del
+   sitio, y 0 compras. Explica buena parte de la conversión de 0,17%. Hay que pausarlo o pasarlo a campañas de ventas.
+5. **Se pierde el 39% de los checkouts en la etapa de entrega.** Es donde aparece el costo de envío. El ticket promedio
+   ($134.074) está por debajo del envío gratis ($150.000), así que la mayoría ve un costo de envío en ese paso. Es la palanca
+   más barata para subir la conversión.
+
+---
+
+## Análisis inicial (solo exportación por anuncio)
+
+### Totales del período (exportación por anuncio, sin el conjunto de tráfico)
 
 | Métrica | Valor |
 |---|---|
@@ -19,7 +73,7 @@
 | Clics → carrito | 3,9% (321 de 8.287) |
 | **Carrito → compra** | **6,2% (20 de 321)** |
 
-## Por anuncio
+### Por anuncio
 
 | Anuncio | Gasto | % del gasto | Compras | ROAS | Costo/compra | Ticket | CTR | CPM | Frec. | Calidad |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -34,7 +88,7 @@ directa descuento y ARRANCO winter sale.
 
 ---
 
-## Lo que se puede afirmar
+### Lo que se puede afirmar
 
 1. **El ROAS real es 2,86, no 6.** Para llegar a 6 hay que duplicar el rendimiento. Antes de fijarlo como objetivo conviene saber
    cuál es el ROAS de equilibrio según el margen.
@@ -49,7 +103,7 @@ directa descuento y ARRANCO winter sale.
    ángulo de ambos ("ocasiones de uso", "consideración", "lavable 200mil", "compra directa descuento"). Meta los dejó sin
    entrega dentro de un conjunto compartido.
 
-## Lo que todavía no se puede afirmar
+### Lo que todavía no se puede afirmar
 
 - **Las muestras son chicas.** Con 20 compras en total, la diferencia entre 9 y 4 compras es direccional, no concluyente.
 - **Qué compraron.** El pixel atribuye la compra al anuncio, no al producto. El ticket de "enfoque ambos" ($147.493) es menor
@@ -60,7 +114,7 @@ directa descuento y ARRANCO winter sale.
 - **La estructura.** La exportación es por anuncio. No muestra si hay campañas o conjuntos de prospección y de retargeting, ni la
   segmentación.
 
-## Conclusión provisoria
+### Conclusión provisoria
 
 **El cuello de botella no es la atención sino lo que pasa después del clic.** El CTR (2,4%) es sano; lo que se cae es el paso
 del carrito a la compra. Antes de sumar ángulos nuevos:
@@ -69,10 +123,12 @@ del carrito a la compra. Antes de sumar ángulos nuevos:
 2. Revisar el checkout: costo de envío por debajo de $150.000, info de talles, medios de pago.
 3. Redistribuir el gasto: bajar TOP 3 y darle presupuesto propio al ganador y a los anuncios de ambos que no se testearon.
 
-## Datos pendientes para cerrar el análisis
+## Datos pendientes
 
-- [ ] Pedidos y facturación de Tiendanube del 1 al 23/9 (para validar el pixel)
-- [ ] Qué muestra cada anuncio: producto, formato (video, imagen, carrusel) y copy
-- [ ] Exportación a nivel conjunto de anuncios: nombre, segmentación y presupuesto
-- [ ] Precio de los ambos y cuánto pesan en la venta
-- [ ] Margen aproximado, para calcular el ROAS de equilibrio
+- [x] Pedidos y facturación de Tiendanube del 1 al 23/9
+- [x] Exportación a nivel conjunto de anuncios
+- [ ] Qué anuncio corre en qué conjunto (agregar la columna "Nombre del conjunto de anuncios" a la exportación por anuncio)
+- [ ] Qué muestra cada anuncio: producto, formato y copy
+- [ ] Qué son los "ambos", a qué precio y cuánto pesan en la venta
+- [ ] Costo de envío por debajo de $150.000 y opciones de envío que ve el cliente en el checkout
+- [ ] Margen aproximado: el cliente pide ROAS 6 como mínimo, hay que ver si es un piso de rentabilidad o una expectativa
