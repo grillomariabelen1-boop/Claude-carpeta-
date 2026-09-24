@@ -19,6 +19,10 @@ hacerlo. Actualizado: 24/09/2026.
 | 🧘‍♀️ Pilates | Lun, mié y vie, 18 a 19 | A veces va a las 20: mover esa instancia cuando avise |
 | Psicóloga | Vie, 15:15 a 16:15 | |
 | 🏺 Cerámica | Sáb, 11:30 a 13:30 | Siempre, no se mueve |
+| 🎥 Grabar y editar — mi contenido | Mar, 18 a 19:30 | Se saltea los martes con envío de marca (29/09 y 06/10) |
+| 📝 Armar y adelantar contenido | Jue, 18 a 19:30 | |
+| 💄 GRWM (prueba) | Vie, 7 a 7:45 | Home office. Solo aviso de 20 min (el de 1 h la despertaría) |
+| 🛋️ Domingo de descanso | Dom, todo el día | |
 
 ## Cómo le gusta organizarse
 
@@ -30,13 +34,12 @@ hacerlo. Actualizado: 24/09/2026.
 - Cada entrega lleva un bloque "✅ Revisar y enviar" con margen, días
   antes de la fecha máxima.
 - Huecos entre semana: martes y jueves desde las 17 (no hay pilates).
-- **Contenido propio:** va a tener una estructura semanal fija (cada día un
-  formato que se repite con distinto contenido). Eso se define en otros
-  chats; acá no se desarrolla. En la agenda solo van:
-  - bloques de **ejecución** (grabar y editar), por ejemplo un GRWM o un
-    video de maquillaje a la mañana, antes de entrar a trabajar a las 8;
-  - un bloque fijo para **sentarse a armar y adelantar** guiones y material.
-  - Horarios exactos: a definir.
+- **Contenido propio:** la estructura de formatos se define en otros chats;
+  acá solo se agenda ejecución y preparación (ver tabla de la semana).
+- **El descanso es prioridad** (le cuesta respetarlo): lunes, miércoles y
+  viernes a la noche, y el domingo entero, quedan libres. Los bloques de
+  contenido cortan a las 19:30.
+- Grabar a la mañana de lunes a jueves no va: se levanta 6:30 y sale 7-7:10.
 
 ## Deadlines UGC
 
