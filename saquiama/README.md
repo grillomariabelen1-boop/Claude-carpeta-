@@ -14,7 +14,7 @@ Todo lo de la marca vive en esta carpeta. No se mezcla con la estrategia de
   simples y sin jerga. Si hay un término técnico, se explica.
 - **Le gusta que le estén encima:** reportes regulares, preguntas y
   novedades antes de que las pida. Mejor contar de más que de menos.
-- **Marce es Marce.** Siempre por su nombre, nunca "Marce".
+- **La marca es de Marce.** Siempre por su nombre en todo lo que armemos.
 - **Meta tiene que medir bien.** No alcanza con medir por fuera: se corrige
   la medición (venta al cobrarse + coincidencia avanzada) y se controla
   cada mes contra las ventas cobradas.

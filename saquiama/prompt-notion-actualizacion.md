@@ -30,6 +30,7 @@ La web le avisa la venta a Meta **cuando la clienta confirma el pedido, no cuand
 ## 🟢 Después de la reunión
 - [ ] Que el desarrollador configure que la venta se registre al cobrarse
 - [ ] Que el desarrollador ponga Argentina como país por defecto en el checkout
+- [ ] Que el desarrollador haga el resto de los cambios de la web y el rediseño
 - [ ] Pedir 3 o 4 videos nuevos del vestido Anny
 - [ ] Pasar la web por pagespeed.web.dev (versión celular) y guardar el resultado
 
