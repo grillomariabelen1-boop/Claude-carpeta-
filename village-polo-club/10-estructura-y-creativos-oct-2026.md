@@ -217,3 +217,7 @@ grabación para el fundador; P2 y T4 pasan de carrusel a video o placa; R1 y cat
 
 Referencias: True Classic (ganchos hiperespecíficos de calce, videos de clientes), Everlane y Asket (transparencia de costo,
 colección permanente). Propuestas A1-A6 en el chat del 25/9. Pendiente de aprobación.
+
+**Devolución ronda 3 (25/9):** A1 ❌ · A4 reformular · A3 revisar enfoque · A5 ✅ · A6 ✅ · A2 sin respuesta.
+Guiones completos de A5 y A6 y reformulaciones de A3 y A4 en el chat del 25/9 (a aprobar antes de Notion).
+Dato: los chinos Village (camel y negro) no tienen talle 44 cargado (van 40, 42, 46…54).
