@@ -13,7 +13,7 @@
 | ¿Se manda también por servidor (API de conversiones)? | **Sí**, desde el mismo plugin |
 | ¿Tiene ID de evento para no contar doble entre el navegador y el servidor? | **Sí** (`sendEventId: true`) |
 | ¿Tiene activada la "coincidencia avanzada"? | **No.** Meta recibe menos datos para reconocer a quien compró. Eso no infla las ventas, pero baja la calidad de la medición |
-| ¿Hay algo más que pueda mandar compras? | **Sí: un Google Tag Manager** (`GTM-KM9JWL46`). No lo pude abrir desde acá |
+| ¿Hay algo más que pueda mandar compras a Meta? | **No.** El Google Tag Manager (`GTM-KM9JWL46`) solo tiene Google Analytics 4 |
 
 ## Las 4 causas posibles, de más a menos probable
 
@@ -39,14 +39,18 @@ transfiere, **para Meta fue una venta y para la caja no**.
 dispara la compra. Si el plugin no lo permite, hay que evaluarlo con el
 desarrollador.
 
-### 3 · El Tag Manager manda una segunda compra
-Si alguien configuró el píxel de Meta **también** adentro del Tag Manager, cada
-venta llega dos veces, y la segunda probablemente sin ID de evento, así que
-Meta no la puede deduplicar.
+### 3 · ~~El Tag Manager manda una segunda compra~~ → descartada (25/9)
+Revisé el contenedor público del Tag Manager (`GTM-KM9JWL46`). **No tiene
+ningún píxel ni etiqueta de Meta.** Solo tiene Google Analytics 4
+(`G-H4KJMMQZV1`), con los eventos ver producto, agregar al carrito, iniciar
+checkout y **compra**.
 
-**Cómo se confirma:** entrar a tagmanager.google.com con la cuenta de la marca y
-mirar si hay alguna etiqueta de Meta o Facebook. O, en el Administrador de
-eventos, ver si el evento Purchase llega desde más de una integración.
+**Dato útil:** como Google Analytics también registra las compras, hay una
+**segunda fuente, independiente de Meta**, para contar las ventas web.
+Cualquiera que tenga acceso a Google Analytics (o a Site Kit, adentro del
+WordPress) puede ver cuántas compras hubo del 1 al 25 de septiembre. Si Google
+Analytics cuenta menos de 37 compras **en total, de todos los canales**, Meta
+está contando de más con seguridad.
 
 ### 4 · Los pedidos de Mercado Pago rechazados o pendientes
 Con Mercado Pago pasa algo parecido a la transferencia: si el pago queda
@@ -72,5 +76,6 @@ pendiente o se rechaza, la clienta igual puede volver a la página de "gracias".
 - [ ] La exportación de Meta con "Comparar ventanas de atribución".
 - [ ] Una captura del evento Purchase en el Administrador de eventos (de dónde
       llega).
-- [ ] Una captura de las etiquetas del Tag Manager, o acceso de lectura.
+- [x] ~~Etiquetas del Tag Manager~~: revisadas, no hay nada de Meta.
+- [ ] Compras y facturación del 1 al 25/9 según **Google Analytics** (o Site Kit en el WordPress).
 - [ ] Una captura de la configuración del evento Purchase en PixelYourSite.
