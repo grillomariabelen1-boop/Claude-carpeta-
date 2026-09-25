@@ -1,14 +1,15 @@
-Abrí en mi Notion la página **"Saquiama — Pauta"**. Borrá todo su contenido y reemplazalo por el de abajo, tal cual. Usá casillas de verificación (to-do) donde dice `[ ]` o `[x]`, respetá los títulos y no agregues nada.
+Abrí en mi Notion la página "Saquiama — Pauta". Borrá todo su contenido y reemplazalo por el de abajo, tal cual. Usá casillas de verificación (to-do) donde dice [ ] o [x], respetá los títulos y no agregues nada.
 
 ---
 
 ## 📌 Cómo trabajar con este cliente
-- Siente que **el panel mostraba más ventas de las reales**. Todo número de Meta se cruza con sus ventas cobradas.
+- La marca es de Marce. Siempre por su nombre.
+- Siente que el panel mostraba más ventas de las reales. Todo número de Meta se cruza con sus ventas cobradas.
 - Le gusta entender: cada propuesta explica el por qué, sin jerga.
 - Le gusta que le estén encima: contarle novedades antes de que pregunte.
 
 ## 🎯 Hallazgo principal
-La web le avisa la venta a Meta **cuando la clienta confirma el pedido, no cuando paga**. Si no transfiere o se rechaza el pago, la venta queda contada igual. Hay que configurarlo para que cuente al cobrar.
+La web le avisa la venta a Meta cuando la clienta confirma el pedido, no cuando paga. Si no transfiere o se rechaza el pago, la venta queda contada igual. Meta tiene que medir bien: hay que configurarlo para que cuente al cobrar.
 
 ## ✅ Hecho
 - [x] Auditoría de la web (25/9). El checkout arranca con el país en Estados Unidos
@@ -19,25 +20,34 @@ La web le avisa la venta a Meta **cuando la clienta confirma el pedido, no cuand
 ## 🔴 Antes de presentar
 - [ ] Revisar la presentación y ajustar lo que haga falta
 - [ ] Compartir la presentación desde el menú Compartir (hoy es privada)
-- [ ] Confirmar fecha y formato de la reunión
+- [ ] Confirmar fecha y formato de la reunión con Marce
 
 ## 🟡 Preguntarle a Marce (en la reunión o antes)
-- [ ] ¿Cuántas ventas **cobradas** tuvo la web del 1 al 25/9, y por cuánto?
+- [ ] ¿Cuántas ventas cobradas tuvo la web del 1 al 25/9, y por cuánto?
 - [ ] ¿Cuántos pedidos quedaron sin pagar en ese período?
 - [ ] ¿Tuvieron pedidos de $374.000 y de $297.500 en septiembre? ¿Se cobraron?
-- [ ] Definir mi rol y acordar que me miden por ventas cobradas ÷ inversión
+- [ ] ¿Cuál es la dirección correcta del showroom: 2105 o 2101?
+- [ ] Definir mi rol y cómo me miden
 
-## 🟢 Después de la reunión
-- [ ] Que el desarrollador configure que la venta se registre al cobrarse
-- [ ] Que el desarrollador ponga Argentina como país por defecto en el checkout
-- [ ] Que el desarrollador haga el resto de los cambios de la web y el rediseño
+## 🟢 Para el desarrollador (hace todos los cambios)
+- [ ] Que la venta se registre en Meta al cobrarse, no al confirmar el pedido
+- [ ] Activar la coincidencia avanzada del píxel (mail y teléfono cifrados)
+- [ ] Argentina como país por defecto en el checkout
+- [ ] Achicar el encabezado fijo en el celular
+- [ ] Precio con transferencia, cuotas y "te faltan $X para el envío gratis"
+- [ ] Resto de las mejoras de la tabla de la presentación
+- [ ] Rediseño: una web más linda y fácil de comprar desde el celular
+
+## 🔵 Pauta
 - [ ] Pedir 3 o 4 videos nuevos del vestido Anny
-- [ ] Pasar la web por pagespeed.web.dev (versión celular) y guardar el resultado
+- [ ] Pausar de a uno los anuncios sin ventas, empezando por los de IA
+- [ ] Prueba con otros productos (20% del presupuesto)
+- [ ] Cada mes: cruzar las ventas de Meta con las ventas cobradas
 
 ## 🗓️ Primeros 30 días
-- [ ] Semana 1: validar números con ventas reales, arreglar la conversión. No tocar campañas
-- [ ] Semana 2: arreglos rápidos de la web y pedir videos
-- [ ] Semana 3: prueba con videos nuevos y otros productos (20% del presupuesto)
+- [ ] Semana 1: validar números con ventas cobradas. El desarrollador arregla la medición. No tocar campañas
+- [ ] Semana 2: el desarrollador arranca con los cambios de la web. Pedir videos
+- [ ] Semana 3: prueba con videos nuevos y otros productos
 - [ ] Semana 4: primer informe con ventas cobradas
 
 ## ⚠️ Reglas
