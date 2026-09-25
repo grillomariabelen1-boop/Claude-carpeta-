@@ -212,3 +212,8 @@ Así se puede comparar por ángulo aunque estén todos en el mismo conjunto.
 
 **Propuestas nuevas (a aprobar):** ver el chat del 24/9. T2 pasa a serie de contenido útil de sastrería; P1 pasa a guía de
 grabación para el fundador; P2 y T4 pasan de carrusel a video o placa; R1 y catálogo se reemplazan.
+
+## Ronda 3 · Ángulos para atemporales (chombas, jeans, gabardina) — a aprobar
+
+Referencias: True Classic (ganchos hiperespecíficos de calce, videos de clientes), Everlane y Asket (transparencia de costo,
+colección permanente). Propuestas A1-A6 en el chat del 25/9. Pendiente de aprobación.
