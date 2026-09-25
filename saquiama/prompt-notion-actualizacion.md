@@ -45,9 +45,9 @@ La web le avisa la venta a Meta cuando la clienta confirma el pedido, no cuando 
 - [ ] Cada mes: cruzar las ventas de Meta con las ventas cobradas
 
 ## 🗓️ Primeros 30 días
-- [ ] Semana 1: validar números con ventas cobradas. El desarrollador arregla la medición. No tocar campañas
-- [ ] Semana 2: el desarrollador arranca con los cambios de la web. Pedir videos
-- [ ] Semana 3: prueba con videos nuevos y otros productos
+- [ ] Semana 1: Marce graba los videos que pedimos. El desarrollador arregla la medición y el checkout. Validamos números. No tocar campañas
+- [ ] Semana 2: subimos los videos nuevos a la prueba. El desarrollador suma precio con transferencia, cuotas y envío gratis
+- [ ] Semana 3: los videos que ganan pasan a la campaña principal. El desarrollador avanza con el rediseño
 - [ ] Semana 4: primer informe con ventas cobradas
 
 ## ⚠️ Reglas
