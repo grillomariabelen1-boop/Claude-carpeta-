@@ -1,0 +1,5 @@
+"Inicio del informe","Fin del informe","Nombre de la campaña","Entrega de la campaña","Valor de conversión de compras",Compras,"Costo por resultados","Indicador de resultado","Importe gastado (ARS)","ROAS de compras","CTR (todos)",Alcance,Frecuencia
+2026-07-01,2026-09-25,"Conversiones inicio CBO  Mod 17042026 CBO",inactive,5906800,71,8813.60492958,actions:offsite_conversion.fb_pixel_purchase,625765.95,9.439312,7.685441,24794,3.433694
+2026-07-01,2026-09-25,"Conversiones inicio CBO Vestido Anny inicio 19052026",inactive,6049650,67,4667.40238806,actions:offsite_conversion.fb_pixel_purchase,312715.96,19.345511,6.071115,18867,2.537022
+2026-07-01,2026-09-25,"Conversiones Nueva temporada Primavera Verano Inicio 030926",inactive,577400,7,13590.09142857,actions:offsite_conversion.fb_pixel_purchase,95130.64,6.069548,7.630685,4732,2.611581
+2026-07-01,2026-09-25,"Primavera Verano nuevo inicio 1109",active,3149850,25,5710.1132,actions:offsite_conversion.fb_pixel_purchase,142752.83,22.065062,7.28703,8051,2.39995
