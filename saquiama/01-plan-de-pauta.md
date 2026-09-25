@@ -74,7 +74,7 @@ el MER da 6, tu base real es 6, y conviene saberlo antes de que te midan.
 
 - Los últimos 90 días, por campaña, conjunto y anuncio: inversión, compras,
   valor de compra, ROAS, CPM, CTR y frecuencia.
-- Los 10 anuncios que más vendieron: ¿son todos videos de la dueña? ¿Cuánto
+- Los 10 anuncios que más vendieron: ¿son todos videos de Marce? ¿Cuánto
   hace que están activos?
 - La configuración de cada campaña: objetivo, tipo (Advantage+ o manual),
   presupuesto, públicos y ventana de atribución.
@@ -141,11 +141,11 @@ cuenta o de bajarle a la principal de a poco, nunca de golpe.
 
 ## 4 · Creativos: lo que ya sabemos
 
-> **Funcionan los videos orgánicos de la dueña.** No hay que "mejorarlos"
+> **Funcionan los videos orgánicos de Marce.** No hay que "mejorarlos"
 > haciéndolos más producidos. Hay que hacer más de eso.
 
 La gente de 30 a 50 compra ropa online cuando se imagina con la prenda puesta y
-confía en quien se la vende. La dueña hablando le da las dos cosas.
+confía en quien se la vende. Marce hablando le da las dos cosas.
 
 ### Cómo usarlos
 
@@ -203,7 +203,7 @@ habla, cómo muestra la prenda. De un ganador salen 4 o 5 versiones cambiando
 |---|---|
 | **El gancho** (los primeros 3 segundos) | El mismo video con otro arranque: la prenda puesta, una pregunta o el precio en pantalla |
 | **La prenda** | El mismo guion, la misma forma de filmar, otro producto |
-| **Quién la usa** | La dueña, una clienta del showroom, otro cuerpo, otra edad |
+| **Quién la usa** | Marce, una clienta del showroom, otro cuerpo, otra edad |
 | **El largo** | Una versión de 15 segundos y otra de 30 |
 | **El formato** | Un fotograma del video como imagen fija, o un carrusel con las prendas que aparecen |
 | **El texto del anuncio** | Otro enfoque: talle, ocasión, precio y cuotas, calidad |

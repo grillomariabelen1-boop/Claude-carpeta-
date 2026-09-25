@@ -77,7 +77,7 @@ arranco el diagnóstico.
       acuerdan.
 - [ ] **Qué les presentaba la gestión anterior**: una captura de un informe
       viejo, si hay. Sirve para mostrar la diferencia.
-- [ ] **3 o 4 videos de la dueña** que ellos consideran los mejores (links).
+- [ ] **3 o 4 videos de Marce** que ellos consideran los mejores (links).
 - [ ] **¿Tienen lista de clientas** (web y showroom)? Solo decime **si existe y
       más o menos cuántas son**. **No me la mandes**: son datos personales y se
       suben directo a Meta, no pasan por acá.

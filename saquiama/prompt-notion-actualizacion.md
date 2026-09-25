@@ -21,7 +21,7 @@ La web le avisa la venta a Meta **cuando la clienta confirma el pedido, no cuand
 - [ ] Compartir la presentación desde el menú Compartir (hoy es privada)
 - [ ] Confirmar fecha y formato de la reunión
 
-## 🟡 Preguntarle a la dueña (en la reunión o antes)
+## 🟡 Preguntarle a Marce (en la reunión o antes)
 - [ ] ¿Cuántas ventas **cobradas** tuvo la web del 1 al 25/9, y por cuánto?
 - [ ] ¿Cuántos pedidos quedaron sin pagar en ese período?
 - [ ] ¿Tuvieron pedidos de $374.000 y de $297.500 en septiembre? ¿Se cobraron?

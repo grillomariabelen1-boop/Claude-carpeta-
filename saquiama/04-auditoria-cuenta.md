@@ -61,7 +61,7 @@ Mismo producto, distinto creativo:
 | Vestido Alegra | 1 venta (ROAS 6,3) | 0 ventas |
 
 Con pocos datos no es concluyente, pero va en la misma línea que lo que dijo
-la marca: **los videos de la dueña son los que funcionan.** Por ahora no
+la marca: **los videos de Marce son los que funcionan.** Por ahora no
 conviene seguir invirtiendo en creativos hechos con IA.
 
 ### 5 · Con tan pocas ventas, cada anuncio chico es ruido

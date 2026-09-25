@@ -14,6 +14,13 @@ Todo lo de la marca vive en esta carpeta. No se mezcla con la estrategia de
   simples y sin jerga. Si hay un término técnico, se explica.
 - **Le gusta que le estén encima:** reportes regulares, preguntas y
   novedades antes de que las pida. Mejor contar de más que de menos.
+- **Marce es Marce.** Siempre por su nombre, nunca "Marce".
+- **Meta tiene que medir bien.** No alcanza con medir por fuera: se corrige
+  la medición (venta al cobrarse + coincidencia avanzada) y se controla
+  cada mes contra las ventas cobradas.
+- **Todos los cambios de la web los hace el desarrollador**, incluido un
+  rediseño: hoy la web es poco atractiva y comprar desde el celular es
+  incómodo. La idea de fondo: si vende así, mejor armada vendería mucho más.
 - **Nivel de terminación:** es un trabajo para presentar. Todo tiene que estar
   ordenado, prolijo, con fuentes y separando lo que es dato de lo que es
   estimación.
@@ -54,7 +61,7 @@ mejoras de la web. Se arma cuando lleguen los datos del
 | Historial | Ya pautaron. ROAS cercano a 20 |
 | Estructura actual | Una sola campaña con todos los anuncios juntos. Sin públicos personalizados, sin retargeting, sin segmentación |
 | Tracking | Píxel y API de conversiones instalados |
-| Creativos | Los produce y edita la marca, a pedido. Los videos orgánicos de la dueña son los que funcionan |
+| Creativos | Los produce y edita la marca, a pedido. Los videos orgánicos de Marce son los que funcionan |
 | Mi rol | **Pendiente:** hay que definir el alcance y cómo me van a medir |
 
 ## Pendientes

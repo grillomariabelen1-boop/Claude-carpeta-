@@ -33,7 +33,7 @@ Creá en mi Notion una página llamada **"Saquiama — Pauta"** con el contenido
 - [ ] Fecha y formato de la presentación
 - [ ] Qué meses sintieron más diferencia entre el panel y la realidad
 - [ ] Un informe viejo de la gestión anterior
-- [ ] 3 o 4 videos favoritos de la dueña
+- [ ] 3 o 4 videos favoritos de Marce
 - [ ] ¿Hay lista de clientas? Solo si existe y cuántas son. No compartirla
 
 ## 🗓️ Primeros 30 días
