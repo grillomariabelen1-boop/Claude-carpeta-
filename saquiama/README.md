@@ -31,8 +31,11 @@ mejoras de la web. Se arma cuando lleguen los datos del
    juntar y mandar.
 1. [`01-plan-de-pauta.md`](01-plan-de-pauta.md): cómo tomar la cuenta sin
    romperla, la estructura de campañas, los creativos y qué medir.
-2. [`02-web-mejoras.md`](02-web-mejoras.md): la checklist para la propuesta de
-   mejoras de la web. Falta auditarla con la URL.
+2. [`02-web-mejoras.md`](02-web-mejoras.md): **la auditoría de la web ya
+   está hecha**. Tiene 12 mejoras por impacto y el aviso legal.
+3. [`03-auditoria-medicion.md`](03-auditoria-medicion.md): por qué el panel
+   puede mostrar más ventas de las reales. Tiene 4 causas y cómo se confirma
+   cada una.
 
 ## Brief
 
@@ -57,5 +60,5 @@ mejoras de la web. Se arma cuando lleguen los datos del
 - [ ] Definir el alcance del rol: solo pauta, o también estrategia, creativos y web.
 - [ ] Acordar la métrica con la que me miden. Ver la sección 6 del plan.
 - [ ] Conseguir acceso al Business Manager y exportar los últimos 90 días.
-- [ ] Conseguir la URL de la web para auditarla.
+- [x] Auditar la web (saquiama.com.ar). Falta PageSpeed Insights.
 - [ ] Averiguar las ventas totales de la web por mes, no solo las que atribuye Meta.
