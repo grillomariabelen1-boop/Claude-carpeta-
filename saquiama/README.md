@@ -36,6 +36,8 @@ mejoras de la web. Se arma cuando lleguen los datos del
 3. [`03-auditoria-medicion.md`](03-auditoria-medicion.md): por qué el panel
    puede mostrar más ventas de las reales. Tiene 4 causas y cómo se confirma
    cada una.
+4. [`04-auditoria-cuenta.md`](04-auditoria-cuenta.md): el primer corte de la
+   cuenta de Meta (1 al 25 de septiembre).
 
 ## Brief
 
