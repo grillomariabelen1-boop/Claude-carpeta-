@@ -66,7 +66,7 @@ pendiente o se rechaza, la clienta igual puede volver a la página de "gracias".
    ventas cobradas de la web dividido la inversión en pauta. El ROAS de Meta
    queda solo para comparar anuncios entre sí.
 3. **"Y lo vamos a corregir en origen":** que la compra se registre recién
-   cuando se paga, revisar el Tag Manager y activar la coincidencia avanzada.
+   cuando se paga y activar la coincidencia avanzada.
 
 ## Lo que necesito para cerrarlo
 
