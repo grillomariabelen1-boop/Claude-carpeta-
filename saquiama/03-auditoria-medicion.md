@@ -15,12 +15,15 @@
 | ¿Tiene activada la "coincidencia avanzada"? | **No.** Meta recibe menos datos para reconocer a quien compró. Eso no infla las ventas, pero baja la calidad de la medición |
 | ¿Hay algo más que pueda mandar compras a Meta? | **No.** El Google Tag Manager (`GTM-KM9JWL46`) solo tiene Google Analytics 4 |
 
-## Causa principal (confirmada por Belén, 25/9)
+## Causa principal (confirmada con una compra de prueba el 28/9)
 
 > **Error de configuración de la web:** WordPress le avisa la compra a Meta
 > cuando la clienta **confirma el pedido**, no cuando **paga**. Los pedidos por
 > transferencia que nunca se pagan, y los de Mercado Pago rechazados, quedan
-> contados como venta. Es la causa 2 de abajo. La 1 (atribución) suma, pero no
+> contados como venta. Es la causa 2 de abajo.
+>
+> **Prueba del 28/9:** Belén hizo el circuito de compra completo por
+> transferencia, sin pagar, y Meta registró la compra. La 1 (atribución) suma, pero no
 > es un error.
 
 ## Las 4 causas posibles, de más a menos probable
