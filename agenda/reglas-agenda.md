@@ -73,7 +73,13 @@ la marca, a las 9, con avisos 3 días antes, 1 día antes, 1 hora antes y
 | 🎥 Grabar y editar — Biodance | Sáb 03/10, 15 a 18 |
 | ✅ Revisar y enviar — Biodance | Mar 06/10, 18:30 a 19:30 |
 
-## Pendientes sin fecha
+## Tareas para tildar
 
-- **Village:** presentar la propuesta de octubre con todos los focos.
-- **Sakiyama:** presentar todo lo que se habló en otro chat.
+Las tareas van en Notion: **Centro de mando → "Todo lo que hay que hacer"**
+(https://app.notion.com/p/a4de56e9aeb84b81be7e20b41ecf743c). Se tildan con
+la casilla **Listo**. Cada pendiente nuevo se carga ahí con Marca, Cuando y
+Fecha, además del evento en el calendario cuando tiene horario.
+
+Pendientes cargados el 28/09: peluquería (confirmar día) y reprogramar la
+cerámica de ese sábado; enviar SHEIN; grabar y enviar Biodance; propuesta de
+octubre para Village; presentación para Sakiyama.
