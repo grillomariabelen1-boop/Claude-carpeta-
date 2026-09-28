@@ -16,7 +16,7 @@
   tarjeta de Marce, retiro en el showroom hasta el sábado 17.
 - **Videos (solo Marce, o Marce y Feli; Belén no aparece):** looks de $60.000
   y $90.000, "Mi hijo no sabe qué regalarme" (Feli y Marce), el Anny en
-  colores y ocasiones, "Mis preferidos", el paquete y la tarjeta.
+  colores y ocasiones, "Mis preferidos" y la gift card de último momento.
 - **Pauta:** presupuesto de siempre, con una campaña nueva de retargeting del
   5 al 18/10 (visitantes web, interacción en Instagram, lista de clientas).
   Reparto: principal 55%, retargeting 25%, prueba 20%. El Anny no se toca.
