@@ -17,9 +17,14 @@
 - **Videos (solo Marce, o Marce y Feli; Belén no aparece):** looks de $60.000
   y $90.000, "Mi hijo no sabe qué regalarme" (Feli y Marce), el Anny en
   colores y ocasiones, "Mis preferidos" y la gift card de último momento.
-- **Pauta:** presupuesto de siempre, con una campaña nueva de retargeting del
-  5 al 18/10 (visitantes web, interacción en Instagram, lista de clientas).
-  Reparto: principal 55%, retargeting 25%, prueba 20%. El Anny no se toca.
+- **Pauta:** dos campañas en paralelo con el presupuesto de siempre. La activa
+  sigue como always on (40%). Campaña nueva "Día de la Madre" del 5 al 18/10
+  (60%): videos a público amplio + retargeting (visitantes web, Instagram,
+  lista de clientas). Se optimiza cada 2 o 3 días. Después del 18, todo vuelve
+  a la always on.
+- **Cronograma:** grabar esta semana (antes del 2/10) · arranca la campaña la
+  semana del 5/10 · optimizar hasta la fecha límite · último momento con gift
+  card y showroom.
 - **Orgánico:** historias diarias con cuenta regresiva.
 - **Medición:** cada semana, panel de Meta contra ventas reales.
 
