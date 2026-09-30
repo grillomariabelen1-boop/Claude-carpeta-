@@ -245,3 +245,8 @@ $120.000, O3 6 cuotas en ambos, O4 precio por combo, O5 bienvenida, O6 últimos 
 **Devolución (30/9):** A3 ✅ pero no solo chomba: "así se hace un/una [producto]" con distintos productos propios · A4 ✅ ·
 R1 ✅, y en la web va a aparecer un pop-up con la info de talles · A2: no se entendió, re-explicar · Fechas (CyberMonday,
 Black Friday, Navidad): armar una presentación de propuestas para los dueños (primero aprobar contenido en el chat).
+
+**Cierre (30/9):** A4 = "lo que no pasa de moda" · R1 = las tres opciones como serie · A2 descartado · El cartel "¡Descuento
+exclusivo!" de la web muestra la sale de temporada: no hay descuento de bienvenida (O5 hay que crearlo) y el cartel y la barra
+superior se tienen que actualizar cuando termine la sale. La presentación para los dueños lleva solo las propuestas, sin la
+distribución de campañas.
