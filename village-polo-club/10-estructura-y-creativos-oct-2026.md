@@ -229,3 +229,6 @@ Dato: los chinos Village (camel y negro) no tienen talle 44 cargado (van 40, 42,
 https://claude.ai/artifact/K3bw2Q6BK9iN4MUg13YMQj — "Village Polo Club — Creativos de octubre". Incluye solo lo aprobado
 (A5, A6, P3, R2 y el test de videos de ambos), con los guiones y textos en las notas de cada diapositiva. Lo pendiente de
 aprobación aparece como "segunda tanda, no producir".
+
+**Devolución (30/9):** reemplazar el conjunto de tráfico por reproducciones de video: ❌. Alternativa propuesta en el chat:
+apagarlo de a poco y pasar su presupuesto a campañas de ventas, controlando el tamaño del público de retargeting.
