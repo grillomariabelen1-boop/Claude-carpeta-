@@ -232,3 +232,8 @@ aprobación aparece como "segunda tanda, no producir".
 
 **Devolución (30/9):** reemplazar el conjunto de tráfico por reproducciones de video: ❌. Alternativa propuesta en el chat:
 apagarlo de a poco y pasar su presupuesto a campañas de ventas, controlando el tamaño del público de retargeting.
+
+**Devolución (30/9, cierre de la lista):** T4 ❌ (no se puede producir) · Serie de sastrería útil ✅ · 8 guía del fundador y
+9 P2: explicar de nuevo · resto de la lista ✅ (estructura 3 campañas, test de ambos, T1, T6, R3, A2 queda para cuando haya
+medidas, A3, A4, R1, "Lo más elegido"). Pide sumar retargeting enfocado en venta: promos, descuentos, envío gratis
+(propuestas en el chat del 30/9).
