@@ -241,3 +241,7 @@ medidas, A3, A4, R1, "Lo más elegido"). Pide sumar retargeting enfocado en vent
 **Devolución (30/9):** guía del fundador ✅ · P2 precio de fábrica ✅ · O1 10% por transferencia ❌ · O2 envío gratis
 $120.000, O3 6 cuotas en ambos, O4 precio por combo, O5 bienvenida, O6 últimos talles: ✅ para llevar a los dueños
 (sumar a "Propuestas a los dueños" solo cuando se pida). A3, A4, R1 y A2: volver a verlos.
+
+**Devolución (30/9):** A3 ✅ pero no solo chomba: "así se hace un/una [producto]" con distintos productos propios · A4 ✅ ·
+R1 ✅, y en la web va a aparecer un pop-up con la info de talles · A2: no se entendió, re-explicar · Fechas (CyberMonday,
+Black Friday, Navidad): armar una presentación de propuestas para los dueños (primero aprobar contenido en el chat).
