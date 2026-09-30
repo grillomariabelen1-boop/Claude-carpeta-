@@ -237,3 +237,7 @@ apagarlo de a poco y pasar su presupuesto a campañas de ventas, controlando el 
 9 P2: explicar de nuevo · resto de la lista ✅ (estructura 3 campañas, test de ambos, T1, T6, R3, A2 queda para cuando haya
 medidas, A3, A4, R1, "Lo más elegido"). Pide sumar retargeting enfocado en venta: promos, descuentos, envío gratis
 (propuestas en el chat del 30/9).
+
+**Devolución (30/9):** guía del fundador ✅ · P2 precio de fábrica ✅ · O1 10% por transferencia ❌ · O2 envío gratis
+$120.000, O3 6 cuotas en ambos, O4 precio por combo, O5 bienvenida, O6 últimos talles: ✅ para llevar a los dueños
+(sumar a "Propuestas a los dueños" solo cuando se pida). A3, A4, R1 y A2: volver a verlos.
