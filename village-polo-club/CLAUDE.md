@@ -8,6 +8,8 @@
   checkboxes `- [ ]`. Nada de HTML.
 - **Flujo de aprobación:** las ideas, ángulos y guiones de creativos primero se presentan en el chat para aprobar, en formato
   corto. Recién con la aprobación se arma el markdown para Notion. No pasar markdown de Notion de algo no aprobado.
+- **No armar entregables (presentaciones, documentos, markdown) hasta que se pida explícitamente.** Primero se cierra y aprueba
+  TODO el plan en el chat; recién ahí se arma el documento completo.
 - Datos confirmados (24/9/2026):
   - Hechter: Village lo **revende como distribuidor oficial**. No lo fabrica.
   - Ambos: vienen por talles, son **saco y pantalón**, y tienen **composturas gratis**. Drop 6: saco 50 lleva pantalón 44.

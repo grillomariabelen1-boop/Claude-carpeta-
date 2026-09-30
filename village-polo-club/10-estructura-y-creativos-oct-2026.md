@@ -222,7 +222,9 @@ colección permanente). Propuestas A1-A6 en el chat del 25/9. Pendiente de aprob
 Guiones completos de A5 y A6 y reformulaciones de A3 y A4 en el chat del 25/9 (a aprobar antes de Notion).
 Dato: los chinos Village (camel y negro) no tienen talle 44 cargado (van 40, 42, 46…54).
 
-## Presentación para el equipo de redes (30/9)
+## Presentación para el equipo de redes (30/9) — borrador, armada antes de tiempo
+
+> Se armó sin pedido. Queda como borrador hasta aprobar todo el plan; después se completa.
 
 https://claude.ai/artifact/K3bw2Q6BK9iN4MUg13YMQj — "Village Polo Club — Creativos de octubre". Incluye solo lo aprobado
 (A5, A6, P3, R2 y el test de videos de ambos), con los guiones y textos en las notas de cada diapositiva. Lo pendiente de
