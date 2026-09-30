@@ -250,3 +250,7 @@ Black Friday, Navidad): armar una presentación de propuestas para los dueños (
 exclusivo!" de la web muestra la sale de temporada: no hay descuento de bienvenida (O5 hay que crearlo) y el cartel y la barra
 superior se tienen que actualizar cuando termine la sale. La presentación para los dueños lleva solo las propuestas, sin la
 distribución de campañas.
+
+## Presentaciones finales (30/9)
+- Equipo de redes: https://claude.ai/artifact/K3bw2Q6BK9iN4MUg13YMQj (22 diapositivas, guiones en las notas)
+- Dueños: https://claude.ai/artifact/SKidYEdP2Vu9Lf2SAFnurZ (11 diapositivas, solo propuestas)

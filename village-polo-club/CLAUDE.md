@@ -12,7 +12,8 @@
   TODO el plan en el chat; recién ahí se arma el documento completo.
 - **Son dos presentaciones:** (1) para el **equipo de redes**, que ejecuta los creativos (guiones, grabación, piezas,
   cronograma); (2) para los **dueños**, con las propuestas que ellos deciden (fechas grandes, ofertas, stock, composturas).
-  El borrador armado antes de tiempo (https://claude.ai/artifact/K3bw2Q6BK9iN4MUg13YMQj) es la base de la (1).
+  Redes: https://claude.ai/artifact/K3bw2Q6BK9iN4MUg13YMQj · Dueños: https://claude.ai/artifact/SKidYEdP2Vu9Lf2SAFnurZ
+  (armadas el 30/9 con todo lo aprobado).
 - Datos confirmados (24/9/2026):
   - Hechter: Village lo **revende como distribuidor oficial**. No lo fabrica.
   - Ambos: vienen por talles, son **saco y pantalón**, y tienen **composturas gratis**. Drop 6: saco 50 lleva pantalón 44.
