@@ -2,6 +2,24 @@
 
 *Fuentes: Meta Ads (campañas, 1 al 30/9) y Tiendanube (visión general del mes). Hubo 4 días sin pauta por falta de presupuesto.*
 
+## En palabras
+
+En septiembre la tienda online vendió 36 pedidos por $4,5 millones, con una inversión en Meta de $1,17 millones. Es decir, por
+cada peso invertido entraron $3,85 en ventas. Meta se atribuye dos de cada tres de esas ventas; el resto llegó por otros
+caminos (búsquedas, Instagram orgánico, gente que ya conocía la marca), muchas veces después de haber visto un anuncio.
+
+El mes tuvo 4 días sin pauta por falta de presupuesto, y se nota: en la última semana entraron solo 6 ventas. Los resultados
+corresponden a unos 26 días de pauta, no a un mes completo.
+
+La gente llega y mira productos, pero pocos terminan comprando: de cada 1.000 visitas, menos de 2 compran. El punto donde más se
+pierde es el paso del costo de envío en el checkout. La campaña de tráfico trajo muchas visitas pero ninguna venta, por eso su
+presupuesto pasa a campañas de ventas.
+
+Para octubre: pauta sin cortes, creativos nuevos enfocados en resolver la duda del talle y las propuestas de envío gratis y
+cuotas que estamos llevando a los dueños.
+
+## En números
+
 | | |
 |---|---|
 | Inversión en Meta | $1.167.903 (~26 días con pauta) |
