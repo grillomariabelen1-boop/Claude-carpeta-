@@ -20,3 +20,6 @@
   - Envío gratis: se propone a los dueños bajar el umbral a **$120.000**.
   - Preguntas frecuentes de la web: ya corregidas (24/9).
   - **Talles: es el cuello de botella y los dueños no pasan medidas.** El plan para resolverlo sin ellos está en `07-talles.md`.
+- Google Ads (6/10/2026): primera campaña (Máximo rendimiento / IA de Google), presupuesto **aparte** del de Meta:
+  **$15.000 por día** (~$456.000 por mes). Idioma español, Argentina, sin la marca ni competidores en los temas de búsqueda.
+  Revisar a las 2-3 semanas cuánto cuesta cada venta real antes de subir.
