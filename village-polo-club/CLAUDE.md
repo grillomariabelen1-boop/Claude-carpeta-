@@ -23,6 +23,6 @@
 - Google Ads (6/10/2026): primera campaña (Máximo rendimiento / IA de Google), presupuesto **aparte** del de Meta:
   **$15.000 por día** (~$456.000 por mes). Idioma español, Argentina, sin la marca ni competidores en los temas de búsqueda.
   Revisar a las 2-3 semanas cuánto cuesta cada venta real antes de subir.
-  - Estado 6/10: campaña sin publicar, trabada en el paso de la etiqueta (Tiendanube no tiene campo de Google Ads).
+  - Estado 6/10: la campaña "Campaign #1" quedó ACTIVA aunque el asistente se trabó (hay que pausarla). Trabada en el paso de la etiqueta (Tiendanube no tiene campo de Google Ads).
     Ya tienen Analytics 4. Pendiente: cargar ID G- y secreto de API en Tiendanube → Códigos externos, vincular GA4 con
     Ads, importar la conversión "purchase", combinar la etiqueta G- con AW-18498611602 y recién ahí publicar.
