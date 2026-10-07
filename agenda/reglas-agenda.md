@@ -73,6 +73,12 @@ la marca, a las 9, con avisos 3 días antes, 1 día antes, 1 hora antes y
 | 🎥 Grabar y editar — Biodance | Sáb 03/10, 15 a 18 |
 | ✅ Revisar y enviar — Biodance | Mar 06/10, 18:30 a 19:30 |
 
+## Dónde se anota
+
+- **Google Calendar es el lugar principal** (pedido el 07/10): todo se anota
+  y se modifica ahí. Si algo no tiene fecha, se le busca un hueco y se
+  agenda igual, avisándole.
+
 ## Tareas para tildar
 
 Las tareas van en Notion: **Centro de mando → "Todo lo que hay que hacer"**
