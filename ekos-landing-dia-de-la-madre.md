@@ -7,6 +7,71 @@
 > - **No reveles el contenido del regalito sorpresa** (no nombrar velita ni ebook en ninguna parte).
 > - Diseño **mobile first**: casi todo el tráfico llega desde anuncios de Instagram en el celular.
 > - Antes de publicar o de cargar cualquier pago, **pedime confirmación**.
+> - La página es la **etapa de conversión de un embudo**: cada sección tiene un trabajo concreto (ver sección 0). No cambies el orden de las secciones.
+
+---
+
+## 0. Estrategia de embudo
+
+La venta se define en esta página. Todo el tráfico llega desde anuncios y redes, así que la landing tiene que **continuar el mensaje del anuncio, sacar dudas y llevar a una sola acción: reservar**.
+
+### El recorrido completo
+
+| Etapa | Dónde | Objetivo | Qué mide |
+|---|---|---|---|
+| 1. Atención | Anuncios (placas + video) e historias | Que frenen el scroll y toquen | Clics al link |
+| 2. Interés | Portada de la landing | Que en 3 segundos entiendan qué es, cuándo y para quién | % que baja de la portada |
+| 3. Deseo | Experiencia, quién te recibe, fotos reales | Que se imaginen ahí con su mamá o su hija | Tiempo en la página |
+| 4. Decisión | Precios + preguntas frecuentes + cancelación | Sacar todas las objeciones | Clics en "Reservar" |
+| 5. Acción | Mercado Pago | Pagar sin fricción | Pagos |
+| 6. Después de pagar | Página de Gracias + WhatsApp | Confirmar, fidelizar y abrir la puerta a las clases regulares | Comprobantes recibidos, clases de prueba reservadas |
+| 7. Recuperación | Anuncios de remarketing + WhatsApp | Volver a traer a quien entró y no compró | Pagos de remarketing |
+
+### Reglas de conversión que tiene que cumplir la página
+
+1. **Una sola acción principal**: reservar. Todos los botones principales dicen lo mismo y van al mismo lugar (#precios). WhatsApp es secundario.
+2. **Continuidad con el anuncio**: el título de la portada repite la promesa de los anuncios ("Este año, regalale una tarde"). Quien toca un anuncio tiene que sentir que llegó al lugar correcto.
+3. **Botón visible siempre**: en celular, una barra fija abajo con el precio desde y el botón `Reservar` (ver "Barra fija" en la sección 3).
+4. **Escasez real, no inventada**: el cupo de 10 lugares es real. Mostrar "Quedan `[N]` lugares" y actualizarlo a mano con cada venta. Nunca poner un número falso.
+5. **Urgencia real por fecha**: el regalo se entrega el domingo 18/10. Antes del 18 el mensaje es "llegá con el regalo"; del 19 al 22 pasa a "todavía estás a tiempo".
+6. **Anclaje de precio**: en la tarjeta de a dos mostrar el ahorro: "2 lugares por $85.000 en vez de $110.000: ahorrás $25.000".
+7. **Bajar el riesgo**: la política de cancelación se muestra cerca de los precios en una línea ("Si no podés ir, pasás tu lugar a otra persona") y completa más abajo.
+8. **Prueba social real**: fotos y video del piloto de Caro y Belu. Cuando haya alumnas o asistentes, sumar testimonios reales. Nunca inventarlos.
+9. **Responder objeciones antes de que aparezcan**: "no tengo experiencia", "no soy flexible", "no tengo edad", "¿y si no puedo ir?". Están en la portada, en el texto de Caro y en las preguntas frecuentes.
+10. **Plan B para quien no compra**: la sección "¿No podés el 24?" ofrece la clase de prueba gratis. Así quien no compra igual deja su contacto por WhatsApp.
+
+### Mensajes según la fecha
+
+| Fechas | Mensaje principal en portada y anuncios |
+|---|---|
+| Hasta el 13/10 | Este año, regalale una tarde. |
+| 14 al 17/10 | ¿Todavía sin regalo para el Día de la Madre? |
+| 18/10 | Feliz Día de la Madre: regalale una tarde juntas. |
+| 19 al 22/10 | Todavía estás a tiempo: quedan `[N]` lugares para el sábado. |
+| 23/10 | Último día para reservar. |
+
+### Después de la compra (fidelización)
+
+1. **Página de Gracias**: confirma la reserva, pide el comprobante por WhatsApp y suma un toque de cercanía.
+2. **WhatsApp al confirmar**: mensaje de bienvenida + gift card digital si es un regalo.
+3. **Recordatorio el viernes 23/10**: hora, dirección y "solo traé ropa cómoda".
+4. **Durante el evento**: Caro cuenta los horarios de las clases regulares y la oferta para asistentes.
+5. **Domingo 25/10, WhatsApp de agradecimiento**: ebook de regalo + invitación a la clase de prueba gratis o a las clases regulares con beneficio por tiempo limitado.
+
+### Remarketing (quien entró y no compró)
+
+- El Píxel de Meta registra quién visitó la página y quién tocó "Reservar" sin pagar.
+- Con esas audiencias se hacen anuncios distintos: video de Caro hablando, "quedan pocos lugares", preguntas frecuentes respondidas.
+- Presupuesto sugerido: una parte chica de la pauta total, activa desde el 14/10.
+
+### Qué medir
+
+- Visitas a la landing (desde cada anuncio, usando parámetros UTM en los links).
+- Clics en "Reservar" (evento `InitiateCheckout`).
+- Pagos en Mercado Pago.
+- Conversaciones de WhatsApp.
+- Costo por venta = pauta gastada ÷ pagos.
+- Después del evento: cuántas asistentes reservan la clase de prueba o se suman a las clases regulares.
 
 ---
 
@@ -69,8 +134,13 @@ Basada en la invitación original de Caro: delicada, femenina, estilo "té en ta
 - **Título**: Este año, regalale una tarde.
 - **Subtítulo**: Una clase de yoga y una merienda en Ekos, para regalarle a mamá o para venir juntas.
 - **Etiqueta**: 📅 Sábado 24/10 · 15 h · Villa Urquiza
+- **Tres líneas cortas que sacan objeciones** (con ✓):
+  - ✓ No hace falta experiencia
+  - ✓ Para todas las edades y todos los cuerpos
+  - ✓ Merienda casera incluida
 - **Botón principal**: `Quiero mi lugar` → baja a la sección de precios (#precios)
-- **Texto chico debajo del botón**: Solo 10 lugares
+- **Texto chico debajo del botón**: Quedan `[N]` de 10 lugares (actualizar a mano con cada venta)
+- Todo esto tiene que verse **sin hacer scroll** en un celular.
 
 ### Sección 2 · La idea
 
@@ -107,12 +177,15 @@ Lista con íconos simples:
 - Botón: `Reservar mi lugar` → `[LINK MERCADO PAGO INDIVIDUAL]`
 
 **Tarjeta B · De a dos** (destacada, con etiqueta "La más elegida")
-- Precio: **$85.000**
-- Texto destacado: **La segunda paga solo $30.000**
+- Precio: **$85.000** (con ~~$110.000~~ tachado al lado)
+- Texto destacado: **La segunda paga solo $30.000 · Ahorrás $25.000**
 - Texto: Para venir con tu mamá, tu hija o quien quieras.
 - Botón: `Reservar para dos` → `[LINK MERCADO PAGO DE A DOS]`
 
-- **Texto debajo de las tarjetas**: Pagás de forma segura con Mercado Pago. Solo 10 lugares.
+- **Debajo de las tarjetas, tres líneas de confianza**:
+  - 🔒 Pagás de forma segura con Mercado Pago.
+  - 🔄 Si no podés ir, pasás tu lugar a otra persona.
+  - ⏳ Quedan `[N]` de 10 lugares.
 
 ### Sección 6 · Para regalar
 
@@ -187,10 +260,18 @@ Lista con íconos simples:
 - Ekos Yoga · Donado 2301, Villa Urquiza, CABA
 - Íconos: WhatsApp `[LINK]` · Instagram `[LINK]`
 
-### Botón flotante
+### Barra fija (solo celular)
 
-- Botón redondo de WhatsApp abajo a la derecha, visible siempre.
+- Barra fija abajo de la pantalla, aparece después de pasar la portada.
+- Izquierda: "Sáb 24/10 · desde $42.500 por persona"
+- Derecha: botón bordó `Reservar` → #precios
+- Se oculta cuando la sección de precios está en pantalla, para no tapar las tarjetas.
+
+### Botón de WhatsApp
+
+- Botón redondo de WhatsApp, pequeño, encima de la barra fija (en compu, abajo a la derecha).
 - Mensaje armado: "Hola! Tengo una consulta sobre Yoga + Merienda del Día de la Madre"
+- Es secundario: no tiene que competir visualmente con el botón `Reservar`.
 
 ---
 
@@ -205,6 +286,11 @@ Se muestra después de pagar si Mercado Pago lo permite; si no, enlazarla desde 
 - **Botón**: `Enviar comprobante` → WhatsApp con mensaje armado:
   "Hola! Reservé mi lugar para Yoga + Merienda del 24/10. Mi nombre es ___"
 - **Texto chico**: Si es un regalo, te mandamos la gift card digital por WhatsApp.
+- **Bloque secundario** (después de lo anterior, no antes):
+  - **Título**: ¿Querés sumar a alguien más?
+  - **Texto**: Si tenés una amiga, hermana o tía que también merece esta tarde, compartile la página.
+  - **Botón**: `Compartir por WhatsApp` → `https://wa.me/?text=Mirá%20esta%20tarde%20de%20yoga%20y%20merienda%20para%20el%20Día%20de%20la%20Madre%20[LINK%20LANDING]`
+- La página de Gracias dispara el evento `Purchase` del Píxel de Meta (si se llega desde Mercado Pago).
 
 ---
 
@@ -234,3 +320,5 @@ Se muestra después de pagar si Mercado Pago lo permite; si no, enlazarla desde 
 - [ ] Confirmación de Caro de la política de cancelación
 - [ ] Confirmación de cómo se envía la gift card
 - [ ] ID del Píxel de Meta
+- [ ] Links de los anuncios con parámetros UTM (uno por anuncio)
+- [ ] Persona responsable de actualizar "Quedan [N] lugares" con cada venta
