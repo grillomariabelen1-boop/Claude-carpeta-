@@ -59,6 +59,13 @@ orgánico y las reglas comerciales de la cuenta.
 | [`guion-peinado-voiceover.md`](plantillas/guion-peinado-voiceover.md) | Guion de peinados con VO |
 | [`tracking-semanal.csv`](plantillas/tracking-semanal.csv) | Registro de métricas por video |
 
+### Skills (Claude Code)
+
+| Skill | Uso |
+|---|---|
+| [`/caption`](.claude/skills/caption/SKILL.md) | Descripción TikTok + IG, texto en pantalla, hashtags y comentario fijado, en tu voz |
+| [`/tendencias`](.claude/skills/tendencias/SKILL.md) | Busca lo que está viral, lo filtra por tu estrategia y lo deja en [`tendencias/`](tendencias/) |
+
 ## Resumen en 5 líneas
 
 - El techo de **180-350 views** es el pool inicial de distribución de TikTok.
