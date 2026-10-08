@@ -22,7 +22,6 @@ hacerlo. Actualizado: 24/09/2026.
 | 📊 Revisar campañas Meta — clientes | Mar, 18:30 a 19:30 | 2 clientes: medir y bajar cambios de creativos. El 29/09 y el 06/10 pasa a 19:30 a 20:30 (envíos de marca) |
 | 🎥 Grabar y editar — mi contenido | Mar, 19:30 a 20:30 | Se saltea el 29/09 y el 06/10 (envíos de marca) |
 | 📝 Armar y adelantar contenido | Jue, 18:30 a 20 | |
-| 💄 GRWM (prueba) | Vie, 7 a 7:45 | Home office. Solo aviso de 20 min (el de 1 h la despertaría) |
 | 🛋️ Domingo de descanso | Dom, todo el día | |
 
 ## Cómo le gusta organizarse
@@ -72,6 +71,16 @@ la marca, a las 9, con avisos 3 días antes, 1 día antes, 1 hora antes y
 | ✅ Revisar y enviar — SHEIN | Mar 29/09, 18:30 a 19:30 |
 | 🎥 Grabar y editar — Biodance | Sáb 03/10, 15 a 18 |
 | ✅ Revisar y enviar — Biodance | Mar 06/10, 18:30 a 19:30 |
+
+## Tratarse como cliente (08/10)
+
+- Lo pendiente con marcas que no tiene fecha se agenda igual con una
+  **fecha de entrega puesta por ella** ("📦 Entrega — Marca") y un bloque
+  para hacerlo antes. Una o dos por semana, para que no se junten.
+- Los bloques de contenido propio (martes 19:30 y jueves 18:30) están
+  protegidos: lo de clientes no va ahí.
+- El GRWM de los viernes se sacó (no funcionó).
+- Viernes de 17 a 17:45 (home office) es el hueco para pendientes cortos de marcas.
 
 ## Dónde se anota
 
