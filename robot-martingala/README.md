@@ -1,45 +1,47 @@
-# Robot Martingala (MetaTrader 5)
+# Robot Martingala (thinkorswim)
 
-Expert Advisor en MQL5 que opera con martingala en canasta, **sin stop loss** y **sin límite de operaciones**.
+Estrategia en thinkScript con martingala en canasta, **solo compras**, **sin stop loss** y **sin límite de entradas**. Pensada para acciones o ETFs.
 
 ## Cómo funciona
 
-1. Si no hay posiciones abiertas, abre una con `LoteInicial`. La dirección la decide una EMA: precio arriba de la EMA → compra; abajo → venta.
-2. Si el precio va en contra `DistanciaPips` desde la última entrada, abre otra en la misma dirección con el lote anterior × `Multiplicador`.
-3. Cuando el precio supera el **precio promedio ponderado** de toda la canasta por `TakeProfitPips`, cierra todo y vuelve a empezar.
-4. No hay stop loss ni tope de entradas: sigue promediando mientras el broker le dé margen.
+1. Sin posición abierta: compra `acciones_iniciales` si el precio cierra arriba de la EMA.
+2. Si el precio cae `distancia_pct` % desde la última compra: vuelve a comprar la cantidad anterior × `multiplicador`.
+3. Si el precio sube `take_profit_pct` % sobre el **precio promedio** de todas las compras: vende todo y vuelve a empezar.
+4. No hay stop loss ni tope de compras.
+
+La línea amarilla del gráfico es el precio promedio de la canasta abierta.
 
 ## Parámetros
 
 | Parámetro | Default | Qué hace |
 |---|---|---|
-| `LoteInicial` | 0.01 | Lote de la primera operación |
-| `Multiplicador` | 2.0 | Cuánto se multiplica el lote en cada nueva entrada |
-| `DistanciaPips` | 20 | Pips en contra para abrir la siguiente |
-| `TakeProfitPips` | 10 | Ganancia sobre el promedio para cerrar la canasta |
-| `PeriodoEMA` / `MarcoEMA` | 50 / H1 | Filtro de dirección de la primera entrada |
-| `NumeroMagico` | 777001 | Identifica las operaciones del robot |
-| `DeslizamientoPts` | 30 | Deslizamiento máximo |
+| `acciones_iniciales` | 10 | Acciones de la primera compra |
+| `multiplicador` | 2.0 | Cuánto se multiplica la cantidad en cada nueva compra |
+| `distancia_pct` | 2.0 | % de caída para volver a comprar |
+| `take_profit_pct` | 1.0 | % sobre el promedio para cerrar todo |
+| `largo_ema` | 50 | EMA que habilita la primera compra |
 
 ## Instalación
 
-1. En MetaTrader 5: **Archivo → Abrir carpeta de datos → MQL5 → Experts**.
-2. Copiá `RobotMartingala.mq5` ahí.
-3. Abrilo con MetaEditor y compilá (F7).
-4. Arrastralo al gráfico y activá **Trading algorítmico**.
+1. En thinkorswim, en un gráfico: **Studies → Edit studies → pestaña Strategies → Create**.
+2. Pegá el contenido de `RobotMartingala.ts`, ponele nombre `RobotMartingala` y guardá.
+3. Agregalo al gráfico.
+4. **Importante:** en **Edit studies → Global strategy settings**, subí "Maximum entry orders in the same direction" al máximo que permita. Si queda en 1, thinkorswim ignora las compras de la martingala.
+5. Para ver resultados: clic derecho en cualquier señal → **Show report**.
 
-## ⚠️ Riesgo — leelo antes de usarlo en real
+## Limitación de thinkorswim
 
-Sin stop loss y sin límite, la martingala gana seguido montos chicos y, cuando el precio va en contra sin retroceder, **puede vaciar la cuenta entera**. Con `Multiplicador = 2` y `DistanciaPips = 20`, el lote se duplica cada 20 pips en contra:
+Las estrategias de thinkorswim **solo simulan sobre el gráfico (backtest), no mandan órdenes reales**. thinkorswim no tiene forma de ejecutar sola una martingala en vivo. Para que opere de verdad hay que usar la API de Schwab (por ejemplo con Python) corriendo en una computadora o servidor.
 
-| Entradas | Pips en contra | Lote de la última | Volumen total |
+## ⚠️ Riesgo
+
+Con los valores por defecto la cantidad se duplica cada 2 % de caída:
+
+| Compras | Caída aprox. | Última compra | Acciones totales |
 |---|---|---|---|
-| 1 | 0 | 0.01 | 0.01 |
-| 5 | 80 | 0.16 | 0.31 |
-| 8 | 140 | 1.28 | 2.55 |
-| 10 | 180 | 5.12 | 10.23 |
-| 12 | 220 | 20.48 | 40.95 |
+| 1 | 0 % | 10 | 10 |
+| 5 | 8 % | 160 | 310 |
+| 8 | 13 % | 1.280 | 2.550 |
+| 10 | 17 % | 5.120 | 10.230 |
 
-Un movimiento de 200 pips sin retroceso es normal en pares como EURUSD en unos días. Cuando se acaba el margen, el broker cierra todo por *stop out* y la pérdida es la de la canasta completa.
-
-Recomendación: probalo primero en el **Probador de estrategias** y en una **cuenta demo** durante varias semanas, incluyendo periodos de tendencia fuerte.
+En una acción de USD 100, a las 10 compras tenés más de USD 850.000 invertidos con una caída del 17 %, algo que pasa seguido en una corrección. Sin stop loss, si no hay plata o margen para seguir comprando, la pérdida queda abierta entera o el broker liquida por margin call.
