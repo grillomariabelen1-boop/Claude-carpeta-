@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Grillo;Luis Antonio
+FN:Luis Antonio Grillo
+TITLE:Agente Productor
+ORG:Cohen SA
+URL:https://www.cohen.com.ar
+EMAIL;TYPE=INTERNET:lgrillo@apcohen.com.ar
+TEL;TYPE=CELL,WORK,PREF:+5491135016203
+TEL;TYPE=WORK:+541151181100
+ADR;TYPE=WORK:;Working Ocampo, Módulo 4, piso 1 y 2;Ortiz de Ocampo 3302;Ciudad Autónoma de Buenos Aires;CABA;1425;Argentina
+END:VCARD
