@@ -1,4 +1,6 @@
-# Guiones de video · Cyber y retargeting (octubre 2026)
+# Guiones de video · Saquiama Days y retargeting (octubre 2026)
+
+**Saquiama Days:** mismas fechas que el Cyber, mismos beneficios de siempre. Se usan los mismos videos con un texto en pantalla "SAQUIAMA DAYS" al principio. No se usa la palabra "Cyber" en los anuncios.
 
 **Para todos:** celular vertical, frente al espejo del showroom, de 15 a 20 segundos. La primera frase va ni bien arranca (grabarla 2 o 3 veces). Hablar natural. Dejar pared libre a un costado para el texto.
 
@@ -19,7 +21,7 @@ Marce solo graba la frase de comienzo a cámara (2 o 3 tomas de cada una). Se pe
 - **Versión A:** "Si tenés que tener un solo vestido, es el que más me piden: el Anny."
 - **Versión B:** "El vestido que más me piden… y entiendo por qué: sirve para todo."
 - **Cierre (texto al final):** "3 cuotas sin interés" en una versión y "15% OFF por transferencia" en otra.
-- ⚠️ Solo si es verdad que es el que más le piden.
+- ✅ Confirmado: es el que más le piden.
 
 ## 3 · "Me pruebo 3 cosas"
 | Tiempo | Imagen | Marce dice | Texto en pantalla |
@@ -35,16 +37,15 @@ Marce solo graba la frase de comienzo a cámara (2 o 3 tomas de cada una). Se pe
 | 2–12 s | Se pone prenda por prenda (o cortes por prenda) | Nombra cada una: "Saco Amanda… pantalón… cinturón." | Nombre y precio de cada prenda |
 | 12–18 s | Look terminado, de cuerpo entero | "Pasando los $140.000 el envío es gratis. Y con transferencia, 15% OFF." | ENVÍO GRATIS DESDE $140.000 |
 
-## 5 · "Últimas horas de Cyber" (solo para el último día)
+## 5 · "Últimas horas de Saquiama Days" (solo para el último día)
 | Tiempo | Imagen | Marce dice | Texto en pantalla |
 |---|---|---|---|
-| 0–2 s | Marce a cámara, rápida | "Últimas horas de Cyber." | ÚLTIMAS HORAS |
+| 0–2 s | Marce a cámara, rápida | "Últimas horas de Saquiama Days." | ÚLTIMAS HORAS |
 | 2–7 s | Muestra 2 o 3 prendas colgadas | "15% OFF por transferencia o 3 cuotas sin interés." | 15% OFF o 3 CUOTAS |
 | 7–9 s | A cámara | "Termina hoy." | TERMINA HOY |
 
 ---
 
 ## Pendiente
-- Fechas de Cyber (para el video 5).
-- Confirmar que el Anny es el que más le piden (video 2).
+- Fechas exactas de Saquiama Days (las del Cyber).
 - Lista de otras prendas que vendieron, para sumar guiones del video 1 con cada una.
