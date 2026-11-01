@@ -20,6 +20,12 @@
   - Envío gratis: se propone a los dueños bajar el umbral a **$120.000**.
   - Preguntas frecuentes de la web: ya corregidas (24/9).
   - **Talles: es el cuello de botella y los dueños no pasan medidas.** El plan para resolverlo sin ellos está en `07-talles.md`.
+- **Formato ganador en Meta (confirmado oct 2026):** video con tomas del local y voz en off contando las promociones.
+  Funcionó en 2 videos. "Winter sale | enfoque ambos" es ese formato: el "ambos" es solo el enfoque, en octubre no se vendió
+  ningún ambo y vendió sobre todo buzos y corderoy. Los creativos nuevos no compiten bien en la misma campaña que los ganadores
+  (el presupuesto se va a los probados).
+- Octubre 2026 (Tiendanube): 46 ventas, $4.451.700 en productos; gasto Meta $1.478.957 → ROAS real 3,0 y costo por venta
+  $32.150. Sin ventas del 18 al 21/10 (checkout), volvieron el 22/10.
 - Google Ads (6/10/2026): primera campaña (Máximo rendimiento / IA de Google), presupuesto **aparte** del de Meta:
   **$15.000 por día** (~$456.000 por mes). Idioma español, Argentina, sin la marca ni competidores en los temas de búsqueda.
   Revisar a las 2-3 semanas cuánto cuesta cada venta real antes de subir.
