@@ -115,6 +115,15 @@ tr.off td{color:var(--muted)}
 .rules summary{cursor:pointer;list-style:none}
 .rules summary::-webkit-details-marker{display:none}
 .rules ul{margin:10px 0 0;padding-left:18px;display:grid;gap:6px;font-size:.9rem;max-width:80ch}
+.refs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ref{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;background:var(--bg);min-width:0}
+.ref .pic{aspect-ratio:4/5;background:var(--sunk);max-width:100%}
+.ref .pic img{width:100%;height:100%;object-fit:cover;display:block}
+.ref .body{padding:12px 14px;display:grid;gap:8px}
+.ref h4{margin:0;font-size:.98rem}
+.ref .lbl{font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+.ref p{font-size:.88rem;white-space:pre-line}
+.ref .vpc{background:var(--accent-soft);border-radius:7px;padding:8px 10px}
 .cr-filters{display:flex;flex-wrap:wrap;gap:6px}
 .cr-filters button{border-radius:99px;padding:5px 12px;font-size:.85rem}
 .cr-filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
@@ -185,6 +194,12 @@ tr.off td{color:var(--muted)}
       <div id="rules-box"><ul id="rules-list"></ul></div>
       <div class="btns" style="margin-top:12px"><button type="button" id="rules-edit">Editar reglas</button><span class="note" id="rules-msg"></span></div>
     </details>
+    <div class="panel">
+      <h3>Referencias de anuncios</h3>
+      <p class="note" style="margin-bottom:12px">Anuncios de otras marcas que nos sirven de inspiración: qué formato es, por qué funciona y cómo lo llevamos a Village. Son ideas para adaptar, no para copiar.</p>
+      <div class="refs" id="l-referencias"><div class="empty">Cargando referencias…</div></div>
+      <details style="margin-top:12px" id="ref-add-box"><summary class="note" style="cursor:pointer">Agregar referencia</summary><form class="form" id="f-referencias" style="margin-top:10px"></form></details>
+    </div>
     <div class="cr-filters" id="cr-filters" role="group" aria-label="Filtrar por equipo"></div>
     <div class="cr-list" id="l-creativos"><div class="empty">Cargando creativos…</div></div>
     <div class="panel">
@@ -245,7 +260,8 @@ window.addEventListener("hashchange",showTab);showTab();
 
 /* ---------- estado de datos ---------- */
 let db=null, canWrite=true;
-const data={bitacora:[],tareas:[],estructura:[],meses:[],creativos:[]};
+const data={bitacora:[],tareas:[],estructura:[],meses:[],creativos:[],referencias:[]};
+let assets=null;
 const COLLS=["bitacora","tareas","estructura","meses","creativos"];
 const EQUIPOS=["Diseño","Contenido propio","Creador UGC"];
 const CR_ESTADOS=["para aprobar","aprobado","en producción","entregado","en pauta"];
@@ -280,6 +296,11 @@ const FORMS={
     {k:"estado",label:"Estado",type:"select",options:["activo","apagado"],def:()=>"activo"},
     {k:"contenido",label:"Qué lleva",type:"text",wide:true},
     {k:"orden",label:"Orden",type:"number",def:()=>"10"}],
+  referencias:[
+    {k:"titulo",label:"Nombre",type:"text",req:true,ph:"Ej.: Tus problemas / nuestra solución"},
+    {k:"formato",label:"Formato",type:"text",ph:"Placa 4:5, video, meme…"},
+    {k:"porque",label:"Por qué funciona",type:"textarea",wide:true},
+    {k:"village",label:"Cómo lo usamos en Village",type:"textarea",wide:true}],
   creativos:[
     {k:"titulo",label:"Nombre de la pieza",type:"text",req:true},
     {k:"equipo",label:"Quién la hace",type:"select",options:EQUIPOS,req:true},
@@ -365,8 +386,35 @@ function render(coll){
   if(coll==="estructura")renderEstructura();
   if(coll==="meses"){renderMeses();renderCalc()}
   if(coll==="creativos")renderCreativos();
+  if(coll==="referencias")renderReferencias();
   renderStatus();
 }
+function renderReferencias(){
+  const el=$("#l-referencias");if(!loaded.referencias)return;
+  const rows=[...data.referencias].sort((a,b)=>(a.orden??99)-(b.orden??99)||(a.creado||"").localeCompare(b.creado||""));
+  if(!rows.length){el.innerHTML='<div class="empty">Todavía no hay referencias. Agregá la primera con una captura del anuncio.</div>';return}
+  el.innerHTML=rows.map(r=>`<article class="ref" data-row>
+    <div class="pic">${r.img?`<img src="/_blob/${esc(r.img)}" alt="Referencia: ${esc(r.titulo)}" loading="lazy" onerror="this.remove()">`:""}</div>
+    <div class="body"><div><div class="lbl">${esc(r.formato||"")}</div><h4>${esc(r.titulo)}</h4></div>
+    ${r.porque?`<div><div class="lbl">Por qué funciona</div><p>${esc(r.porque)}</p></div>`:""}
+    ${r.village?`<div class="vpc"><div class="lbl">Cómo lo usamos en Village</div><p>${esc(r.village)}</p></div>`:""}
+    <div class="actions" style="text-align:left">${rowActions("referencias",r.id)}</div></div></article>`).join("");
+}
+function buildRefForm(){
+  const form=$("#f-referencias"),fields=FORMS.referencias;
+  form.innerHTML=`<div class="field wide"><label for="ref-file">Captura del anuncio (imagen)</label><input id="ref-file" type="file" accept="image/png,image/jpeg,image/webp,image/gif"><span class="hint" id="ref-file-hint">Solo quienes pueden editar la página pueden subir imágenes.</span></div>`+fields.map(f=>fieldHTML(f,null,"add-referencias")).join("")+`<div class="form-foot"><button class="primary" type="submit">Agregar referencia</button><span class="note" id="msg-referencias"></span></div>`;
+  form.addEventListener("submit",async e=>{e.preventDefault();const msg=$("#msg-referencias");
+    if(!db){msg.textContent="Sin conexión con el guardado: no se pudo guardar.";return}
+    const btn=form.querySelector("button[type=submit]");btn.disabled=true;
+    try{const body=readForm(form,fields);body.creado=new Date().toISOString();
+      const file=$("#ref-file").files[0];
+      if(file){if(!assets){msg.textContent="No tenés permiso para subir imágenes. Se guarda la referencia sin imagen.";}
+        else{msg.textContent="Subiendo imagen…";const up=await assets.upload(file);body.img=up.id}}
+      await db.collection("referencias").add(body);form.reset();msg.textContent="Referencia agregada."}
+    catch(err){msg.textContent=err&&err.code==="too_large"?"La imagen pesa demasiado (máximo 20 MB).":err&&err.code==="unsupported_type"?"Ese tipo de archivo no se puede subir: usá PNG, JPG o WEBP.":writeError(err)}
+    finally{btn.disabled=false}});
+}
+buildRefForm();
 /* reglas editables: una por renglón, "Título: texto" pone el título en negrita */
 const DEFAULT_RULES=[
   "Formatos: video vertical 9:16 (1080×1920) y versión 4:5 (1080×1350) para feed. Placas: 4:5 y 9:16. Sin carruseles.",
@@ -524,7 +572,8 @@ const timeout=setTimeout(()=>{if(!Object.keys(loaded).length)offline("No se pudo
   db=await c.use("db");
   if(!db){clearTimeout(timeout);offline("Iniciá sesión en Claude para ver y guardar los datos.");return}
   $("#sync").textContent="Conectado · se guarda solo";
-  COLLS.forEach(coll=>{
+  c.use("assets").then(a=>{assets=a;const h=$("#ref-file-hint");if(h)h.textContent=a?"PNG, JPG o WEBP, hasta 20 MB.":"Solo quienes pueden editar la página pueden subir imágenes."}).catch(()=>{});
+  [...COLLS,"referencias"].forEach(coll=>{
     db.collection(coll).onSnapshot(snap=>{data[coll]=snap.docs.map(d=>({id:d.id,...d.data()}));if(!snap.metadata.fromCache){loaded[coll]=true;clearTimeout(timeout)}else loaded[coll]=true;render(coll)},
       err=>{loaded[coll]=true;const el=$("#l-"+coll);if(el)el.innerHTML='<div class="empty">No se pudieron leer los datos ('+esc(err.code)+').</div>'});
   });
