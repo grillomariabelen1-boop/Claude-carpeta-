@@ -132,7 +132,10 @@ tr.off td{color:var(--muted)}
 .cr-group-head h2{font-size:1.1rem}
 .cr-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 @media (max-width:760px){.cr-grid{grid-template-columns:1fr}}
+.cr-state{display:flex;gap:8px;align-items:center;font-size:.84rem;font-weight:500}
 .cr-state select{width:auto;padding:4px 26px 4px 10px;cursor:pointer}
+.cr.locked{border-color:var(--ok)}
+.cr .cr-foot .primary{padding:6px 14px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .cr{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .cr-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
@@ -193,7 +196,7 @@ tr.off td{color:var(--muted)}
 
   <!-- CREATIVOS -->
   <section id="v-creativos" data-view="creativos" hidden>
-    <p class="intro">La bajada de cada pieza para diseño, contenido y creadores UGC. Nada pasa a producción sin estar aprobado. Tocá el estado para avanzarlo: para aprobar, aprobado, en producción, entregado, en pauta.</p>
+    <p class="intro">La bajada de cada pieza para diseño, contenido y creadores UGC. Nada se graba sin estar aprobado. Cuando una pieza no lleva más correcciones, tocá "Aprobar": queda fija en "Aprobadas · listas para grabar".</p>
     <details class="panel rules" open>
       <summary><h3 style="display:inline">Reglas para todas las piezas</h3></summary>
       <div id="rules-box"><ul id="rules-list"></ul></div>
@@ -316,7 +319,6 @@ const FORMS={
   creativos:[
     {k:"titulo",label:"Nombre de la pieza",type:"text",req:true},
     {k:"equipo",label:"Quién la hace",type:"select",options:EQUIPOS,req:true},
-    {k:"estado",label:"Estado",type:"select",options:CR_ESTADOS,def:()=>"para aprobar"},
     {k:"entrega",label:"Fecha de entrega",type:"date"},
     {k:"formato",label:"Formato y duración",type:"text",ph:"Video 9:16 y 4:5 · 20–30 s"},
     {k:"objetivo",label:"Qué traba resuelve",type:"text",ph:"Ej.: la duda con el talle"},
@@ -459,17 +461,37 @@ function renderCreativos(){
   const rows=data.creativos.filter(c=>crFilter==="Todos"||c.equipo===crFilter).sort((a,b)=>CR_ESTADOS.indexOf(a.estado)-CR_ESTADOS.indexOf(b.estado)||(a.orden??99)-(b.orden??99));
   if(!rows.length){el.innerHTML='<div class="empty">No hay piezas para este equipo. Agregá una abajo.</div>';return}
   const item=(label,v,cls="")=>v?`<div><dt>${label}</dt><dd class="${cls}">${esc(v)}</dd></div>`:"";
-  const card=c=>`<article class="cr" data-row>
+  const isOk=c=>c.estado&&c.estado!=="para aprobar";
+  const byOrder=(a,b)=>(a.orden??99)-(b.orden??99)||(a.creado||"").localeCompare(b.creado||"");
+  const pend=rows.filter(c=>!isOk(c)).sort(byOrder), ok=rows.filter(isOk).sort(byOrder);
+  const okCard=c=>{const av=c.avance||"para grabar";return `<article class="cr locked" data-row>
     <div class="cr-head"><div style="min-width:0"><div class="cr-team">${esc(c.equipo)}</div><h2>${esc(c.titulo)}</h2></div>
-    <label class="cr-state"><span class="sr">Estado de la pieza</span><select data-crstate="${c.id}" class="st ${(c.estado||"para aprobar").replace(/ /g,"-")}" ${canWrite?"":"disabled"}>${CR_ESTADOS.map(s=>`<option value="${s}" ${s===(c.estado||"para aprobar")?"selected":""}>${CR_LABEL[s]}</option>`).join("")}</select></label></div>
+    <span class="chip ok">Aprobada${c.aprobadoEl?" · "+fmtDate(c.aprobadoEl):""}</span></div>
     <dl>${item("Qué traba resuelve",c.objetivo)}${item("Gancho",c.gancho,"hook")}${item("Guion o tomas",c.guion)}${item("Texto en pantalla",c.pantalla)}${item("Texto del anuncio",c.copy)}${item("Producto",c.producto)}${item("Resultado",c.resultado)}</dl>
-    <div class="cr-foot"><span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span><span class="actions">${canWrite?`<button type="button" data-edit="creativos:${c.id}">Editar pieza</button><button type="button" class="link danger" data-del="creativos:${c.id}">Borrar</button>`:""}</span></div>
-  </article>`;
-  el.innerHTML=CR_ESTADOS.map(s=>{const g=rows.filter(c=>(c.estado||"para aprobar")===s);if(!g.length)return"";
-    return `<div class="cr-group"><div class="cr-group-head"><h2>${CR_GROUP[s][0]} <span class="num muted">${g.length}</span></h2><p class="note">${CR_GROUP[s][1]}</p></div><div class="cr-grid">${g.map(card).join("")}</div></div>`}).join("");
+    <div class="cr-foot"><label class="cr-state">Avance <select data-cravance="${c.id}" ${canWrite?"":"disabled"}>${AVANCES.map(a=>`<option value="${a}" ${a===av?"selected":""}>${a[0].toUpperCase()+a.slice(1)}</option>`).join("")}</select></label>
+    <span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span>
+    ${canWrite?`<span class="actions">${av==="en pauta"?`<button type="button" class="link" data-crresult="${c.id}">Anotar resultado</button>`:""}<button type="button" class="link" data-crreopen="${c.id}">Reabrir para corregir</button></span>`:""}</div></article>`};
+  const pendCard=c=>`<article class="cr" data-row>
+    <div class="cr-head"><div style="min-width:0"><div class="cr-team">${esc(c.equipo)}</div><h2>${esc(c.titulo)}</h2></div><span class="chip bad">Para aprobar</span></div>
+    <dl>${item("Qué traba resuelve",c.objetivo)}${item("Gancho",c.gancho,"hook")}${item("Guion o tomas",c.guion)}${item("Texto en pantalla",c.pantalla)}${item("Texto del anuncio",c.copy)}${item("Producto",c.producto)}</dl>
+    <div class="cr-foot"><span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span>
+    ${canWrite?`<span class="actions"><button type="button" class="primary" data-crapprove="${c.id}">Aprobar</button> <button type="button" data-edit="creativos:${c.id}">Editar pieza</button><button type="button" class="link danger" data-del="creativos:${c.id}">Borrar</button></span>`:""}</div></article>`;
+  const group=(title,hint,list,fn,empty)=>`<div class="cr-group"><div class="cr-group-head"><h2>${title} <span class="num muted">${list.length}</span></h2><p class="note">${hint}</p></div>${list.length?`<div class="cr-grid">${list.map(fn).join("")}</div>`:`<div class="empty">${empty}</div>`}</div>`;
+  el.innerHTML=group("Para aprobar","Se pueden editar. Cuando una está lista y no lleva más correcciones, tocá \"Aprobar\".",pend,pendCard,"No hay piezas pendientes de aprobación.")
+    +group("Aprobadas · listas para grabar","Versión final: no se corrigen más y quedan acá. El avance (para grabar, grabado, en pauta) se marca en cada ficha.",ok,okCard,"Todavía no aprobaste ninguna pieza.");
 }
-document.addEventListener("change",e=>{const sel=e.target.closest("[data-crstate]");if(!sel||!db||!canWrite)return;
-  sel.disabled=true;db.collection("creativos").doc(sel.dataset.crstate).update({estado:sel.value}).catch(err=>{alertNote(sel,writeError(err))})});
+const AVANCES=["para grabar","grabado","en pauta"];
+async function crUpdate(btn,id,body){if(!db||!canWrite)return;btn.disabled=true;try{await db.collection("creativos").doc(id).update(body)}catch(err){alertNote(btn,writeError(err));btn.disabled=false}}
+document.addEventListener("click",e=>{
+  const ap=e.target.closest("[data-crapprove]");if(ap)crUpdate(ap,ap.dataset.crapprove,{estado:"aprobado",avance:"para grabar",aprobadoEl:todayISO()});
+  const ro=e.target.closest("[data-crreopen]");if(ro){const span=document.createElement("span");span.innerHTML='¿Volver a "Para aprobar"? <button type="button" class="link" data-y>Sí</button><button type="button" class="link" data-n>No</button>';ro.replaceWith(span);
+    span.querySelector("[data-n]").onclick=()=>renderCreativos();span.querySelector("[data-y]").onclick=ev=>crUpdate(ev.target,ro.dataset.crreopen,{estado:"para aprobar"});}
+  const rs=e.target.closest("[data-crresult]");if(rs){const c=data.creativos.find(d=>d.id===rs.dataset.crresult);if(!c)return;const art=rs.closest("article");
+    const f=document.createElement("form");f.className="form";f.innerHTML=`<div class="field wide"><label for="res-${c.id}">Resultado en pauta</label><input id="res-${c.id}" value="${esc(c.resultado||"")}" placeholder="Ej.: 3 ventas, costo por venta $28.000"></div><div class="form-foot"><button class="primary" type="submit">Guardar resultado</button><button type="button" data-cancel>Cancelar</button></div>`;
+    art.querySelector(".cr-foot").after(f);rs.disabled=true;f.querySelector("[data-cancel]").onclick=()=>renderCreativos();
+    f.addEventListener("submit",async ev=>{ev.preventDefault();await crUpdate(f.querySelector("button"),c.id,{resultado:f.querySelector("input").value.trim()})});}
+});
+document.addEventListener("change",e=>{const sel=e.target.closest("[data-cravance]");if(!sel)return;crUpdate(sel,sel.dataset.cravance,{avance:sel.value})});
 function alertNote(el,t){const n=document.createElement("span");n.className="note";n.textContent=t;el.after(n)}
 function renderBitacora(){
   const el=$("#l-bitacora");if(!loaded.bitacora)return;
