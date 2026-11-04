@@ -1,0 +1,448 @@
+<title>Tablero Saquiama</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Jost:wght@400;500;600&display=swap">
+<style>
+/* Layout: herramienta de trabajo. Barra de estado arriba (qué se puede tocar), pestañas, y cada sección como una hoja de trabajo. */
+:root{
+  --bg:#f6f2f1; --surface:#ffffff; --sunk:#ede6e4; --line:#ddd2cf;
+  --ink:#2a1f22; --muted:#6c5e61; --accent:#8a3f55; --accent-soft:#f3e3e7;
+  --ok:#2f6b47; --ok-soft:#e3efe6; --warn:#94650f; --warn-soft:#f6ecd6; --bad:#a03a2c; --bad-soft:#f6e1dd;
+  --f-display:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --f-body:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#171214; --surface:#211a1c; --sunk:#1b1517; --line:#3a2f32;
+  --ink:#efe6e7; --muted:#a8999c; --accent:#e29bb0; --accent-soft:#3a2229;
+  --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; --bad:#ec8f80; --bad-soft:#341d1a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#171214; --surface:#211a1c; --sunk:#1b1517; --line:#3a2f32;
+  --ink:#efe6e7; --muted:#a8999c; --accent:#e29bb0; --accent-soft:#3a2229;
+  --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; --bad:#ec8f80; --bad-soft:#341d1a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:2.2rem;line-height:1.1}
+h1 em{color:var(--accent)}
+h2{font-size:1.35rem}
+h3{font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+p{margin:0}
+.muted{color:var(--muted)}
+.num{font-variant-numeric:tabular-nums}
+header{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;justify-content:space-between;margin-bottom:14px}
+.sub{color:var(--muted);font-size:.92rem}
+/* barra de estado */
+.status{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:18px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;min-width:0}
+.stat b{display:block;font-size:1.05rem;font-weight:600}
+.stat small{color:var(--muted);font-size:.82rem}
+/* pestañas */
+nav.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);margin-bottom:20px}
+nav.tabs a{padding:10px 14px;color:var(--muted);text-decoration:none;font-weight:500;border-bottom:2px solid transparent;white-space:nowrap}
+nav.tabs a[aria-current="page"]{color:var(--ink);border-color:var(--accent)}
+nav.tabs a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{display:flex;flex-direction:column;gap:18px}
+.intro{max-width:68ch;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;min-width:0}
+/* calculadora */
+.calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:16px}
+@media (max-width:760px){.calc{grid-template-columns:1fr}}
+.inputs{display:grid;gap:12px}
+.field{display:grid;gap:4px}
+.field label{font-size:.84rem;font-weight:500}
+.field .hint{font-size:.78rem;color:var(--muted)}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:8px 10px;width:100%;min-width:0}
+textarea{min-height:64px;resize:vertical}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.result-big{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.result-big .v{font-family:var(--f-display);font-size:2.2rem}
+.rows{display:grid;gap:0}
+.row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px dashed var(--line)}
+.row:last-child{border-bottom:0}
+.row span:last-child{font-weight:600;text-align:right}
+.chip{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}.chip.warn{background:var(--warn-soft);color:var(--warn)}.chip.bad{background:var(--bad-soft);color:var(--bad)}.chip.neutral{background:var(--sunk);color:var(--muted)}
+.verdict{margin-top:12px;padding:10px 12px;border-radius:8px;font-size:.9rem}
+.verdict.ok{background:var(--ok-soft)}.verdict.warn{background:var(--warn-soft)}.verdict.bad{background:var(--bad-soft)}.verdict.neutral{background:var(--sunk)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{font:inherit;font-weight:500;cursor:pointer;border-radius:7px;padding:8px 12px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+button.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button.link{border:0;background:none;padding:4px 6px;color:var(--accent);font-size:.85rem}
+button.danger{color:var(--bad)}
+button:disabled{opacity:.5;cursor:default}
+/* tablas */
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th{text-align:left;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right}
+tr.off td{color:var(--muted)}
+.actions{white-space:nowrap;text-align:right}
+/* formularios de alta */
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;align-items:end}
+.form .wide{grid-column:1/-1}
+.form-foot{display:flex;gap:8px;align-items:center;flex-wrap:wrap;grid-column:1/-1}
+.note{font-size:.84rem;color:var(--muted)}
+.empty{padding:18px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
+/* tareas */
+.stages{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.stage{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.stage header{margin:0;display:flex;justify-content:space-between;align-items:baseline}
+.task{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--line)}
+.task:first-of-type{border-top:0}
+.task .t{flex:1;min-width:0}
+.task.done .t{color:var(--muted);text-decoration:line-through}
+.st{border:0;border-radius:99px;padding:3px 10px;font-size:.75rem;font-weight:600;white-space:nowrap}
+.st.pendiente{background:var(--sunk);color:var(--muted)}.st.en-curso{background:var(--warn-soft);color:var(--warn)}.st.hecha{background:var(--ok-soft);color:var(--ok)}
+/* bitácora */
+.log{display:flex;flex-direction:column}
+.entry{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:4px 14px;padding:12px 0;border-top:1px solid var(--line)}
+.entry:first-child{border-top:0}
+.entry .d{font-weight:600}
+.entry .area{font-size:.76rem;color:var(--accent);font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+.entry .what{font-weight:500}
+.entry .why,.entry .res{font-size:.88rem;color:var(--muted)}
+@media (max-width:560px){.entry{grid-template-columns:1fr}.entry .actions{text-align:left}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Saquiama <em>· tablero</em></h1>
+      <p class="sub">Bitácora de cambios, tareas, calculadora y estructura de Meta</p>
+    </div>
+    <p class="sub" id="sync">Conectando…</p>
+  </header>
+
+  <div class="status" id="status">
+    <div class="stat"><small>Último cambio en la cuenta</small><b id="st-last">—</b><small id="st-last-sub">Anotá cada ajuste en la bitácora</small></div>
+    <div class="stat"><small>Próxima revisión</small><b id="st-next">—</b><small id="st-next-sub">Fecha para mirar resultados antes de tocar</small></div>
+    <div class="stat"><small>Tareas</small><b id="st-tasks">—</b><small id="st-tasks-sub">Pendientes y en curso</small></div>
+  </div>
+
+  <nav class="tabs" aria-label="Secciones">
+    <a href="#bitacora" data-tab="bitacora">Bitácora</a>
+    <a href="#tareas" data-tab="tareas">Tareas</a>
+    <a href="#calculadora" data-tab="calculadora">Calculadora</a>
+    <a href="#cuenta" data-tab="cuenta">Cuenta y meses</a>
+  </nav>
+
+  <!-- BITÁCORA -->
+  <section id="v-bitacora" data-view="bitacora">
+    <p class="intro">Cada vez que toquen algo en Meta, la web o los creativos, anótenlo acá con la fecha y cuándo mirar el resultado. Regla: cada conjunto se toca como mucho una vez cada 3 o 4 días, salvo para apagar algo que claramente no funciona.</p>
+    <div class="panel">
+      <h3>Anotar un cambio</h3>
+      <form class="form" id="f-bitacora"></form>
+    </div>
+    <div class="panel"><div class="log" id="l-bitacora"><div class="empty">Cargando la bitácora…</div></div></div>
+  </section>
+
+  <!-- TAREAS -->
+  <section id="v-tareas" data-view="tareas" hidden>
+    <p class="intro">El orden importa: primero que la web convierta, después creativos nuevos, recién ahí subir la pauta. Tocá el estado de una tarea para avanzarla.</p>
+    <div class="stages" id="l-tareas"><div class="empty">Cargando tareas…</div></div>
+    <div class="panel">
+      <h3>Agregar tarea</h3>
+      <form class="form" id="f-tareas"></form>
+    </div>
+  </section>
+
+  <!-- CALCULADORA -->
+  <section id="v-calculadora" data-view="calculadora" hidden>
+    <p class="intro">Facturación = visitas que compran × conversión × ticket. Cambiá los números y mirá cuánta pauta hace falta y si le cierra al negocio. Los cambios se guardan solos.</p>
+    <div class="calc">
+      <div class="panel inputs" id="calc-inputs"></div>
+      <div class="panel" id="calc-out" aria-live="polite"></div>
+    </div>
+    <div class="btns">
+      <button type="button" id="calc-oct">Cargar octubre real</button>
+      <button type="button" id="calc-goal">Cargar objetivo</button>
+      <span class="note" id="calc-btn-msg"></span>
+    </div>
+  </section>
+
+  <!-- CUENTA -->
+  <section id="v-cuenta" data-view="cuenta" hidden>
+    <p class="intro">Cómo está armada la cuenta hoy y cómo viene cada mes. Cuando cambien la estructura, actualicen la fila y anoten el cambio en la bitácora.</p>
+    <div class="panel">
+      <h3>Estructura de Meta</h3>
+      <div class="tbl" id="l-estructura"><div class="empty">Cargando estructura…</div></div>
+      <details style="margin-top:12px"><summary class="note" style="cursor:pointer">Agregar conjunto o campaña</summary><form class="form" id="f-estructura" style="margin-top:10px"></form></details>
+    </div>
+    <div class="panel">
+      <h3>Mes a mes</h3>
+      <div class="tbl" id="l-meses"><div class="empty">Cargando meses…</div></div>
+      <details style="margin-top:12px"><summary class="note" style="cursor:pointer">Cargar un mes</summary><form class="form" id="f-meses" style="margin-top:10px"></form></details>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+"use strict";
+const $=s=>document.querySelector(s);
+const fmtN=new Intl.NumberFormat("es-AR",{maximumFractionDigits:0});
+const has=v=>v!=null&&v!==""&&isFinite(v);
+const money=v=>!has(v)?"—":"$"+fmtN.format(Math.round(v));
+const millions=v=>!has(v)?"—":"$"+(v/1e6).toLocaleString("es-AR",{minimumFractionDigits:1,maximumFractionDigits:1})+" M";
+const pct=(v,d=1)=>!has(v)?"—":v.toLocaleString("es-AR",{minimumFractionDigits:d,maximumFractionDigits:d})+"%";
+const todayISO=()=>{const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")};
+const parseISO=s=>{if(!s)return null;const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const fmtDate=s=>{const d=parseISO(s);return d?d.toLocaleDateString("es-AR",{day:"numeric",month:"short"}):"—"};
+const daysFrom=s=>{const d=parseISO(s);if(!d)return null;const t=parseISO(todayISO());return Math.round((t-d)/864e5)};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ---------- pestañas ---------- */
+const TABS=["bitacora","tareas","calculadora","cuenta"];
+function showTab(){const h=location.hash.slice(1);const t=TABS.includes(h)?h:"bitacora";
+  document.querySelectorAll("[data-view]").forEach(s=>s.hidden=s.dataset.view!==t);
+  document.querySelectorAll("nav.tabs a").forEach(a=>{if(a.dataset.tab===t)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});}
+window.addEventListener("hashchange",showTab);showTab();
+
+/* ---------- estado de datos ---------- */
+let db=null, canWrite=true;
+const data={bitacora:[],tareas:[],estructura:[],meses:[]};
+const loaded={};
+
+/* ---------- definición de listas ---------- */
+const AREAS=["Meta · Prospecting","Meta · Retargeting","Meta · Testeo","Meta · Tráfico","Meta · General","Creativos","Web / WooCommerce","Cupones y promos","Google Ads","Mails","Otro"];
+const ETAPAS=[
+  {id:"1",name:"1 · Conversión y ticket",hint:"Que la web venda lo que trae la pauta"},
+  {id:"2",name:"2 · Creativos nuevos y UGC",hint:"Videos de Marce, placas de retargeting"},
+  {id:"3",name:"3 · Escalar pauta",hint:"Cuando el costo por venta se mantenga"},
+  {id:"4",name:"4 · Saquiama Days y Navidad",hint:"Noviembre y diciembre"}];
+const ESTADOS=["pendiente","en curso","hecha"];
+const FORMS={
+  bitacora:[
+    {k:"fecha",label:"Fecha",type:"date",def:todayISO,req:true},
+    {k:"area",label:"Dónde",type:"select",options:AREAS,req:true},
+    {k:"revisar",label:"Revisar el",type:"date",hint:"Dejá 3 o 4 días"},
+    {k:"cambio",label:"Qué se cambió",type:"textarea",req:true,wide:true},
+    {k:"motivo",label:"Por qué",type:"text",wide:true},
+    {k:"resultado",label:"Qué pasó (completar al revisar)",type:"text",wide:true}],
+  tareas:[
+    {k:"titulo",label:"Tarea",type:"text",req:true,wide:true},
+    {k:"etapa",label:"Etapa",type:"select",options:ETAPAS.map(e=>e.id),labels:ETAPAS.map(e=>e.name),req:true},
+    {k:"estado",label:"Estado",type:"select",options:ESTADOS,def:()=>"pendiente"},
+    {k:"quien",label:"Quién",type:"text",ph:"Belén, Marce o desarrollador"}],
+  estructura:[
+    {k:"campania",label:"Campaña",type:"text",req:true},
+    {k:"conjunto",label:"Conjunto",type:"text",req:true},
+    {k:"presupuesto",label:"Presupuesto por día ($)",type:"number"},
+    {k:"estado",label:"Estado",type:"select",options:["activo","apagado"],def:()=>"activo"},
+    {k:"contenido",label:"Qué lleva",type:"text",wide:true},
+    {k:"orden",label:"Orden",type:"number",def:()=>"10"}],
+  meses:[
+    {k:"mes",label:"Mes (AAAA-MM)",type:"text",req:true,ph:"2026-11"},
+    {k:"visitas",label:"Visitas",type:"number"},
+    {k:"ventas",label:"Ventas cobradas",type:"number"},
+    {k:"facturacion",label:"Facturación cobrada ($)",type:"number"},
+    {k:"gasto",label:"Gasto en Meta ($)",type:"number"},
+    {k:"nota",label:"Nota",type:"text",wide:true}]
+};
+
+function fieldHTML(f,val,prefix){
+  const id=prefix+"-"+f.k, v=val??(f.def?f.def():"");
+  let input;
+  if(f.type==="select") input=`<select id="${id}" name="${f.k}" ${f.req?"required":""}>${f.options.map((o,i)=>`<option value="${esc(o)}" ${String(o)===String(v)?"selected":""}>${esc(f.labels?f.labels[i]:o)}</option>`).join("")}</select>`;
+  else if(f.type==="textarea") input=`<textarea id="${id}" name="${f.k}" ${f.req?"required":""}>${esc(v)}</textarea>`;
+  else input=`<input id="${id}" name="${f.k}" type="${f.type==="number"?"number":f.type}" ${f.type==="number"?'step="any" inputmode="decimal"':""} value="${esc(v)}" ${f.ph?`placeholder="${esc(f.ph)}"`:""} ${f.req?"required":""}>`;
+  return `<div class="field ${f.wide?"wide":""}"><label for="${id}">${esc(f.label)}</label>${input}${f.hint?`<span class="hint">${esc(f.hint)}</span>`:""}</div>`;
+}
+function readForm(form,fields){const o={};fields.forEach(f=>{const el=form.elements[f.k];if(!el)return;let v=el.value.trim();if(f.type==="number")v=v===""?null:Number(v);o[f.k]=v});return o}
+
+function buildAddForm(coll,submitLabel){
+  const form=$("#f-"+coll), fields=FORMS[coll];
+  form.innerHTML=fields.map(f=>fieldHTML(f,null,"add-"+coll)).join("")+`<div class="form-foot"><button class="primary" type="submit">${submitLabel}</button><span class="note" id="msg-${coll}"></span></div>`;
+  form.addEventListener("submit",async e=>{e.preventDefault();
+    if(!db){$("#msg-"+coll).textContent="Sin conexión con el guardado: no se pudo guardar.";return}
+    const body=readForm(form,fields);body.creado=new Date().toISOString();
+    const btn=form.querySelector("button[type=submit]");btn.disabled=true;
+    try{await db.collection(coll).add(body);form.reset();buildAddFormValues(coll);$("#msg-"+coll).textContent="Guardado."}
+    catch(err){$("#msg-"+coll).textContent=writeError(err)}
+    finally{btn.disabled=false}});
+}
+function buildAddFormValues(coll){const form=$("#f-"+coll);FORMS[coll].forEach(f=>{if(f.def&&form.elements[f.k])form.elements[f.k].value=f.def()})}
+function writeError(err){
+  if(err&&err.code==="invalid_argument"){canWrite=false;return "No tenés permiso para editar esta página. Pedile acceso de edición a quien la compartió."}
+  if(err&&err.code==="quota_exceeded")return "Se llenó el espacio de guardado. Borrá entradas viejas.";
+  return "No se pudo guardar. Probá de nuevo en un momento.";
+}
+
+/* edición en línea: reemplaza un nodo por un formulario */
+function editInPlace(node,coll,doc){
+  const fields=FORMS[coll], form=document.createElement("form");form.className="form";
+  form.innerHTML=fields.map(f=>fieldHTML(f,doc[f.k],"ed-"+coll+"-"+doc.id)).join("")+`<div class="form-foot"><button class="primary" type="submit">Guardar</button><button type="button" data-cancel>Cancelar</button><span class="note"></span></div>`;
+  const holder=node.tagName==="TR"?(()=>{const tr=document.createElement("tr");const td=document.createElement("td");td.colSpan=node.children.length;td.appendChild(form);tr.appendChild(td);return tr})():form;
+  node.replaceWith(holder);
+  form.querySelector("[data-cancel]").onclick=()=>render(coll);
+  form.addEventListener("submit",async e=>{e.preventDefault();const body=readForm(form,fields);
+    try{await db.collection(coll).doc(doc.id).update(body);render(coll)}catch(err){form.querySelector(".note").textContent=writeError(err)}});
+}
+function confirmDelete(btn,coll,id){
+  const span=document.createElement("span");span.innerHTML=`¿Borrar? <button type="button" class="link danger" data-y>Sí</button><button type="button" class="link" data-n>No</button>`;
+  btn.replaceWith(span);
+  span.querySelector("[data-n]").onclick=()=>render(coll);
+  span.querySelector("[data-y]").onclick=async()=>{try{await db.collection(coll).doc(id).delete()}catch(err){span.textContent=writeError(err)}};
+}
+function rowActions(coll,id){return canWrite?`<button type="button" class="link" data-edit="${coll}:${id}">Editar</button><button type="button" class="link danger" data-del="${coll}:${id}">Borrar</button>`:""}
+document.addEventListener("click",e=>{
+  const ed=e.target.closest("[data-edit]"),dl=e.target.closest("[data-del]"),st=e.target.closest("[data-status]");
+  if(ed){const [c,id]=ed.dataset.edit.split(":");const doc=data[c].find(d=>d.id===id);const node=ed.closest("[data-row]");if(doc&&node)editInPlace(node,c,doc)}
+  if(dl){const [c,id]=dl.dataset.del.split(":");confirmDelete(dl,c,id)}
+  if(st&&db&&canWrite){const id=st.dataset.status;const t=data.tareas.find(d=>d.id===id);if(!t)return;
+    const next=ESTADOS[(ESTADOS.indexOf(t.estado||"pendiente")+1)%ESTADOS.length];st.disabled=true;
+    db.collection("tareas").doc(id).update({estado:next}).catch(err=>{st.textContent=writeError(err)})}
+});
+
+/* ---------- render de cada lista ---------- */
+function render(coll){
+  if(coll==="bitacora")renderBitacora();
+  if(coll==="tareas")renderTareas();
+  if(coll==="estructura")renderEstructura();
+  if(coll==="meses"){renderMeses();renderCalc()}
+  renderStatus();
+}
+function renderBitacora(){
+  const el=$("#l-bitacora");if(!loaded.bitacora)return;
+  const rows=[...data.bitacora].sort((a,b)=>(b.fecha||"").localeCompare(a.fecha||"")||(b.creado||"").localeCompare(a.creado||""));
+  if(!rows.length){el.innerHTML='<div class="empty">Todavía no hay cambios anotados. Usá el formulario de arriba para el primero.</div>';return}
+  el.innerHTML=rows.map(r=>{
+    const due=r.revisar&&!r.resultado?daysFrom(r.revisar):null;
+    const chip=r.resultado?'<span class="chip ok">Revisado</span>':(r.revisar?(due>=0?'<span class="chip warn">Revisar ya</span>':`<span class="chip neutral">Revisar ${fmtDate(r.revisar)}</span>`):"");
+    return `<div class="entry" data-row>
+      <div><div class="d num">${fmtDate(r.fecha)}</div><div class="muted" style="font-size:.8rem">${daysFrom(r.fecha)===0?"hoy":"hace "+daysFrom(r.fecha)+" d"}</div></div>
+      <div style="min-width:0;display:grid;gap:3px"><div class="area">${esc(r.area)}</div><div class="what">${esc(r.cambio)}</div>${r.motivo?`<div class="why">Por qué: ${esc(r.motivo)}</div>`:""}${r.resultado?`<div class="res">Resultado: ${esc(r.resultado)}</div>`:""}<div>${chip}</div></div>
+      <div class="actions">${rowActions("bitacora",r.id)}</div></div>`}).join("");
+}
+function renderTareas(){
+  const el=$("#l-tareas");if(!loaded.tareas)return;
+  if(!data.tareas.length){el.innerHTML='<div class="empty">No hay tareas cargadas. Agregá la primera abajo.</div>';return}
+  el.innerHTML=ETAPAS.map(e=>{
+    const ts=data.tareas.filter(t=>String(t.etapa)===e.id).sort((a,b)=>ESTADOS.indexOf(a.estado)-ESTADOS.indexOf(b.estado)||(a.creado||"").localeCompare(b.creado||""));
+    const done=ts.filter(t=>t.estado==="hecha").length;
+    return `<div class="stage"><header><h2 style="font-size:1.15rem">${esc(e.name)}</h2><span class="muted num" style="font-size:.82rem">${done}/${ts.length}</span></header><p class="note">${esc(e.hint)}</p>
+    ${ts.length?ts.map(t=>`<div class="task ${t.estado==="hecha"?"done":""}" data-row><button type="button" class="st ${(t.estado||"pendiente").replace(" ","-")}" data-status="${t.id}" ${canWrite?"":"disabled"} aria-label="Cambiar estado">${esc(t.estado||"pendiente")}</button><div class="t">${esc(t.titulo)}${t.quien?`<div class="note">${esc(t.quien)}</div>`:""}</div><div class="actions">${rowActions("tareas",t.id)}</div></div>`).join(""):'<p class="note">Sin tareas en esta etapa.</p>'}</div>`}).join("");
+}
+function renderEstructura(){
+  const el=$("#l-estructura");if(!loaded.estructura)return;
+  const rows=[...data.estructura].sort((a,b)=>(a.orden??99)-(b.orden??99));
+  if(!rows.length){el.innerHTML='<div class="empty">No hay estructura cargada.</div>';return}
+  const total=rows.filter(r=>r.estado!=="apagado").reduce((s,r)=>s+(Number(r.presupuesto)||0),0);
+  el.innerHTML=`<table><thead><tr><th>Campaña</th><th>Conjunto</th><th>Qué lleva</th><th class="r">Por día</th><th>Estado</th><th></th></tr></thead><tbody>
+  ${rows.map(r=>`<tr data-row class="${r.estado==="apagado"?"off":""}"><td>${esc(r.campania)}</td><td><b>${esc(r.conjunto)}</b></td><td>${esc(r.contenido)}</td><td class="r num">${money(r.presupuesto)}</td><td><span class="chip ${r.estado==="apagado"?"neutral":"ok"}">${esc(r.estado)}</span></td><td class="actions">${rowActions("estructura",r.id)}</td></tr>`).join("")}
+  </tbody><tfoot><tr><td colspan="3"><b>Total activo</b> <span class="note">(${money(total*30)} por mes)</span></td><td class="r num"><b>${money(total)}</b></td><td colspan="2"></td></tr></tfoot></table>`;
+}
+function renderMeses(){
+  const el=$("#l-meses");if(!loaded.meses)return;
+  const rows=[...data.meses].sort((a,b)=>(a.mes||"").localeCompare(b.mes||""));
+  if(!rows.length){el.innerHTML='<div class="empty">Cargá el primer mes para ver el avance.</div>';return}
+  const goal=has(calc.objetivo)&&calc.objetivo>0?calc.objetivo:null;
+  el.innerHTML=`<table><thead><tr><th>Mes</th><th class="r">Visitas</th><th class="r">Ventas</th><th class="r">Conversión</th><th class="r">Ticket</th><th class="r">Facturación</th><th class="r">Gasto Meta</th><th class="r">ROAS real</th><th class="r">Del objetivo</th><th></th></tr></thead><tbody>
+  ${rows.map(r=>{const conv=r.visitas&&r.ventas?r.ventas/r.visitas*100:null,tk=r.ventas&&r.facturacion?r.facturacion/r.ventas:null,roas=r.gasto&&r.facturacion?r.facturacion/r.gasto:null,of=r.facturacion&&goal?r.facturacion/goal*100:null;
+    return `<tr data-row><td><b>${esc(mesLabel(r.mes))}</b>${r.nota?`<div class="note">${esc(r.nota)}</div>`:""}</td><td class="r num">${r.visitas?fmtN.format(r.visitas):"—"}</td><td class="r num">${r.ventas??"—"}</td><td class="r num">${pct(conv,2)}</td><td class="r num">${money(tk)}</td><td class="r num"><b>${millions(r.facturacion)}</b></td><td class="r num">${money(r.gasto)}</td><td class="r num">${roas?roas.toLocaleString("es-AR",{maximumFractionDigits:2}):"—"}</td><td class="r num">${pct(of,0)}</td><td class="actions">${rowActions("meses",r.id)}</td></tr>`}).join("")}</tbody></table>
+  <p class="note" style="margin-top:8px">ROAS real = facturación cobrada de la tienda ÷ gasto en Meta. No usa los números de Meta.</p>`;
+}
+function mesLabel(m){const d=parseISO((m||"")+"-01");return d?d.toLocaleDateString("es-AR",{month:"long",year:"numeric"}):m}
+
+function renderStatus(){
+  const b=data.bitacora;
+  if(loaded.bitacora){
+    const last=[...b].sort((x,y)=>(y.fecha||"").localeCompare(x.fecha||""))[0];
+    if(last){const d=daysFrom(last.fecha);$("#st-last").textContent=fmtDate(last.fecha)+" · "+(d===0?"hoy":"hace "+d+" días");
+      $("#st-last-sub").textContent=last.area+(d<3?" · esperá antes de volver a tocar":" · ya se puede evaluar");}
+    else{$("#st-last").textContent="Sin cambios anotados"}
+    const pend=b.filter(x=>x.revisar&&!x.resultado).sort((x,y)=>x.revisar.localeCompare(y.revisar))[0];
+    if(pend){const d=daysFrom(pend.revisar);$("#st-next").textContent=fmtDate(pend.revisar)+(d>=0?" · ya toca":" · en "+(-d)+" días");$("#st-next-sub").textContent=pend.area+": "+(pend.cambio||"").slice(0,60)}
+    else{$("#st-next").textContent="Nada pendiente";$("#st-next-sub").textContent="Al anotar un cambio, poné cuándo revisarlo"}
+  }
+  if(loaded.tareas){const t=data.tareas;const open=t.filter(x=>x.estado!=="hecha").length,cur=t.filter(x=>x.estado==="en curso").length;
+    $("#st-tasks").textContent=open+" abiertas";$("#st-tasks-sub").textContent=cur+" en curso · "+(t.length-open)+" hechas"}
+}
+
+/* ---------- calculadora ---------- */
+const CALC_FIELDS=[
+  {k:"objetivo",label:"Facturación objetivo por mes ($)",hint:"Falta: preguntarle a Marce cuánto quiere facturar"},
+  {k:"ticket",label:"Ticket promedio ($)",hint:"Octubre según Meta: $101.986. Confirmar con las ventas cobradas"},
+  {k:"conversion",label:"Conversión de visitas que compran (%)",hint:"Falta: ventas ÷ visitas de la tienda en octubre",step:"0.01"},
+  {k:"organicas",label:"Visitas no pagas por mes",hint:"Falta: orgánico, Instagram, directo"},
+  {k:"cpv",label:"Costo por visita paga ($)",hint:"Falta: gasto ÷ clics en el enlace de la campaña de ventas"},
+  {k:"margen",label:"Margen para pauta y ganancia (%)",hint:"Supuesto del rubro: 50%. Confirmar con Marce",step:"1"}];
+const OCT={objetivo:null,ticket:101986,conversion:null,organicas:null,cpv:null,margen:50};
+const OCT_GASTO=448269, OCT_CPA=15457;
+let calc={...OCT};
+function buildCalcInputs(){
+  $("#calc-inputs").innerHTML=CALC_FIELDS.map(f=>`<div class="field"><label for="c-${f.k}">${f.label}</label><input id="c-${f.k}" type="number" step="${f.step||"any"}" inputmode="decimal" value="${has(calc[f.k])?calc[f.k]:""}"><span class="hint">${f.hint}</span></div>`).join("")+'<p class="note" id="calc-msg"></p>';
+  CALC_FIELDS.forEach(f=>$("#c-"+f.k).addEventListener("input",e=>{const raw=e.target.value.trim();const v=raw===""?null:Number(raw);if(v===null||isFinite(v)){calc[f.k]=v;renderCalc();saveCalcSoon()}}));
+}
+function setCalc(v){calc={...v};CALC_FIELDS.forEach(f=>{const el=$("#c-"+f.k);if(el)el.value=has(calc[f.k])?calc[f.k]:""});renderCalc();saveCalcSoon()}
+$("#calc-oct").onclick=()=>{setCalc({...calc,ticket:OCT.ticket,margen:has(calc.margen)?calc.margen:OCT.margen});$("#calc-btn-msg").textContent="Cargué el ticket de octubre. Visitas, conversión y costo por visita salen de la tienda: completalos cuando los tengas."};
+$("#calc-goal").onclick=()=>{if(!has(calc.objetivo)){$("#calc-btn-msg").textContent="Todavía no hay objetivo. Escribilo arriba cuando Marce lo defina.";$("#c-objetivo").focus();return}
+  setCalc({...calc,conversion:has(calc.conversion)?calc.conversion:null});$("#calc-btn-msg").textContent="Calculando con el objetivo cargado."};
+function renderCalc(){
+  const c=calc;
+  const cpaMax=has(c.ticket)&&has(c.margen)?c.ticket*c.margen/100:null;
+  const cpaObj=has(c.ticket)&&has(c.margen)?c.ticket*(c.margen-15)/100:null;
+  const ref=`<div class="row"><span>Costo por venta máximo (sin ganar nada)</span><span class="num">${money(cpaMax)}</span></div>
+    <div class="row"><span>Costo por venta objetivo (ganando 15%)</span><span class="num">${money(cpaObj)}</span></div>
+    <div class="row"><span>Costo por venta en Meta, octubre <span class="note">(always on, según Meta)</span></span><span class="num">${money(OCT_CPA)} ${has(cpaObj)?(OCT_CPA<=cpaObj?'<span class="chip ok">dentro del objetivo</span>':OCT_CPA<=cpaMax?'<span class="chip warn">cierra justo</span>':'<span class="chip bad">pierde plata</span>'):""}</span></div>`;
+  const missing=["objetivo","ticket","conversion","organicas","cpv","margen"].filter(k=>!has(c[k])||(k!=="organicas"&&c[k]<=0));
+  if(missing.length){
+    const names=missing.map(k=>CALC_FIELDS.find(f=>f.k===k).label.replace(/ \(.*\)/,"").toLowerCase());
+    $("#calc-out").innerHTML=`<div class="result-big"><span class="v">Faltan datos</span><span class="muted">para calcular la pauta necesaria</span></div>
+    <div class="rows">${ref}</div>
+    <div class="verdict neutral">Para calcular cuánta pauta hace falta, completá: ${esc(names.join(", "))}. Lo de arriba ya se puede leer: compara el costo por venta de octubre contra lo que el negocio puede pagar.</div>`;
+    if(loaded.meses)renderMeses();return;
+  }
+  const ventas=c.objetivo/c.ticket;const visitas=ventas/(c.conversion/100);const pagas=Math.max(0,visitas-c.organicas);
+  const pauta=pagas*c.cpv;const roas=pauta?c.objetivo/pauta:null;const cpa=ventas?pauta/ventas:null;
+  const contrib=c.objetivo*c.margen/100;const ganancia=contrib-pauta;const gPct=c.objetivo?ganancia/c.objetivo*100:null;
+  const mult=pauta/OCT_GASTO;
+  let cls="ok",msg="Le cierra al negocio: queda margen después de pagar la pauta.";
+  if(ganancia<0){cls="bad";msg="No cierra: la pauta se come todo el margen. Hay que subir ticket o conversión, o bajar el objetivo."}
+  else if(gPct<10){cls="warn";msg="Cierra justo: queda menos del 10% de ganancia. Cualquier aumento del costo por visita lo da vuelta."}
+  $("#calc-out").innerHTML=`<div class="result-big"><span class="v num">${money(pauta)}</span><span class="muted">de pauta por mes · ${money(pauta/30)} por día</span></div>
+  <div class="rows">
+    <div class="row"><span>Ventas necesarias por mes</span><span class="num">${fmtN.format(Math.ceil(ventas))} <span class="muted" style="font-weight:400">(${(ventas/30).toLocaleString("es-AR",{maximumFractionDigits:1})} por día)</span></span></div>
+    <div class="row"><span>Visitas que compran necesarias</span><span class="num">${fmtN.format(Math.round(visitas))}</span></div>
+    <div class="row"><span>De esas, visitas pagas</span><span class="num">${fmtN.format(Math.round(pagas))}</span></div>
+    <div class="row"><span>Pauta comparada con octubre (${money(OCT_GASTO)})</span><span class="num">${mult.toLocaleString("es-AR",{maximumFractionDigits:1})} veces</span></div>
+    <div class="row"><span>ROAS necesario (facturación ÷ pauta)</span><span class="num">${roas?roas.toLocaleString("es-AR",{maximumFractionDigits:2}):"—"}</span></div>
+    <div class="row"><span>Costo por venta resultante</span><span class="num">${money(cpa)}</span></div>
+    ${ref}
+    <div class="row"><span>Margen bruto del mes</span><span class="num">${money(contrib)}</span></div>
+    <div class="row"><span>Queda después de la pauta</span><span class="num">${money(ganancia)} <span class="chip ${cls}">${pct(gPct,0)}</span></span></div>
+  </div><div class="verdict ${cls}">${msg}</div>`;
+  if(loaded.meses)renderMeses();
+}
+let calcTimer=null,calcSaving=false,calcDirty=false;
+function saveCalcSoon(){if(!db||!canWrite)return;calcDirty=true;clearTimeout(calcTimer);calcTimer=setTimeout(saveCalc,900)}
+async function saveCalc(){if(calcSaving||!calcDirty)return;calcSaving=true;calcDirty=false;
+  try{await db.doc("config/calc").set({...calc,actualizado:new Date().toISOString()});$("#calc-msg").textContent="Guardado."}
+  catch(err){$("#calc-msg").textContent=writeError(err)}finally{calcSaving=false;if(calcDirty)saveCalc()}}
+
+/* ---------- arranque ---------- */
+buildCalcInputs();renderCalc();
+["bitacora","tareas","estructura","meses"].forEach(c=>buildAddForm(c,c==="bitacora"?"Anotar cambio":c==="tareas"?"Agregar tarea":c==="meses"?"Guardar mes":"Agregar"));
+
+function offline(text){$("#sync").textContent=text;
+  ["bitacora","tareas","estructura","meses"].forEach(c=>{if(!loaded[c]){const el=$("#l-"+c);if(el)el.innerHTML='<div class="empty">'+text+'</div>'}})}
+const timeout=setTimeout(()=>{if(!Object.keys(loaded).length)offline("No se pudo conectar con el guardado todavía. Los datos aparecen cuando vuelva la conexión.")},10000);
+
+(async()=>{
+  const c=window.claude;
+  if(!c||!c.use){offline("Abrí esta página desde Claude para ver y guardar los datos.");clearTimeout(timeout);return}
+  db=await c.use("db");
+  if(!db){clearTimeout(timeout);offline("Iniciá sesión en Claude para ver y guardar los datos.");return}
+  $("#sync").textContent="Conectado · se guarda solo";
+  ["bitacora","tareas","estructura","meses"].forEach(coll=>{
+    db.collection(coll).onSnapshot(snap=>{data[coll]=snap.docs.map(d=>({id:d.id,...d.data()}));loaded[coll]=true;clearTimeout(timeout);render(coll)},
+      err=>{loaded[coll]=true;clearTimeout(timeout);const el=$("#l-"+coll);if(el)el.innerHTML='<div class="empty">No se pudieron leer los datos ('+esc(err.code)+').</div>'});
+  });
+  db.doc("config/calc").onSnapshot(s=>{if(s.exists&&!calcDirty&&!calcSaving){const v=s.data();CALC_FIELDS.forEach(f=>{if(typeof v[f.k]==="number"||v[f.k]===null)calc[f.k]=v[f.k];const el=$("#c-"+f.k);if(el&&document.activeElement!==el)el.value=has(calc[f.k])?calc[f.k]:""});renderCalc()}},()=>{});
+})();
+})();
+</script>
