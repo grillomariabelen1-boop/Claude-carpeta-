@@ -21,6 +21,7 @@
   --ink:#ece6dc; --muted:#9aa4af; --accent:#d2a86c; --accent-soft:#2e2619;
   --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; --bad:#ec8f80; --bad-soft:#341d1a; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
 .wrap{max-width:1080px;margin:0 auto;padding-block:20px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 h1,h2{font-family:var(--f-display);font-weight:400;text-wrap:balance;margin:0}
@@ -80,18 +81,24 @@ td.r,th.r{text-align:right}
 tr.off td{color:var(--muted)}
 .actions{white-space:nowrap;text-align:right}
 /* formularios de alta */
-.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;align-items:end}
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;align-items:start}
 .form .wide{grid-column:1/-1}
 .form-foot{display:flex;gap:8px;align-items:center;flex-wrap:wrap;grid-column:1/-1}
 .note{font-size:.84rem;color:var(--muted)}
 .empty{padding:18px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
 /* tareas */
-.stages{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.stage{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
-.stage header{margin:0;display:flex;justify-content:space-between;align-items:baseline}
-.task{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--line)}
-.task:first-of-type{border-top:0}
-.task .t{flex:1;min-width:0}
+.stages{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:720px){.stages{grid-template-columns:1fr}}
+.stage{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.stage-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.stage-head h2{font-size:1.05rem}
+.stage-head .count{font-size:.82rem;color:var(--muted);white-space:nowrap}
+.stage .note{margin-bottom:6px}
+.task{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 12px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
+.task .t{grid-column:1/-1;min-width:0;overflow-wrap:anywhere}
+.task .meta{display:flex;gap:10px;align-items:center;min-width:0}
+.task .actions{opacity:.75}
+.task:hover .actions,.task:focus-within .actions{opacity:1}
 .task.done .t{color:var(--muted);text-decoration:line-through}
 .st{border:0;border-radius:99px;padding:3px 10px;font-size:.75rem;font-weight:700;white-space:nowrap}
 .st.pendiente{background:var(--sunk);color:var(--muted)}.st.en-curso{background:var(--warn-soft);color:var(--warn)}.st.hecha{background:var(--ok-soft);color:var(--ok)}
@@ -210,7 +217,7 @@ const AREAS=["Meta · Prospecting","Meta · Retargeting","Meta · Testeo","Meta 
 const ETAPAS=[
   {id:"1",name:"1 · Conversión y ticket",hint:"Noviembre"},
   {id:"2",name:"2 · Creativos nuevos y UGC",hint:"Noviembre"},
-  {id:"3",name:"3 · Escalar pauta",hint:"Desde que el costo por venta se mantenga"},
+  {id:"3",name:"3 · Escalar pauta",hint:"Cuando el costo por venta se mantenga en ~$30.000"},
   {id:"4",name:"4 · Navidad",hint:"Diciembre"}];
 const ESTADOS=["pendiente","en curso","hecha"];
 const FORMS={
@@ -322,8 +329,8 @@ function renderTareas(){
   el.innerHTML=ETAPAS.map(e=>{
     const ts=data.tareas.filter(t=>String(t.etapa)===e.id).sort((a,b)=>ESTADOS.indexOf(a.estado)-ESTADOS.indexOf(b.estado)||(a.creado||"").localeCompare(b.creado||""));
     const done=ts.filter(t=>t.estado==="hecha").length;
-    return `<div class="stage"><header><h2 style="font-size:1rem">${esc(e.name)}</h2><span class="muted num" style="font-size:.82rem">${done}/${ts.length}</span></header><p class="note">${esc(e.hint)}</p>
-    ${ts.length?ts.map(t=>`<div class="task ${t.estado==="hecha"?"done":""}" data-row><button type="button" class="st ${(t.estado||"pendiente").replace(" ","-")}" data-status="${t.id}" ${canWrite?"":"disabled"} aria-label="Cambiar estado">${esc(t.estado||"pendiente")}</button><div class="t">${esc(t.titulo)}${t.quien?`<div class="note">${esc(t.quien)}</div>`:""}</div><div class="actions">${rowActions("tareas",t.id)}</div></div>`).join(""):'<p class="note">Sin tareas en esta etapa.</p>'}</div>`}).join("");
+    return `<div class="stage"><div class="stage-head"><h2>${esc(e.name)}</h2><span class="count num">${done} de ${ts.length} hechas</span></div><p class="note">${esc(e.hint)}</p>
+    ${ts.length?ts.map(t=>`<div class="task ${t.estado==="hecha"?"done":""}" data-row><div class="t">${esc(t.titulo)}</div><div class="meta"><button type="button" class="st ${(t.estado||"pendiente").replace(" ","-")}" data-status="${t.id}" ${canWrite?"":"disabled"} aria-label="Cambiar estado de la tarea">${esc(t.estado||"pendiente")}</button>${t.quien?`<span class="note">${esc(t.quien)}</span>`:""}</div><div class="actions">${rowActions("tareas",t.id)}</div></div>`).join(""):'<p class="note">Sin tareas en esta etapa.</p>'}</div>`}).join("");
 }
 function renderEstructura(){
   const el=$("#l-estructura");if(!loaded.estructura)return;
