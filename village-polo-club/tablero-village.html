@@ -182,17 +182,8 @@ tr.off td{color:var(--muted)}
     <p class="intro">La bajada de cada pieza para diseño, contenido y creadores UGC. Nada pasa a producción sin estar aprobado. Tocá el estado para avanzarlo: para aprobar, aprobado, en producción, entregado, en pauta.</p>
     <details class="panel rules" open>
       <summary><h3 style="display:inline">Reglas para todas las piezas</h3></summary>
-      <ul>
-        <li><b>Formatos:</b> video vertical 9:16 (1080×1920) y versión 4:5 (1080×1350) para feed. Placas: 4:5 y 9:16. Sin carruseles.</li>
-        <li><b>Primeros 2–3 segundos:</b> el gancho y el producto tienen que aparecer ya. Si no frena el scroll, el resto no se ve.</li>
-        <li><b>Subtítulos grandes siempre:</b> la mayoría mira sin sonido. La voz en off va subtitulada.</li>
-        <li><b>Zonas seguras en 9:16:</b> nada importante en el 14% de arriba ni en el de abajo.</li>
-        <li><b>Duración:</b> 15 a 30 segundos.</li>
-        <li><b>Tono:</b> español de Argentina, con voseo, cercano y sin exagerar. Nada de "¡¡OFERTÓN!!".</li>
-        <li><b>Lo que no se dice:</b> "fabricamos" en productos Hechter; precios, cuotas o promos que no estén vigentes en la web; urgencias falsas ("termina hoy" si no termina).</li>
-        <li><b>Cierre:</b> beneficio concreto (3 cuotas sin interés, envío gratis desde $150.000, cambio hasta 30 días) y la marca.</li>
-        <li><b>Entrega:</b> archivos en la carpeta de Drive del mes, nombrados <i>Pieza · Formato · Versión</i> (ej. "Talle M · 9x16 · v1").</li>
-      </ul>
+      <div id="rules-box"><ul id="rules-list"></ul></div>
+      <div class="btns" style="margin-top:12px"><button type="button" id="rules-edit">Editar reglas</button><span class="note" id="rules-msg"></span></div>
     </details>
     <div class="cr-filters" id="cr-filters" role="group" aria-label="Filtrar por equipo"></div>
     <div class="cr-list" id="l-creativos"><div class="empty">Cargando creativos…</div></div>
@@ -376,6 +367,31 @@ function render(coll){
   if(coll==="creativos")renderCreativos();
   renderStatus();
 }
+/* reglas editables: una por renglón, "Título: texto" pone el título en negrita */
+const DEFAULT_RULES=[
+  "Formatos: video vertical 9:16 (1080×1920) y versión 4:5 (1080×1350) para feed. Placas: 4:5 y 9:16. Sin carruseles.",
+  "Primeros 2–3 segundos: el gancho y el producto tienen que aparecer ya. Si no frena el scroll, el resto no se ve.",
+  "Subtítulos grandes siempre: la mayoría mira sin sonido. La voz en off va subtitulada.",
+  "Zonas seguras en 9:16: nada importante en el 14% de arriba ni en el de abajo.",
+  "Duración: 15 a 30 segundos.",
+  "Tono: español de Argentina, con voseo, cercano y sin exagerar. Nada de \"¡¡OFERTÓN!!\".",
+  "Lo que no se dice: \"fabricamos\" en productos Hechter; precios, cuotas o promos que no estén vigentes en la web; urgencias falsas (\"termina hoy\" si no termina).",
+  "Cierre: beneficio concreto (3 cuotas sin interés, envío gratis desde $150.000, cambio hasta 30 días) y la marca.",
+  "Entrega: archivos en la carpeta de Drive del mes, nombrados Pieza · Formato · Versión (ej. \"Talle M · 9x16 · v1\")."];
+let rules=DEFAULT_RULES.slice(),rulesEditing=false;
+function renderRules(){if(rulesEditing)return;
+  $("#rules-box").innerHTML='<ul id="rules-list">'+rules.map(r=>{const i=r.indexOf(":");return i>0&&i<40?`<li><b>${esc(r.slice(0,i+1))}</b>${esc(r.slice(i+1))}</li>`:`<li>${esc(r)}</li>`}).join("")+"</ul>";
+  $("#rules-edit").hidden=!canWrite;}
+$("#rules-edit").onclick=()=>{rulesEditing=true;$("#rules-edit").hidden=true;
+  $("#rules-box").innerHTML=`<div class="field"><label for="rules-text">Una regla por renglón. Lo que va antes de ":" sale en negrita.</label><textarea id="rules-text" style="min-height:260px">${esc(rules.join("\n"))}</textarea></div><div class="btns" style="margin-top:10px"><button type="button" class="primary" id="rules-save">Guardar reglas</button><button type="button" id="rules-cancel">Cancelar</button><button type="button" class="link" id="rules-reset">Volver a las reglas originales</button></div>`;
+  $("#rules-cancel").onclick=()=>{rulesEditing=false;renderRules()};
+  $("#rules-reset").onclick=()=>{$("#rules-text").value=DEFAULT_RULES.join("\n")};
+  $("#rules-save").onclick=async()=>{const items=$("#rules-text").value.split("\n").map(s=>s.trim()).filter(Boolean);
+    if(!db){$("#rules-msg").textContent="Sin conexión con el guardado: no se pudo guardar.";return}
+    try{await db.doc("config/reglas").set({items,actualizado:new Date().toISOString()});rules=items;rulesEditing=false;renderRules();$("#rules-msg").textContent="Reglas guardadas."}
+    catch(err){$("#rules-msg").textContent=writeError(err)}};
+};
+renderRules();
 function renderCreativos(){
   const el=$("#l-creativos");if(!loaded.creativos)return;
   const counts={Todos:data.creativos.length};EQUIPOS.forEach(e=>counts[e]=data.creativos.filter(c=>c.equipo===e).length);
@@ -387,7 +403,7 @@ function renderCreativos(){
     <div class="cr-head"><div style="min-width:0"><div class="cr-team">${esc(c.equipo)}</div><h2>${esc(c.titulo)}</h2></div>
     <button type="button" class="st ${(c.estado||"para aprobar").replace(/ /g,"-")}" data-status="${c.id}" data-coll="creativos" ${canWrite?"":"disabled"} aria-label="Cambiar estado de la pieza">${esc(c.estado||"para aprobar")}</button></div>
     <dl>${item("Qué traba resuelve",c.objetivo)}${item("Gancho",c.gancho,"hook")}${item("Guion o tomas",c.guion)}${item("Texto en pantalla",c.pantalla)}${item("Texto del anuncio",c.copy)}${item("Producto",c.producto)}${item("Resultado",c.resultado)}</dl>
-    <div class="cr-foot"><span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span><span class="actions">${rowActions("creativos",c.id)}</span></div>
+    <div class="cr-foot"><span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span><span class="actions">${canWrite?`<button type="button" data-edit="creativos:${c.id}">Editar pieza</button><button type="button" class="link danger" data-del="creativos:${c.id}">Borrar</button>`:""}</span></div>
   </article>`).join("");
 }
 function renderBitacora(){
@@ -512,6 +528,7 @@ const timeout=setTimeout(()=>{if(!Object.keys(loaded).length)offline("No se pudo
     db.collection(coll).onSnapshot(snap=>{data[coll]=snap.docs.map(d=>({id:d.id,...d.data()}));if(!snap.metadata.fromCache){loaded[coll]=true;clearTimeout(timeout)}else loaded[coll]=true;render(coll)},
       err=>{loaded[coll]=true;const el=$("#l-"+coll);if(el)el.innerHTML='<div class="empty">No se pudieron leer los datos ('+esc(err.code)+').</div>'});
   });
+  db.doc("config/reglas").onSnapshot(s=>{if(s.exists&&Array.isArray(s.data().items)&&s.data().items.length){rules=s.data().items.slice();renderRules()}},()=>{});
   db.doc("config/calc").onSnapshot(s=>{if(s.exists&&!calcDirty&&!calcSaving){const v=s.data();CALC_FIELDS.forEach(f=>{if(typeof v[f.k]==="number")calc[f.k]=v[f.k];const el=$("#c-"+f.k);if(el&&document.activeElement!==el)el.value=calc[f.k]});renderCalc()}},()=>{});
 })();
 })();
