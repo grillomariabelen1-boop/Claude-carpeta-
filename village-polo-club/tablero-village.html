@@ -208,7 +208,7 @@ tr.off td{color:var(--muted)}
       <div class="refs" id="l-referencias"><div class="empty">Cargando referencias…</div></div>
       <details style="margin-top:12px" id="ref-add-box"><summary class="note" style="cursor:pointer">Agregar referencia</summary><form class="form" id="f-referencias" style="margin-top:10px"></form></details>
     </div>
-    <div class="cr-filters" id="cr-filters" role="group" aria-label="Filtrar por equipo"></div>
+    <div class="cr-filters" id="cr-filters" role="group" aria-label="Filtrar por aprobación"></div>
     <div class="cr-list" id="l-creativos"><div class="empty">Cargando creativos…</div></div>
     <div class="panel">
       <h3>Agregar pieza</h3>
@@ -273,7 +273,7 @@ let assets=null;
 const COLLS=["bitacora","tareas","estructura","meses","creativos"];
 const EQUIPOS=["Diseño","Contenido propio","Creador UGC"];
 const CR_ESTADOS=["para aprobar","aprobado","en producción","entregado","en pauta"];
-let crFilter="Todos";
+let crFilter="Todas";
 const CR_LABEL={"para aprobar":"Para aprobar","aprobado":"Aprobada","en producción":"En producción","entregado":"Entregada","en pauta":"En pauta"};
 const CR_GROUP={
   "para aprobar":["Para aprobar","Las revisás vos. Si te sirve, pasala a \"Aprobada\"; si no, editala o borrala."],
@@ -456,12 +456,12 @@ $("#rules-edit").onclick=()=>{rulesEditing=true;$("#rules-edit").hidden=true;
 renderRules();
 function renderCreativos(){
   const el=$("#l-creativos");if(!loaded.creativos)return;
-  const counts={Todos:data.creativos.length};EQUIPOS.forEach(e=>counts[e]=data.creativos.filter(c=>c.equipo===e).length);
-  $("#cr-filters").innerHTML=["Todos",...EQUIPOS].map(f=>`<button type="button" data-crfilter="${esc(f)}" aria-pressed="${crFilter===f}">${esc(f)} <span class="num">${counts[f]}</span></button>`).join("");
-  const rows=data.creativos.filter(c=>crFilter==="Todos"||c.equipo===crFilter).sort((a,b)=>CR_ESTADOS.indexOf(a.estado)-CR_ESTADOS.indexOf(b.estado)||(a.orden??99)-(b.orden??99));
-  if(!rows.length){el.innerHTML='<div class="empty">No hay piezas para este equipo. Agregá una abajo.</div>';return}
-  const item=(label,v,cls="")=>v?`<div><dt>${label}</dt><dd class="${cls}">${esc(v)}</dd></div>`:"";
   const isOk=c=>c.estado&&c.estado!=="para aprobar";
+  const nOk=data.creativos.filter(isOk).length,nPend=data.creativos.length-nOk;
+  const counts={"Todas":data.creativos.length,"Para aprobar":nPend,"Aprobadas":nOk};
+  $("#cr-filters").innerHTML=Object.keys(counts).map(f=>`<button type="button" data-crfilter="${esc(f)}" aria-pressed="${crFilter===f}">${esc(f)} <span class="num">${counts[f]}</span></button>`).join("");
+  const rows=data.creativos;
+  const item=(label,v,cls="")=>v?`<div><dt>${label}</dt><dd class="${cls}">${esc(v)}</dd></div>`:"";
   const byOrder=(a,b)=>(a.orden??99)-(b.orden??99)||(a.creado||"").localeCompare(b.creado||"");
   const pend=rows.filter(c=>!isOk(c)).sort(byOrder), ok=rows.filter(isOk).sort(byOrder);
   const okCard=c=>{const av=c.avance||"para grabar";return `<article class="cr locked" data-row>
@@ -477,8 +477,8 @@ function renderCreativos(){
     <div class="cr-foot"><span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span>
     ${canWrite?`<span class="actions"><button type="button" class="primary" data-crapprove="${c.id}">Aprobar</button> <button type="button" data-edit="creativos:${c.id}">Editar pieza</button><button type="button" class="link danger" data-del="creativos:${c.id}">Borrar</button></span>`:""}</div></article>`;
   const group=(title,hint,list,fn,empty)=>`<div class="cr-group"><div class="cr-group-head"><h2>${title} <span class="num muted">${list.length}</span></h2><p class="note">${hint}</p></div>${list.length?`<div class="cr-grid">${list.map(fn).join("")}</div>`:`<div class="empty">${empty}</div>`}</div>`;
-  el.innerHTML=group("Para aprobar","Se pueden editar. Cuando una está lista y no lleva más correcciones, tocá \"Aprobar\".",pend,pendCard,"No hay piezas pendientes de aprobación.")
-    +group("Aprobadas · listas para grabar","Versión final: no se corrigen más y quedan acá. El avance (para grabar, grabado, en pauta) se marca en cada ficha.",ok,okCard,"Todavía no aprobaste ninguna pieza.");
+  el.innerHTML=(crFilter==="Aprobadas"?"":group("Para aprobar","Se pueden editar. Cuando una está lista y no lleva más correcciones, tocá \"Aprobar\".",pend,pendCard,"No hay piezas pendientes de aprobación."))
+    +(crFilter==="Para aprobar"?"":group("Aprobadas · listas para grabar","Versión final: no se corrigen más y quedan acá. El avance (para grabar, grabado, en pauta) se marca en cada ficha.",ok,okCard,"Todavía no aprobaste ninguna pieza."));
 }
 const AVANCES=["para grabar","grabado","en pauta"];
 async function crUpdate(btn,id,body){if(!db||!canWrite)return;btn.disabled=true;try{await db.collection("creativos").doc(id).update(body)}catch(err){alertNote(btn,writeError(err));btn.disabled=false}}
