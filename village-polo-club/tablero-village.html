@@ -127,8 +127,13 @@ tr.off td{color:var(--muted)}
 .cr-filters{display:flex;flex-wrap:wrap;gap:6px}
 .cr-filters button{border-radius:99px;padding:5px 12px;font-size:.85rem}
 .cr-filters button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.cr-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-@media (max-width:760px){.cr-list{grid-template-columns:1fr}}
+.cr-list{display:flex;flex-direction:column;gap:22px}
+.cr-group{display:flex;flex-direction:column;gap:10px}
+.cr-group-head h2{font-size:1.1rem}
+.cr-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.cr-grid{grid-template-columns:1fr}}
+.cr-state select{width:auto;padding:4px 26px 4px 10px;cursor:pointer}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .cr{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;display:flex;flex-direction:column;gap:10px;min-width:0}
 .cr-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
 .cr-head h2{font-size:1.05rem}
@@ -266,6 +271,13 @@ const COLLS=["bitacora","tareas","estructura","meses","creativos"];
 const EQUIPOS=["Diseño","Contenido propio","Creador UGC"];
 const CR_ESTADOS=["para aprobar","aprobado","en producción","entregado","en pauta"];
 let crFilter="Todos";
+const CR_LABEL={"para aprobar":"Para aprobar","aprobado":"Aprobada","en producción":"En producción","entregado":"Entregada","en pauta":"En pauta"};
+const CR_GROUP={
+  "para aprobar":["Para aprobar","Las revisás vos. Si te sirve, pasala a \"Aprobada\"; si no, editala o borrala."],
+  "aprobado":["Aprobadas: listas para producir","El equipo ya puede arrancar. Cuando empiecen, pasan a \"En producción\"."],
+  "en producción":["En producción","Diseño, contenido o el creador la están haciendo."],
+  "entregado":["Entregadas","Archivos en el Drive. Falta subirla a Meta."],
+  "en pauta":["En pauta","Ya está corriendo. Completen el resultado al revisarla."]};
 const loaded={};
 
 /* ---------- definición de listas ---------- */
@@ -447,13 +459,18 @@ function renderCreativos(){
   const rows=data.creativos.filter(c=>crFilter==="Todos"||c.equipo===crFilter).sort((a,b)=>CR_ESTADOS.indexOf(a.estado)-CR_ESTADOS.indexOf(b.estado)||(a.orden??99)-(b.orden??99));
   if(!rows.length){el.innerHTML='<div class="empty">No hay piezas para este equipo. Agregá una abajo.</div>';return}
   const item=(label,v,cls="")=>v?`<div><dt>${label}</dt><dd class="${cls}">${esc(v)}</dd></div>`:"";
-  el.innerHTML=rows.map(c=>`<article class="cr" data-row>
+  const card=c=>`<article class="cr" data-row>
     <div class="cr-head"><div style="min-width:0"><div class="cr-team">${esc(c.equipo)}</div><h2>${esc(c.titulo)}</h2></div>
-    <button type="button" class="st ${(c.estado||"para aprobar").replace(/ /g,"-")}" data-status="${c.id}" data-coll="creativos" ${canWrite?"":"disabled"} aria-label="Cambiar estado de la pieza">${esc(c.estado||"para aprobar")}</button></div>
+    <label class="cr-state"><span class="sr">Estado de la pieza</span><select data-crstate="${c.id}" class="st ${(c.estado||"para aprobar").replace(/ /g,"-")}" ${canWrite?"":"disabled"}>${CR_ESTADOS.map(s=>`<option value="${s}" ${s===(c.estado||"para aprobar")?"selected":""}>${CR_LABEL[s]}</option>`).join("")}</select></label></div>
     <dl>${item("Qué traba resuelve",c.objetivo)}${item("Gancho",c.gancho,"hook")}${item("Guion o tomas",c.guion)}${item("Texto en pantalla",c.pantalla)}${item("Texto del anuncio",c.copy)}${item("Producto",c.producto)}${item("Resultado",c.resultado)}</dl>
     <div class="cr-foot"><span class="note">${esc(c.formato||"")}${c.entrega?` · entrega ${fmtDate(c.entrega)}`:""}</span><span class="actions">${canWrite?`<button type="button" data-edit="creativos:${c.id}">Editar pieza</button><button type="button" class="link danger" data-del="creativos:${c.id}">Borrar</button>`:""}</span></div>
-  </article>`).join("");
+  </article>`;
+  el.innerHTML=CR_ESTADOS.map(s=>{const g=rows.filter(c=>(c.estado||"para aprobar")===s);if(!g.length)return"";
+    return `<div class="cr-group"><div class="cr-group-head"><h2>${CR_GROUP[s][0]} <span class="num muted">${g.length}</span></h2><p class="note">${CR_GROUP[s][1]}</p></div><div class="cr-grid">${g.map(card).join("")}</div></div>`}).join("");
 }
+document.addEventListener("change",e=>{const sel=e.target.closest("[data-crstate]");if(!sel||!db||!canWrite)return;
+  sel.disabled=true;db.collection("creativos").doc(sel.dataset.crstate).update({estado:sel.value}).catch(err=>{alertNote(sel,writeError(err))})});
+function alertNote(el,t){const n=document.createElement("span");n.className="note";n.textContent=t;el.after(n)}
 function renderBitacora(){
   const el=$("#l-bitacora");if(!loaded.bitacora)return;
   const rows=[...data.bitacora].sort((a,b)=>(b.fecha||"").localeCompare(a.fecha||"")||(b.creado||"").localeCompare(a.creado||""));
