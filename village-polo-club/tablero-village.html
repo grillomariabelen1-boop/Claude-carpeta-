@@ -64,6 +64,11 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-vis
 .row span:last-child{font-weight:700;text-align:right}
 .chip{display:inline-block;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap}
 .chip.ok{background:var(--ok-soft);color:var(--ok)}.chip.warn{background:var(--warn-soft);color:var(--warn)}.chip.bad{background:var(--bad-soft);color:var(--bad)}.chip.neutral{background:var(--sunk);color:var(--muted)}
+.limits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.lim{border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:grid;gap:2px;background:var(--bg);min-width:0}
+.lim b{font-size:1.35rem;font-family:var(--f-display);font-weight:400}
+.lim small{font-size:.78rem;color:var(--muted)}
+.lim small:first-child{font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink)}
 .verdict{margin-top:12px;padding:10px 12px;border-radius:8px;font-size:.9rem}
 .verdict.ok{background:var(--ok-soft)}.verdict.warn{background:var(--warn-soft)}.verdict.bad{background:var(--bad-soft)}
 .btns{display:flex;flex-wrap:wrap;gap:8px}
@@ -528,9 +533,9 @@ function renderMeses(){
   const rows=[...data.meses].sort((a,b)=>(a.mes||"").localeCompare(b.mes||""));
   if(!rows.length){el.innerHTML='<div class="empty">Cargá el primer mes para ver el avance.</div>';return}
   const goal=calc.objetivo||20e6;
-  el.innerHTML=`<table><thead><tr><th>Mes</th><th class="r">Visitas</th><th class="r">Ventas</th><th class="r">Conversión</th><th class="r">Ticket</th><th class="r">Facturación</th><th class="r">Gasto Meta</th><th class="r">ROAS real</th><th class="r">Del objetivo</th><th></th></tr></thead><tbody>
+  el.innerHTML=`<table><thead><tr><th>Mes</th><th class="r">Visitas</th><th class="r">Ventas</th><th class="r">Conversión</th><th class="r">Ticket</th><th class="r">Facturación</th><th class="r">Gasto Meta</th><th class="r">ROAS real <span class="note" style="text-transform:none;letter-spacing:0;font-weight:400">(break-even ${(100/calc.margen).toLocaleString("es-AR",{maximumFractionDigits:2})})</span></th><th class="r">Del objetivo</th><th></th></tr></thead><tbody>
   ${rows.map(r=>{const conv=r.visitas&&r.ventas?r.ventas/r.visitas*100:null,tk=r.ventas?r.facturacion/r.ventas:null,roas=r.gasto?r.facturacion/r.gasto:null,of=r.facturacion?r.facturacion/goal*100:null;
-    return `<tr data-row><td><b>${esc(mesLabel(r.mes))}</b>${r.nota?`<div class="note">${esc(r.nota)}</div>`:""}</td><td class="r num">${r.visitas?fmtN.format(r.visitas):"—"}</td><td class="r num">${r.ventas??"—"}</td><td class="r num">${pct(conv,2)}</td><td class="r num">${money(tk)}</td><td class="r num"><b>${millions(r.facturacion)}</b></td><td class="r num">${millions(r.gasto)}</td><td class="r num">${roas?roas.toLocaleString("es-AR",{maximumFractionDigits:2}):"—"}</td><td class="r num">${pct(of,0)}</td><td class="actions">${rowActions("meses",r.id)}</td></tr>`}).join("")}</tbody></table>`;
+    return `<tr data-row><td style="white-space:nowrap"><b>${esc(mesLabel(r.mes))}</b>${r.nota?`<div class="note">${esc(r.nota)}</div>`:""}</td><td class="r num">${r.visitas?fmtN.format(r.visitas):"—"}</td><td class="r num">${r.ventas??"—"}</td><td class="r num">${pct(conv,2)}</td><td class="r num">${money(tk)}</td><td class="r num"><b>${millions(r.facturacion)}</b></td><td class="r num">${millions(r.gasto)}</td><td class="r num">${roas?`<span class="chip ${roas>=100/(calc.margen-15)?"ok":roas>=100/calc.margen?"warn":"bad"}">${roas.toLocaleString("es-AR",{maximumFractionDigits:2})}</span>`:"—"}</td><td class="r num">${pct(of,0)}</td><td class="actions">${rowActions("meses",r.id)}</td></tr>`}).join("")}</tbody></table>`;
 }
 function mesLabel(m){const d=parseISO((m||"")+"-01");return d?d.toLocaleDateString("es-AR",{month:"long",year:"numeric"}):m}
 
@@ -576,7 +581,14 @@ function renderCalc(){
   let cls="ok",msg="Le cierra al negocio: queda margen después de pagar la pauta.";
   if(ganancia<0){cls="bad";msg="No cierra: la pauta se come todo el margen. Hay que subir ticket o conversión, o bajar el objetivo."}
   else if(gPct<10){cls="warn";msg="Cierra justo: queda menos del 10% de ganancia. Cualquier aumento del costo por visita lo da vuelta."}
-  $("#calc-out").innerHTML=`<div class="result-big"><span class="v num">${money(pauta)}</span><span class="muted">de pauta por mes · ${money(pauta/30)} por día</span></div>
+  const beRoas=c.margen>0?100/c.margen:null, objRoas=c.margen>15?100/(c.margen-15):null;
+  $("#calc-out").innerHTML=`<h3>Límites del negocio</h3><div class="limits">
+    <div class="lim"><small>CPA máximo</small><b class="num">${money(cpaMax)}</b><small>Costo por venta en el que no se gana ni se pierde</small></div>
+    <div class="lim"><small>CPA objetivo</small><b class="num">${money(cpaObj)}</b><small>Para ganar 15% después de la pauta</small></div>
+    <div class="lim"><small>ROAS break-even</small><b class="num">${beRoas?beRoas.toLocaleString("es-AR",{maximumFractionDigits:2}):"—"}</b><small>Por debajo de este ROAS real se pierde plata</small></div>
+    <div class="lim"><small>ROAS objetivo</small><b class="num">${objRoas?objRoas.toLocaleString("es-AR",{maximumFractionDigits:2}):"—"}</b><small>Para ganar 15% después de la pauta</small></div>
+  </div><p class="note" style="margin:6px 0 14px">Se calculan con el ticket y el margen de la izquierda. Comparalos siempre con el ROAS real (facturación de Tiendanube ÷ gasto), no con el de Meta.</p>
+  <h3>Para llegar al objetivo</h3><div class="result-big"><span class="v num">${money(pauta)}</span><span class="muted">de pauta por mes · ${money(pauta/30)} por día</span></div>
   <div class="rows">
     <div class="row"><span>Ventas necesarias por mes</span><span class="num">${fmtN.format(Math.ceil(ventas))} <span class="muted" style="font-weight:400">(${(ventas/30).toLocaleString("es-AR",{maximumFractionDigits:1})} por día)</span></span></div>
     <div class="row"><span>Visitas que compran necesarias</span><span class="num">${fmtN.format(Math.round(visitas))}</span></div>
@@ -584,8 +596,6 @@ function renderCalc(){
     <div class="row"><span>Pauta comparada con octubre ($1,48 M)</span><span class="num">${mult.toLocaleString("es-AR",{maximumFractionDigits:1})} veces</span></div>
     <div class="row"><span>ROAS necesario (facturación ÷ pauta)</span><span class="num">${roas?roas.toLocaleString("es-AR",{maximumFractionDigits:2}):"—"}</span></div>
     <div class="row"><span>Costo por venta resultante</span><span class="num">${money(cpa)}</span></div>
-    <div class="row"><span>Costo por venta máximo (sin ganar nada)</span><span class="num">${money(cpaMax)}</span></div>
-    <div class="row"><span>Costo por venta objetivo (ganando 15%)</span><span class="num">${money(cpaObj)}</span></div>
     <div class="row"><span>Margen bruto del mes</span><span class="num">${money(contrib)}</span></div>
     <div class="row"><span>Queda después de la pauta</span><span class="num">${money(ganancia)} <span class="chip ${cls}">${pct(gPct,0)}</span></span></div>
   </div><div class="verdict ${cls}">${msg}</div>`;
