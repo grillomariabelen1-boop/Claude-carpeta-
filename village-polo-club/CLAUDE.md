@@ -24,6 +24,10 @@
   Funcionó en 2 videos. "Winter sale | enfoque ambos" es ese formato: el "ambos" es solo el enfoque, en octubre no se vendió
   ningún ambo y vendió sobre todo buzos y corderoy. Los creativos nuevos no compiten bien en la misma campaña que los ganadores
   (el presupuesto se va a los probados).
+- **Creativos (nov 2026):** la venta es por emoción (cómo se va a sentir), lo racional va al cierre. Hacer muchos más
+  videos tipo **"POV: …"** (se viralizan). Creadores UGC: **Raúl** (mide 2 metros, grandote) y otro de contextura grande,
+  para pauta y orgánico: sirven para el ángulo de talles grandes. Pendiente: contenido de **fiestas y aguinaldo**.
+  Tablero de trabajo (bitácora, tareas, creativos, calculadora): https://claude.ai/artifact/1KS2Qee2Eu5zLJL2q9KGtN
 - Octubre 2026 (Tiendanube): 46 ventas, $4.451.700 en productos; gasto Meta $1.478.957 → ROAS real 3,0 y costo por venta
   $32.150. Sin ventas del 18 al 21/10 (checkout), volvieron el 22/10.
 - Google Ads (6/10/2026): primera campaña (Máximo rendimiento / IA de Google), presupuesto **aparte** del de Meta:
