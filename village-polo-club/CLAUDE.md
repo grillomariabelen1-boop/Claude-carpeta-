@@ -29,7 +29,7 @@
   para pauta y orgánico: sirven para el ángulo de talles grandes. Pendiente: contenido de **fiestas y aguinaldo**.
   Tablero de trabajo (bitácora, tareas, creativos, calculadora): https://claude.ai/artifact/1KS2Qee2Eu5zLJL2q9KGtN
 - Octubre 2026 (Tiendanube): 46 ventas, $4.451.700 en productos; gasto Meta $1.478.957 → ROAS real 3,0 y costo por venta
-  $32.150. Sin ventas del 18 al 21/10 (checkout), volvieron el 22/10.
+  $32.150. Sin ventas del 18 al 21/10, volvieron el 22/10. Causa NO confirmada: el checkout se verificó y funciona; no atribuirlo al checkout.
 - Google Ads (6/10/2026): primera campaña (Máximo rendimiento / IA de Google), presupuesto **aparte** del de Meta:
   **$15.000 por día** (~$456.000 por mes). Idioma español, Argentina, sin la marca ni competidores en los temas de búsqueda.
   Revisar a las 2-3 semanas cuánto cuesta cada venta real antes de subir.

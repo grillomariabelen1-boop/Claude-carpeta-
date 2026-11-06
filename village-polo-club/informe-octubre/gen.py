@@ -13,7 +13,7 @@ def daily_svg():
     for t in range(0,5):
         g.append(f'<line x1="{pl}" x2="{W-pr}" y1="{y(t):.1f}" y2="{y(t):.1f}" class="grid"/><text x="{pl-8}" y="{y(t)+4:.1f}" class="ax" text-anchor="end">{t}</text>')
     # zona del checkout 18-21
-    x0=pl+17*cw; g.append(f'<rect x="{x0:.1f}" y="{pt-14}" width="{4*cw:.1f}" height="{H-pb-pt+14}" class="gap"/><text x="{x0+2*cw:.1f}" y="{pt-3}" text-anchor="middle" class="gaplbl">Checkout caído</text>')
+    x0=pl+17*cw; g.append(f'<rect x="{x0:.1f}" y="{pt-14}" width="{4*cw:.1f}" height="{H-pb-pt+14}" class="gap"/><text x="{x0+2*cw:.1f}" y="{pt-3}" text-anchor="middle" class="gaplbl">Sin ventas</text>')
     for i,v in enumerate(daily):
         x=pl+i*cw+2; d=i+1
         if v>0:
@@ -108,7 +108,7 @@ footer{{border-top:1px solid var(--line);padding-top:16px;font-size:.82rem;color
 <header style="display:flex;flex-direction:column;gap:14px">
   <div class="eyebrow">Village Polo Club · Informe de octubre 2026</div>
   <h1>Octubre: 46 ventas, 28% más que septiembre</h1>
-  <p class="lead muted">Vendimos más, con el mismo costo por venta. El ticket bajó porque se vendió mucho de la Winter Sale a $49.900, y perdimos 4 días de ventas por una falla del checkout que ya está resuelta.</p>
+  <p class="lead muted">Vendimos más, con el mismo costo por venta. El ticket bajó porque se vendió mucho de la Winter Sale a $49.900.</p>
   <div class="tiles">
     <div class="tile"><small>Ventas</small><b class="num">46</b><small><span class="up">+28%</span> vs. septiembre</small></div>
     <div class="tile"><small>Facturación</small><b class="num">$4,7 M</b><small><span class="up">+5%</span> · {m(4705026)}</small></div>
@@ -161,7 +161,7 @@ footer{{border-top:1px solid var(--line);padding-top:16px;font-size:.82rem;color
   <h2>Ventas día por día</h2>
   <div class="card">
     {daily_svg()}
-    <p class="note">Del 18 al 21 de octubre no entró ninguna venta: falló el checkout. Con las ventas que veníamos teniendo, estimamos que se perdieron unas 6.</p>
+    <p class="note">Del 18 al 21 de octubre no entraron ventas. Revisamos la tienda y el checkout completo, de punta a punta, y funciona correctamente. En noviembre seguimos las ventas día por día para detectar a tiempo cualquier corte.</p>
   </div>
 </section>
 
@@ -181,10 +181,8 @@ footer{{border-top:1px solid var(--line);padding-top:16px;font-size:.82rem;color
 
 <section>
   <h2>La tienda</h2>
-  <h3>El checkout, resuelto</h3>
-  <p>Del 18 al 21 de octubre no se podía terminar la compra. Las ventas volvieron el 22 y en noviembre verificamos el checkout completo, de punta a punta, incluidos los cupones.</p>
   <h3>Mucha gente llega al carrito y no compra</h3>
-  <p>En octubre se agregaron productos al carrito 523 veces y se concretaron 46 ventas. Como el pago funciona, lo que frena es otra cosa: <b>la duda con el talle</b>, <b>el costo del envío</b> y la desconfianza de comprar a distancia. En septiembre vimos que 4 de cada 10 compras se abandonaban en el paso donde aparece el envío.</p>
+  <p>En octubre se agregaron productos al carrito 523 veces y se concretaron 46 ventas. Revisamos el checkout completo y funciona bien, así que lo que frena es otra cosa: <b>la duda con el talle</b>, <b>el costo del envío</b> y la desconfianza de comprar a distancia. En septiembre vimos que 4 de cada 10 compras se abandonaban en el paso donde aparece el envío.</p>
   <div class="callout">Es donde más plata se puede recuperar sin gastar más en pauta. Las tablas de talles, el envío gratis más accesible y los videos que muestran cómo calza cada prenda apuntan acá.</div>
 </section>
 
@@ -216,7 +214,7 @@ footer{{border-top:1px solid var(--line);padding-top:16px;font-size:.82rem;color
 
 <footer>
   <span><b>Fuentes:</b> Tiendanube (panel de estadísticas y exportación de las 46 ventas de octubre), Meta Ads (informes de campañas, conjuntos y anuncios del 1 al 31 de octubre de 2026), informe de septiembre.</span>
-  <span><b>Estimaciones:</b> visitas de septiembre, ventas perdidas por el checkout y margen del 45%. Las compras "según Meta" son las que Meta se atribuye con su configuración de atribución.</span>
+  <span><b>Estimaciones:</b> visitas de septiembre y margen del 45%. Las compras "según Meta" son las que Meta se atribuye con su configuración de atribución.</span>
 </footer>
 </div>
 '''
