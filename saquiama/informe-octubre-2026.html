@@ -6,16 +6,16 @@
 /* Layout: informe de una columna, como una revista corta. Portada con la cifra del mes, después capítulos con un número grande, un gráfico simple y una lectura. */
 :root{
   --bg:#f7f2ee; --paper:#fffdfb; --ink:#261c1f; --muted:#6e6063; --line:#e4d9d3;
-  --accent:#8a3f55; --accent-soft:#f2e2e6; --grey:#c9bcb7; --ok:#2f6b47; --ok-soft:#e2efe5; --warn:#94650f; --warn-soft:#f6ecd6;
+  --accent:#8a3f55; --accent-soft:#f2e2e6; --grey:#c9bcb7; --mail:#c98a2b; --ok:#2f6b47; --ok-soft:#e2efe5; --warn:#94650f; --warn-soft:#f6ecd6;
   --f-display:"Instrument Serif",Georgia,"Times New Roman",serif;
   --f-body:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#161113; --paper:#1f181a; --ink:#f0e7e8; --muted:#a8999c; --line:#3a2f32;
-  --accent:#e29bb0; --accent-soft:#3a2229; --grey:#5b4e51; --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; color-scheme:dark}}
+  --accent:#e29bb0; --accent-soft:#3a2229; --grey:#5b4e51; --mail:#e3b45d; --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#161113; --paper:#1f181a; --ink:#f0e7e8; --muted:#a8999c; --line:#3a2f32;
-  --accent:#e29bb0; --accent-soft:#3a2229; --grey:#5b4e51; --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; color-scheme:dark}
+  --accent:#e29bb0; --accent-soft:#3a2229; --grey:#5b4e51; --mail:#e3b45d; --ok:#7cc79a; --ok-soft:#1c2d23; --warn:#e3b45d; --warn-soft:#2f2614; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
 .wrap{max-width:860px;margin:0 auto;padding-block:28px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:56px}
@@ -56,11 +56,16 @@ section{display:flex;flex-direction:column;gap:18px}
 .fill.hi{background:var(--accent)}
 .stack{display:flex;gap:2px;align-items:center;flex:none;min-width:12px}
 .stack .fill{flex:none;min-width:3px}
-.fill.mail{background:var(--accent-soft);border:2px dashed var(--accent)}
+.fill.mail{background:var(--mail)}
 .legend{font-size:.84rem;color:var(--muted);display:flex;align-items:center;gap:8px}
-.legend .sw{display:inline-block;width:22px;height:12px;border-radius:3px;background:var(--accent-soft);border:2px dashed var(--accent)}
+.legend{flex-wrap:wrap;gap:6px 18px;font-size:.88rem;color:var(--ink)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;background:var(--grey)}
+.legend i.hi{background:var(--accent)}
+.legend i.mail{background:var(--mail)}
 .bars hr{border:0;border-top:1px dashed var(--line);margin:4px 0;width:100%}
 .track span{font-size:.9rem;white-space:nowrap}
+.track .mm{display:block;font-size:.78rem;color:var(--muted)}
 /* tablas */
 .tbl{overflow-x:auto}
 table{width:100%;border-collapse:collapse;font-size:.95rem}
@@ -112,11 +117,11 @@ footer{border-top:1px solid var(--line);padding-top:18px;font-size:.84rem;color:
     <div class="chap"><span class="n">1</span><h2>De dónde vinieron las ventas</h2></div>
     <div class="prose"><p>Casi la mitad de lo que se vendió llegó directo desde un anuncio de Meta: <b>35 pedidos por $3.441.300</b>. Contando solo esos pedidos, cada $1 invertido vendió $4,76.</p></div>
     <div class="card bars" role="img" aria-label="Facturado por origen del pedido, con la parte recuperada por los mails">
-      <div class="bar"><div class="lab">Anuncio de Meta<small>35 pedidos · 11 volvieron con el mail</small></div><div class="track"><div class="stack" style="width:66%"><div class="fill hi" style="width:70.7%"></div><div class="fill mail" style="width:29.3%"></div></div><span class="num">$3.441.300 · 47%</span></div></div>
-      <div class="bar"><div class="lab">Instagram y Facebook orgánico<small>27 pedidos · 9 volvieron con el mail</small></div><div class="track"><div class="stack" style="width:53.9%"><div class="fill" style="width:70.5%"></div><div class="fill mail" style="width:29.5%"></div></div><span class="num">$2.806.125 · 39%</span></div></div>
-      <div class="bar"><div class="lab">Directo<small>7 pedidos · 1 volvió con el mail</small></div><div class="track"><div class="stack" style="width:12.5%"><div class="fill" style="width:86%"></div><div class="fill mail" style="width:14%"></div></div><span class="num">$647.400 · 9%</span></div></div>
-      <div class="bar"><div class="lab">Google orgánico<small>3 pedidos · 1 volvió con el mail</small></div><div class="track"><div class="stack" style="width:6.9%"><div class="fill" style="width:60%"></div><div class="fill mail" style="width:40%"></div></div><span class="num">$355.600 · 5%</span></div></div>
-      <p class="legend"><span class="sw"></span> Parte recuperada por los mails de carrito abandonado: 22 pedidos, $2.070.425</p>
+      <p class="legend"><span><i class="hi"></i><i></i> Compró sin necesitar el mail</span><span><i class="mail"></i> Dejó el carrito y volvió a comprar gracias al mail</span></p>
+      <div class="bar"><div class="lab">Anuncio de Meta<small>35 pedidos · 11 volvieron con el mail</small></div><div class="track"><div class="stack" style="width:66%"><div class="fill hi" style="width:70.7%"></div><div class="fill mail" style="width:29.3%"></div></div><span class="num">$3.441.300 · 47%<small class="mm">$1.008.150 con el mail</small></span></div></div>
+      <div class="bar"><div class="lab">Instagram y Facebook orgánico<small>27 pedidos · 9 volvieron con el mail</small></div><div class="track"><div class="stack" style="width:53.9%"><div class="fill" style="width:70.5%"></div><div class="fill mail" style="width:29.5%"></div></div><span class="num">$2.806.125 · 39%<small class="mm">$828.675 con el mail</small></span></div></div>
+      <div class="bar"><div class="lab">Directo<small>7 pedidos · 1 volvió con el mail</small></div><div class="track"><div class="stack" style="width:12.5%"><div class="fill" style="width:86%"></div><div class="fill mail" style="width:14%"></div></div><span class="num">$647.400 · 9%<small class="mm">$91.000 con el mail</small></span></div></div>
+      <div class="bar"><div class="lab">Google orgánico<small>3 pedidos · 1 volvió con el mail</small></div><div class="track"><div class="stack" style="width:6.9%"><div class="fill" style="width:60%"></div><div class="fill mail" style="width:40%"></div></div><span class="num">$355.600 · 5%<small class="mm">$142.600 con el mail</small></span></div></div>
     </div>
     <div class="prose">
       <p><b>El $4,76 es el piso.</b> La tienda anota solo el último paso antes de comprar. Si una clienta vio un anuncio y después entró desde el perfil de Instagram, queda como "orgánico".</p>
