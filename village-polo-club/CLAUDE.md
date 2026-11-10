@@ -6,7 +6,8 @@
 - **Notion (actualizado 10/11/2026):** la clienta pidió tener TODO en Notion, así que Claude ahora sí carga ahí lo de Village.
   Hub: "VPC Esquema de trabajo y facturación" (https://app.notion.com/p/414be5f38a1781499f99f9be57758db7), dentro de la página
   de Village, con bases Control de cambios, Tareas, Creativos, Referencias, Estructura de Meta y Meses, más páginas de
-  reglas, calculadora y placas. Cada cambio en la cuenta va como fila en Control de cambios (estilo "Control de cambios — Belén"). El markdown de la tarjeta incluye la sección "Propuestas a los dueños". Usar markdown que Notion pegue bien: títulos `##`, tablas simples, listas y
+  reglas, calculadora y placas. Cada cambio en la cuenta va como fila en Control de cambios (estilo "Control de cambios — Belén"):
+  columnas "Día del cambio" y "Revisar resultados el"; Estado = Pendiente / Esperando lectura / OK (con "Qué pasó" al leer). El markdown de la tarjeta incluye la sección "Propuestas a los dueños". Usar markdown que Notion pegue bien: títulos `##`, tablas simples, listas y
   checkboxes `- [ ]`. Nada de HTML.
 - **Flujo de aprobación:** las ideas, ángulos y guiones de creativos primero se presentan en el chat para aprobar, en formato
   corto. Recién con la aprobación se arma el markdown para Notion. No pasar markdown de Notion de algo no aprobado.
