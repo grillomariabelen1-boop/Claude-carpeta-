@@ -27,3 +27,16 @@ Cada fila tiene que llevar su imagen de referencia. Las imágenes están en la c
 - No toques otras bases ni páginas.
 - Si algo no coincide (falta una fila o un archivo), pará y avisame.
 - Al terminar, decime qué imagen quedó en cada fila.
+
+---
+
+# Tarea 2 para Claude in Chrome: revisar la tienda (solo mirar, no cambiar nada)
+
+Entrá al panel de Tiendanube de Village Polo Club y a la web villagepoloclubstore.com.ar. **No modifiques nada**; solo revisá y contame.
+
+1. **Envío gratis:** en la configuración de envíos del panel, ¿desde qué monto está el envío gratis? Tiene que ser **$100.000**.
+2. **Banner y textos de la web:** recorré la home, el banner de arriba, el pie de página y una ficha de producto. ¿Aparece en algún lado "$150.000" o "cambio hasta 30 días"? Pasame dónde está cada uno.
+3. **Cupón CERRATUCOMPRA:** en Descuentos / Cupones, ¿está activo? ¿Qué descuento da? ¿Tiene fecha de vencimiento, monto mínimo o límite de usos?
+4. **Cupón VPC:** lo mismo que el punto 3.
+
+Al terminar, pasame una lista con lo que encontraste en cada punto.
