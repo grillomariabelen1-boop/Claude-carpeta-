@@ -58,7 +58,7 @@ Winter Sale: buzos y camperas con hasta 60% OFF (por ejemplo, buzos a $49.900, a
 3. **"Armá tu combo y el envío va por nuestra cuenta."** Jean + 2 chombas piqué: $166.700. Foto del combo sobre una mesa.
 4. **Envío y cuotas:** tres bloques grandes: "Envío gratis desde $100.000" · "Llega en 2 a 4 días hábiles" · "3 cuotas sin interés".
 5. **"Lunes en la oficina. Sábado en un asado. Mismo pantalón."** Placa partida al medio: el chino con camisa y saco / el mismo chino con chomba. $99.900.
-6. **Últimas horas de Winter Sale:** "Cierre de temporada: hasta 60% OFF" + "3 cuotas sin interés · Cambio hasta 30 días". Solo con prendas que tengan talles S, M y L.
+6. **Últimas horas de Winter Sale:** "Cierre de temporada: hasta 60% OFF" + "3 cuotas sin interés · Envío gratis desde $100.000". Solo con prendas que tengan talles S, M y L.
 
 ## Lo que NO se puede poner
 
