@@ -17,7 +17,8 @@
 - Datos confirmados (24/9/2026):
   - Hechter: Village lo **revende como distribuidor oficial**. No lo fabrica.
   - Ambos: vienen por talles, son **saco y pantalón**, y tienen **composturas gratis**. Drop 6: saco 50 lleva pantalón 44.
-  - Envío gratis: se propone a los dueños bajar el umbral a **$120.000**.
+  - Envío gratis: **desde $100.000** (actualizado 10/11/2026; antes $150.000).
+  - **No prometer "cambio hasta 30 días"** en anuncios ni placas (pedido de la clienta, 10/11/2026).
   - Preguntas frecuentes de la web: ya corregidas (24/9).
   - **Talles: es el cuello de botella y los dueños no pasan medidas.** El plan para resolverlo sin ellos está en `07-talles.md`.
 - **Formato ganador en Meta (confirmado oct 2026):** video con tomas del local y voz en off contando las promociones.

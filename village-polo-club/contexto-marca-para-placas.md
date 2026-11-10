@@ -32,9 +32,8 @@ Winter Sale: buzos y camperas con hasta 60% OFF (por ejemplo, buzos a $49.900, a
 ## Beneficios que se pueden poner (todos reales)
 
 - **3 cuotas sin interés** con todos los bancos
-- **Envío gratis superando los $150.000**
+- **Envío gratis desde $100.000**
 - **Llega en 2 a 4 días hábiles** a todo el país
-- **Cambio hasta 30 días**
 - **Composturas gratis** en los ambos (solo en trajes)
 - Retiro gratis en el local de Belgrano
 
@@ -57,7 +56,7 @@ Winter Sale: buzos y camperas con hasta 60% OFF (por ejemplo, buzos a $49.900, a
 1. **"Hay prendas que no pasan de moda. Hacemos esas."** Las 4 básicas propias: chomba piqué, jean, chino y chomba tejida. (No usar la camisa: es Hechter.)
 2. **"4 prendas. 4 looks. Toda la semana resuelta."** Jean + chino + chomba piqué azul marino + chomba piqué blanca, y debajo las 4 combinaciones. Total $266.600, con envío gratis.
 3. **"Armá tu combo y el envío va por nuestra cuenta."** Jean + 2 chombas piqué: $166.700. Foto del combo sobre una mesa.
-4. **Envío y cuotas:** tres bloques grandes: "Envío gratis superando $150.000" · "Llega en 2 a 4 días hábiles" · "3 cuotas sin interés".
+4. **Envío y cuotas:** tres bloques grandes: "Envío gratis desde $100.000" · "Llega en 2 a 4 días hábiles" · "3 cuotas sin interés".
 5. **"Lunes en la oficina. Sábado en un asado. Mismo pantalón."** Placa partida al medio: el chino con camisa y saco / el mismo chino con chomba. $99.900.
 6. **Últimas horas de Winter Sale:** "Cierre de temporada: hasta 60% OFF" + "3 cuotas sin interés · Cambio hasta 30 días". Solo con prendas que tengan talles S, M y L.
 
