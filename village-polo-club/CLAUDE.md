@@ -3,8 +3,10 @@
 - **La tarjeta de Notion del cliente tiene una sección "Propuestas a los dueños"**, que vive en
   `05-propuestas-a-los-duenos.md`. Cada propuesta nueva que requiera decisión de los dueños (precios, envío, stock, políticas)
   se suma ahí con qué se pide, por qué, cuánto cuesta y estado (🟡 Propuesta · 🟢 Aprobada · 🔴 Rechazada · ✅ Hecha).
-- **Claude no escribe en Notion.** Siempre entrega el markdown listo para pegar, y se carga a mano (o con
-  Claude in Chrome). El markdown de la tarjeta incluye la sección "Propuestas a los dueños". Usar markdown que Notion pegue bien: títulos `##`, tablas simples, listas y
+- **Notion (actualizado 10/11/2026):** la clienta pidió tener TODO en Notion, así que Claude ahora sí carga ahí lo de Village.
+  Hub: "VPC Esquema de trabajo y facturación" (https://app.notion.com/p/414be5f38a1781499f99f9be57758db7), dentro de la página
+  de Village, con bases Control de cambios, Tareas, Creativos, Referencias, Estructura de Meta y Meses, más páginas de
+  reglas, calculadora y placas. Cada cambio en la cuenta va como fila en Control de cambios (estilo "Control de cambios — Belén"). El markdown de la tarjeta incluye la sección "Propuestas a los dueños". Usar markdown que Notion pegue bien: títulos `##`, tablas simples, listas y
   checkboxes `- [ ]`. Nada de HTML.
 - **Flujo de aprobación:** las ideas, ángulos y guiones de creativos primero se presentan en el chat para aprobar, en formato
   corto. Recién con la aprobación se arma el markdown para Notion. No pasar markdown de Notion de algo no aprobado.
