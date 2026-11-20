@@ -5,11 +5,12 @@ se actualiza cuando responden.*
 
 | # | Propuesta | Estado |
 |---|---|---|
-| P1 | Bajar el envío gratis a $120.000 | 🟡 Propuesta |
+| P1 | Bajar el envío gratis a $120.000 | ✅ Hecha (quedó en $100.000, 10/11) |
 | P2 | Comunicar las composturas gratis de los ambos | 🟡 Propuesta |
 | P3 | Cargar stock por talle en los ambos | 🟡 Propuesta |
 | P4 | Guía de talles: medir 5 modelos en el local | 🟡 Propuesta |
 | P5 | Sacar de la pauta las prendas sin S, M ni L | 🟡 Propuesta |
+| P6 | Elegir cuánto facturar (A, B o C) y escalar la pauta con frenos | 🟡 Propuesta |
 
 ---
 
@@ -85,3 +86,33 @@ reposición de S y M para los buzos de la sale.
 
 **Por qué:** el Corderoy Verde (el más visitado) no tiene M, y al Darlon Wafle Ocre le quedan 3 unidades. Se está pagando
 tráfico que no puede comprar.
+
+---
+
+## P6 · Cuánto facturar y cuánto pautar (20/11/2026)
+
+**Qué pedimos:** que elijan una opción de facturación y aprueben escalar la pauta por escalones con un freno.
+
+| Opción | Pauta por mes | Facturación esperada | La pauta es… |
+|---|---|---|---|
+| A · Mantener | ~$2.000.000 (como hoy) | ~$7–10 M | 20–28% de lo facturado |
+| B · Crecer | ~$3.500.000 | ~$12–14 M | 25–30% |
+| C · $20 millones | ~$5.600.000 a $7.400.000 | ~$20 M | 28–37% |
+
+**Por qué:**
+- Del 1 al 20/11, Meta: 51 ventas, ticket ~$94.500, $26.400 por venta, ROAS 3,58. Para vender más hay que pautar más.
+- Son estimaciones: hay que ajustarlas con las ventas reales de Tiendanube de noviembre.
+
+**Cómo se escala sin riesgo:**
+- Escalones de 20–25%, uno por semana.
+- Freno: si el ROAS real (Tiendanube ÷ gasto) baja de 3,5, no se sube más y se vuelve al escalón anterior.
+- Cada semana ven el resultado antes de aprobar el siguiente.
+
+**Lo que necesitamos que digan:**
+- [ ] Qué opción eligen: A, B o C.
+- [ ] "De cada $100.000 que vendemos, ¿cuánto pueden poner en publicidad?" Si no lo dicen, la regla propuesta es que la pauta no pase del 25% de lo facturado (ROAS real 4 o más).
+
+**Cuánto cuesta:** depende de la opción, de ~$2.000.000 a ~$7.400.000 de pauta por mes.
+
+**Estado:** 🟡 Propuesta
+
