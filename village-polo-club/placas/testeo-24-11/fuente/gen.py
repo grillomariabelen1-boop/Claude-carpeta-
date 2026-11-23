@@ -85,14 +85,14 @@ def grid(fmt,imgs,eyebrow,h,sub,crops):
 <div style="position:absolute;top:{top+60+gh+40}px;left:60px;right:60px;text-align:center">
  <div class="ey">{eyebrow}</div><h1 style="font-size:{100 if fmt=='feed' else 116}px">{h}</h1><div class="sub">{sub}</div></div>
 <div style="position:absolute;bottom:{70 if fmt=='feed' else 250}px;left:0;right:0" class="ben">{BEN}</div>'''
-    extra=f'''.box{{border-radius:18px;overflow:hidden}}.ey{{font-size:24px;letter-spacing:.3em;font-weight:700;color:{GOLD};text-transform:uppercase;margin-bottom:14px}}
+    extra=f'''.box{{border-radius:18px;overflow:hidden}}.ey{{font-size:30px;letter-spacing:.14em;background:#1c2840;color:#fff;display:inline-block;padding:10px 22px;border-radius:40px;font-weight:700;color:{GOLD};text-transform:uppercase;margin-bottom:14px}}
 .sub{{font-size:34px;font-weight:700;margin-top:18px;color:{NAVY}}}'''
     return page(W,H,body,extra)
 C1='inset(22% 6% 0 6%)'
 P=[]
 for f in ('feed','story'):
     P+= [(f'R1-problemas-solucion-{f}',r1(f)),(f'R2-busqueda-solucion-{f}',r2(f)),(f'R3-comparacion-{f}',r3(f)),
-    (f'P1-packs-chombas-{f}',grid(f,['chomba-jersey-azul-1.webp','chomba-jersey-beige-1.webp'],'Packs','Packs de chombas','Una para la semana, otra para el finde. Combiná colores y talles.',['inset(27% 5% 0 5%)']*2)),
+    (f'P1-packs-chombas-{f}',grid(f,['chomba-jersey-azul-1.webp','chomba-jersey-beige-1.webp'],'Hasta 30% OFF comprando en cantidad','Packs de chombas','Chomba jersey $34.900 · Combiná colores y talles.',['inset(27% 5% 0 5%)']*2)),
     (f'P2-pack-x3-remeras-{f}',grid(f,['pack-x3-remeras-omz80-2.webp','pack-x3-remeras-omz80-4.webp','pack-x3-remeras-omz80-3.webp'],'Pack x3','Pack x3 remeras','El básico que más usás, de a tres.',['inset(9% 0 0 0)']*3))]
 for f in ('feed','story'):
     P+=[(f'R2b-asado-{f}',r2(f,'qué ponerme para un asado con amigos','chomba-jersey-azul-1.webp','Chomba jersey','inset(22% 6% 0 6%)','bermuda-gabardina-cintura-elastica-camel-1.webp','Bermuda de gabardina','inset(0 0 0 0)')),
