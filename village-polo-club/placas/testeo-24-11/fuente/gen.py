@@ -37,18 +37,18 @@ def r1(fmt):
 ul{{list-style:none;display:flex;flex-direction:column;gap:{34 if story else 40}px}}li{{display:flex;gap:18px;align-items:flex-start;font-size:{fs}px;font-weight:700;line-height:1.2}}li svg{{flex:none;margin-top:4px;width:{fs}px;height:{fs}px}}
 ul.w li{{color:#fff}}"""
     return page(W,H,body,extra)
-def r2(fmt):
+def r2(fmt,q='qué ponerme para un casamiento de día',a='camisa-lino-algodon-blanco-2.webp',ta='Camisa de lino',ca='inset(20% 6% 0 6%)',b='pantalon-chino-lino-azul-2.webp',tb='Chino de lino',cb='inset(0 0 0 0)'):
     W,H=(1080,1350) if fmt=='feed' else (1080,1920)
     top=70 if fmt=='feed' else 250
     ph=620 if fmt=='feed' else 900
     body=f'''<div style="position:absolute;top:{top}px;left:0;right:0" class="brand">VILLAGE POLO CLUB</div>
 <div style="position:absolute;top:{top+70}px;left:60px;right:60px">
  <div class="lab">La búsqueda</div>
- <div class="bar"><svg width="40" height="40" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5" stroke="#5f6368" stroke-width="2.2" fill="none"/><path d="M15 15l5 5" stroke="#5f6368" stroke-width="2.4" stroke-linecap="round"/></svg><span>qué ponerme para un casamiento de día</span><span class="cur"></span></div>
+ <div class="bar"><svg width="40" height="40" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5" stroke="#5f6368" stroke-width="2.2" fill="none"/><path d="M15 15l5 5" stroke="#5f6368" stroke-width="2.4" stroke-linecap="round"/></svg><span>{q}</span><span class="cur"></span></div>
  <div class="lab" style="margin-top:46px">La solución</div>
  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;height:{ph}px">
-  <div class="box"><img class="ph" src="camisa-lino-algodon-blanco-2.webp" style="object-view-box:inset(20% 6% 0 6%)"><span class="tag">Camisa de lino</span></div>
-  <div class="box"><img class="ph" src="pantalon-chino-lino-azul-2.webp"><span class="tag">Chino de lino</span></div>
+  <div class="box"><img class="ph" src="{a}" style="object-view-box:{ca}"><span class="tag">{ta}</span></div>
+  <div class="box"><img class="ph" src="{b}" style="object-view-box:{cb}"><span class="tag">{tb}</span></div>
  </div>
 </div>
 <div style="position:absolute;bottom:{70 if fmt=='feed' else 250}px;left:0;right:0" class="ben">{BEN}</div>'''
@@ -94,5 +94,9 @@ for f in ('feed','story'):
     P+= [(f'R1-problemas-solucion-{f}',r1(f)),(f'R2-busqueda-solucion-{f}',r2(f)),(f'R3-comparacion-{f}',r3(f)),
     (f'P1-packs-chombas-{f}',grid(f,['chomba-jersey-azul-1.webp','chomba-jersey-beige-1.webp','chomba-jersey-blanca-1.webp','chomba-jersey-negra-1.webp'],'Packs','Packs de chombas','Una para la semana, otra para el finde. Combiná colores y talles.',[C1]*4)),
     (f'P2-pack-x3-remeras-{f}',grid(f,['pack-x3-remeras-omz80-2.webp','pack-x3-remeras-omz80-4.webp','pack-x3-remeras-omz80-3.webp'],'Pack x3','Pack x3 remeras','El básico que más usás, de a tres.',['inset(9% 0 0 0)']*3))]
+for f in ('feed','story'):
+    P+=[(f'R2b-asado-{f}',r2(f,'qué ponerme para un asado con amigos','chomba-jersey-azul-1.webp','Chomba jersey','inset(22% 6% 0 6%)','bermuda-gabardina-cintura-elastica-camel-1.webp','Bermuda de gabardina','inset(0 0 0 0)')),
+        (f'R2d-regalo-viejo-{f}',r2(f,'regalo para mi viejo que realmente use','chomba-tejida-trenza-beige-1.webp','Chomba tejida trenza','inset(24% 6% 0 6%)','chomba-tejida-mosaico-azul-1.webp','Chomba tejida mosaico','inset(24% 6% 0 6%)')),
+        (f'R2f-fin-de-ano-{f}',r2(f,'qué ponerme para la cena de fin de año','camisa-lino-algodon-blanco-1.webp','Camisa de lino','inset(22% 6% 0 6%)','pantalon-chino-lino-camel-claro-1.webp','Chino de lino','inset(0 0 0 0)'))]
 for n,h in P: open(n+'.html','w').write(h)
 print(len(P))
