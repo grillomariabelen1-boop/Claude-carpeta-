@@ -78,7 +78,7 @@ def grid(fmt,imgs,eyebrow,h,sub,crops):
     W,H=(1080,1350) if fmt=='feed' else (1080,1920)
     top=70 if fmt=='feed' else 250
     gh=680 if fmt=='feed' else 840
-    n=len(imgs);cols=2 if n==4 else 3
+    n=len(imgs);cols=2 if n in (2,4) else 3
     cells=''.join(f'<div class="box"><img class="ph" src="{i}" style="object-view-box:{c}"></div>' for i,c in zip(imgs,crops))
     body=f'''<div style="position:absolute;top:{top}px;left:0;right:0" class="brand">VILLAGE POLO CLUB</div>
 <div style="position:absolute;top:{top+60}px;left:60px;right:60px;display:grid;grid-template-columns:repeat({cols},1fr);gap:14px;height:{gh}px">{cells}</div>
@@ -92,11 +92,11 @@ C1='inset(22% 6% 0 6%)'
 P=[]
 for f in ('feed','story'):
     P+= [(f'R1-problemas-solucion-{f}',r1(f)),(f'R2-busqueda-solucion-{f}',r2(f)),(f'R3-comparacion-{f}',r3(f)),
-    (f'P1-packs-chombas-{f}',grid(f,['chomba-jersey-azul-1.webp','chomba-jersey-beige-1.webp','chomba-jersey-blanca-1.webp','chomba-jersey-negra-1.webp'],'Packs','Packs de chombas','Una para la semana, otra para el finde. Combiná colores y talles.',[C1]*4)),
+    (f'P1-packs-chombas-{f}',grid(f,['chomba-jersey-azul-1.webp','chomba-jersey-beige-1.webp'],'Packs','Packs de chombas','Una para la semana, otra para el finde. Combiná colores y talles.',['inset(27% 5% 0 5%)']*2)),
     (f'P2-pack-x3-remeras-{f}',grid(f,['pack-x3-remeras-omz80-2.webp','pack-x3-remeras-omz80-4.webp','pack-x3-remeras-omz80-3.webp'],'Pack x3','Pack x3 remeras','El básico que más usás, de a tres.',['inset(9% 0 0 0)']*3))]
 for f in ('feed','story'):
     P+=[(f'R2b-asado-{f}',r2(f,'qué ponerme para un asado con amigos','chomba-jersey-azul-1.webp','Chomba jersey','inset(22% 6% 0 6%)','bermuda-gabardina-cintura-elastica-camel-1.webp','Bermuda de gabardina','inset(0 0 0 0)')),
-        (f'R2d-regalo-viejo-{f}',r2(f,'regalo para mi viejo que realmente use','chomba-tejida-trenza-beige-1.webp','Chomba tejida trenza','inset(24% 6% 0 6%)','chomba-tejida-mosaico-azul-1.webp','Chomba tejida mosaico','inset(24% 6% 0 6%)')),
+        (f'R2d-regalo-viejo-{f}',r2(f,'regalo para mi viejo que realmente use','camisa-manga-corta-lino-algodon-celeste-cloque-1.webp','Camisa de lino manga corta','inset(20% 6% 0 6%)','chomba-pique-azul-marino-2.webp','Chomba piqué','inset(27% 6% 0 6%)')),
         (f'R2f-fin-de-ano-{f}',r2(f,'qué ponerme para la cena de fin de año','camisa-lino-algodon-blanco-1.webp','Camisa de lino','inset(22% 6% 0 6%)','pantalon-chino-lino-camel-claro-1.webp','Chino de lino','inset(0 0 0 0)'))]
 for n,h in P: open(n+'.html','w').write(h)
 print(len(P))
