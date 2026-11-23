@@ -26,7 +26,7 @@ def f9(fmt):
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;height:{gh}px">
 <div class="box"><img class="ph" src="camisa-lino-algodon-blanco-1.webp" style="object-view-box:inset(22% 6% 0 6%)"><span class="tag">Camisa de lino $79.900</span></div>
 <div class="box"><img class="ph" src="pantalon-chino-lino-camel-claro-1.webp"><span class="tag">Chino de lino $79.900</span></div></div>
-<div class="tot">Look completo <b>$159.800</b></div><div class="cuo">CON ENVÍO GRATIS</div><div class="cu2">o en 3 cuotas sin interés de $53.267</div></div>"""
+<div class="tot" style="font-family:'PF';font-weight:600;font-size:56px">Armá tu look completo</div><div class="cuo">CON ENVÍO GRATIS</div><div class="cu2">y en 3 cuotas sin interés</div></div>"""
     extra=BASE+f""".tag{{position:absolute;left:16px;bottom:16px;background:{NAVY};color:#fff;font-weight:700;font-size:26px;padding:10px 20px;border-radius:40px}}
 .tot{{font-size:40px;font-weight:700;color:{NAVY};margin-top:30px}}.tot b{{font-family:'PF';font-size:60px;color:{RED}}}
 .cu2{{font-size:30px;font-weight:700;color:{NAVY};margin-top:14px;opacity:.8}}
