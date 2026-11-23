@@ -1,0 +1,4 @@
+@font-face{font-family:'PF';font-weight:400 500;src:url(fonts/pf500.woff2)}@font-face{font-family:'PF';font-weight:600 700;src:url(fonts/pf600.woff2)}@font-face{font-family:'DM';font-weight:400 700;src:url(fonts/dm700.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+.c{width:1080px;height:1350px;position:relative;overflow:hidden;font-family:'DM';font-variant-numeric:lining-nums}
+img{display:block;object-fit:cover}

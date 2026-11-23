@@ -18,20 +18,24 @@ def r1(fmt):
     top=70 if fmt=='feed' else 250
     L=''.join(f'<li>{X}<span>{p}</span></li>' for p in probs)
     R=''.join(f'<li>{V}<span>{s}</span></li>' for s in sols)
-    colh=H-top-260 if fmt=='feed' else 1150
-    body=f'''<div style="position:absolute;top:{top}px;left:0;right:0" class="brand">VILLAGE POLO CLUB</div>
-<div style="position:absolute;top:{top+60}px;left:60px;right:60px;bottom:{H-top-60-colh-40}px;display:grid;grid-template-columns:1fr 1fr;gap:24px">
- <div style="background:#fff;border-radius:22px;padding:44px 30px;display:flex;flex-direction:column;justify-content:center">
+    story=fmt!='feed'
+    cols='1fr' if story else '1fr 1fr'
+    pad='56px 60px' if story else '60px 36px'
+    body=f"""<div style="position:absolute;top:{top}px;left:0;right:0" class="brand">VILLAGE POLO CLUB</div>
+<div style="position:absolute;top:{top+50}px;bottom:{top+50}px;left:60px;right:60px;display:flex;flex-direction:column;justify-content:center">
+<div style="display:grid;grid-template-columns:{cols};gap:24px">
+ <div style="background:#fff;border-radius:22px;padding:{pad}">
   <div class="t">Tus problemas</div><ul>{L}</ul></div>
- <div style="border-radius:22px;overflow:hidden;position:relative;background:{NAVY}">
-  <img class="ph" src="chomba-jersey-azul-1.webp" style="object-view-box:inset(22% 8% 0 8%)">
-  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,40,64,.78) 0%,rgba(28,40,64,.7) 100%)"></div>
-  <div style="position:absolute;inset:44px 26px;color:#fff;display:flex;flex-direction:column;justify-content:center"><div class="t" style="color:#f0d3a5">Nuestra solución</div><ul class="w">{R}</ul></div>
- </div></div>
-<div style="position:absolute;bottom:{70 if fmt=='feed' else 250}px;left:0;right:0" class="ben">{BEN}</div>'''
-    extra='''.t{font-family:'PF';font-weight:600;font-size:62px;line-height:1.05;margin-bottom:44px}
-ul{list-style:none;display:flex;flex-direction:column;gap:44px}li{display:flex;gap:16px;align-items:flex-start;font-size:38px;font-weight:700;line-height:1.2}li svg{flex:none;margin-top:2px}
-ul.w li{color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.4)}'''
+ <div style="border-radius:22px;overflow:hidden;position:relative;background:{NAVY};padding:{pad}">
+  <img class="ph" src="chomba-jersey-azul-1.webp" style="position:absolute;inset:0;object-view-box:inset(22% 8% 0 8%)">
+  <div style="position:absolute;inset:0;background:rgba(28,40,64,.74)"></div>
+  <div style="position:relative;color:#fff"><div class="t" style="color:#f0d3a5">Nuestra solución</div><ul class="w">{R}</ul></div>
+ </div></div></div>
+<div style="position:absolute;bottom:{top}px;left:0;right:0" class="ben">{BEN}</div>"""
+    fs=46 if story else 38
+    extra=f""".t{{font-family:'PF';font-weight:600;font-size:{74 if story else 62}px;line-height:1.05;margin-bottom:40px}}
+ul{{list-style:none;display:flex;flex-direction:column;gap:{34 if story else 40}px}}li{{display:flex;gap:18px;align-items:flex-start;font-size:{fs}px;font-weight:700;line-height:1.2}}li svg{{flex:none;margin-top:4px;width:{fs}px;height:{fs}px}}
+ul.w li{{color:#fff}}"""
     return page(W,H,body,extra)
 def r2(fmt):
     W,H=(1080,1350) if fmt=='feed' else (1080,1920)
@@ -43,8 +47,8 @@ def r2(fmt):
  <div class="bar"><svg width="40" height="40" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5" stroke="#5f6368" stroke-width="2.2" fill="none"/><path d="M15 15l5 5" stroke="#5f6368" stroke-width="2.4" stroke-linecap="round"/></svg><span>qué ponerme para un casamiento de día</span><span class="cur"></span></div>
  <div class="lab" style="margin-top:46px">La solución</div>
  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;height:{ph}px">
-  <div class="box"><img class="ph" src="camisa-lino-algodon-blanco-2.jpg" style="object-view-box:inset(20% 6% 0 6%)"><span class="tag">Camisa de lino</span></div>
-  <div class="box"><img class="ph" src="pantalon-chino-lino-azul-2.jpg"><span class="tag">Chino de lino</span></div>
+  <div class="box"><img class="ph" src="camisa-lino-algodon-blanco-2.webp" style="object-view-box:inset(20% 6% 0 6%)"><span class="tag">Camisa de lino</span></div>
+  <div class="box"><img class="ph" src="pantalon-chino-lino-azul-2.webp"><span class="tag">Chino de lino</span></div>
  </div>
 </div>
 <div style="position:absolute;bottom:{70 if fmt=='feed' else 250}px;left:0;right:0" class="ben">{BEN}</div>'''
@@ -57,18 +61,18 @@ def r2(fmt):
 def r3(fmt):
     W,H=(1080,1350) if fmt=='feed' else (1080,1920)
     top=70 if fmt=='feed' else 250
-    ch=760 if fmt=='feed' else 880
+    ch=700 if fmt=='feed' else 820
     plate='<svg width="230" height="230" viewBox="0 0 64 64"><circle cx="32" cy="34" r="20" fill="none" stroke="#f0d3a5" stroke-width="2.4"/><circle cx="32" cy="34" r="13" fill="none" stroke="#f0d3a5" stroke-width="1.6"/><path d="M6 14v14M3 14v8c0 3 6 3 6 0v-8M6 28v24" stroke="#f0d3a5" stroke-width="2.2" stroke-linecap="round" fill="none"/><path d="M58 14c-4 2-5 8-5 14h5v24" stroke="#f0d3a5" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>'
     body=f'''<div style="position:absolute;top:{top}px;left:0;right:0" class="brand">VILLAGE POLO CLUB</div>
 <h1 style="position:absolute;top:{top+70}px;left:60px;right:60px;font-size:{86 if fmt=='feed' else 96}px">Si vas a darte un gusto, pensalo bien</h1>
 <div style="position:absolute;left:60px;right:60px;top:{top+70+(200 if fmt=='feed' else 230)}px;height:{ch}px;display:grid;grid-template-columns:1fr 1fr;gap:24px">
  <div class="box" style="background:{NAVY};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px">{plate}<div class="k" style="color:#fff">Una cena</div></div>
- <div class="box"><img class="ph" src="chomba-tejida-hilo-algodon-vison-1.jpg" style="object-view-box:inset(24% 4% 0 4%)"></div>
+ <div class="box"><img class="ph" src="chomba-tejida-hilo-algodon-vison-1.webp" style="object-view-box:inset(24% 4% 0 4%)"></div>
 </div>
 <div style="position:absolute;left:60px;right:60px;top:{top+70+(200 if fmt=='feed' else 230)+ch+26}px;display:grid;grid-template-columns:1fr 1fr;gap:24px;text-align:center">
- <div class="d">Te dura 2 horas</div><div class="d" style="color:{GOLD}">Te dura años</div></div>
+ <div class="d">Te dura 2 horas<br><span class="cal">y suma ~1.200 calorías</span></div><div class="d" style="color:{GOLD}">Te dura años<br><span class="cal">y 0 calorías</span></div></div>
 <div style="position:absolute;bottom:{70 if fmt=='feed' else 250}px;left:0;right:0" class="ben">{BEN}</div>'''
-    extra='''.box{border-radius:22px;overflow:hidden;position:relative}.k{font-family:'PF';font-weight:600;font-size:54px}.d{font-family:'PF';font-weight:600;font-size:48px}'''
+    extra='''.box{border-radius:22px;overflow:hidden;position:relative}.k{font-family:'PF';font-weight:600;font-size:54px}.d{font-family:'PF';font-weight:600;font-size:48px;line-height:1.15}.cal{font-family:'DM';font-size:30px;font-weight:700;color:#1c2840;opacity:.75}'''
     return page(W,H,body,extra)
 def grid(fmt,imgs,eyebrow,h,sub,crops):
     W,H=(1080,1350) if fmt=='feed' else (1080,1920)
