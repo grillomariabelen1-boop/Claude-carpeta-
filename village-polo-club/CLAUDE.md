@@ -22,6 +22,8 @@
   - Ambos: vienen por talles, son **saco y pantalón**, y tienen **composturas gratis**. Drop 6: saco 50 lleva pantalón 44.
   - Envío gratis: **desde $100.000** (actualizado 10/11/2026; antes $150.000).
   - **No prometer "cambio hasta 30 días"** en anuncios ni placas (pedido de la clienta, 10/11/2026).
+  - **Placas de looks y aguinaldo: sin precios** (ni total ni por prenda); se destaca "envío gratis" y "3 cuotas" (23/11/2026).
+  - Promo de chombas jersey en la web: **"PROMO PACK: 2 x $49.900"** (cada una $34.900). Comunicarla así, no como "por cantidad".
   - Preguntas frecuentes de la web: ya corregidas (24/9).
   - **Talles: es el cuello de botella y los dueños no pasan medidas.** El plan para resolverlo sin ellos está en `07-talles.md`.
 - **Formato ganador en Meta (confirmado oct 2026):** video con tomas del local y voz en off contando las promociones.
