@@ -99,20 +99,20 @@ def p1(fmt):
 <div style="position:absolute;top:{top+56}px;left:60px;right:60px;height:{gh}px;display:grid;grid-template-columns:1fr 1fr;gap:14px">
  <div class="box"><img class="ph" src="chomba-jersey-azul-1.webp" style="object-view-box:{crop}"></div>
  <div class="box"><img class="ph" src="chomba-jersey-beige-1.webp" style="object-view-box:{crop}"></div>
- <div class="badge"><span class="b1">HASTA</span><span class="b2">30%</span><span class="b3">OFF</span></div>
+ <div class="badge"><span class="b1">PROMO</span><span class="b2">2x</span><span class="b3">$49.900</span></div>
 </div>
 <div style="position:absolute;top:{top+56+gh+34}px;left:60px;right:60px;text-align:center">
- <div class="ey2">Packs de chombas</div>
- <h1 style="font-size:132px;color:#b0392b;white-space:nowrap">Hasta 30% OFF</h1>
- <div class="sub2">comprando en cantidad · combiná colores y talles</div>
- <div class="price">Chomba jersey <b>$34.900</b></div>
+ <div class="ey2">Pack de 2 chombas</div>
+ <h1 style="font-size:150px;color:#b0392b;white-space:nowrap">2 x $49.900</h1>
+ <div class="sub2">Antes <s>$69.800</s> · Ahorrás $19.900</div>
+ <div class="price">Combiná colores y talles</div>
 </div>
 <div style="position:absolute;bottom:{top}px;left:0;right:0" class="ben">{BEN}</div>"""
     extra=""".box{border-radius:18px;overflow:hidden}
 .badge{position:absolute;right:-18px;top:-22px;width:210px;height:210px;border-radius:50%;background:#b0392b;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-10deg);box-shadow:0 10px 30px rgba(0,0,0,.25)}
-.b1{font-size:26px;font-weight:700;letter-spacing:.16em}.b2{font-family:'PF';font-weight:600;font-size:84px;line-height:.95}.b3{font-size:34px;font-weight:700;letter-spacing:.14em}
+.b1{font-size:26px;font-weight:700;letter-spacing:.16em}.b2{font-family:'PF';font-weight:600;font-size:84px;line-height:.95}.b3{font-size:34px;font-weight:700;letter-spacing:.02em}
 .ey2{font-family:'PF';font-weight:600;font-size:52px;color:#1c2840;margin-bottom:6px}
-.sub2{font-size:32px;font-weight:700;color:#1c2840;margin-top:10px}
+.sub2{font-size:38px;font-weight:700;color:#1c2840;margin-top:6px}.sub2 s{opacity:.6}
 .price{display:inline-block;margin-top:26px;background:#1c2840;color:#fff;font-size:40px;font-weight:700;padding:16px 34px;border-radius:60px}.price b{color:#f0d3a5;font-size:48px}"""
     return page(W,H,body,extra)
 
