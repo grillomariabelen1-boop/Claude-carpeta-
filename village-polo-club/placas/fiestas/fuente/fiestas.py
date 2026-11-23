@@ -22,14 +22,15 @@ def f9(fmt):
     W,H=(1080,1350) if fmt=='feed' else (1080,1920); st=fmt!='feed'; top=250 if st else 70
     gh=560 if not st else 640
     body=f"""{head(top)}<div style="position:absolute;top:{top+56}px;left:60px;right:60px;text-align:center">
-<div class="ey3">{STAR} Aguinaldo {STAR}</div><h1 style="font-size:{96 if not st else 100}px;margin:10px 0 30px">Este año, el aguinaldo es para vos.</h1>
+<div class="ey3">{STAR} Aguinaldo {STAR}</div><h1 style="font-size:{96 if not st else 92}px;margin:10px 0 30px">Este año, el aguinaldo es para vos.</h1>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;height:{gh}px">
 <div class="box"><img class="ph" src="camisa-lino-algodon-blanco-1.webp" style="object-view-box:inset(22% 6% 0 6%)"><span class="tag">Camisa de lino $79.900</span></div>
 <div class="box"><img class="ph" src="pantalon-chino-lino-camel-claro-1.webp"><span class="tag">Chino de lino $79.900</span></div></div>
-<div class="tot">Look completo <b>$159.800</b></div><div class="cuo">3 cuotas sin interés de <b>$53.267</b></div></div>{foot(top)}"""
+<div class="tot">Look completo <b>$159.800</b></div><div class="cuo">CON ENVÍO GRATIS</div><div class="cu2">o en 3 cuotas sin interés de $53.267</div></div>"""
     extra=BASE+f""".tag{{position:absolute;left:16px;bottom:16px;background:{NAVY};color:#fff;font-weight:700;font-size:26px;padding:10px 20px;border-radius:40px}}
 .tot{{font-size:40px;font-weight:700;color:{NAVY};margin-top:30px}}.tot b{{font-family:'PF';font-size:60px;color:{RED}}}
-.cuo{{display:inline-block;margin-top:14px;background:{RED};color:#fff;font-size:36px;font-weight:700;padding:14px 32px;border-radius:60px}}"""
+.cu2{{font-size:30px;font-weight:700;color:{NAVY};margin-top:14px;opacity:.8}}
+.cuo{{display:inline-block;margin-top:14px;background:{RED};color:#fff;font-size:44px;letter-spacing:.04em;font-weight:700;padding:14px 32px;border-radius:60px}}"""
     return page(W,H,body,extra)
 BOT='<svg width="200" height="240" viewBox="0 0 40 64"><path d="M16 2h8v14c0 3 6 6 6 14v30a2 2 0 0 1-2 2H12a2 2 0 0 1-2-2V30c0-8 6-11 6-14z" fill="none" stroke="#f0d3a5" stroke-width="2"/><rect x="12" y="34" width="16" height="14" fill="none" stroke="#f0d3a5" stroke-width="1.5"/></svg>'
 def f11(fmt):
