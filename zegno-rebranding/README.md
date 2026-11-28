@@ -1,4 +1,4 @@
-# Zegno Studio — Rebranding v1
+# Zegno Studio — Identidad v2 (pulido del logo original)
 
 Manual de marca publicado: https://claude.ai/artifact/VH2F9pCNX59dg7RqKd6oJM
 (copia local: `manual-de-marca.html`).
@@ -7,22 +7,21 @@ Manual de marca publicado: https://claude.ai/artifact/VH2F9pCNX59dg7RqKd6oJM
 
 | Carpeta / archivo | Contenido |
 |---|---|
-| `logos/` | Logo horizontal, vertical, logotipo e isotipo en SVG, con el texto pasado a curvas. Variantes: `positivo`, `negativo`, `mono-espresso`, `mono-hueso`. |
-| `logos/zegno-avatar-instagram.svg` | Foto de perfil de 1080 × 1080 (también la versión `-claro`). |
+| `logos/` | Sello, logotipo y monograma "zs" en SVG, con el texto pasado a curvas, en variantes crema, café y arena. |
+| `logos/zegno-avatar-instagram.svg` | Foto de perfil de 1080 × 1080. |
 | `logos/destacadas/` | Las cinco portadas de destacadas: servicios, casos, proceso, tips y contacto. |
 | `manual/manual.src.html` | Fuente del manual (los SVG se insertan al armarlo). |
 | `tools/` | Scripts que generan los logos y arman el manual. |
 
 ## Sistema en una línea
 
-Isotipo **Z de encuadre** (dos esquinas de visor unidas por una diagonal, más el punto REC).
-Colores: Espresso `#2A1D17`, Hueso `#EFE8DD`, Niebla `#D8CEC0`, Tungsteno `#D4892F`, REC `#E0442C` (solo el punto).
-Tipografías (Google Fonts): Fraunces Italic 600 para títulos, DM Sans para textos y DM Mono para etiquetas.
+Logo original pulido: "zegno" en Instrument Serif Italic + "studio" en Inter Tight ExtraBold, sobre el círculo crema.
+Colores: Lino `#F4EFE8`, Crema `#E8DFD3`, Arena `#CDBFAE`, Taupe `#9A8775`, Cacao `#5C4636`, Café `#3B2A20`.
 
 ## Regenerar
 
 ```bash
 pip install fonttools brotli
-# descargar Fraunces Italic 600 (SOFT 100) y DM Mono 500 como TTF en una carpeta, con los nombres fraunces-it.ttf y dmmono.ttf
+# instrument-it.ttf, intertight-800.ttf e intertight-600.ttf (Google Fonts) en una carpeta
 python3 tools/armar_manual.py <carpeta_fuentes>
 ```
